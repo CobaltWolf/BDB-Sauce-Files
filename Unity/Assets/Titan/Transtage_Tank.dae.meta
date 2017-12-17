@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: b4a5955b8fd6b734590589f42eb37135
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: group14
+    100002: group35
+    100004: group36
+    100006: group37
+    100008: locator20
+    100010: locator21
+    100012: Lump
+    100014: Lump_MiniLump
+    100016: Lump_MiniLump_ncl1_1
+    100018: Lump_MiniLump_ncl1_2
+    100020: Lump_MiniLump_ncl1_3
+    100022: Lump_ncl1_1
+    100024: Lump_ncl1_2
+    100026: Lump_ncl1_3
+    100028: Rims
+    100030: Tank
+    100032: //RootNode
+    100034: Transtage_Tank
+    100036: TankTopper1
+    100038: TankTopper2
+    100040: group39
+    100042: group40
+    100044: group41
+    100046: null1
+    100048: RCS_1
+    100050: RCS_2
+    100052: RCS_3
+    100054: RCS_4
+    100056: rcsTransform
+    100058: rcsTransform1
+    100060: rcsTransform1_ncl1_1
+    100062: rcsTransform1_ncl1_2
+    100064: rcsTransform1_ncl1_3
+    100066: rcsTransform2
+    100068: rcsTransform2_ncl1_1
+    100070: rcsTransform2_ncl1_2
+    100072: rcsTransform2_ncl1_3
+    100074: rcsTransform_ncl1_1
+    100076: rcsTransform_ncl1_2
+    100078: rcsTransform_ncl1_3
+    100080: Transtage_Tank_Tank
+    400000: group14
+    400002: group35
+    400004: group36
+    400006: group37
+    400008: locator20
+    400010: locator21
+    400012: Lump
+    400014: Lump_MiniLump
+    400016: Lump_MiniLump_ncl1_1
+    400018: Lump_MiniLump_ncl1_2
+    400020: Lump_MiniLump_ncl1_3
+    400022: Lump_ncl1_1
+    400024: Lump_ncl1_2
+    400026: Lump_ncl1_3
+    400028: Rims
+    400030: Tank
+    400032: Transtage_Tank
+    400034: //RootNode
+    400036: TankTopper1
+    400038: TankTopper2
+    400040: group39
+    400042: group40
+    400044: group41
+    400046: null1
+    400048: RCS_1
+    400050: RCS_2
+    400052: RCS_3
+    400054: RCS_4
+    400056: rcsTransform
+    400058: rcsTransform1
+    400060: rcsTransform1_ncl1_1
+    400062: rcsTransform1_ncl1_2
+    400064: rcsTransform1_ncl1_3
+    400066: rcsTransform2
+    400068: rcsTransform2_ncl1_1
+    400070: rcsTransform2_ncl1_2
+    400072: rcsTransform2_ncl1_3
+    400074: rcsTransform_ncl1_1
+    400076: rcsTransform_ncl1_2
+    400078: rcsTransform_ncl1_3
+    400080: Transtage_Tank_Tank
+    2300000: Lump
+    2300002: Lump_MiniLump
+    2300004: Lump_MiniLump_ncl1_1
+    2300006: Lump_MiniLump_ncl1_2
+    2300008: Lump_MiniLump_ncl1_3
+    2300010: Lump_ncl1_1
+    2300012: Lump_ncl1_2
+    2300014: Lump_ncl1_3
+    2300016: Rims
+    2300018: Tank
+    2300020: TankTopper1
+    2300022: TankTopper2
+    2300024: Transtage_Tank_Tank
+    3300000: Lump
+    3300002: Lump_MiniLump
+    3300004: Lump_MiniLump_ncl1_1
+    3300006: Lump_MiniLump_ncl1_2
+    3300008: Lump_MiniLump_ncl1_3
+    3300010: Lump_ncl1_1
+    3300012: Lump_ncl1_2
+    3300014: Lump_ncl1_3
+    3300016: Rims
+    3300018: Tank
+    3300020: TankTopper1
+    3300022: TankTopper2
+    3300024: Transtage_Tank_Tank
+    4300000: Tank
+    4300002: Rims
+    4300004: Lump
+    4300006: Lump_MiniLump
+    4300008: Lump_ncl1_1
+    4300010: Lump_MiniLump_ncl1_1
+    4300012: Lump_ncl1_2
+    4300014: Lump_MiniLump_ncl1_2
+    4300016: Lump_ncl1_3
+    4300018: Lump_MiniLump_ncl1_3
+    4300020: TankTopper2
+    4300022: TankTopper1
+    4300024: Transtage_Tank_Tank
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

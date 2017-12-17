@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: efc5b26105d2b994593cb0c7f3ff82c1
+timeCreated: 1496359530
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: detach
+    100002: group67
+    100004: pCube62
+    100006: pCylinder237
+    100008: pCylinder58
+    100010: pCylinder60
+    100012: pCylinder61
+    100014: pCylinder62
+    100016: pCylinder63
+    100018: //RootNode
+    100020: TitanSRMDecoupler1
+    100022: ColliderA
+    100024: ColliderB
+    100026: TitanSRMDecoupler_Merged_detach_pCylinder58
+    100028: anchor
+    100030: anchor1
+    100032: pCylinder239
+    100034: pCylinder241
+    100036: pCylinder242
+    100038: pCylinder243
+    100040: TitanSRMDecoupler_Merged1
+    100042: transform15
+    100044: transform16
+    100046: transform17
+    100048: transform18
+    400000: detach
+    400002: group67
+    400004: pCube62
+    400006: pCylinder237
+    400008: pCylinder58
+    400010: pCylinder60
+    400012: pCylinder61
+    400014: pCylinder62
+    400016: pCylinder63
+    400018: //RootNode
+    400020: TitanSRMDecoupler1
+    400022: ColliderA
+    400024: ColliderB
+    400026: TitanSRMDecoupler_Merged_detach_pCylinder58
+    400028: anchor
+    400030: anchor1
+    400032: pCylinder239
+    400034: pCylinder241
+    400036: pCylinder242
+    400038: pCylinder243
+    400040: TitanSRMDecoupler_Merged1
+    400042: transform15
+    400044: transform16
+    400046: transform17
+    400048: transform18
+    2300000: pCube62
+    2300002: pCylinder237
+    2300004: pCylinder58
+    2300006: pCylinder60
+    2300008: pCylinder61
+    2300010: pCylinder62
+    2300012: pCylinder63
+    2300014: ColliderA
+    2300016: ColliderB
+    2300018: TitanSRMDecoupler_Merged_detach_pCylinder58
+    2300020: anchor1
+    2300022: anchor
+    2300024: detach
+    3300000: pCube62
+    3300002: pCylinder237
+    3300004: pCylinder58
+    3300006: pCylinder60
+    3300008: pCylinder61
+    3300010: pCylinder62
+    3300012: pCylinder63
+    3300014: ColliderA
+    3300016: ColliderB
+    3300018: TitanSRMDecoupler_Merged_detach_pCylinder58
+    3300020: anchor1
+    3300022: anchor
+    3300024: detach
+    4300000: pCube62
+    4300002: pCylinder58
+    4300004: pCylinder60
+    4300006: pCylinder61
+    4300008: pCylinder62
+    4300010: pCylinder63
+    4300012: pCylinder237
+    4300014: TitanSRMDecoupler_Merged_detach_pCylinder58
+    4300016: ColliderB
+    4300018: ColliderA
+    4300020: anchor1
+    4300022: detach
+    4300024: anchor
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-03-29T23:01:34Z</created><keywords></keywords><modified>2016-03-29T23:01:34Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="AgenaCCollider-lib" name="AgenaCColliderMesh">
+      <mesh>
+        <source id="AgenaCCollider-POSITION">
+          <float_array id="AgenaCCollider-POSITION-array" count="36">
+0.209145 -0.044062 0.209145
+0.273261 -0.044062 0.113188
+0.295776 -0.044062 0.000000
+0.270984 0.445572 0.270984
+0.354058 0.445572 0.146655
+0.383229 0.445572 0.000000
+0.334252 -0.044062 0.334252
+0.297928 0.445572 0.297928
+0.436722 -0.044062 0.180896
+0.389262 0.445572 0.161238
+0.472704 -0.044062 0.000000
+0.421334 0.445572 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#AgenaCCollider-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AgenaCCollider-Normal0">
+          <float_array id="AgenaCCollider-Normal0-array" count="180">
+0.918836 0.104342 0.380595
+0.827102 0.102358 0.552653
+0.827102 0.102358 0.552653
+0.827102 0.102358 0.552653
+0.918836 0.104342 0.380595
+0.918836 0.104342 0.380595
+0.975634 0.102359 0.194066
+0.918836 0.104342 0.380595
+0.918836 0.104342 0.380595
+0.918836 0.104342 0.380595
+0.975634 0.102359 0.194066
+0.975634 0.102359 0.194066
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-0.909486 0.175827 -0.376722
+-0.966074 0.172550 -0.192165
+-0.966074 0.172550 -0.192165
+-0.966074 0.172550 -0.192165
+-0.909486 0.175827 -0.376722
+-0.909486 0.175827 -0.376722
+-0.818998 0.172550 -0.547238
+-0.909486 0.175827 -0.376722
+-0.909486 0.175827 -0.376722
+-0.909486 0.175827 -0.376722
+-0.818998 0.172550 -0.547238
+-0.818998 0.172550 -0.547238
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#AgenaCCollider-Normal0-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AgenaCCollider-UV0">
+          <float_array id="AgenaCCollider-UV0-array" count="24">
+0.578125 0.312500
+0.593750 0.312500
+0.609375 0.312500
+0.578125 0.688440
+0.593750 0.688440
+0.609375 0.688440
+0.578125 0.312500
+0.578125 0.688440
+0.593750 0.312500
+0.593750 0.688440
+0.609375 0.312500
+0.609375 0.688440
+</float_array>
+          <technique_common>
+            <accessor source="#AgenaCCollider-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AgenaCCollider-VERTEX">
+          <input semantic="POSITION" source="#AgenaCCollider-POSITION"/>
+        </vertices>
+        <triangles count="20" material="lambert1"><input semantic="VERTEX" offset="0" source="#AgenaCCollider-VERTEX"/><input semantic="NORMAL" offset="1" source="#AgenaCCollider-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#AgenaCCollider-UV0"/><p> 8 0 8 7 1 7 6 2 6 7 3 7 8 4 8 9 5 9 10 6 10 9 7 9 8 8 8 9 9 9 10 10 10 11 11 11 1 12 1 6 13 6 0 14 0 6 15 6 1 16 1 8 17 8 4 18 4 3 19 3 7 20 7 4 21 4 7 22 7 9 23 9 2 24 2 8 25 8 1 26 1 8 27 8 2 28 2 10 29 10 9 30 9 5 31 5 4 32 4 5 33 5 9 34 9 11 35 11 1 36 1 5 37 5 2 38 2 5 39 5 1 40 1 4 41 4 0 42 0 4 43 4 1 44 1 4 45 4 0 46 0 3 47 3 3 48 3 6 49 6 7 50 7 6 51 6 3 52 3 0 53 0 2 54 2 5 55 5 10 56 10 10 57 10 5 58 5 11 59 11</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Docking_CCollider" name="Docking_CCollider">
+      <node name="AgenaCCollider" id="AgenaCCollider" sid="AgenaCCollider"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#AgenaCCollider-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Docking_CCollider"></instance_visual_scene>
+  </scene>
+</COLLADA>

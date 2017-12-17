@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 0e2f152ccadc326428a9522fc91a1219
+timeCreated: 1506538185
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: GimbalTransform
+    100002: LowerGimbal
+    100004: pCylinder103
+    100006: pCylinder148
+    100008: pCylinder153
+    100010: pCylinder154
+    100012: polySurface31
+    100014: polySurface32
+    100016: UpperGimbal
+    100018: UpperGimbalRod
+    100020: //RootNode
+    100022: VegaEngine_Merged
+    100024: VegaEngine_Merged_GimbalTransform_pCylinder104
+    100026: VegaEngine_Merged_group59
+    100028: vernierEffects
+    100030: vernierGimbal
+    100032: vernierGimbal 1
+    100034: vernierTransform
+    100036: vernierTransform 1
+    100038: VernierWrapper
+    100040: VernierWrapper1
+    400000: GimbalTransform
+    400002: LowerGimbal
+    400004: pCylinder103
+    400006: pCylinder148
+    400008: pCylinder153
+    400010: pCylinder154
+    400012: polySurface31
+    400014: polySurface32
+    400016: UpperGimbal
+    400018: UpperGimbalRod
+    400020: //RootNode
+    400022: VegaEngine_Merged
+    400024: VegaEngine_Merged_GimbalTransform_pCylinder104
+    400026: VegaEngine_Merged_group59
+    400028: vernierEffects
+    400030: vernierGimbal
+    400032: vernierGimbal 1
+    400034: vernierTransform
+    400036: vernierTransform 1
+    400038: VernierWrapper
+    400040: VernierWrapper1
+    2300000: LowerGimbal
+    2300002: pCylinder103
+    2300004: pCylinder153
+    2300006: pCylinder154
+    2300008: polySurface31
+    2300010: polySurface32
+    2300012: UpperGimbalRod
+    2300014: VegaEngine_Merged_GimbalTransform_pCylinder104
+    3300000: LowerGimbal
+    3300002: pCylinder103
+    3300004: pCylinder153
+    3300006: pCylinder154
+    3300008: polySurface31
+    3300010: polySurface32
+    3300012: UpperGimbalRod
+    3300014: VegaEngine_Merged_GimbalTransform_pCylinder104
+    4300000: UpperGimbalRod
+    4300002: LowerGimbal
+    4300004: VegaEngine_Merged_GimbalTransform_pCylinder104
+    4300006: pCylinder154
+    4300008: pCylinder103
+    4300010: pCylinder153
+    4300012: polySurface31
+    4300014: polySurface32
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

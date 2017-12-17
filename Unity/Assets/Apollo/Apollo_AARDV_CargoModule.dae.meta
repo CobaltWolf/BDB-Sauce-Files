@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: c81b9f917f3e37548bfdbab34c319f9b
+timeCreated: 1476848353
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AARDVK_Cargo_Merged_polySurface73
+    100002: AARDVK_Cargo_Merged_polySurface74
+    100004: //RootNode
+    100006: Collider
+    100008: AARDVK_Cargo
+    100010: group24
+    100012: group25
+    100014: group26
+    100016: group27
+    100018: group28
+    100020: pCube10
+    100022: pCube11
+    100024: pCube9
+    100026: pCylinder46
+    100028: pCylinder46_ncl1_1
+    100030: pCylinder46_ncl1_2
+    100032: pCylinder46_ncl1_3
+    100034: pCylinder47
+    100036: pCylinder47_ncl1_1
+    100038: pCylinder47_ncl1_2
+    100040: pCylinder47_ncl1_3
+    100042: pCylinder48
+    100044: pCylinder49
+    100046: pCylinder50
+    100048: polySurface73
+    100050: polySurface74
+    100052: polySurface78
+    100054: polySurface82
+    100056: polySurface83
+    100058: pSphere4
+    100060: Spotlight
+    400000: AARDVK_Cargo_Merged_polySurface73
+    400002: AARDVK_Cargo_Merged_polySurface74
+    400004: //RootNode
+    400006: Collider
+    400008: AARDVK_Cargo
+    400010: group24
+    400012: group25
+    400014: group26
+    400016: group27
+    400018: group28
+    400020: pCube10
+    400022: pCube11
+    400024: pCube9
+    400026: pCylinder46
+    400028: pCylinder46_ncl1_1
+    400030: pCylinder46_ncl1_2
+    400032: pCylinder46_ncl1_3
+    400034: pCylinder47
+    400036: pCylinder47_ncl1_1
+    400038: pCylinder47_ncl1_2
+    400040: pCylinder47_ncl1_3
+    400042: pCylinder48
+    400044: pCylinder49
+    400046: pCylinder50
+    400048: polySurface73
+    400050: polySurface74
+    400052: polySurface78
+    400054: polySurface82
+    400056: polySurface83
+    400058: pSphere4
+    400060: Spotlight
+    2300000: AARDVK_Cargo_Merged_polySurface73
+    2300002: AARDVK_Cargo_Merged_polySurface74
+    2300004: Collider
+    2300006: pCube10
+    2300008: pCube11
+    2300010: pCube9
+    2300012: pCylinder46
+    2300014: pCylinder46_ncl1_1
+    2300016: pCylinder46_ncl1_2
+    2300018: pCylinder46_ncl1_3
+    2300020: pCylinder47
+    2300022: pCylinder47_ncl1_1
+    2300024: pCylinder47_ncl1_2
+    2300026: pCylinder47_ncl1_3
+    2300028: pCylinder48
+    2300030: pCylinder49
+    2300032: pCylinder50
+    2300034: polySurface74
+    2300036: polySurface78
+    2300038: polySurface82
+    2300040: polySurface83
+    2300042: pSphere4
+    2300044: Spotlight
+    3300000: AARDVK_Cargo_Merged_polySurface73
+    3300002: AARDVK_Cargo_Merged_polySurface74
+    3300004: Collider
+    3300006: pCube10
+    3300008: pCube11
+    3300010: pCube9
+    3300012: pCylinder46
+    3300014: pCylinder46_ncl1_1
+    3300016: pCylinder46_ncl1_2
+    3300018: pCylinder46_ncl1_3
+    3300020: pCylinder47
+    3300022: pCylinder47_ncl1_1
+    3300024: pCylinder47_ncl1_2
+    3300026: pCylinder47_ncl1_3
+    3300028: pCylinder48
+    3300030: pCylinder49
+    3300032: pCylinder50
+    3300034: polySurface74
+    3300036: polySurface78
+    3300038: polySurface82
+    3300040: polySurface83
+    3300042: pSphere4
+    3300044: Spotlight
+    4300000: Collider
+    4300002: AARDVK_Cargo_Merged_polySurface73
+    4300004: AARDVK_Cargo_Merged_polySurface74
+    4300006: pCylinder46
+    4300008: pCylinder47
+    4300010: pCylinder46_ncl1_1
+    4300012: pCylinder47_ncl1_1
+    4300014: pCylinder46_ncl1_2
+    4300016: pCylinder47_ncl1_2
+    4300018: pCylinder46_ncl1_3
+    4300020: pCylinder47_ncl1_3
+    4300022: pCube9
+    4300024: pCylinder48
+    4300026: pCylinder49
+    4300028: pCube10
+    4300030: pCube11
+    4300032: pCylinder50
+    4300034: polySurface82
+    4300036: polySurface83
+    4300038: polySurface74
+    4300040: pSphere4
+    4300042: Spotlight
+    4300044: polySurface78
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

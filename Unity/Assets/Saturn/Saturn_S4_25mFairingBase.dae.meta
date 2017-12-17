@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 8e88d0d18fa9a9e4fbc2008e337b1f67
+timeCreated: 1467332430
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: group53
+    100002: group56
+    100004: group57
+    100006: group58
+    100008: group59
+    100010: group60
+    100012: group61
+    100014: group62
+    100016: group63
+    100018: pCube72
+    100020: pCube72_ncl1_1
+    100022: pCube72_ncl1_2
+    100024: pCube74
+    100026: pCube74_ncl1_1
+    100028: pCube74_ncl1_2
+    100030: pCube74_ncl1_3
+    100032: pCube74_ncl1_4
+    100034: pCube74_ncl1_5
+    100036: pCube75
+    100038: pCube75_ncl1_1
+    100040: pCube75_ncl1_2
+    100042: pCylinder99
+    100044: //RootNode
+    100046: SIV_25_FairingBase1
+    100048: SIV_25_FairingBase2
+    100050: transform1
+    100052: transform10
+    100054: transform11
+    100056: transform12
+    100058: transform13
+    100060: transform14
+    100062: transform2
+    100064: transform3
+    100066: transform4
+    100068: transform5
+    100070: transform6
+    100072: transform7
+    100074: transform8
+    100076: transform9
+    400000: group53
+    400002: group56
+    400004: group57
+    400006: group58
+    400008: group59
+    400010: group60
+    400012: group61
+    400014: group62
+    400016: group63
+    400018: pCube72
+    400020: pCube72_ncl1_1
+    400022: pCube72_ncl1_2
+    400024: pCube74
+    400026: pCube74_ncl1_1
+    400028: pCube74_ncl1_2
+    400030: pCube74_ncl1_3
+    400032: pCube74_ncl1_4
+    400034: pCube74_ncl1_5
+    400036: pCube75
+    400038: pCube75_ncl1_1
+    400040: pCube75_ncl1_2
+    400042: pCylinder99
+    400044: //RootNode
+    400046: SIV_25_FairingBase1
+    400048: SIV_25_FairingBase2
+    400050: transform1
+    400052: transform10
+    400054: transform11
+    400056: transform12
+    400058: transform13
+    400060: transform14
+    400062: transform2
+    400064: transform3
+    400066: transform4
+    400068: transform5
+    400070: transform6
+    400072: transform7
+    400074: transform8
+    400076: transform9
+    2300000: SIV_25_FairingBase2
+    2300002: //RootNode
+    3300000: SIV_25_FairingBase2
+    3300002: //RootNode
+    4300000: SIV_25_FairingBase2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

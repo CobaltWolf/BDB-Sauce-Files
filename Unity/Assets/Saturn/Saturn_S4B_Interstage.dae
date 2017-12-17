@@ -1,0 +1,5365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-10-02T19:59:09Z</created><keywords></keywords><modified>2016-10-02T19:59:09Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="file236-image" name="file236"><init_from>file://C:/Users/Matthew/OneDrive/Personal/Kerbal/Unity/Assets/Saturn/bluedog_saturnV.psd</init_from></image>
+    <image id="file234-image" name="file234"><init_from>file://C:/Users/Matthew/OneDrive/Personal/Kerbal/Unity/Assets/Saturn/bluedog_saturn4B.psd</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+    <material id="S_IC" name="S_IC">
+      <instance_effect url="#S_IC-fx"/>
+    </material>
+    <material id="SIVB" name="SIVB">
+      <instance_effect url="#SIVB-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="S_IC-fx" name="S_IC">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file236-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="SIVB-fx" name="SIVB">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file234-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.024384  0.024384 0.024384 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Collider-lib" name="ColliderMesh">
+      <mesh>
+        <source id="Collider-POSITION">
+          <float_array id="Collider-POSITION-array" count="36">
+-1.325825 -0.160760 1.325825
+-0.717532 -0.160760 1.732274
+-0.000000 -0.160760 1.875000
+-1.325825 2.544782 1.325825
+-0.717532 2.544782 1.732274
+-0.000000 2.544782 1.875000
+-1.238076 -0.160760 1.238076
+-1.238076 -0.160760 1.238076
+-0.000000 -0.160760 1.750904
+-1.238076 2.544782 1.238076
+-1.238076 2.544782 1.238076
+-0.000000 2.544782 1.750904
+</float_array>
+          <technique_common>
+            <accessor source="#Collider-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider-Normal0">
+          <float_array id="Collider-Normal0-array" count="144">
+-0.555570 0.000000 0.831470
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+-0.195090 0.000000 0.980785
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+0.000000 -0.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 -0.000001
+0.000000 0.000000 -0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Collider-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider-UV0">
+          <float_array id="Collider-UV0-array" count="28">
+0.452570 0.289618
+0.440206 0.300606
+0.523438 0.312500
+0.531250 0.312500
+0.452570 0.710852
+0.531250 0.688440
+0.523438 0.687970
+0.440206 0.699394
+0.389515 0.266735
+0.440206 0.300606
+0.500000 0.312500
+0.389515 0.733265
+0.440206 0.699394
+0.500000 0.687500
+</float_array>
+          <technique_common>
+            <accessor source="#Collider-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collider-VERTEX">
+          <input semantic="POSITION" source="#Collider-POSITION"/>
+        </vertices>
+        <triangles count="16" material="lambert1"><input semantic="VERTEX" offset="0" source="#Collider-VERTEX"/><input semantic="NORMAL" offset="1" source="#Collider-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Collider-UV0"/><p> 3 0 4 0 1 0 4 2 5 4 3 5 0 4 0 1 5 3 4 6 5 1 7 3 5 8 6 5 9 6 1 10 3 2 11 2 6 12 8 1 13 1 0 14 0 1 15 1 8 16 10 2 17 2 8 18 10 1 19 1 7 20 9 4 21 7 10 22 12 3 23 4 11 24 13 10 25 12 4 26 7 4 27 7 5 28 6 11 29 13 10 30 12 8 31 10 7 32 9 8 33 10 10 34 12 11 35 13 9 36 11 0 37 0 3 38 4 0 39 0 9 40 11 6 41 8 5 42 6 2 43 2 8 44 10 5 45 6 8 46 10 11 47 13</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collider2-lib" name="Collider2Mesh">
+      <mesh>
+        <source id="Collider2-POSITION">
+          <float_array id="Collider2-POSITION-array" count="36">
+-1.325825 -0.160760 1.325825
+-0.717532 -0.160760 1.732274
+-0.000000 -0.160760 1.875000
+-1.325825 2.544782 1.325825
+-0.717532 2.544782 1.732274
+-0.000000 2.544782 1.875000
+-1.238076 -0.160760 1.238076
+-1.238076 -0.160760 1.238076
+-0.000000 -0.160760 1.750904
+-1.238076 2.544782 1.238076
+-1.238076 2.544782 1.238076
+-0.000000 2.544782 1.750904
+</float_array>
+          <technique_common>
+            <accessor source="#Collider2-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider2-Normal0">
+          <float_array id="Collider2-Normal0-array" count="144">
+-0.555570 0.000000 0.831470
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+-0.195090 0.000000 0.980785
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+0.000000 -0.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 -0.000001
+0.000000 0.000000 -0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Collider2-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider2-UV0">
+          <float_array id="Collider2-UV0-array" count="28">
+0.452570 0.289618
+0.440206 0.300606
+0.523438 0.312500
+0.531250 0.312500
+0.452570 0.710852
+0.531250 0.688440
+0.523438 0.687970
+0.440206 0.699394
+0.389515 0.266735
+0.440206 0.300606
+0.500000 0.312500
+0.389515 0.733265
+0.440206 0.699394
+0.500000 0.687500
+</float_array>
+          <technique_common>
+            <accessor source="#Collider2-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collider2-VERTEX">
+          <input semantic="POSITION" source="#Collider2-POSITION"/>
+        </vertices>
+        <triangles count="16" material="lambert1"><input semantic="VERTEX" offset="0" source="#Collider2-VERTEX"/><input semantic="NORMAL" offset="1" source="#Collider2-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Collider2-UV0"/><p> 3 0 4 0 1 0 4 2 5 4 3 5 0 4 0 1 5 3 4 6 5 1 7 3 5 8 6 5 9 6 1 10 3 2 11 2 6 12 8 1 13 1 0 14 0 1 15 1 8 16 10 2 17 2 8 18 10 1 19 1 7 20 9 4 21 7 10 22 12 3 23 4 11 24 13 10 25 12 4 26 7 4 27 7 5 28 6 11 29 13 10 30 12 8 31 10 7 32 9 8 33 10 10 34 12 11 35 13 9 36 11 0 37 0 3 38 4 0 39 0 9 40 11 6 41 8 5 42 6 2 43 2 8 44 10 5 45 6 8 46 10 11 47 13</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collider3-lib" name="Collider3Mesh">
+      <mesh>
+        <source id="Collider3-POSITION">
+          <float_array id="Collider3-POSITION-array" count="36">
+-1.325825 -0.160760 1.325825
+-0.717532 -0.160760 1.732274
+-0.000000 -0.160760 1.875000
+-1.325825 2.544782 1.325825
+-0.717532 2.544782 1.732274
+-0.000000 2.544782 1.875000
+-1.238076 -0.160760 1.238076
+-1.238076 -0.160760 1.238076
+-0.000000 -0.160760 1.750904
+-1.238076 2.544782 1.238076
+-1.238076 2.544782 1.238076
+-0.000000 2.544782 1.750904
+</float_array>
+          <technique_common>
+            <accessor source="#Collider3-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider3-Normal0">
+          <float_array id="Collider3-Normal0-array" count="144">
+-0.555570 0.000000 0.831470
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+-0.195090 0.000000 0.980785
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+0.000000 -0.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 -0.000001
+0.000000 0.000000 -0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Collider3-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider3-UV0">
+          <float_array id="Collider3-UV0-array" count="28">
+0.452570 0.289618
+0.440206 0.300606
+0.523438 0.312500
+0.531250 0.312500
+0.452570 0.710852
+0.531250 0.688440
+0.523438 0.687970
+0.440206 0.699394
+0.389515 0.266735
+0.440206 0.300606
+0.500000 0.312500
+0.389515 0.733265
+0.440206 0.699394
+0.500000 0.687500
+</float_array>
+          <technique_common>
+            <accessor source="#Collider3-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collider3-VERTEX">
+          <input semantic="POSITION" source="#Collider3-POSITION"/>
+        </vertices>
+        <triangles count="16" material="lambert1"><input semantic="VERTEX" offset="0" source="#Collider3-VERTEX"/><input semantic="NORMAL" offset="1" source="#Collider3-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Collider3-UV0"/><p> 3 0 4 0 1 0 4 2 5 4 3 5 0 4 0 1 5 3 4 6 5 1 7 3 5 8 6 5 9 6 1 10 3 2 11 2 6 12 8 1 13 1 0 14 0 1 15 1 8 16 10 2 17 2 8 18 10 1 19 1 7 20 9 4 21 7 10 22 12 3 23 4 11 24 13 10 25 12 4 26 7 4 27 7 5 28 6 11 29 13 10 30 12 8 31 10 7 32 9 8 33 10 10 34 12 11 35 13 9 36 11 0 37 0 3 38 4 0 39 0 9 40 11 6 41 8 5 42 6 2 43 2 8 44 10 5 45 6 8 46 10 11 47 13</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collider4-lib" name="Collider4Mesh">
+      <mesh>
+        <source id="Collider4-POSITION">
+          <float_array id="Collider4-POSITION-array" count="36">
+-1.325825 -0.160760 1.325825
+-0.717532 -0.160760 1.732274
+-0.000000 -0.160760 1.875000
+-1.325825 2.544782 1.325825
+-0.717532 2.544782 1.732274
+-0.000000 2.544782 1.875000
+-1.238076 -0.160760 1.238076
+-1.238076 -0.160760 1.238076
+-0.000000 -0.160760 1.750904
+-1.238076 2.544782 1.238076
+-1.238076 2.544782 1.238076
+-0.000000 2.544782 1.750904
+</float_array>
+          <technique_common>
+            <accessor source="#Collider4-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider4-Normal0">
+          <float_array id="Collider4-Normal0-array" count="144">
+-0.555570 0.000000 0.831470
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+-0.195090 0.000000 0.980785
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+0.000000 -0.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 -0.000001
+0.000000 0.000000 -0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Collider4-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider4-UV0">
+          <float_array id="Collider4-UV0-array" count="28">
+0.452570 0.289618
+0.440206 0.300606
+0.523438 0.312500
+0.531250 0.312500
+0.452570 0.710852
+0.531250 0.688440
+0.523438 0.687970
+0.440206 0.699394
+0.389515 0.266735
+0.440206 0.300606
+0.500000 0.312500
+0.389515 0.733265
+0.440206 0.699394
+0.500000 0.687500
+</float_array>
+          <technique_common>
+            <accessor source="#Collider4-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collider4-VERTEX">
+          <input semantic="POSITION" source="#Collider4-POSITION"/>
+        </vertices>
+        <triangles count="16" material="lambert1"><input semantic="VERTEX" offset="0" source="#Collider4-VERTEX"/><input semantic="NORMAL" offset="1" source="#Collider4-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Collider4-UV0"/><p> 3 0 4 0 1 0 4 2 5 4 3 5 0 4 0 1 5 3 4 6 5 1 7 3 5 8 6 5 9 6 1 10 3 2 11 2 6 12 8 1 13 1 0 14 0 1 15 1 8 16 10 2 17 2 8 18 10 1 19 1 7 20 9 4 21 7 10 22 12 3 23 4 11 24 13 10 25 12 4 26 7 4 27 7 5 28 6 11 29 13 10 30 12 8 31 10 7 32 9 8 33 10 10 34 12 11 35 13 9 36 11 0 37 0 3 38 4 0 39 0 9 40 11 6 41 8 5 42 6 2 43 2 8 44 10 5 45 6 8 46 10 11 47 13</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collider5-lib" name="Collider5Mesh">
+      <mesh>
+        <source id="Collider5-POSITION">
+          <float_array id="Collider5-POSITION-array" count="36">
+-1.325825 -0.160760 1.325825
+-0.717532 -0.160760 1.732274
+-0.000000 -0.160760 1.875000
+-1.325825 2.544782 1.325825
+-0.717532 2.544782 1.732274
+-0.000000 2.544782 1.875000
+-1.238076 -0.160760 1.238076
+-1.238076 -0.160760 1.238076
+-0.000000 -0.160760 1.750904
+-1.238076 2.544782 1.238076
+-1.238076 2.544782 1.238076
+-0.000000 2.544782 1.750904
+</float_array>
+          <technique_common>
+            <accessor source="#Collider5-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider5-Normal0">
+          <float_array id="Collider5-Normal0-array" count="144">
+-0.555570 0.000000 0.831470
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+-0.195090 0.000000 0.980785
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+0.000000 -0.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 -0.000001
+0.000000 0.000000 -0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Collider5-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider5-UV0">
+          <float_array id="Collider5-UV0-array" count="28">
+0.452570 0.289618
+0.440206 0.300606
+0.523438 0.312500
+0.531250 0.312500
+0.452570 0.710852
+0.531250 0.688440
+0.523438 0.687970
+0.440206 0.699394
+0.389515 0.266735
+0.440206 0.300606
+0.500000 0.312500
+0.389515 0.733265
+0.440206 0.699394
+0.500000 0.687500
+</float_array>
+          <technique_common>
+            <accessor source="#Collider5-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collider5-VERTEX">
+          <input semantic="POSITION" source="#Collider5-POSITION"/>
+        </vertices>
+        <triangles count="16" material="lambert1"><input semantic="VERTEX" offset="0" source="#Collider5-VERTEX"/><input semantic="NORMAL" offset="1" source="#Collider5-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Collider5-UV0"/><p> 3 0 4 0 1 0 4 2 5 4 3 5 0 4 0 1 5 3 4 6 5 1 7 3 5 8 6 5 9 6 1 10 3 2 11 2 6 12 8 1 13 1 0 14 0 1 15 1 8 16 10 2 17 2 8 18 10 1 19 1 7 20 9 4 21 7 10 22 12 3 23 4 11 24 13 10 25 12 4 26 7 4 27 7 5 28 6 11 29 13 10 30 12 8 31 10 7 32 9 8 33 10 10 34 12 11 35 13 9 36 11 0 37 0 3 38 4 0 39 0 9 40 11 6 41 8 5 42 6 2 43 2 8 44 10 5 45 6 8 46 10 11 47 13</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collider6-lib" name="Collider6Mesh">
+      <mesh>
+        <source id="Collider6-POSITION">
+          <float_array id="Collider6-POSITION-array" count="36">
+-1.325825 -0.160760 1.325825
+-0.717532 -0.160760 1.732274
+-0.000000 -0.160760 1.875000
+-1.325825 2.544782 1.325825
+-0.717532 2.544782 1.732274
+-0.000000 2.544782 1.875000
+-1.238076 -0.160760 1.238076
+-1.238076 -0.160760 1.238076
+-0.000000 -0.160760 1.750904
+-1.238076 2.544782 1.238076
+-1.238076 2.544782 1.238076
+-0.000000 2.544782 1.750904
+</float_array>
+          <technique_common>
+            <accessor source="#Collider6-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider6-Normal0">
+          <float_array id="Collider6-Normal0-array" count="144">
+-0.555570 0.000000 0.831470
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+-0.195090 0.000000 0.980785
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+0.000000 -0.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 -0.000001
+0.000000 0.000000 -0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Collider6-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider6-UV0">
+          <float_array id="Collider6-UV0-array" count="28">
+0.452570 0.289618
+0.440206 0.300606
+0.523438 0.312500
+0.531250 0.312500
+0.452570 0.710852
+0.531250 0.688440
+0.523438 0.687970
+0.440206 0.699394
+0.389515 0.266735
+0.440206 0.300606
+0.500000 0.312500
+0.389515 0.733265
+0.440206 0.699394
+0.500000 0.687500
+</float_array>
+          <technique_common>
+            <accessor source="#Collider6-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collider6-VERTEX">
+          <input semantic="POSITION" source="#Collider6-POSITION"/>
+        </vertices>
+        <triangles count="16" material="lambert1"><input semantic="VERTEX" offset="0" source="#Collider6-VERTEX"/><input semantic="NORMAL" offset="1" source="#Collider6-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Collider6-UV0"/><p> 3 0 4 0 1 0 4 2 5 4 3 5 0 4 0 1 5 3 4 6 5 1 7 3 5 8 6 5 9 6 1 10 3 2 11 2 6 12 8 1 13 1 0 14 0 1 15 1 8 16 10 2 17 2 8 18 10 1 19 1 7 20 9 4 21 7 10 22 12 3 23 4 11 24 13 10 25 12 4 26 7 4 27 7 5 28 6 11 29 13 10 30 12 8 31 10 7 32 9 8 33 10 10 34 12 11 35 13 9 36 11 0 37 0 3 38 4 0 39 0 9 40 11 6 41 8 5 42 6 2 43 2 8 44 10 5 45 6 8 46 10 11 47 13</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collider7-lib" name="Collider7Mesh">
+      <mesh>
+        <source id="Collider7-POSITION">
+          <float_array id="Collider7-POSITION-array" count="36">
+-1.325825 -0.160760 1.325825
+-0.717532 -0.160760 1.732274
+-0.000000 -0.160760 1.875000
+-1.325825 2.544782 1.325825
+-0.717532 2.544782 1.732274
+-0.000000 2.544782 1.875000
+-1.238076 -0.160760 1.238076
+-1.238076 -0.160760 1.238076
+-0.000000 -0.160760 1.750904
+-1.238076 2.544782 1.238076
+-1.238076 2.544782 1.238076
+-0.000000 2.544782 1.750904
+</float_array>
+          <technique_common>
+            <accessor source="#Collider7-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider7-Normal0">
+          <float_array id="Collider7-Normal0-array" count="144">
+-0.555570 0.000000 0.831470
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+-0.195090 0.000000 0.980785
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+0.000000 -0.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 -0.000001
+0.000000 0.000000 -0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Collider7-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider7-UV0">
+          <float_array id="Collider7-UV0-array" count="28">
+0.452570 0.289618
+0.440206 0.300606
+0.523438 0.312500
+0.531250 0.312500
+0.452570 0.710852
+0.531250 0.688440
+0.523438 0.687970
+0.440206 0.699394
+0.389515 0.266735
+0.440206 0.300606
+0.500000 0.312500
+0.389515 0.733265
+0.440206 0.699394
+0.500000 0.687500
+</float_array>
+          <technique_common>
+            <accessor source="#Collider7-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collider7-VERTEX">
+          <input semantic="POSITION" source="#Collider7-POSITION"/>
+        </vertices>
+        <triangles count="16" material="lambert1"><input semantic="VERTEX" offset="0" source="#Collider7-VERTEX"/><input semantic="NORMAL" offset="1" source="#Collider7-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Collider7-UV0"/><p> 3 0 4 0 1 0 4 2 5 4 3 5 0 4 0 1 5 3 4 6 5 1 7 3 5 8 6 5 9 6 1 10 3 2 11 2 6 12 8 1 13 1 0 14 0 1 15 1 8 16 10 2 17 2 8 18 10 1 19 1 7 20 9 4 21 7 10 22 12 3 23 4 11 24 13 10 25 12 4 26 7 4 27 7 5 28 6 11 29 13 10 30 12 8 31 10 7 32 9 8 33 10 10 34 12 11 35 13 9 36 11 0 37 0 3 38 4 0 39 0 9 40 11 6 41 8 5 42 6 2 43 2 8 44 10 5 45 6 8 46 10 11 47 13</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Collider8-lib" name="Collider8Mesh">
+      <mesh>
+        <source id="Collider8-POSITION">
+          <float_array id="Collider8-POSITION-array" count="36">
+-1.325825 -0.160760 1.325825
+-0.717532 -0.160760 1.732274
+-0.000000 -0.160760 1.875000
+-1.325825 2.544782 1.325825
+-0.717532 2.544782 1.732274
+-0.000000 2.544782 1.875000
+-1.238076 -0.160760 1.238076
+-1.238076 -0.160760 1.238076
+-0.000000 -0.160760 1.750904
+-1.238076 2.544782 1.238076
+-1.238076 2.544782 1.238076
+-0.000000 2.544782 1.750904
+</float_array>
+          <technique_common>
+            <accessor source="#Collider8-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider8-Normal0">
+          <float_array id="Collider8-Normal0-array" count="144">
+-0.555570 0.000000 0.831470
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.555570 0.000000 0.831470
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+-0.195090 0.000000 0.980785
+-0.382684 0.000000 0.923880
+-0.195090 0.000000 0.980785
+0.000000 -0.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 -0.000001
+0.000000 0.000000 -0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+0.382683 0.000000 -0.923880
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+-0.707108 0.000000 -0.707105
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Collider8-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Collider8-UV0">
+          <float_array id="Collider8-UV0-array" count="28">
+0.452570 0.289618
+0.440206 0.300606
+0.523438 0.312500
+0.531250 0.312500
+0.452570 0.710852
+0.531250 0.688440
+0.523438 0.687970
+0.440206 0.699394
+0.389515 0.266735
+0.440206 0.300606
+0.500000 0.312500
+0.389515 0.733265
+0.440206 0.699394
+0.500000 0.687500
+</float_array>
+          <technique_common>
+            <accessor source="#Collider8-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Collider8-VERTEX">
+          <input semantic="POSITION" source="#Collider8-POSITION"/>
+        </vertices>
+        <triangles count="16" material="lambert1"><input semantic="VERTEX" offset="0" source="#Collider8-VERTEX"/><input semantic="NORMAL" offset="1" source="#Collider8-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Collider8-UV0"/><p> 3 0 4 0 1 0 4 2 5 4 3 5 0 4 0 1 5 3 4 6 5 1 7 3 5 8 6 5 9 6 1 10 3 2 11 2 6 12 8 1 13 1 0 14 0 1 15 1 8 16 10 2 17 2 8 18 10 1 19 1 7 20 9 4 21 7 10 22 12 3 23 4 11 24 13 10 25 12 4 26 7 4 27 7 5 28 6 11 29 13 10 30 12 8 31 10 7 32 9 8 33 10 10 34 12 11 35 13 9 36 11 0 37 0 3 38 4 0 39 0 9 40 11 6 41 8 5 42 6 2 43 2 8 44 10 5 45 6 8 46 10 11 47 13</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface57-lib" name="polySurface57Mesh">
+      <mesh>
+        <source id="polySurface57-POSITION">
+          <float_array id="polySurface57-POSITION-array" count="204">
+1.710234 5.799494 -0.458256
+1.533354 5.799494 -0.885282
+1.251978 5.799494 -1.251978
+0.885282 5.799494 -1.533354
+0.458256 5.799494 -1.710234
+0.000000 5.799494 -1.770565
+-0.458256 5.799494 -1.710234
+-0.885282 5.799494 -1.533354
+-1.251978 5.799494 -1.251979
+-1.533354 5.799494 -0.885282
+-1.710234 5.799494 -0.458256
+-1.770565 5.799494 -0.000000
+-1.710234 5.799494 0.458256
+-1.533354 5.799494 0.885282
+-1.251979 5.799494 1.251979
+-0.885283 5.799494 1.533354
+-0.458256 5.799494 1.710235
+-0.000000 5.799494 1.770565
+0.458256 5.799494 1.710235
+0.885283 5.799494 1.533355
+1.251979 5.799494 1.251979
+1.533355 5.799494 0.885283
+1.710235 5.799494 0.458256
+1.770566 5.799494 0.000000
+0.458256 4.623307 -1.710234
+0.000000 4.623307 -1.770565
+-0.458256 4.623307 -1.710234
+-0.885282 4.623307 -1.533354
+-1.251978 4.623307 -1.251979
+-1.533354 4.623307 -0.885282
+-1.710234 4.623307 -0.458256
+-1.770565 4.623307 -0.000000
+-1.710234 4.623307 0.458256
+-1.533354 4.623307 0.885282
+-1.251979 4.623307 1.251979
+-0.885283 4.623307 1.533354
+-0.458256 4.623307 1.710235
+-0.000000 4.623307 1.770565
+0.458256 4.623307 1.710235
+0.885283 4.623307 1.533355
+1.251979 4.623307 1.251979
+1.533355 4.623307 0.885283
+1.710235 4.623307 0.458256
+1.770566 4.623307 0.000000
+1.710234 4.623307 -0.458256
+1.533354 4.623307 -0.885282
+1.251978 4.623307 -1.251978
+0.885282 4.623307 -1.533354
+0.458256 3.158926 -1.710234
+0.000000 3.158926 -1.770565
+-0.458256 3.158926 -1.710234
+-0.885282 3.158926 -1.533354
+-1.251978 3.158926 -1.251979
+-1.533354 3.158926 -0.885282
+-1.710234 3.158926 -0.458256
+-1.770565 3.158926 -0.000000
+-1.710234 3.158926 0.458256
+-1.533354 3.158926 0.885282
+-0.458256 3.158926 1.710235
+-0.000000 3.158926 1.770565
+0.458256 3.158926 1.710235
+0.885283 3.158926 1.533355
+1.251979 3.158926 1.251979
+1.533355 3.158926 0.885283
+1.710235 3.158926 0.458256
+1.770566 3.158926 0.000000
+1.710234 3.158926 -0.458256
+1.533354 3.158926 -0.885282
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface57-POSITION-array" count="68" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface57-Normal0">
+          <float_array id="polySurface57-Normal0-array" count="756">
+-0.000000 0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.258819 -0.000000 0.965926
+-0.258819 -0.000000 0.965926
+-0.000000 -0.000000 1.000000
+-0.209762 -0.000000 0.977753
+0.258819 0.000000 0.965926
+0.258819 -0.000000 0.965926
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.258819 -0.000000 0.965926
+-0.000000 -0.000000 1.000000
+0.500000 0.000000 0.866026
+0.258819 -0.000000 0.965926
+0.258819 0.000000 0.965926
+0.258819 -0.000000 0.965926
+0.500000 0.000000 0.866026
+0.500000 0.000000 0.866026
+0.707107 0.000000 0.707107
+0.500000 0.000000 0.866026
+0.500000 0.000000 0.866026
+0.500000 0.000000 0.866026
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.707107 0.000000 0.707107
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.965926 0.000000 0.258819
+0.965926 0.000000 0.258819
+0.965926 0.000000 0.258819
+0.866025 0.000000 0.500000
+0.965926 0.000000 0.258819
+0.965926 0.000000 0.258819
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+0.965926 0.000000 0.258819
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+0.965926 0.000000 -0.258819
+0.965926 -0.000000 -0.258819
+0.965926 0.000000 -0.258819
+1.000000 0.000000 -0.000000
+0.965926 0.000000 -0.258819
+0.866026 -0.000000 -0.500000
+0.890146 -0.000000 -0.455675
+0.866026 -0.000000 -0.500000
+0.965926 0.000000 -0.258819
+0.965926 -0.000000 -0.258819
+0.890146 -0.000000 -0.455675
+0.707107 -0.000000 -0.707107
+0.707107 -0.000000 -0.707107
+0.707107 -0.000000 -0.707107
+0.890146 -0.000000 -0.455675
+0.866026 -0.000000 -0.500000
+0.707107 -0.000000 -0.707107
+0.500000 0.000000 -0.866025
+0.707107 -0.000000 -0.707107
+0.500000 0.000000 -0.866025
+0.707107 -0.000000 -0.707107
+0.500000 0.000000 -0.866025
+0.500000 0.000000 -0.866025
+0.500000 0.000000 -0.866025
+0.209761 0.000000 -0.977753
+0.209761 0.000000 -0.977753
+0.500000 0.000000 -0.866025
+0.258819 0.000000 -0.965926
+0.209761 0.000000 -0.977753
+0.258819 0.000000 -0.965926
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.258819 0.000000 -0.965926
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.258819 0.000000 -0.965926
+-0.258819 0.000000 -0.965926
+0.000000 0.000000 -1.000000
+-0.258819 0.000000 -0.965926
+-0.258819 0.000000 -0.965926
+-0.258819 0.000000 -0.965926
+-0.500000 0.000000 -0.866025
+-0.500000 0.000000 -0.866025
+-0.258819 0.000000 -0.965926
+-0.500000 0.000000 -0.866026
+-0.500000 0.000000 -0.866025
+-0.500000 0.000000 -0.866026
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.500000 0.000000 -0.866026
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.866025 0.000000 -0.500000
+-0.965926 0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.965926 0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.965926 0.000000 -0.258819
+-0.965926 0.000000 -0.258819
+-1.000000 -0.000000 0.000001
+-0.965926 0.000000 -0.258819
+-1.000000 -0.000000 0.000001
+-0.965926 0.000000 -0.258819
+-1.000000 0.000000 0.000001
+-1.000000 0.000000 0.000001
+-0.965926 -0.000000 0.258820
+-1.000000 -0.000000 0.000001
+-0.965926 -0.000000 0.258820
+-1.000000 0.000000 0.000001
+-0.965926 0.000000 0.258820
+-0.965926 0.000000 0.258820
+-0.890146 0.000000 0.455675
+-0.965926 -0.000000 0.258820
+-0.890146 0.000000 0.455675
+-0.965926 0.000000 0.258820
+-0.866026 0.000000 0.500000
+-0.866026 0.000000 0.500000
+-0.707107 0.000000 0.707107
+-0.890146 0.000000 0.455675
+-0.707107 0.000000 0.707107
+-0.866026 0.000000 0.500000
+-0.707107 0.000000 0.707107
+-0.500000 -0.000000 0.866025
+-0.500000 -0.000000 0.866025
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.500000 -0.000000 0.866025
+-0.707107 0.000000 0.707107
+-0.258819 -0.000000 0.965926
+-0.209762 -0.000000 0.977753
+-0.500000 -0.000000 0.866025
+-0.500000 -0.000000 0.866025
+-0.209762 -0.000000 0.977753
+-0.500000 -0.000000 0.866025
+-0.000000 -0.000000 1.000000
+-0.130527 0.000000 0.991445
+-0.209762 -0.000000 0.977753
+-0.209762 -0.000000 0.977753
+-0.130527 0.000000 0.991445
+-0.130527 0.000000 0.991445
+0.258819 -0.000000 0.965926
+0.130526 -0.000000 0.991445
+-0.000000 -0.000000 1.000000
+0.130526 -0.000000 0.991445
+0.258819 -0.000000 0.965926
+0.258819 -0.000000 0.965926
+0.500000 0.000000 0.866026
+0.500000 0.000000 0.866026
+0.258819 -0.000000 0.965926
+0.258819 -0.000000 0.965926
+0.500000 0.000000 0.866026
+0.258819 -0.000000 0.965926
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.500000 0.000000 0.866026
+0.500000 0.000000 0.866026
+0.707107 0.000000 0.707107
+0.500000 0.000000 0.866026
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.707107 0.000000 0.707107
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.965926 0.000000 0.258819
+0.965926 0.000000 0.258819
+0.965926 0.000000 0.258819
+0.866025 0.000000 0.500000
+0.965926 0.000000 0.258819
+0.965926 0.000000 0.258819
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+0.965926 0.000000 0.258819
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+0.965926 0.000000 -0.258819
+0.965926 0.000000 -0.258819
+0.965926 0.000000 -0.258819
+1.000000 0.000000 -0.000000
+0.965926 0.000000 -0.258819
+0.965926 0.000000 -0.258819
+0.923880 0.000000 -0.382683
+0.890146 -0.000000 -0.455675
+0.923880 0.000000 -0.382683
+0.965926 0.000000 -0.258819
+0.130526 0.000000 -0.991445
+0.209761 0.000000 -0.977753
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.209761 0.000000 -0.977753
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.258819 0.000000 -0.965926
+-0.258819 0.000000 -0.965926
+0.000000 0.000000 -1.000000
+-0.258819 0.000000 -0.965926
+-0.258819 0.000000 -0.965926
+-0.258819 0.000000 -0.965926
+-0.500000 0.000000 -0.866026
+-0.500000 0.000000 -0.866026
+-0.258819 0.000000 -0.965926
+-0.500000 0.000000 -0.866025
+-0.500000 0.000000 -0.866025
+-0.707107 0.000000 -0.707107
+-0.500000 0.000000 -0.866026
+-0.707107 0.000000 -0.707107
+-0.500000 0.000000 -0.866025
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.866025 0.000000 -0.500000
+-0.965926 0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.965926 0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.965926 0.000000 -0.258819
+-0.965926 0.000000 -0.258819
+-1.000000 -0.000000 0.000001
+-0.965926 0.000000 -0.258819
+-1.000000 -0.000000 0.000001
+-0.965926 0.000000 -0.258819
+-1.000000 -0.000000 0.000001
+-1.000000 -0.000000 0.000001
+-0.965926 -0.000000 0.258820
+-0.965926 -0.000000 0.258820
+-0.965926 -0.000000 0.258820
+-1.000000 -0.000000 0.000001
+-1.000000 -0.000000 0.000001
+-0.965926 -0.000000 0.258820
+-0.890146 0.000000 0.455675
+-0.923880 0.000000 0.382683
+-0.890146 0.000000 0.455675
+-0.965926 -0.000000 0.258820
+-0.965926 -0.000000 0.258820
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface57-Normal0-array" count="252" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface57-UV0">
+          <float_array id="polySurface57-UV0-array" count="264">
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430550
+0.230721 0.430550
+0.230721 0.477316
+0.248806 0.477316
+0.248806 0.430550
+0.230721 0.430550
+0.230721 0.477316
+0.248806 0.477316
+0.248806 0.430550
+0.230721 0.430550
+0.230721 0.477316
+0.248806 0.477316
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430576
+0.230721 0.430576
+0.230721 0.477253
+0.248806 0.477253
+0.248806 0.430550
+0.230721 0.430550
+0.230721 0.477316
+0.248806 0.477316
+0.248806 0.430550
+0.230721 0.430550
+0.230721 0.477316
+0.248806 0.477316
+0.248806 0.430550
+0.230721 0.430550
+0.230721 0.477316
+0.248806 0.477316
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+0.248806 0.391921
+0.230721 0.391921
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface57-UV0-array" count="132" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface57-VERTEX">
+          <input semantic="POSITION" source="#polySurface57-POSITION"/>
+        </vertices>
+        <triangles count="84" material="S_IC"><input semantic="VERTEX" offset="0" source="#polySurface57-VERTEX"/><input semantic="NORMAL" offset="1" source="#polySurface57-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#polySurface57-UV0"/><p> 5 0 3 25 1 0 4 2 2 4 3 2 25 4 0 24 5 1 6 6 7 26 7 4 5 8 6 5 9 6 26 10 4 25 11 5 7 12 11 26 13 9 6 14 10 26 15 9 7 16 11 27 17 8 8 18 15 27 19 13 7 20 14 27 21 13 8 22 15 28 23 12 28 24 17 8 25 18 29 26 16 9 27 19 29 28 16 8 29 18 29 30 21 9 31 22 30 32 20 10 33 23 30 34 20 9 35 22 30 36 25 10 37 26 31 38 24 11 39 27 31 40 24 10 41 26 31 42 29 11 43 30 32 44 28 12 45 31 32 46 28 11 47 30 32 48 33 13 49 35 33 50 32 13 51 35 32 52 33 12 53 34 33 54 37 14 55 39 34 56 36 14 57 39 33 58 37 13 59 38 14 60 42 35 61 40 34 62 41 35 63 40 14 64 42 15 65 43 35 66 45 15 67 46 36 68 44 36 69 44 15 70 46 16 71 47 36 72 49 16 73 50 37 74 48 37 75 48 16 76 50 17 77 51 37 78 53 17 79 54 38 80 52 38 81 52 17 82 54 18 83 55 38 84 57 18 85 58 39 86 56 39 87 56 18 88 58 19 89 59 39 90 61 19 91 62 40 92 60 40 93 60 19 94 62 20 95 63 20 96 66 41 97 64 40 98 65 41 99 64 20 100 66 21 101 67 21 102 70 42 103 68 41 104 69 42 105 68 21 106 70 22 107 71 22 108 74 43 109 72 42 110 73 43 111 72 22 112 74 23 113 75 23 114 78 44 115 76 43 116 77 44 117 76 23 118 78 0 119 79 0 120 82 45 121 80 44 122 81 45 123 80 0 124 82 1 125 83 1 126 86 46 127 84 45 128 85 46 129 84 1 130 86 2 131 87 3 132 91 47 133 88 2 134 90 2 135 90 47 136 88 46 137 89 4 138 95 24 139 92 3 140 94 3 141 94 24 142 92 47 143 93 25 144 0 49 145 96 24 146 1 24 147 1 49 148 96 48 149 97 26 150 4 49 151 99 25 152 5 49 153 99 26 154 4 50 155 98 27 156 8 51 157 100 26 158 9 26 159 9 51 160 100 50 161 101 28 162 12 52 163 102 27 164 13 27 165 13 52 166 102 51 167 103 52 168 105 28 169 17 53 170 104 29 171 16 53 172 104 28 173 17 53 174 107 29 175 21 54 176 106 30 177 20 54 178 106 29 179 21 54 180 109 30 181 25 55 182 108 31 183 24 55 184 108 30 185 25 55 186 111 31 187 29 56 188 110 32 189 28 56 190 110 31 191 29 56 192 113 32 193 33 57 194 112 33 195 32 57 196 112 32 197 33 58 198 115 36 199 49 59 200 114 59 201 114 36 202 49 37 203 48 59 204 117 37 205 53 60 206 116 60 207 116 37 208 53 38 209 52 60 210 119 38 211 57 61 212 118 61 213 118 38 214 57 39 215 56 39 216 61 62 217 120 61 218 121 62 219 120 39 220 61 40 221 60 40 222 65 63 223 122 62 224 123 63 225 122 40 226 65 41 227 64 41 228 69 64 229 124 63 230 125 64 231 124 41 232 69 42 233 68 42 234 73 65 235 126 64 236 127 65 237 126 42 238 73 43 239 72 65 240 129 44 241 76 66 242 128 44 243 76 65 244 129 43 245 77 66 246 131 45 247 80 67 248 130 45 249 80 66 250 131 44 251 81</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface58-lib" name="polySurface58Mesh">
+      <mesh>
+        <source id="polySurface58-POSITION">
+          <float_array id="polySurface58-POSITION-array" count="1476">
+1.811110 3.093952 -0.485285
+1.623797 3.093952 -0.937499
+1.325825 3.093952 -1.325824
+0.937500 3.093952 -1.623797
+0.485286 3.093952 -1.811110
+0.000000 3.093952 -1.874999
+-0.485285 3.093952 -1.811110
+-0.937499 3.093952 -1.623797
+-1.325825 3.093952 -1.325825
+-1.623797 3.093952 -0.937500
+-1.811110 3.093952 -0.485286
+-1.874999 3.093952 -0.000000
+-1.811110 3.093952 0.485285
+-1.623797 3.093952 0.937500
+-1.325825 3.093952 1.325825
+-0.937500 3.093952 1.623797
+-0.485286 3.093952 1.811111
+-0.000000 3.093952 1.875000
+0.485286 3.093952 1.811111
+0.937500 3.093952 1.623798
+1.325825 3.093952 1.325825
+1.623798 3.093952 0.937500
+1.811111 3.093952 0.485286
+1.875000 3.093952 0.000000
+1.811110 5.799494 -0.485285
+1.623797 5.799494 -0.937499
+1.325825 5.799494 -1.325824
+0.937500 5.799494 -1.623797
+0.485286 5.799494 -1.811110
+0.000000 5.799494 -1.874999
+-0.485285 5.799494 -1.811110
+-0.937499 5.799494 -1.623797
+-1.325825 5.799494 -1.325825
+-1.623797 5.799494 -0.937500
+-1.811110 5.799494 -0.485286
+-1.874999 5.799494 -0.000000
+-1.811110 5.799494 0.485285
+-1.623797 5.799494 0.937500
+-1.325825 5.799494 1.325825
+-0.937500 5.799494 1.623797
+-0.485286 5.799494 1.811111
+-0.000000 5.799494 1.875000
+0.485286 5.799494 1.811111
+0.937500 5.799494 1.623798
+1.325825 5.799494 1.325825
+1.623798 5.799494 0.937500
+1.811111 5.799494 0.485286
+1.875000 5.799494 0.000000
+1.710234 3.093952 -0.458256
+1.533354 3.093952 -0.885282
+1.251978 3.093952 -1.251978
+0.885282 3.093952 -1.533354
+0.458256 3.093952 -1.710234
+0.000000 3.093952 -1.770565
+-0.458256 3.093952 -1.710234
+-0.885282 3.093952 -1.533354
+-1.251978 3.093952 -1.251979
+-1.533354 3.093952 -0.885282
+-1.710234 3.093952 -0.458256
+-1.770565 3.093952 -0.000000
+-1.710234 3.093952 0.458256
+-1.533354 3.093952 0.885282
+-1.251979 3.093952 1.251979
+-0.885283 3.093952 1.533354
+-0.458256 3.093952 1.710235
+-0.000000 3.093952 1.770565
+0.458256 3.093952 1.710235
+0.885283 3.093952 1.533355
+1.251979 3.093952 1.251979
+1.533355 3.093952 0.885283
+1.710235 3.093952 0.458256
+1.770566 3.093952 0.000000
+-0.937500 4.446723 1.623797
+-1.325825 4.446723 1.325825
+-1.623797 4.446723 0.937500
+-1.811110 4.446723 0.485285
+-1.874999 4.446723 -0.000000
+-1.811110 4.446723 -0.485286
+-1.623797 4.446723 -0.937500
+-1.325825 4.446723 -1.325825
+-0.937499 4.446723 -1.623797
+-0.485285 4.446723 -1.811110
+0.000000 4.446723 -1.874999
+0.485286 4.446723 -1.811110
+0.937500 4.446723 -1.623797
+1.325825 4.446723 -1.325824
+1.623797 4.446723 -0.937499
+1.811110 4.446723 -0.485285
+1.875000 4.446723 0.000000
+1.811111 4.446723 0.485286
+1.623798 4.446723 0.937500
+1.325825 4.446723 1.325825
+0.937500 4.446723 1.623798
+0.485286 4.446723 1.811111
+-0.000000 4.446723 1.875000
+-0.485286 4.446723 1.811111
+-0.485286 3.212456 1.811111
+-0.937500 3.212456 1.623797
+-1.325825 3.212456 1.325825
+-1.623797 3.212456 0.937500
+-1.811110 3.212456 0.485285
+-1.874999 3.212456 -0.000000
+-1.811110 3.212456 -0.485286
+-1.623797 3.212456 -0.937500
+-1.325825 3.212456 -1.325825
+-0.937499 3.212456 -1.623797
+-0.485285 3.212456 -1.811110
+0.000000 3.212456 -1.874999
+0.485286 3.212456 -1.811110
+0.937500 3.212456 -1.623796
+1.325825 3.212456 -1.325824
+1.623797 3.212456 -0.937499
+1.811110 3.212456 -0.485285
+1.875000 3.212456 0.000000
+1.811111 3.212456 0.485286
+1.623798 3.212456 0.937500
+1.325825 3.212456 1.325825
+0.937500 3.212456 1.623798
+0.485286 3.212456 1.811111
+-0.000000 3.212456 1.875000
+0.860379 3.212456 -1.523291
+0.860379 4.446723 -1.523291
+1.248704 3.212456 -1.225319
+1.248704 4.446723 -1.225319
+-1.251979 3.158926 1.251979
+-0.885283 3.158926 1.533354
+1.251978 3.158926 -1.251978
+0.885282 3.158926 -1.533354
+-0.860379 3.212456 1.523291
+-0.860379 4.446723 1.523291
+-1.248704 3.212456 1.225319
+-1.248704 4.446723 1.225319
+-1.164784 3.158926 1.138345
+-0.798088 3.158926 1.419720
+-1.164784 4.623307 1.138345
+-0.798088 4.623307 1.419720
+1.164784 3.158926 -1.138344
+0.798088 3.158926 -1.419720
+1.164784 4.623307 -1.138344
+0.798088 4.623307 -1.419720
+-0.358730 3.219805 1.987044
+-0.323689 3.219805 2.032709
+-0.270511 3.219805 2.054736
+-0.213444 3.219805 2.047223
+-0.167779 3.219805 2.012183
+-0.145751 3.219805 1.959005
+-0.366243 3.219805 1.929977
+-0.358730 4.540803 1.987044
+-0.323689 4.540803 2.032709
+-0.270511 4.540803 2.054736
+-0.213444 4.540803 2.047223
+-0.167779 4.540803 2.012183
+-0.145751 4.540803 1.959005
+-0.366243 4.540803 1.929977
+-0.255997 3.219805 1.944491
+-0.131508 3.219805 1.850814
+-0.131508 4.540803 1.850814
+-0.351999 3.219805 1.821786
+-0.351999 4.540803 1.821786
+-0.241753 3.219805 1.836300
+-0.377173 4.532237 1.994509
+-0.335834 4.532237 2.048383
+-0.273096 4.532237 2.074371
+-0.205770 4.532237 2.065506
+-0.151895 4.532237 2.024168
+-0.125908 4.532237 1.961429
+-0.386037 4.532237 1.927183
+-0.306514 4.999726 1.907449
+-0.285838 4.999726 1.928228
+-0.255257 4.999726 1.938864
+-0.222965 4.999726 1.936505
+-0.197615 4.999726 1.921785
+-0.185999 4.999726 1.898648
+-0.311746 4.999726 1.882093
+-0.255972 4.532237 1.944306
+-0.110222 4.532237 1.842277
+-0.177413 4.999726 1.833431
+-0.370350 4.532237 1.808030
+-0.303160 4.999726 1.816876
+-0.240286 4.532237 1.825153
+-0.240286 5.093436 1.825154
+-0.134054 4.759005 1.839139
+-0.147480 4.759255 1.940842
+-0.168866 4.760853 1.991803
+-0.212811 4.762004 2.025241
+-0.267565 4.762422 2.032359
+-0.318612 4.762004 2.011312
+-0.352405 4.760853 1.967640
+-0.359872 4.759255 1.912880
+-0.346518 4.759005 1.811168
+-0.302201 4.867799 1.955945
+-0.285198 4.838881 1.970283
+-0.260405 4.828295 1.977975
+-0.234467 4.838881 1.976961
+-0.214332 4.867799 1.967514
+-0.205396 4.907303 1.952163
+-0.210055 4.946807 1.935022
+-0.227058 4.975726 1.920685
+-0.251850 4.986311 1.912993
+-0.277789 4.975726 1.914006
+-0.297923 4.946807 1.923454
+-0.306859 4.907303 1.938805
+-0.306049 4.875837 1.985175
+-0.289046 4.846919 1.999512
+-0.264253 4.836333 2.007205
+-0.238315 4.846919 2.006191
+-0.218181 4.875837 1.996743
+-0.209245 4.915341 1.981392
+-0.213903 4.954845 1.964252
+-0.230906 4.983764 1.949915
+-0.255698 4.994349 1.942222
+-0.281637 4.983764 1.943236
+-0.301771 4.954845 1.952684
+-0.310707 4.915341 1.968035
+-0.259976 4.915341 1.974714
+-1.900196 3.219805 0.682853
+-1.922222 3.219805 0.736031
+-1.914710 3.219805 0.793099
+-1.879669 3.219805 0.838764
+-1.826491 3.219805 0.860791
+-1.769424 3.219805 0.853278
+-1.854530 3.219805 0.647813
+-1.900196 4.540803 0.682853
+-1.922222 4.540803 0.736031
+-1.914710 4.540803 0.793099
+-1.879669 4.540803 0.838764
+-1.826491 4.540803 0.860791
+-1.769424 4.540803 0.853278
+-1.854530 4.540803 0.647813
+-1.811977 3.219805 0.750545
+-1.668606 3.219805 0.811518
+-1.668606 4.540803 0.811518
+-1.753712 3.219805 0.606053
+-1.753712 4.540803 0.606053
+-1.711159 3.219805 0.708785
+-1.915882 4.532237 0.670613
+-1.941869 4.532237 0.733351
+-1.933005 4.532237 0.800677
+-1.891666 4.532237 0.854552
+-1.828928 4.532237 0.880539
+-1.761602 4.532237 0.871675
+-1.862008 4.532237 0.629274
+-1.805156 4.999726 0.688275
+-1.812814 4.999726 0.716571
+-1.806733 4.999726 0.748373
+-1.788545 4.999726 0.775160
+-1.763123 4.999726 0.789753
+-1.737277 4.999726 0.788244
+-1.785813 4.999726 0.671067
+-1.811805 4.532237 0.750474
+-1.650569 4.532237 0.825684
+-1.676504 4.999726 0.763071
+-1.750975 4.532237 0.583283
+-1.725041 4.999726 0.645894
+-1.700772 4.532237 0.704483
+-1.700773 5.093436 0.704483
+-1.659768 4.759005 0.803475
+-1.754558 4.759255 0.842699
+-1.809385 4.760853 0.849659
+-1.860315 4.762004 0.828321
+-1.893857 4.762422 0.784461
+-1.901153 4.762004 0.729730
+-1.880228 4.760853 0.678628
+-1.836538 4.759255 0.644782
+-1.741776 4.759005 0.605491
+-1.844999 4.867799 0.716259
+-1.848914 4.838881 0.738153
+-1.843179 4.828295 0.763470
+-1.829332 4.838881 0.785427
+-1.811083 4.867799 0.798139
+-1.793321 4.907303 0.798203
+-1.780806 4.946807 0.785598
+-1.776891 4.975726 0.763705
+-1.782625 4.986311 0.738388
+-1.796473 4.975726 0.716431
+-1.814722 4.946807 0.703718
+-1.832484 4.907303 0.703655
+-1.872236 4.875837 0.727541
+-1.876151 4.846919 0.749435
+-1.870417 4.836333 0.774752
+-1.856570 4.846919 0.796709
+-1.838321 4.875837 0.809422
+-1.820558 4.915341 0.809485
+-1.808044 4.954845 0.796880
+-1.804129 4.983764 0.774987
+-1.809863 4.994349 0.749670
+-1.823710 4.983764 0.727713
+-1.841959 4.954845 0.715000
+-1.859722 4.915341 0.714937
+-1.840140 4.915341 0.762211
+1.900196 3.219805 -0.682853
+1.922222 3.219805 -0.736031
+1.914710 3.219805 -0.793099
+1.879669 3.219805 -0.838764
+1.826491 3.219805 -0.860791
+1.769424 3.219805 -0.853278
+1.854530 3.219805 -0.647813
+1.900196 4.540803 -0.682853
+1.922222 4.540803 -0.736031
+1.914710 4.540803 -0.793099
+1.879669 4.540803 -0.838764
+1.826491 4.540803 -0.860791
+1.769424 4.540803 -0.853278
+1.854530 4.540803 -0.647813
+1.811977 3.219805 -0.750545
+1.668606 3.219805 -0.811518
+1.668606 4.540803 -0.811518
+1.753712 3.219805 -0.606053
+1.753712 4.540803 -0.606053
+1.711159 3.219805 -0.708785
+1.915882 4.532237 -0.670613
+1.941869 4.532237 -0.733351
+1.933005 4.532237 -0.800677
+1.891666 4.532237 -0.854552
+1.828928 4.532237 -0.880539
+1.761602 4.532237 -0.871675
+1.862008 4.532237 -0.629274
+1.805156 4.999726 -0.688275
+1.812814 4.999726 -0.716571
+1.806733 4.999726 -0.748373
+1.788545 4.999726 -0.775160
+1.763123 4.999726 -0.789753
+1.737277 4.999726 -0.788244
+1.785813 4.999726 -0.671067
+1.811805 4.532237 -0.750474
+1.650569 4.532237 -0.825684
+1.676504 4.999726 -0.763071
+1.750975 4.532237 -0.583283
+1.725041 4.999726 -0.645894
+1.700772 4.532237 -0.704483
+1.700773 5.093436 -0.704483
+1.659768 4.759005 -0.803475
+1.754558 4.759255 -0.842699
+1.809385 4.760853 -0.849659
+1.860315 4.762004 -0.828321
+1.893857 4.762422 -0.784461
+1.901153 4.762004 -0.729730
+1.880228 4.760853 -0.678628
+1.836538 4.759255 -0.644782
+1.741776 4.759005 -0.605491
+1.844999 4.867799 -0.716259
+1.848914 4.838881 -0.738153
+1.843179 4.828295 -0.763470
+1.829332 4.838881 -0.785427
+1.811083 4.867799 -0.798139
+1.793321 4.907303 -0.798203
+1.780806 4.946807 -0.785598
+1.776891 4.975726 -0.763705
+1.782625 4.986311 -0.738388
+1.796473 4.975726 -0.716431
+1.814722 4.946807 -0.703718
+1.832484 4.907303 -0.703655
+1.872236 4.875837 -0.727541
+1.876151 4.846919 -0.749435
+1.870417 4.836333 -0.774752
+1.856570 4.846919 -0.796709
+1.838321 4.875837 -0.809422
+1.820558 4.915341 -0.809485
+1.808044 4.954845 -0.796880
+1.804129 4.983764 -0.774987
+1.809863 4.994349 -0.749670
+1.823710 4.983764 -0.727713
+1.841959 4.954845 -0.715000
+1.859722 4.915341 -0.714937
+1.840140 4.915341 -0.762211
+0.358730 3.219805 -1.987044
+0.323689 3.219805 -2.032709
+0.270511 3.219805 -2.054736
+0.213444 3.219805 -2.047223
+0.167779 3.219805 -2.012183
+0.145751 3.219805 -1.959005
+0.366243 3.219805 -1.929977
+0.358730 4.540803 -1.987044
+0.323689 4.540803 -2.032709
+0.270511 4.540803 -2.054736
+0.213444 4.540803 -2.047223
+0.167779 4.540803 -2.012183
+0.145751 4.540803 -1.959005
+0.366243 4.540803 -1.929977
+0.255997 3.219805 -1.944491
+0.131508 3.219805 -1.850814
+0.131508 4.540803 -1.850814
+0.351999 3.219805 -1.821786
+0.351999 4.540803 -1.821786
+0.241753 3.219805 -1.836300
+0.377173 4.532237 -1.994509
+0.335834 4.532237 -2.048383
+0.273096 4.532237 -2.074371
+0.205770 4.532237 -2.065506
+0.151895 4.532237 -2.024168
+0.125908 4.532237 -1.961429
+0.386037 4.532237 -1.927183
+0.306514 4.999726 -1.907449
+0.285838 4.999726 -1.928228
+0.255257 4.999726 -1.938864
+0.222965 4.999726 -1.936505
+0.197615 4.999726 -1.921785
+0.185999 4.999726 -1.898648
+0.311746 4.999726 -1.882093
+0.255972 4.532237 -1.944306
+0.110222 4.532237 -1.842277
+0.177413 4.999726 -1.833431
+0.370350 4.532237 -1.808030
+0.303160 4.999726 -1.816876
+0.240286 4.532237 -1.825153
+0.240286 5.093436 -1.825154
+0.134054 4.759005 -1.839139
+0.147480 4.759255 -1.940842
+0.168866 4.760853 -1.991803
+0.212811 4.762004 -2.025241
+0.267565 4.762422 -2.032359
+0.318612 4.762004 -2.011312
+0.352405 4.760853 -1.967640
+0.359872 4.759255 -1.912880
+0.346518 4.759005 -1.811168
+0.302201 4.867799 -1.955945
+0.285198 4.838881 -1.970283
+0.260405 4.828295 -1.977975
+0.234467 4.838881 -1.976961
+0.214332 4.867799 -1.967514
+0.205396 4.907303 -1.952163
+0.210055 4.946807 -1.935022
+0.227058 4.975726 -1.920685
+0.251850 4.986311 -1.912993
+0.277789 4.975726 -1.914006
+0.297923 4.946807 -1.923454
+0.306859 4.907303 -1.938805
+0.306049 4.875837 -1.985175
+0.289046 4.846919 -1.999512
+0.264253 4.836333 -2.007205
+0.238315 4.846919 -2.006191
+0.218181 4.875837 -1.996743
+0.209245 4.915341 -1.981392
+0.213903 4.954845 -1.964252
+0.230906 4.983764 -1.949915
+0.255698 4.994349 -1.942222
+0.281637 4.983764 -1.943236
+0.301771 4.954845 -1.952684
+0.310707 4.915341 -1.968035
+0.259976 4.915341 -1.974714
+1.710234 5.799494 -0.458256
+1.533354 5.799494 -0.885282
+1.251978 5.799494 -1.251978
+0.885282 5.799494 -1.533354
+0.458256 5.799494 -1.710234
+0.000000 5.799494 -1.770565
+-0.458256 5.799494 -1.710234
+-0.885282 5.799494 -1.533354
+-1.251978 5.799494 -1.251979
+-1.533354 5.799494 -0.885282
+-1.710234 5.799494 -0.458256
+-1.770565 5.799494 -0.000000
+-1.710234 5.799494 0.458256
+-1.533354 5.799494 0.885282
+-1.251979 5.799494 1.251979
+-0.885283 5.799494 1.533354
+-0.458256 5.799494 1.710235
+-0.000000 5.799494 1.770565
+0.458256 5.799494 1.710235
+0.885283 5.799494 1.533355
+1.251979 5.799494 1.251979
+1.533355 5.799494 0.885283
+1.710235 5.799494 0.458256
+1.770566 5.799494 0.000000
+-0.458256 3.158926 1.710235
+-0.458256 4.623307 1.710235
+-0.885283 4.623307 1.533354
+-1.251979 4.623307 1.251979
+-1.533354 4.623307 0.885282
+-1.533354 3.158926 0.885282
+-1.710234 3.158926 0.458256
+-1.770565 3.158926 -0.000000
+-1.710234 3.158926 -0.458256
+-1.533354 3.158926 -0.885282
+-1.251978 3.158926 -1.251979
+-0.885282 3.158926 -1.533354
+-0.458256 3.158926 -1.710234
+0.000000 3.158926 -1.770565
+0.458256 3.158926 -1.710234
+0.458256 4.623307 -1.710234
+0.885282 4.623307 -1.533354
+1.251978 4.623307 -1.251978
+1.533354 4.623307 -0.885282
+1.533354 3.158926 -0.885282
+1.710234 3.158926 -0.458256
+1.770566 3.158926 0.000000
+1.710235 3.158926 0.458256
+1.533355 3.158926 0.885283
+1.251979 3.158926 1.251979
+0.885283 3.158926 1.533355
+0.458256 3.158926 1.710235
+-0.000000 3.158926 1.770565
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface58-POSITION-array" count="492" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface58-Normal0">
+          <float_array id="polySurface58-Normal0-array" count="7020">
+0.965926 0.000000 -0.258820
+0.866025 0.000001 -0.500000
+0.915680 0.000000 -0.401908
+0.866025 0.000001 -0.500000
+0.965926 0.000000 -0.258820
+0.965925 0.000001 -0.258820
+0.707107 0.000001 -0.707107
+0.915680 0.000000 -0.401908
+0.866025 0.000001 -0.500000
+0.866025 0.000001 -0.500000
+0.707107 0.000001 -0.707107
+0.707107 0.000001 -0.707107
+0.500001 0.000001 -0.866025
+0.707107 0.000001 -0.707107
+0.707107 0.000001 -0.707107
+0.707107 0.000001 -0.707107
+0.500001 0.000001 -0.866025
+0.500001 0.000001 -0.866025
+0.258820 0.000001 -0.965926
+0.500001 0.000001 -0.866025
+0.500001 0.000001 -0.866025
+0.500001 0.000001 -0.866025
+0.258820 0.000001 -0.965926
+0.151219 0.000000 -0.988500
+0.000000 0.000001 -1.000000
+0.151219 0.000000 -0.988500
+0.258820 0.000001 -0.965926
+0.151219 0.000000 -0.988500
+0.000000 0.000001 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000001 -1.000000
+-0.258819 0.000001 -0.965926
+-0.258819 0.000000 -0.965926
+0.000000 0.000001 -1.000000
+-0.258819 0.000000 -0.965926
+0.000000 0.000000 -1.000000
+-0.258819 0.000001 -0.965926
+-0.500000 0.000000 -0.866026
+-0.500000 0.000000 -0.866026
+-0.258819 0.000001 -0.965926
+-0.500000 0.000000 -0.866026
+-0.258819 0.000000 -0.965926
+-0.500000 0.000000 -0.866026
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.500000 0.000000 -0.866026
+-0.707107 0.000000 -0.707107
+-0.500000 0.000000 -0.866026
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.965926 -0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.965926 0.000001 -0.258819
+-0.866025 0.000000 -0.500000
+-0.965926 -0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-1.000000 0.000000 -0.000000
+-0.965926 0.000001 -0.258819
+-1.000000 0.000001 -0.000000
+-0.965926 0.000001 -0.258819
+-1.000000 0.000000 -0.000000
+-0.965926 -0.000000 -0.258819
+-0.965926 0.000000 0.258819
+-1.000000 0.000001 -0.000000
+-0.965926 0.000001 0.258819
+-1.000000 0.000001 -0.000000
+-0.965926 0.000000 0.258819
+-1.000000 0.000000 -0.000000
+-0.915680 0.000000 0.401908
+-0.965926 0.000001 0.258819
+-0.866025 0.000000 0.500000
+-0.965926 0.000001 0.258819
+-0.915680 0.000000 0.401908
+-0.965926 0.000000 0.258819
+-0.707107 0.000000 0.707107
+-0.866025 0.000000 0.500000
+-0.707107 0.000000 0.707107
+-0.866025 0.000000 0.500000
+-0.707107 0.000000 0.707107
+-0.915680 0.000000 0.401908
+-0.500000 0.000000 0.866025
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.500000 0.000000 0.866025
+-0.707107 0.000000 0.707107
+-0.500000 0.000000 0.866025
+-0.151218 0.000000 0.988500
+-0.500000 0.000000 0.866025
+-0.500000 0.000000 0.866025
+-0.151218 0.000000 0.988500
+-0.500000 0.000000 0.866025
+-0.258819 0.000000 0.965926
+-0.000000 0.000000 1.000000
+-0.151218 0.000000 0.988500
+-0.258819 0.000000 0.965926
+-0.000000 0.000000 1.000000
+-0.258819 0.000000 0.965926
+-0.000000 0.000000 1.000000
+0.258819 0.000000 0.965926
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.258819 0.000000 0.965926
+-0.000000 0.000000 1.000000
+0.258819 0.000000 0.965926
+0.500000 0.000000 0.866026
+0.258819 0.000000 0.965926
+0.258819 0.000000 0.965926
+0.500000 0.000000 0.866026
+0.258819 0.000000 0.965926
+0.500000 0.000000 0.866025
+0.707107 0.000000 0.707107
+0.500000 0.000000 0.866026
+0.500000 0.000000 0.866025
+0.707107 0.000000 0.707107
+0.500000 0.000000 0.866025
+0.707107 0.000000 0.707107
+0.866025 0.000000 0.500000
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.965926 0.000000 0.258819
+0.965926 0.000000 0.258819
+0.965926 0.000000 0.258819
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.965926 0.000000 0.258819
+1.000000 0.000000 -0.000001
+1.000000 0.000000 -0.000001
+1.000000 0.000000 -0.000001
+0.965926 0.000000 0.258819
+0.965926 0.000000 0.258819
+0.965926 0.000000 -0.258820
+1.000000 0.000000 -0.000001
+1.000000 0.000000 -0.000001
+1.000000 0.000000 -0.000001
+0.965925 0.000001 -0.258820
+0.965926 0.000000 -0.258820
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 0.000003
+0.000000 -1.000000 0.000003
+0.000000 -1.000000 0.000003
+0.000000 -1.000000 0.000003
+0.000000 -1.000000 0.000003
+0.000000 -1.000000 0.000003
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 0.000003
+0.000000 1.000000 0.000003
+0.000000 1.000000 0.000003
+0.000000 1.000000 0.000003
+0.000000 1.000000 0.000003
+0.000000 1.000000 0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 0.000003
+0.000000 1.000000 0.000003
+0.000000 1.000000 0.000003
+0.000000 1.000000 0.000003
+0.000000 1.000000 0.000003
+0.000000 1.000000 0.000003
+0.000000 1.000000 0.000006
+0.000000 1.000000 0.000006
+0.000000 1.000000 0.000006
+0.000000 1.000000 0.000006
+0.000000 1.000000 0.000006
+0.000000 1.000000 0.000006
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000003
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000002
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.258819 0.000000 -0.965926
+0.500000 0.000000 -0.866026
+0.500000 0.000000 -0.866026
+0.258819 0.000000 -0.965926
+0.500000 0.000000 -0.866026
+0.258819 0.000000 -0.965926
+0.500000 0.000000 -0.866026
+0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+0.500000 0.000000 -0.866026
+0.707107 0.000000 -0.707107
+0.500000 0.000000 -0.866026
+0.866026 0.000000 -0.499999
+0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+0.866026 0.000000 -0.499999
+0.866026 0.000000 -0.499999
+0.965926 0.000000 -0.258818
+0.866026 0.000000 -0.499999
+0.866026 0.000000 -0.499999
+0.866026 0.000000 -0.499999
+0.965926 0.000000 -0.258818
+0.965926 0.000000 -0.258818
+1.000000 0.000000 0.000000
+0.965926 0.000000 -0.258818
+0.965926 0.000000 -0.258818
+0.965926 0.000000 -0.258818
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.965926 0.000000 0.258819
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.965926 0.000000 0.258819
+0.965926 0.000000 0.258819
+0.866025 0.000000 0.500000
+0.965926 0.000000 0.258819
+0.965926 0.000000 0.258819
+0.965926 0.000000 0.258819
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.707107 0.000000 0.707107
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.500000 0.000000 0.866026
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.500000 0.000000 0.866026
+0.707107 0.000000 0.707107
+0.500000 0.000000 0.866026
+0.258819 0.000000 0.965926
+0.500000 0.000000 0.866026
+0.500000 0.000000 0.866026
+0.258819 0.000000 0.965926
+0.500000 0.000000 0.866026
+0.258819 0.000000 0.965926
+-0.000000 0.000000 1.000000
+0.258819 0.000000 0.965926
+0.258819 0.000000 0.965926
+-0.000000 0.000000 1.000000
+0.258819 0.000000 0.965926
+-0.000000 0.000000 1.000000
+-0.258820 -0.000000 0.965926
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.258820 -0.000000 0.965926
+-0.000000 0.000000 1.000000
+-0.258820 -0.000000 0.965926
+-0.500001 -0.000001 0.866025
+-0.258820 -0.000000 0.965926
+-0.258820 -0.000000 0.965926
+-0.500001 -0.000001 0.866025
+-0.258820 -0.000000 0.965926
+-0.500001 -0.000001 0.866025
+-0.707107 -0.000000 0.707107
+-0.500001 -0.000001 0.866025
+-0.500001 -0.000001 0.866025
+-0.707107 -0.000000 0.707107
+-0.500001 -0.000001 0.866025
+-0.707107 -0.000000 0.707107
+-0.866025 0.000000 0.500000
+-0.707107 -0.000000 0.707107
+-0.866025 0.000000 0.500000
+-0.707107 -0.000000 0.707107
+-0.866025 0.000000 0.500000
+-0.707107 -0.000000 0.707107
+-0.965925 0.000000 0.258820
+-0.866025 0.000000 0.500000
+-0.965925 0.000000 0.258820
+-0.866025 0.000000 0.500000
+-0.965925 0.000000 0.258820
+-0.866025 0.000000 0.500000
+-1.000000 0.000000 0.000001
+-0.965925 0.000000 0.258820
+-1.000000 0.000000 0.000001
+-0.965925 0.000000 0.258820
+-1.000000 0.000000 0.000001
+-0.965925 0.000000 0.258820
+-0.965926 0.000000 -0.258819
+-1.000000 0.000000 0.000001
+-0.965926 0.000000 -0.258819
+-1.000000 0.000000 0.000001
+-0.965926 0.000000 -0.258819
+-1.000000 0.000000 0.000001
+-0.866025 0.000000 -0.500000
+-0.965926 0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.965926 0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.965926 0.000000 -0.258819
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.500000 -0.000001 -0.866025
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.500000 -0.000001 -0.866025
+-0.500000 -0.000001 -0.866025
+-0.258819 -0.000001 -0.965926
+-0.500000 -0.000001 -0.866025
+-0.500000 -0.000001 -0.866025
+-0.500000 -0.000001 -0.866025
+-0.258819 -0.000001 -0.965926
+-0.258819 -0.000001 -0.965926
+0.000000 -0.000000 -1.000000
+-0.258819 -0.000001 -0.965926
+0.000000 -0.000000 -1.000000
+-0.258819 -0.000001 -0.965926
+0.000000 -0.000000 -1.000000
+-0.258819 -0.000001 -0.965926
+0.000000 -0.000000 -1.000000
+0.258819 0.000000 -0.965926
+0.258819 0.000000 -0.965926
+0.000000 -0.000000 -1.000000
+0.258819 0.000000 -0.965926
+0.000000 -0.000000 -1.000000
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.500000 0.000000 0.866025
+-0.500000 0.000000 0.866025
+-0.707107 0.000000 0.707107
+-0.500000 0.000000 0.866025
+-0.707107 0.000000 0.707107
+-0.885894 0.000000 0.463887
+-0.707107 0.000000 0.707107
+-0.885894 0.000000 0.463887
+-0.707107 0.000000 0.707107
+-0.866026 0.000000 0.500000
+-0.866026 0.000000 0.500000
+-0.965926 -0.000000 0.258819
+-0.885894 0.000000 0.463887
+-0.965926 -0.000000 0.258819
+-0.866026 0.000000 0.500000
+-0.965926 0.000000 0.258819
+-0.965926 0.000000 0.258819
+-1.000000 -0.000000 -0.000000
+-0.965926 -0.000000 0.258819
+-1.000000 -0.000000 -0.000000
+-0.965926 0.000000 0.258819
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-0.965926 -0.000000 -0.258819
+-1.000000 -0.000000 -0.000000
+-0.965926 -0.000000 -0.258819
+-1.000000 0.000000 -0.000000
+-0.965926 0.000000 -0.258819
+-0.965926 0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.965926 -0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.965926 0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.500000 -0.000000 -0.866026
+-0.707107 0.000000 -0.707107
+-0.500000 -0.000000 -0.866026
+-0.707107 0.000000 -0.707107
+-0.500000 0.000000 -0.866026
+-0.500000 -0.000000 -0.866026
+-0.500000 0.000000 -0.866026
+-0.258819 -0.000000 -0.965926
+-0.258819 -0.000000 -0.965926
+-0.500000 0.000000 -0.866026
+-0.258819 0.000000 -0.965926
+-0.258819 0.000000 -0.965926
+0.000000 -0.000000 -1.000000
+-0.258819 -0.000000 -0.965926
+0.000000 -0.000000 -1.000000
+-0.258819 0.000000 -0.965926
+0.000000 0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.218795 -0.000000 -0.975771
+0.218795 -0.000000 -0.975771
+0.000000 0.000000 -1.000000
+0.258819 0.000000 -0.965926
+0.218795 -0.000000 -0.975771
+0.258819 0.000000 -0.965926
+0.500000 0.000000 -0.866025
+0.500000 0.000000 -0.866025
+0.258819 0.000000 -0.965926
+0.500000 0.000000 -0.866025
+0.500000 0.000000 -0.866025
+0.500000 0.000000 -0.866025
+0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+0.500000 0.000000 -0.866025
+0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+0.885894 -0.000000 -0.463887
+0.866025 -0.000000 -0.500000
+0.885894 -0.000000 -0.463887
+0.707107 0.000000 -0.707107
+0.885894 -0.000000 -0.463887
+0.866025 -0.000000 -0.500000
+0.965926 -0.000000 -0.258820
+0.965926 -0.000000 -0.258820
+0.965926 -0.000000 -0.258820
+0.866025 -0.000000 -0.500000
+0.965926 -0.000000 -0.258820
+0.965926 -0.000000 -0.258820
+1.000000 -0.000000 -0.000001
+1.000000 0.000000 -0.000001
+1.000000 -0.000000 -0.000001
+0.965926 -0.000000 -0.258820
+1.000000 -0.000000 -0.000001
+1.000000 0.000000 -0.000001
+0.965926 -0.000000 0.258819
+0.965926 0.000000 0.258819
+0.965926 -0.000000 0.258819
+1.000000 0.000000 -0.000001
+0.965926 -0.000000 0.258819
+0.965926 0.000000 0.258819
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.965926 0.000000 0.258819
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.866025 0.000000 0.500000
+0.500000 0.000000 0.866026
+0.500000 0.000000 0.866025
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.500000 0.000000 0.866025
+0.707107 0.000000 0.707107
+0.258819 0.000000 0.965926
+0.258819 0.000000 0.965926
+0.500000 0.000000 0.866026
+0.500000 0.000000 0.866026
+0.258819 0.000000 0.965926
+0.500000 0.000000 0.866025
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.258819 0.000000 0.965926
+0.258819 0.000000 0.965926
+-0.000000 0.000000 1.000000
+0.258819 0.000000 0.965926
+-0.258819 0.000000 0.965926
+-0.218794 0.000000 0.975771
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.218794 0.000000 0.975771
+-0.000000 0.000000 1.000000
+-0.500000 0.000000 0.866025
+-0.500000 0.000000 0.866025
+-0.258819 0.000000 0.965926
+-0.258819 0.000000 0.965926
+-0.500000 0.000000 0.866025
+-0.218794 0.000000 0.975771
+-0.608762 -0.000000 0.793353
+-0.608761 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608761 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608761 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.608762 -0.000000 0.793353
+-0.915680 0.000000 0.401908
+-0.965926 -0.000000 0.258819
+-0.965926 0.000000 0.258819
+-0.965926 -0.000000 0.258819
+-0.915680 0.000000 0.401908
+-0.885894 0.000000 0.463887
+-0.965926 -0.000000 0.258819
+-1.000000 0.000000 -0.000000
+-0.965926 0.000000 0.258819
+-1.000000 0.000000 -0.000000
+-0.965926 -0.000000 0.258819
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-0.965926 -0.000000 -0.258819
+-1.000000 0.000000 -0.000000
+-0.965926 -0.000000 -0.258819
+-1.000000 -0.000000 -0.000000
+-0.965926 -0.000000 -0.258819
+-0.965926 -0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.965926 -0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.965926 -0.000000 -0.258819
+-0.866025 0.000000 -0.500000
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.866025 0.000000 -0.500000
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.500000 -0.000000 -0.866026
+-0.500000 0.000000 -0.866026
+-0.500000 -0.000000 -0.866026
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.500000 0.000000 -0.866026
+-0.258819 -0.000000 -0.965926
+-0.258819 0.000000 -0.965926
+-0.258819 -0.000000 -0.965926
+-0.500000 0.000000 -0.866026
+-0.500000 -0.000000 -0.866026
+-0.258819 0.000000 -0.965926
+-0.258819 -0.000000 -0.965926
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.258819 -0.000000 -0.965926
+0.000000 -0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.151219 0.000000 -0.988500
+0.151219 0.000000 -0.988500
+0.000000 -0.000000 -1.000000
+0.218795 -0.000000 -0.975771
+0.608760 -0.000000 -0.793354
+0.608760 -0.000000 -0.793354
+0.608761 -0.000000 -0.793354
+0.608761 -0.000000 -0.793354
+0.608760 -0.000000 -0.793354
+0.608761 -0.000000 -0.793354
+0.608761 -0.000000 -0.793354
+0.608761 -0.000000 -0.793354
+0.608762 -0.000000 -0.793353
+0.608762 -0.000000 -0.793353
+0.608761 -0.000000 -0.793354
+0.608762 -0.000000 -0.793353
+0.608762 -0.000000 -0.793353
+0.608762 -0.000000 -0.793353
+0.608763 -0.000000 -0.793352
+0.608763 -0.000000 -0.793352
+0.608762 -0.000000 -0.793353
+0.608763 -0.000000 -0.793352
+0.915680 0.000000 -0.401908
+0.885894 -0.000000 -0.463887
+0.965926 0.000000 -0.258820
+0.965926 -0.000000 -0.258820
+0.965926 0.000000 -0.258820
+0.885894 -0.000000 -0.463887
+0.965926 0.000000 -0.258820
+0.965926 -0.000000 -0.258820
+1.000000 0.000000 -0.000001
+1.000000 -0.000000 -0.000001
+1.000000 0.000000 -0.000001
+0.965926 -0.000000 -0.258820
+1.000000 0.000000 -0.000001
+1.000000 -0.000000 -0.000001
+0.965926 0.000000 0.258819
+0.965926 -0.000000 0.258819
+0.965926 0.000000 0.258819
+1.000000 -0.000000 -0.000001
+0.965926 0.000000 0.258819
+0.965926 -0.000000 0.258819
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.965926 -0.000000 0.258819
+0.866025 0.000000 0.500000
+0.866025 0.000000 0.500000
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.866025 0.000000 0.500000
+0.500000 0.000000 0.866025
+0.500000 0.000000 0.866026
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.500000 0.000000 0.866026
+0.707107 0.000000 0.707107
+0.258819 0.000000 0.965926
+0.258819 0.000000 0.965926
+0.500000 0.000000 0.866025
+0.500000 0.000000 0.866025
+0.258819 0.000000 0.965926
+0.500000 0.000000 0.866026
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.258819 0.000000 0.965926
+0.258819 0.000000 0.965926
+-0.000000 0.000000 1.000000
+0.258819 0.000000 0.965926
+-0.218794 0.000000 0.975771
+-0.151218 0.000000 0.988500
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.151218 0.000000 0.988500
+-0.000000 0.000000 1.000000
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000002
+0.587955 0.000000 -0.808894
+0.629157 0.000000 -0.777278
+0.629157 0.000000 -0.777278
+0.629157 0.000000 -0.777278
+0.587955 0.000000 -0.808894
+0.587955 0.000000 -0.808894
+-0.629157 0.000000 0.777278
+-0.587955 0.000000 0.808894
+-0.587955 0.000000 0.808894
+-0.587955 0.000000 0.808894
+-0.629157 0.000000 0.777278
+-0.629157 0.000000 0.777278
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 1.000000 -0.000002
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+-0.587955 0.000000 0.808894
+-0.566028 0.000000 0.824386
+-0.566028 0.000000 0.824386
+-0.566028 0.000000 0.824386
+-0.587955 0.000000 0.808894
+-0.587955 0.000000 0.808894
+-0.629157 0.000000 0.777278
+-0.629157 0.000000 0.777278
+-0.649797 0.000000 0.760108
+-0.649797 0.000000 0.760108
+-0.649797 0.000000 0.760108
+-0.629157 0.000000 0.777278
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 0.000004
+0.000000 -1.000000 0.000004
+0.000000 -1.000000 0.000004
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.587955 0.000000 -0.808894
+0.587955 0.000000 -0.808894
+0.566028 0.000000 -0.824386
+0.566028 0.000000 -0.824386
+0.566028 0.000000 -0.824386
+0.587955 0.000000 -0.808894
+0.629157 0.000000 -0.777278
+0.649797 0.000000 -0.760108
+0.649797 0.000000 -0.760108
+0.649797 0.000000 -0.760108
+0.629157 0.000000 -0.777278
+0.629157 0.000000 -0.777278
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 1.000000 0.000004
+0.000000 1.000000 0.000004
+0.000000 1.000000 0.000004
+0.000000 1.000000 0.000004
+0.000000 1.000000 0.000004
+0.000000 1.000000 0.000004
+-0.608760 0.000000 0.793354
+-0.923879 0.000000 0.382684
+-0.608760 0.000000 0.793354
+-0.923879 0.000000 0.382684
+-0.608760 0.000000 0.793354
+-0.923879 0.000000 0.382684
+-0.608760 0.000000 0.793354
+-0.608760 0.000000 0.793354
+-0.130528 0.000000 0.991445
+-0.130528 0.000000 0.991445
+-0.608760 0.000000 0.793354
+-0.130528 0.000000 0.991445
+-0.130528 0.000000 0.991445
+-0.130528 0.000000 0.991445
+0.382682 0.000000 0.923880
+0.382682 0.000000 0.923880
+-0.130528 0.000000 0.991445
+0.382682 0.000000 0.923880
+0.382682 0.000000 0.923880
+0.382682 0.000000 0.923880
+0.793353 0.000000 0.608761
+0.793353 0.000000 0.608761
+0.382682 0.000000 0.923880
+0.793353 0.000000 0.608761
+0.975658 0.000000 0.219297
+0.975658 0.000000 0.219297
+0.793353 0.000000 0.608761
+0.793353 0.000000 0.608761
+0.793353 0.000000 0.608761
+0.975658 0.000000 0.219297
+-0.923879 0.000000 0.382684
+-0.999172 -0.000000 -0.040694
+-0.923879 0.000000 0.382684
+-0.999172 -0.000000 -0.040694
+-0.923879 0.000000 0.382684
+-0.999172 -0.000000 -0.040694
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.991445 0.000000 0.130526
+0.975658 0.000000 0.219297
+0.975658 0.000000 0.219297
+0.975658 0.000000 0.219297
+0.991445 0.000000 0.130526
+0.991445 0.000000 0.130526
+-0.999172 -0.000000 -0.040694
+-0.999172 -0.000000 -0.040694
+-0.991445 -0.000000 -0.130527
+-0.999172 -0.000000 -0.040694
+-0.991445 -0.000000 -0.130527
+-0.991445 -0.000000 -0.130527
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+-0.576579 0.242590 0.780197
+-0.909476 0.144341 0.389897
+-0.594198 0.171301 0.785866
+-0.909476 0.144341 0.389897
+-0.576579 0.242590 0.780197
+-0.897895 0.197163 0.393589
+-0.576579 0.242590 0.780197
+-0.128368 0.181009 0.975068
+-0.126067 0.259122 0.957582
+-0.128368 0.181009 0.975068
+-0.576579 0.242590 0.780197
+-0.594198 0.171301 0.785866
+-0.126067 0.259122 0.957582
+-0.128368 0.181009 0.975068
+0.355004 0.242592 0.902841
+0.355004 0.242592 0.902841
+-0.128368 0.181009 0.975068
+0.370556 0.171303 0.912876
+0.355004 0.242592 0.902841
+0.370556 0.171303 0.912876
+0.765431 0.197166 0.612569
+0.370556 0.171303 0.912876
+0.777574 0.144344 0.612000
+0.765431 0.197166 0.612569
+0.967649 0.112470 0.225845
+0.765431 0.197166 0.612569
+0.777574 0.144344 0.612000
+0.765431 0.197166 0.612569
+0.967649 0.112470 0.225845
+0.964188 0.146432 0.221130
+-0.897895 0.197163 0.393589
+-0.993131 0.112467 -0.032295
+-0.909476 0.144341 0.389897
+-0.993131 0.112467 -0.032295
+-0.897895 0.197163 0.393589
+-0.988568 0.146429 -0.035955
+0.000000 -1.000000 -0.000003
+0.000000 -1.000000 -0.000003
+-0.000002 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000003
+-0.000002 -1.000000 -0.000001
+-0.000003 -1.000000 -0.000002
+0.000000 -1.000000 -0.000001
+-0.000002 -1.000000 -0.000001
+-0.000005 -1.000000 0.000000
+-0.000003 -1.000000 -0.000002
+-0.000002 -1.000000 -0.000001
+-0.000003 -1.000000 0.000000
+-0.000005 -1.000000 0.000000
+-0.000002 -1.000000 -0.000001
+0.000000 -1.000000 -0.000003
+0.000000 -1.000000 0.000000
+-0.000002 -1.000000 -0.000001
+0.964188 0.146432 0.221130
+0.967649 0.112470 0.225845
+0.985913 0.105436 0.129841
+0.964188 0.146432 0.221130
+0.985913 0.105436 0.129841
+0.981919 0.138290 0.129272
+-0.988568 0.146429 -0.035955
+-0.985925 0.105433 -0.129755
+-0.993131 0.112467 -0.032295
+-0.985925 0.105433 -0.129755
+-0.988568 0.146429 -0.035955
+-0.981919 0.138287 -0.129272
+-0.000004 -1.000000 0.000000
+-0.000004 -1.000000 0.000000
+-0.000004 -1.000000 0.000000
+-0.000004 -1.000000 0.000000
+-0.000004 -1.000000 0.000000
+-0.000004 -1.000000 0.000000
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+-0.857877 0.336210 0.388601
+-0.528241 0.411110 0.742933
+-0.038493 0.955527 0.292379
+-0.528241 0.411110 0.742933
+-0.117421 0.436704 0.891909
+-0.038493 0.955527 0.292379
+-0.117421 0.436704 0.891909
+0.317957 0.411111 0.854336
+-0.038493 0.955527 0.292379
+0.317957 0.411111 0.854336
+0.728066 0.336212 0.597396
+-0.038493 0.955527 0.292379
+0.728066 0.336212 0.597396
+0.946271 0.244936 0.211134
+-0.038493 0.955527 0.292379
+-0.968674 0.244933 -0.040974
+-0.857877 0.336210 0.388601
+-0.038493 0.955527 0.292379
+0.946271 0.244936 0.211134
+0.962510 0.239854 0.126671
+-0.038493 0.955527 0.292379
+-0.962498 0.239851 -0.126762
+-0.968674 0.244933 -0.040974
+-0.038493 0.955527 0.292379
+0.946271 0.244936 0.211134
+0.964188 0.146432 0.221130
+0.981919 0.138290 0.129272
+0.946271 0.244936 0.211134
+0.981919 0.138290 0.129272
+0.962510 0.239854 0.126671
+0.964188 0.146432 0.221130
+0.728066 0.336212 0.597396
+0.765431 0.197166 0.612569
+0.728066 0.336212 0.597396
+0.964188 0.146432 0.221130
+0.946271 0.244936 0.211134
+0.317957 0.411111 0.854336
+0.355004 0.242592 0.902841
+0.728066 0.336212 0.597396
+0.355004 0.242592 0.902841
+0.765431 0.197166 0.612569
+0.728066 0.336212 0.597396
+-0.117421 0.436704 0.891909
+0.355004 0.242592 0.902841
+0.317957 0.411111 0.854336
+0.355004 0.242592 0.902841
+-0.117421 0.436704 0.891909
+-0.126067 0.259122 0.957582
+-0.528241 0.411110 0.742933
+-0.126067 0.259122 0.957582
+-0.117421 0.436704 0.891909
+-0.126067 0.259122 0.957582
+-0.528241 0.411110 0.742933
+-0.576579 0.242590 0.780197
+-0.528241 0.411110 0.742933
+-0.897895 0.197163 0.393589
+-0.576579 0.242590 0.780197
+-0.857877 0.336210 0.388601
+-0.897895 0.197163 0.393589
+-0.528241 0.411110 0.742933
+-0.857877 0.336210 0.388601
+-0.988568 0.146429 -0.035955
+-0.897895 0.197163 0.393589
+-0.968674 0.244933 -0.040974
+-0.988568 0.146429 -0.035955
+-0.857877 0.336210 0.388601
+-0.968674 0.244933 -0.040974
+-0.981919 0.138287 -0.129272
+-0.988568 0.146429 -0.035955
+-0.981919 0.138287 -0.129272
+-0.968674 0.244933 -0.040974
+-0.962498 0.239851 -0.126762
+-0.943243 -0.330428 -0.033317
+-0.721010 -0.686536 0.093872
+-0.699089 -0.707641 0.102563
+-0.721010 -0.686536 0.093872
+-0.943243 -0.330428 -0.033317
+-0.951663 -0.304312 -0.041607
+-0.699089 -0.707641 0.102563
+-0.034331 -0.964782 0.260802
+-0.034331 -0.964782 0.260802
+-0.034331 -0.964782 0.260802
+-0.699089 -0.707641 0.102563
+-0.721010 -0.686536 0.093872
+0.648724 -0.707639 0.280007
+-0.034331 -0.964782 0.260802
+-0.034331 -0.964782 0.260802
+0.648724 -0.707639 0.280007
+-0.034331 -0.964782 0.260802
+0.672147 -0.686535 0.277286
+0.672147 -0.686535 0.277286
+0.919726 -0.330427 0.211948
+0.648724 -0.707639 0.280007
+0.919726 -0.330427 0.211948
+0.672147 -0.686535 0.277286
+0.930005 -0.304311 0.206119
+0.930005 -0.304311 0.206119
+0.990920 -0.012446 0.133878
+0.919726 -0.330427 0.211948
+0.990920 -0.012446 0.133878
+0.930005 -0.304311 0.206119
+0.991805 0.012447 0.127149
+0.991805 0.012447 0.127149
+0.951664 0.304312 0.041599
+0.990920 -0.012446 0.133878
+0.951664 0.304312 0.041599
+0.991805 0.012447 0.127149
+0.943243 0.330428 0.033308
+0.721011 0.686536 -0.093868
+0.943243 0.330428 0.033308
+0.699090 0.707641 -0.102555
+0.943243 0.330428 0.033308
+0.721011 0.686536 -0.093868
+0.951664 0.304312 0.041599
+0.034332 0.964787 -0.260784
+0.721011 0.686536 -0.093868
+0.699090 0.707641 -0.102555
+0.034332 0.964787 -0.260784
+0.699090 0.707641 -0.102555
+0.034332 0.964787 -0.260784
+0.034332 0.964787 -0.260784
+-0.648723 0.707639 -0.280010
+-0.672146 0.686535 -0.277290
+-0.648723 0.707639 -0.280010
+0.034332 0.964787 -0.260784
+0.034332 0.964787 -0.260784
+-0.672146 0.686535 -0.277290
+-0.919724 0.330429 -0.211955
+-0.930003 0.304312 -0.206126
+-0.919724 0.330429 -0.211955
+-0.672146 0.686535 -0.277290
+-0.648723 0.707639 -0.280010
+-0.930003 0.304312 -0.206126
+-0.990919 0.012447 -0.133882
+-0.991805 -0.012446 -0.127153
+-0.990919 0.012447 -0.133882
+-0.930003 0.304312 -0.206126
+-0.919724 0.330429 -0.211955
+-0.991805 -0.012446 -0.127153
+-0.951663 -0.304312 -0.041607
+-0.943243 -0.330428 -0.033317
+-0.951663 -0.304312 -0.041607
+-0.991805 -0.012446 -0.127153
+-0.990919 0.012447 -0.133882
+-0.120570 0.383135 0.915790
+-0.120567 0.383137 0.915789
+-0.120568 0.383135 0.915790
+-0.120567 0.383137 0.915789
+-0.120564 0.383137 0.915789
+-0.120568 0.383135 0.915790
+-0.120564 0.383137 0.915789
+-0.120565 0.383136 0.915790
+-0.120568 0.383135 0.915790
+-0.120565 0.383136 0.915790
+-0.120568 0.383134 0.915790
+-0.120568 0.383135 0.915790
+-0.120568 0.383134 0.915790
+-0.120567 0.383133 0.915791
+-0.120568 0.383135 0.915790
+-0.120567 0.383133 0.915791
+-0.120571 0.383138 0.915788
+-0.120568 0.383135 0.915790
+-0.120571 0.383138 0.915788
+-0.120568 0.383138 0.915788
+-0.120568 0.383135 0.915790
+-0.120568 0.383138 0.915788
+-0.120557 0.383136 0.915791
+-0.120568 0.383135 0.915790
+-0.120557 0.383136 0.915791
+-0.120561 0.383136 0.915790
+-0.120568 0.383135 0.915790
+-0.120561 0.383136 0.915790
+-0.120577 0.383136 0.915788
+-0.120568 0.383135 0.915790
+-0.120577 0.383136 0.915788
+-0.120567 0.383134 0.915790
+-0.120568 0.383135 0.915790
+-0.120567 0.383134 0.915790
+-0.120570 0.383135 0.915790
+-0.120568 0.383135 0.915790
+-0.991445 0.000000 -0.130525
+-0.793354 0.000000 -0.608761
+-0.991445 0.000000 -0.130525
+-0.793354 0.000000 -0.608761
+-0.991445 0.000000 -0.130525
+-0.793354 0.000000 -0.608761
+-0.923880 0.000000 0.382683
+-0.991445 0.000000 -0.130525
+-0.923880 0.000000 0.382683
+-0.991445 0.000000 -0.130525
+-0.923880 0.000000 0.382683
+-0.991445 0.000000 -0.130525
+-0.608763 0.000000 0.793352
+-0.923880 0.000000 0.382683
+-0.608763 0.000000 0.793352
+-0.923880 0.000000 0.382683
+-0.608763 0.000000 0.793352
+-0.923880 0.000000 0.382683
+-0.608763 0.000000 0.793352
+-0.608763 0.000000 0.793352
+-0.130526 0.000000 0.991445
+-0.130526 0.000000 0.991445
+-0.608763 0.000000 0.793352
+-0.130526 0.000000 0.991445
+-0.130526 0.000000 0.991445
+-0.130526 0.000000 0.991445
+0.297912 0.000000 0.954593
+0.297912 0.000000 0.954593
+-0.130526 0.000000 0.991445
+0.297912 0.000000 0.954593
+-0.793354 0.000000 -0.608761
+-0.793354 0.000000 -0.608761
+-0.464344 0.000000 -0.885655
+-0.464344 0.000000 -0.885655
+-0.793354 0.000000 -0.608761
+-0.464344 0.000000 -0.885655
+0.000000 -1.000000 0.000005
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 0.000005
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000004
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 -0.000004
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000005
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000010
+0.000000 -1.000000 -0.000000
+0.382684 0.000000 0.923879
+0.382684 0.000000 0.923879
+0.297912 0.000000 0.954593
+0.297912 0.000000 0.954593
+0.297912 0.000000 0.954593
+0.382684 0.000000 0.923879
+-0.382683 0.000000 -0.923880
+-0.382683 0.000000 -0.923880
+-0.464344 0.000000 -0.885655
+-0.464344 0.000000 -0.885655
+-0.464344 0.000000 -0.885655
+-0.382683 0.000000 -0.923880
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-0.977679 0.171302 -0.121655
+-0.789805 0.197163 -0.580805
+-0.792399 0.144341 -0.592680
+-0.789805 0.197163 -0.580805
+-0.977679 0.171302 -0.121655
+-0.963960 0.242590 -0.109233
+-0.892324 0.259122 0.369612
+-0.977679 0.171302 -0.121655
+-0.908619 0.181009 0.376361
+-0.977679 0.171302 -0.121655
+-0.892324 0.259122 0.369612
+-0.963960 0.242590 -0.109233
+-0.604383 0.242592 0.758861
+-0.908619 0.181009 0.376361
+-0.605299 0.171304 0.777347
+-0.908619 0.181009 0.376361
+-0.604383 0.242592 0.758861
+-0.892324 0.259122 0.369612
+-0.604383 0.242592 0.758861
+-0.141220 0.144345 0.979398
+-0.147785 0.197166 0.969167
+-0.141220 0.144345 0.979398
+-0.604383 0.242592 0.758861
+-0.605299 0.171304 0.777347
+-0.147785 0.197166 0.969167
+0.288236 0.112471 0.950931
+0.290589 0.146432 0.945577
+0.288236 0.112471 0.950931
+-0.147785 0.197166 0.969167
+-0.141220 0.144345 0.979398
+-0.792399 0.144341 -0.592680
+-0.789805 0.197163 -0.580805
+-0.468597 0.112467 -0.876224
+-0.468597 0.112467 -0.876224
+-0.789805 0.197163 -0.580805
+-0.463147 0.146429 -0.874102
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-0.000001 -1.000000 -0.000001
+0.000000 -1.000000 0.000003
+0.000000 -1.000000 0.000000
+-0.000001 -1.000000 -0.000001
+-0.000003 -1.000000 0.000002
+0.000000 -1.000000 0.000003
+-0.000001 -1.000000 -0.000001
+-0.000003 -1.000000 -0.000005
+-0.000003 -1.000000 0.000002
+-0.000001 -1.000000 -0.000001
+-0.000000 -1.000000 -0.000007
+-0.000003 -1.000000 -0.000005
+-0.000001 -1.000000 -0.000001
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-0.000001 -1.000000 -0.000001
+0.379007 0.138290 0.915003
+0.288236 0.112471 0.950931
+0.380510 0.105437 0.918747
+0.288236 0.112471 0.950931
+0.379007 0.138290 0.915003
+0.290589 0.146432 0.945577
+-0.380591 0.105433 -0.918713
+-0.463147 0.146429 -0.874102
+-0.379007 0.138287 -0.915003
+-0.463147 0.146429 -0.874102
+-0.380591 0.105433 -0.918713
+-0.468597 0.112467 -0.876224
+-0.000001 -1.000000 -0.000004
+-0.000001 -1.000000 -0.000004
+-0.000001 -1.000000 -0.000004
+-0.000001 -1.000000 -0.000004
+-0.000001 -1.000000 -0.000004
+-0.000001 -1.000000 -0.000004
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-0.765477 0.336210 -0.548642
+-0.907519 0.411111 -0.086005
+-0.272453 0.955528 0.112853
+-0.907519 0.411111 -0.086005
+-0.831126 0.436705 0.344264
+-0.272453 0.955528 0.112853
+-0.831126 0.436705 0.344264
+-0.580898 0.411110 0.702528
+-0.272453 0.955528 0.112853
+-0.580898 0.411110 0.702528
+-0.153327 0.336210 0.929222
+-0.272453 0.955528 0.112853
+-0.153327 0.336210 0.929222
+0.290289 0.244935 0.925062
+-0.272453 0.955528 0.112853
+-0.448852 0.244934 -0.859383
+-0.765477 0.336210 -0.548642
+-0.272453 0.955528 0.112853
+0.290289 0.244935 0.925062
+0.371556 0.239853 0.896893
+-0.272453 0.955528 0.112853
+-0.371470 0.239851 -0.896929
+-0.448852 0.244934 -0.859383
+-0.272453 0.955528 0.112853
+0.371556 0.239853 0.896893
+0.290589 0.146432 0.945577
+0.379007 0.138290 0.915003
+0.290589 0.146432 0.945577
+0.371556 0.239853 0.896893
+0.290289 0.244935 0.925062
+-0.153327 0.336210 0.929222
+0.290589 0.146432 0.945577
+0.290289 0.244935 0.925062
+0.290589 0.146432 0.945577
+-0.153327 0.336210 0.929222
+-0.147785 0.197166 0.969167
+-0.580898 0.411110 0.702528
+-0.147785 0.197166 0.969167
+-0.153327 0.336210 0.929222
+-0.147785 0.197166 0.969167
+-0.580898 0.411110 0.702528
+-0.604383 0.242592 0.758861
+-0.580898 0.411110 0.702528
+-0.892324 0.259122 0.369612
+-0.604383 0.242592 0.758861
+-0.831126 0.436705 0.344264
+-0.892324 0.259122 0.369612
+-0.580898 0.411110 0.702528
+-0.831126 0.436705 0.344264
+-0.963960 0.242590 -0.109233
+-0.892324 0.259122 0.369612
+-0.963960 0.242590 -0.109233
+-0.831126 0.436705 0.344264
+-0.907519 0.411111 -0.086005
+-0.963960 0.242590 -0.109233
+-0.765477 0.336210 -0.548642
+-0.789805 0.197163 -0.580805
+-0.765477 0.336210 -0.548642
+-0.963960 0.242590 -0.109233
+-0.907519 0.411111 -0.086005
+-0.789805 0.197163 -0.580805
+-0.765477 0.336210 -0.548642
+-0.463147 0.146429 -0.874102
+-0.463147 0.146429 -0.874102
+-0.765477 0.336210 -0.548642
+-0.448852 0.244934 -0.859383
+-0.463147 0.146429 -0.874102
+-0.448852 0.244934 -0.859383
+-0.379007 0.138287 -0.915003
+-0.379007 0.138287 -0.915003
+-0.448852 0.244934 -0.859383
+-0.371470 0.239851 -0.896929
+-0.438367 -0.707642 -0.554146
+-0.439798 -0.304311 -0.844969
+-0.441802 -0.686537 -0.577476
+-0.439798 -0.304311 -0.844969
+-0.438367 -0.707642 -0.554146
+-0.442767 -0.330427 -0.833532
+-0.243020 -0.964783 0.100673
+-0.438367 -0.707642 -0.554146
+-0.441802 -0.686537 -0.577476
+-0.438367 -0.707642 -0.554146
+-0.243020 -0.964783 0.100673
+-0.243020 -0.964783 0.100673
+0.095939 -0.686536 0.720739
+0.081872 -0.707640 0.701814
+-0.243020 -0.964783 0.100673
+-0.243020 -0.964783 0.100673
+0.081872 -0.707640 0.701814
+-0.243020 -0.964783 0.100673
+0.286494 -0.304312 0.908469
+0.276306 -0.330428 0.902481
+0.095939 -0.686536 0.720739
+0.095939 -0.686536 0.720739
+0.276306 -0.330428 0.902481
+0.081872 -0.707640 0.701814
+0.379515 -0.012446 0.925102
+0.286494 -0.304312 0.908469
+0.385785 0.012448 0.922505
+0.286494 -0.304312 0.908469
+0.379515 -0.012446 0.925102
+0.276306 -0.330428 0.902481
+0.439803 0.304314 0.844965
+0.385785 0.012448 0.922505
+0.442773 0.330431 0.833527
+0.385785 0.012448 0.922505
+0.439803 0.304314 0.844965
+0.379515 -0.012446 0.925102
+0.438364 0.707639 0.554151
+0.439803 0.304314 0.844965
+0.442773 0.330431 0.833527
+0.439803 0.304314 0.844965
+0.438364 0.707639 0.554151
+0.441800 0.686536 0.577478
+0.243020 0.964786 -0.100646
+0.243020 0.964786 -0.100646
+0.438364 0.707639 0.554151
+0.438364 0.707639 0.554151
+0.243020 0.964786 -0.100646
+0.441800 0.686536 0.577478
+-0.081871 0.707642 -0.701812
+0.243020 0.964786 -0.100646
+0.243020 0.964786 -0.100646
+0.243020 0.964786 -0.100646
+-0.081871 0.707642 -0.701812
+-0.095938 0.686538 -0.720737
+-0.095938 0.686538 -0.720737
+-0.276307 0.330427 -0.902481
+-0.286494 0.304310 -0.908469
+-0.276307 0.330427 -0.902481
+-0.095938 0.686538 -0.720737
+-0.081871 0.707642 -0.701812
+-0.286494 0.304310 -0.908469
+-0.379514 0.012445 -0.925102
+-0.385784 -0.012448 -0.922505
+-0.379514 0.012445 -0.925102
+-0.286494 0.304310 -0.908469
+-0.276307 0.330427 -0.902481
+-0.385784 -0.012448 -0.922505
+-0.439798 -0.304311 -0.844969
+-0.442767 -0.330427 -0.833532
+-0.439798 -0.304311 -0.844969
+-0.385784 -0.012448 -0.922505
+-0.379514 0.012445 -0.925102
+-0.853383 0.383137 0.353473
+-0.853380 0.383135 0.353483
+-0.853381 0.383134 0.353481
+-0.853380 0.383135 0.353483
+-0.853380 0.383138 0.353480
+-0.853381 0.383134 0.353481
+-0.853380 0.383138 0.353480
+-0.853381 0.383139 0.353476
+-0.853381 0.383134 0.353481
+-0.853381 0.383139 0.353476
+-0.853380 0.383132 0.353487
+-0.853381 0.383134 0.353481
+-0.853380 0.383132 0.353487
+-0.853383 0.383132 0.353478
+-0.853381 0.383134 0.353481
+-0.853383 0.383132 0.353478
+-0.853383 0.383135 0.353476
+-0.853381 0.383134 0.353481
+-0.853383 0.383135 0.353476
+-0.853379 0.383133 0.353487
+-0.853381 0.383134 0.353481
+-0.853379 0.383133 0.353487
+-0.853382 0.383133 0.353481
+-0.853381 0.383134 0.353481
+-0.853382 0.383133 0.353481
+-0.853382 0.383135 0.353477
+-0.853381 0.383134 0.353481
+-0.853382 0.383135 0.353477
+-0.853378 0.383136 0.353486
+-0.853381 0.383134 0.353481
+-0.853378 0.383136 0.353486
+-0.853378 0.383134 0.353488
+-0.853381 0.383134 0.353481
+-0.853378 0.383134 0.353488
+-0.853383 0.383137 0.353473
+-0.853381 0.383134 0.353481
+0.991445 0.000000 0.130525
+0.991445 0.000000 0.130525
+0.793354 0.000000 0.608761
+0.793354 0.000000 0.608761
+0.793354 0.000000 0.608761
+0.991445 0.000000 0.130525
+0.923880 0.000000 -0.382683
+0.923880 0.000000 -0.382683
+0.991445 0.000000 0.130525
+0.991445 0.000000 0.130525
+0.991445 0.000000 0.130525
+0.923880 0.000000 -0.382683
+0.608763 0.000000 -0.793352
+0.608763 0.000000 -0.793352
+0.923880 0.000000 -0.382683
+0.923880 0.000000 -0.382683
+0.923880 0.000000 -0.382683
+0.608763 0.000000 -0.793352
+0.130526 0.000000 -0.991445
+0.130526 0.000000 -0.991445
+0.608763 0.000000 -0.793352
+0.608763 0.000000 -0.793352
+0.130526 0.000000 -0.991445
+0.608763 0.000000 -0.793352
+-0.297912 0.000000 -0.954593
+-0.297912 0.000000 -0.954593
+0.130526 0.000000 -0.991445
+0.130526 0.000000 -0.991445
+-0.297912 0.000000 -0.954593
+0.130526 0.000000 -0.991445
+0.464344 0.000000 0.885655
+0.464344 0.000000 0.885655
+0.793354 0.000000 0.608761
+0.793354 0.000000 0.608761
+0.464344 0.000000 0.885655
+0.793354 0.000000 0.608761
+0.000000 -1.000000 -0.000005
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 -0.000005
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000004
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 0.000004
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000005
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000010
+0.000000 -1.000000 0.000000
+-0.382684 0.000000 -0.923879
+-0.297912 0.000000 -0.954593
+-0.297912 0.000000 -0.954593
+-0.297912 0.000000 -0.954593
+-0.382684 0.000000 -0.923879
+-0.382684 0.000000 -0.923879
+0.382683 0.000000 0.923880
+0.464344 0.000000 0.885655
+0.464344 0.000000 0.885655
+0.464344 0.000000 0.885655
+0.382683 0.000000 0.923880
+0.382683 0.000000 0.923880
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.977679 0.171302 0.121655
+0.789805 0.197163 0.580805
+0.792399 0.144341 0.592680
+0.789805 0.197163 0.580805
+0.977679 0.171302 0.121655
+0.963960 0.242590 0.109233
+0.908619 0.181009 -0.376361
+0.892324 0.259122 -0.369612
+0.977679 0.171302 0.121655
+0.963960 0.242590 0.109233
+0.977679 0.171302 0.121655
+0.892324 0.259122 -0.369612
+0.605299 0.171304 -0.777347
+0.604383 0.242592 -0.758861
+0.908619 0.181009 -0.376361
+0.892324 0.259122 -0.369612
+0.908619 0.181009 -0.376361
+0.604383 0.242592 -0.758861
+0.141220 0.144345 -0.979398
+0.604383 0.242592 -0.758861
+0.605299 0.171304 -0.777347
+0.604383 0.242592 -0.758861
+0.141220 0.144345 -0.979398
+0.147785 0.197166 -0.969167
+-0.288236 0.112471 -0.950931
+0.147785 0.197166 -0.969167
+0.141220 0.144345 -0.979398
+0.147785 0.197166 -0.969167
+-0.288236 0.112471 -0.950931
+-0.290589 0.146432 -0.945577
+0.463147 0.146429 0.874102
+0.468597 0.112467 0.876224
+0.789805 0.197163 0.580805
+0.468597 0.112467 0.876224
+0.792399 0.144341 0.592680
+0.789805 0.197163 0.580805
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000001 -1.000000 0.000001
+0.000000 -1.000000 -0.000003
+0.000000 -1.000000 0.000000
+0.000001 -1.000000 0.000001
+0.000003 -1.000000 -0.000002
+0.000000 -1.000000 -0.000003
+0.000001 -1.000000 0.000001
+0.000003 -1.000000 0.000005
+0.000003 -1.000000 -0.000002
+0.000001 -1.000000 0.000001
+0.000000 -1.000000 0.000007
+0.000003 -1.000000 0.000005
+0.000001 -1.000000 0.000001
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000001 -1.000000 0.000001
+-0.288236 0.112471 -0.950931
+-0.379007 0.138290 -0.915003
+-0.290589 0.146432 -0.945577
+-0.379007 0.138290 -0.915003
+-0.288236 0.112471 -0.950931
+-0.380510 0.105437 -0.918747
+0.380591 0.105433 0.918713
+0.463147 0.146429 0.874102
+0.379007 0.138287 0.915003
+0.463147 0.146429 0.874102
+0.380591 0.105433 0.918713
+0.468597 0.112467 0.876224
+0.000001 -1.000000 0.000004
+0.000001 -1.000000 0.000004
+0.000001 -1.000000 0.000004
+0.000001 -1.000000 0.000004
+0.000001 -1.000000 0.000004
+0.000001 -1.000000 0.000004
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.765477 0.336210 0.548642
+0.907519 0.411111 0.086005
+0.272453 0.955528 -0.112853
+0.907519 0.411111 0.086005
+0.831126 0.436705 -0.344264
+0.272453 0.955528 -0.112853
+0.831126 0.436705 -0.344264
+0.580898 0.411110 -0.702528
+0.272453 0.955528 -0.112853
+0.580898 0.411110 -0.702528
+0.153327 0.336210 -0.929222
+0.272453 0.955528 -0.112853
+0.153327 0.336210 -0.929222
+-0.290289 0.244935 -0.925062
+0.272453 0.955528 -0.112853
+0.448852 0.244934 0.859383
+0.765477 0.336210 0.548642
+0.272453 0.955528 -0.112853
+-0.290289 0.244935 -0.925062
+-0.371556 0.239853 -0.896893
+0.272453 0.955528 -0.112853
+0.371470 0.239851 0.896929
+0.448852 0.244934 0.859383
+0.272453 0.955528 -0.112853
+-0.290589 0.146432 -0.945577
+-0.371556 0.239853 -0.896893
+-0.290289 0.244935 -0.925062
+-0.371556 0.239853 -0.896893
+-0.290589 0.146432 -0.945577
+-0.379007 0.138290 -0.915003
+-0.290589 0.146432 -0.945577
+0.153327 0.336210 -0.929222
+0.147785 0.197166 -0.969167
+0.153327 0.336210 -0.929222
+-0.290589 0.146432 -0.945577
+-0.290289 0.244935 -0.925062
+0.147785 0.197166 -0.969167
+0.580898 0.411110 -0.702528
+0.604383 0.242592 -0.758861
+0.580898 0.411110 -0.702528
+0.147785 0.197166 -0.969167
+0.153327 0.336210 -0.929222
+0.604383 0.242592 -0.758861
+0.580898 0.411110 -0.702528
+0.892324 0.259122 -0.369612
+0.831126 0.436705 -0.344264
+0.892324 0.259122 -0.369612
+0.580898 0.411110 -0.702528
+0.892324 0.259122 -0.369612
+0.831126 0.436705 -0.344264
+0.963960 0.242590 0.109233
+0.907519 0.411111 0.086005
+0.963960 0.242590 0.109233
+0.831126 0.436705 -0.344264
+0.963960 0.242590 0.109233
+0.765477 0.336210 0.548642
+0.789805 0.197163 0.580805
+0.765477 0.336210 0.548642
+0.963960 0.242590 0.109233
+0.907519 0.411111 0.086005
+0.789805 0.197163 0.580805
+0.765477 0.336210 0.548642
+0.463147 0.146429 0.874102
+0.448852 0.244934 0.859383
+0.463147 0.146429 0.874102
+0.765477 0.336210 0.548642
+0.371470 0.239851 0.896929
+0.379007 0.138287 0.915003
+0.448852 0.244934 0.859383
+0.379007 0.138287 0.915003
+0.463147 0.146429 0.874102
+0.448852 0.244934 0.859383
+0.442767 -0.330427 0.833532
+0.439798 -0.304311 0.844969
+0.438367 -0.707642 0.554146
+0.439798 -0.304311 0.844969
+0.441802 -0.686537 0.577476
+0.438367 -0.707642 0.554146
+0.438367 -0.707642 0.554146
+0.243020 -0.964783 -0.100673
+0.243020 -0.964783 -0.100673
+0.243020 -0.964783 -0.100673
+0.438367 -0.707642 0.554146
+0.441802 -0.686537 0.577476
+-0.081872 -0.707640 -0.701814
+0.243020 -0.964783 -0.100673
+0.243020 -0.964783 -0.100673
+0.243020 -0.964783 -0.100673
+-0.095939 -0.686536 -0.720739
+-0.081872 -0.707640 -0.701814
+-0.276306 -0.330428 -0.902481
+-0.081872 -0.707640 -0.701814
+-0.095939 -0.686536 -0.720739
+-0.095939 -0.686536 -0.720739
+-0.286494 -0.304312 -0.908469
+-0.276306 -0.330428 -0.902481
+-0.379515 -0.012446 -0.925102
+-0.276306 -0.330428 -0.902481
+-0.286494 -0.304312 -0.908469
+-0.286494 -0.304312 -0.908469
+-0.385785 0.012448 -0.922505
+-0.379515 -0.012446 -0.925102
+-0.439803 0.304314 -0.844965
+-0.379515 -0.012446 -0.925102
+-0.385785 0.012448 -0.922505
+-0.385785 0.012448 -0.922505
+-0.442773 0.330431 -0.833527
+-0.439803 0.304314 -0.844965
+-0.439803 0.304314 -0.844965
+-0.438364 0.707639 -0.554151
+-0.441800 0.686536 -0.577478
+-0.438364 0.707639 -0.554151
+-0.439803 0.304314 -0.844965
+-0.442773 0.330431 -0.833527
+-0.438364 0.707639 -0.554151
+-0.243020 0.964786 0.100646
+-0.441800 0.686536 -0.577478
+-0.243020 0.964786 0.100646
+-0.438364 0.707639 -0.554151
+-0.243020 0.964786 0.100646
+-0.243020 0.964786 0.100646
+0.081871 0.707642 0.701812
+0.095938 0.686538 0.720737
+0.081871 0.707642 0.701812
+-0.243020 0.964786 0.100646
+-0.243020 0.964786 0.100646
+0.276307 0.330427 0.902481
+0.095938 0.686538 0.720737
+0.081871 0.707642 0.701812
+0.095938 0.686538 0.720737
+0.276307 0.330427 0.902481
+0.286494 0.304310 0.908469
+0.379514 0.012445 0.925102
+0.286494 0.304310 0.908469
+0.276307 0.330427 0.902481
+0.286494 0.304310 0.908469
+0.379514 0.012445 0.925102
+0.385784 -0.012448 0.922505
+0.439798 -0.304311 0.844969
+0.385784 -0.012448 0.922505
+0.379514 0.012445 0.925102
+0.385784 -0.012448 0.922505
+0.439798 -0.304311 0.844969
+0.442767 -0.330427 0.833532
+0.853383 0.383137 -0.353473
+0.853380 0.383135 -0.353483
+0.853381 0.383134 -0.353481
+0.853380 0.383135 -0.353483
+0.853380 0.383138 -0.353480
+0.853381 0.383134 -0.353481
+0.853380 0.383138 -0.353480
+0.853381 0.383139 -0.353476
+0.853381 0.383134 -0.353481
+0.853381 0.383139 -0.353476
+0.853380 0.383132 -0.353487
+0.853381 0.383134 -0.353481
+0.853380 0.383132 -0.353487
+0.853383 0.383132 -0.353478
+0.853381 0.383134 -0.353481
+0.853383 0.383132 -0.353478
+0.853383 0.383135 -0.353476
+0.853381 0.383134 -0.353481
+0.853383 0.383135 -0.353476
+0.853379 0.383133 -0.353487
+0.853381 0.383134 -0.353481
+0.853379 0.383133 -0.353487
+0.853382 0.383133 -0.353481
+0.853381 0.383134 -0.353481
+0.853382 0.383133 -0.353481
+0.853382 0.383135 -0.353477
+0.853381 0.383134 -0.353481
+0.853382 0.383135 -0.353477
+0.853378 0.383136 -0.353486
+0.853381 0.383134 -0.353481
+0.853378 0.383136 -0.353486
+0.853378 0.383134 -0.353488
+0.853381 0.383134 -0.353481
+0.853378 0.383134 -0.353488
+0.853383 0.383137 -0.353473
+0.853381 0.383134 -0.353481
+0.608760 0.000000 -0.793354
+0.608760 0.000000 -0.793354
+0.923879 0.000000 -0.382684
+0.923879 0.000000 -0.382684
+0.923879 0.000000 -0.382684
+0.608760 0.000000 -0.793354
+0.130528 0.000000 -0.991445
+0.608760 0.000000 -0.793354
+0.130528 0.000000 -0.991445
+0.608760 0.000000 -0.793354
+0.130528 0.000000 -0.991445
+0.608760 0.000000 -0.793354
+-0.382682 0.000000 -0.923880
+-0.382682 0.000000 -0.923880
+0.130528 0.000000 -0.991445
+0.130528 0.000000 -0.991445
+-0.382682 0.000000 -0.923880
+0.130528 0.000000 -0.991445
+-0.793353 0.000000 -0.608761
+-0.382682 0.000000 -0.923880
+-0.793353 0.000000 -0.608761
+-0.382682 0.000000 -0.923880
+-0.793353 0.000000 -0.608761
+-0.382682 0.000000 -0.923880
+-0.975658 0.000000 -0.219297
+-0.793353 0.000000 -0.608761
+-0.975658 0.000000 -0.219297
+-0.793353 0.000000 -0.608761
+-0.975658 0.000000 -0.219297
+-0.793353 0.000000 -0.608761
+0.923879 0.000000 -0.382684
+0.923879 0.000000 -0.382684
+0.999172 -0.000000 0.040694
+0.999172 -0.000000 0.040694
+0.999172 -0.000000 0.040694
+0.923879 0.000000 -0.382684
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000002
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000002
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000000
+-0.991445 0.000000 -0.130526
+-0.991445 0.000000 -0.130526
+-0.975658 0.000000 -0.219297
+-0.991445 0.000000 -0.130526
+-0.975658 0.000000 -0.219297
+-0.975658 0.000000 -0.219297
+0.991445 -0.000000 0.130527
+0.991445 -0.000000 0.130527
+0.999172 -0.000000 0.040694
+0.991445 -0.000000 0.130527
+0.999172 -0.000000 0.040694
+0.999172 -0.000000 0.040694
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.594198 0.171301 -0.785866
+0.576579 0.242590 -0.780197
+0.909476 0.144341 -0.389897
+0.897895 0.197163 -0.393589
+0.909476 0.144341 -0.389897
+0.576579 0.242590 -0.780197
+0.128368 0.181009 -0.975068
+0.576579 0.242590 -0.780197
+0.594198 0.171301 -0.785866
+0.576579 0.242590 -0.780197
+0.128368 0.181009 -0.975068
+0.126067 0.259122 -0.957582
+-0.370556 0.171303 -0.912876
+-0.355004 0.242592 -0.902841
+0.128368 0.181009 -0.975068
+0.128368 0.181009 -0.975068
+-0.355004 0.242592 -0.902841
+0.126067 0.259122 -0.957582
+-0.777574 0.144344 -0.612000
+-0.765431 0.197166 -0.612569
+-0.370556 0.171303 -0.912876
+-0.370556 0.171303 -0.912876
+-0.765431 0.197166 -0.612569
+-0.355004 0.242592 -0.902841
+-0.967649 0.112470 -0.225845
+-0.765431 0.197166 -0.612569
+-0.777574 0.144344 -0.612000
+-0.765431 0.197166 -0.612569
+-0.967649 0.112470 -0.225845
+-0.964188 0.146432 -0.221130
+0.909476 0.144341 -0.389897
+0.897895 0.197163 -0.393589
+0.993131 0.112467 0.032295
+0.988568 0.146429 0.035955
+0.993131 0.112467 0.032295
+0.897895 0.197163 -0.393589
+0.000000 -1.000000 0.000003
+0.000000 -1.000000 0.000003
+0.000002 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000003
+0.000002 -1.000000 0.000001
+0.000003 -1.000000 0.000002
+0.000000 -1.000000 0.000001
+0.000002 -1.000000 0.000001
+0.000005 -1.000000 0.000000
+0.000003 -1.000000 0.000002
+0.000002 -1.000000 0.000001
+0.000003 -1.000000 0.000000
+0.000005 -1.000000 0.000000
+0.000002 -1.000000 0.000001
+0.000000 -1.000000 0.000003
+0.000000 -1.000000 0.000000
+0.000002 -1.000000 0.000001
+-0.985913 0.105436 -0.129841
+-0.981919 0.138290 -0.129272
+-0.964188 0.146432 -0.221130
+-0.985913 0.105436 -0.129841
+-0.964188 0.146432 -0.221130
+-0.967649 0.112470 -0.225845
+0.985925 0.105433 0.129755
+0.988568 0.146429 0.035955
+0.981919 0.138287 0.129272
+0.988568 0.146429 0.035955
+0.985925 0.105433 0.129755
+0.993131 0.112467 0.032295
+0.000004 -1.000000 0.000000
+0.000004 -1.000000 0.000000
+0.000004 -1.000000 0.000000
+0.000004 -1.000000 0.000000
+0.000004 -1.000000 0.000000
+0.000004 -1.000000 0.000000
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.857877 0.336210 -0.388601
+0.528241 0.411110 -0.742933
+0.038493 0.955527 -0.292379
+0.528241 0.411110 -0.742933
+0.117421 0.436704 -0.891909
+0.038493 0.955527 -0.292379
+0.117421 0.436704 -0.891909
+-0.317957 0.411111 -0.854336
+0.038493 0.955527 -0.292379
+-0.317957 0.411111 -0.854336
+-0.728066 0.336212 -0.597396
+0.038493 0.955527 -0.292379
+-0.728066 0.336212 -0.597396
+-0.946271 0.244936 -0.211134
+0.038493 0.955527 -0.292379
+0.968674 0.244933 0.040974
+0.857877 0.336210 -0.388601
+0.038493 0.955527 -0.292379
+-0.946271 0.244936 -0.211134
+-0.962510 0.239854 -0.126671
+0.038493 0.955527 -0.292379
+0.962498 0.239851 0.126762
+0.968674 0.244933 0.040974
+0.038493 0.955527 -0.292379
+-0.981919 0.138290 -0.129272
+-0.962510 0.239854 -0.126671
+-0.946271 0.244936 -0.211134
+-0.981919 0.138290 -0.129272
+-0.946271 0.244936 -0.211134
+-0.964188 0.146432 -0.221130
+-0.964188 0.146432 -0.221130
+-0.728066 0.336212 -0.597396
+-0.765431 0.197166 -0.612569
+-0.728066 0.336212 -0.597396
+-0.964188 0.146432 -0.221130
+-0.946271 0.244936 -0.211134
+-0.765431 0.197166 -0.612569
+-0.728066 0.336212 -0.597396
+-0.355004 0.242592 -0.902841
+-0.355004 0.242592 -0.902841
+-0.728066 0.336212 -0.597396
+-0.317957 0.411111 -0.854336
+-0.355004 0.242592 -0.902841
+0.117421 0.436704 -0.891909
+0.126067 0.259122 -0.957582
+0.117421 0.436704 -0.891909
+-0.355004 0.242592 -0.902841
+-0.317957 0.411111 -0.854336
+0.126067 0.259122 -0.957582
+0.528241 0.411110 -0.742933
+0.576579 0.242590 -0.780197
+0.528241 0.411110 -0.742933
+0.126067 0.259122 -0.957582
+0.117421 0.436704 -0.891909
+0.576579 0.242590 -0.780197
+0.528241 0.411110 -0.742933
+0.897895 0.197163 -0.393589
+0.857877 0.336210 -0.388601
+0.897895 0.197163 -0.393589
+0.528241 0.411110 -0.742933
+0.897895 0.197163 -0.393589
+0.857877 0.336210 -0.388601
+0.988568 0.146429 0.035955
+0.968674 0.244933 0.040974
+0.988568 0.146429 0.035955
+0.857877 0.336210 -0.388601
+0.988568 0.146429 0.035955
+0.968674 0.244933 0.040974
+0.981919 0.138287 0.129272
+0.962498 0.239851 0.126762
+0.981919 0.138287 0.129272
+0.968674 0.244933 0.040974
+0.721010 -0.686536 -0.093872
+0.943243 -0.330428 0.033317
+0.951663 -0.304312 0.041607
+0.943243 -0.330428 0.033317
+0.721010 -0.686536 -0.093872
+0.699089 -0.707641 -0.102563
+0.034331 -0.964782 -0.260802
+0.699089 -0.707641 -0.102563
+0.721010 -0.686536 -0.093872
+0.699089 -0.707641 -0.102563
+0.034331 -0.964782 -0.260802
+0.034331 -0.964782 -0.260802
+-0.672147 -0.686535 -0.277286
+-0.648724 -0.707639 -0.280007
+0.034331 -0.964782 -0.260802
+0.034331 -0.964782 -0.260802
+-0.648724 -0.707639 -0.280007
+0.034331 -0.964782 -0.260802
+-0.672147 -0.686535 -0.277286
+-0.930005 -0.304311 -0.206119
+-0.919726 -0.330427 -0.211948
+-0.672147 -0.686535 -0.277286
+-0.919726 -0.330427 -0.211948
+-0.648724 -0.707639 -0.280007
+-0.930005 -0.304311 -0.206119
+-0.991805 0.012447 -0.127149
+-0.990920 -0.012446 -0.133878
+-0.930005 -0.304311 -0.206119
+-0.990920 -0.012446 -0.133878
+-0.919726 -0.330427 -0.211948
+-0.991805 0.012447 -0.127149
+-0.943243 0.330428 -0.033308
+-0.951664 0.304312 -0.041599
+-0.991805 0.012447 -0.127149
+-0.951664 0.304312 -0.041599
+-0.990920 -0.012446 -0.133878
+-0.951664 0.304312 -0.041599
+-0.943243 0.330428 -0.033308
+-0.721011 0.686536 0.093868
+-0.943243 0.330428 -0.033308
+-0.699090 0.707641 0.102555
+-0.721011 0.686536 0.093868
+-0.034332 0.964787 0.260784
+-0.034332 0.964787 0.260784
+-0.699090 0.707641 0.102555
+-0.699090 0.707641 0.102555
+-0.034332 0.964787 0.260784
+-0.721011 0.686536 0.093868
+0.648723 0.707639 0.280010
+-0.034332 0.964787 0.260784
+-0.034332 0.964787 0.260784
+-0.034332 0.964787 0.260784
+0.648723 0.707639 0.280010
+0.672146 0.686535 0.277290
+0.919724 0.330429 0.211955
+0.672146 0.686535 0.277290
+0.648723 0.707639 0.280010
+0.672146 0.686535 0.277290
+0.919724 0.330429 0.211955
+0.930003 0.304312 0.206126
+0.990919 0.012447 0.133882
+0.930003 0.304312 0.206126
+0.919724 0.330429 0.211955
+0.930003 0.304312 0.206126
+0.990919 0.012447 0.133882
+0.991805 -0.012446 0.127153
+0.951663 -0.304312 0.041607
+0.991805 -0.012446 0.127153
+0.990919 0.012447 0.133882
+0.991805 -0.012446 0.127153
+0.951663 -0.304312 0.041607
+0.943243 -0.330428 0.033317
+0.120570 0.383135 -0.915790
+0.120567 0.383137 -0.915789
+0.120568 0.383135 -0.915790
+0.120567 0.383137 -0.915789
+0.120564 0.383137 -0.915789
+0.120568 0.383135 -0.915790
+0.120564 0.383137 -0.915789
+0.120565 0.383136 -0.915790
+0.120568 0.383135 -0.915790
+0.120565 0.383136 -0.915790
+0.120568 0.383134 -0.915790
+0.120568 0.383135 -0.915790
+0.120568 0.383134 -0.915790
+0.120567 0.383133 -0.915791
+0.120568 0.383135 -0.915790
+0.120567 0.383133 -0.915791
+0.120571 0.383138 -0.915788
+0.120568 0.383135 -0.915790
+0.120571 0.383138 -0.915788
+0.120568 0.383138 -0.915788
+0.120568 0.383135 -0.915790
+0.120568 0.383138 -0.915788
+0.120557 0.383136 -0.915791
+0.120568 0.383135 -0.915790
+0.120557 0.383136 -0.915791
+0.120561 0.383136 -0.915790
+0.120568 0.383135 -0.915790
+0.120561 0.383136 -0.915790
+0.120577 0.383136 -0.915788
+0.120568 0.383135 -0.915790
+0.120577 0.383136 -0.915788
+0.120567 0.383134 -0.915790
+0.120568 0.383135 -0.915790
+0.120567 0.383134 -0.915790
+0.120570 0.383135 -0.915790
+0.120568 0.383135 -0.915790
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface58-Normal0-array" count="2340" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface58-UV0">
+          <float_array id="polySurface58-UV0-array" count="1896">
+0.691936 0.064857
+0.725210 0.064857
+0.725210 0.082512
+0.691936 0.082512
+0.758789 0.064857
+0.758789 0.082512
+0.792957 0.064857
+0.792957 0.082512
+0.826307 0.082512
+0.859439 0.064857
+0.859439 0.082512
+0.892955 0.064857
+0.892955 0.082512
+0.926523 0.064857
+0.926523 0.082512
+0.960051 0.064857
+0.960051 0.082512
+0.993396 0.064857
+0.993396 0.082512
+0.624875 0.064857
+0.624875 0.082512
+0.658406 0.064857
+0.658406 0.082512
+0.691936 0.064857
+0.691936 0.082512
+0.725210 0.064857
+0.725210 0.082512
+0.758789 0.064857
+0.758789 0.082512
+0.792957 0.064857
+0.792957 0.082512
+0.826306 0.064857
+0.826307 0.082512
+0.859439 0.064857
+0.859439 0.082512
+0.892955 0.064857
+0.892955 0.082512
+0.926523 0.064857
+0.926523 0.082512
+0.960051 0.064857
+0.960051 0.082512
+0.993396 0.064857
+0.993396 0.082512
+0.624875 0.064857
+0.624875 0.082512
+0.658406 0.064857
+0.658406 0.082512
+0.758789 0.266388
+0.792960 0.266388
+0.792960 0.467919
+0.758789 0.467919
+0.725214 0.266388
+0.725214 0.467919
+0.691937 0.266388
+0.691937 0.467919
+0.658406 0.266388
+0.658406 0.467919
+0.624875 0.266388
+0.624875 0.467919
+0.993396 0.266388
+0.993396 0.467919
+0.960051 0.266388
+0.960051 0.467919
+0.926523 0.266388
+0.926523 0.467919
+0.892955 0.266388
+0.892955 0.467919
+0.859439 0.266388
+0.859439 0.467919
+0.792960 0.266388
+0.792960 0.467919
+0.758789 0.266388
+0.758789 0.467919
+0.725214 0.266388
+0.725214 0.467919
+0.691937 0.266388
+0.691937 0.467919
+0.658406 0.266388
+0.658406 0.467919
+0.624875 0.266388
+0.624875 0.467919
+0.993396 0.266388
+0.993396 0.467919
+0.960051 0.266388
+0.960051 0.467919
+0.926523 0.266388
+0.926523 0.467919
+0.892955 0.266388
+0.892955 0.467919
+0.859439 0.266388
+0.859439 0.467919
+0.826306 0.266388
+0.826306 0.467919
+0.826306 0.064857
+0.826306 0.467919
+0.826306 0.266388
+0.591968 0.082512
+0.591968 0.266388
+0.591968 0.467919
+0.591968 0.064857
+0.591968 0.082512
+0.591968 0.266388
+0.591968 0.467919
+0.591968 0.064857
+0.792985 0.082267
+0.826295 0.082267
+0.826295 0.265670
+0.792985 0.265670
+0.758788 0.082267
+0.758788 0.265670
+0.725196 0.082267
+0.725196 0.265670
+0.792974 0.082267
+0.826306 0.082267
+0.826306 0.265670
+0.792974 0.265670
+0.758786 0.082267
+0.758786 0.265670
+0.725123 0.082267
+0.725123 0.265670
+0.578015 0.689351
+0.578014 0.689351
+0.578014 0.697254
+0.578015 0.697254
+0.578014 0.689351
+0.578014 0.697254
+0.578015 0.688883
+0.758766 0.082512
+0.578014 0.688883
+0.552064 0.697234
+0.578014 0.688883
+0.552064 0.697234
+0.578015 0.688883
+0.552064 0.697234
+0.578014 0.688883
+0.552064 0.697234
+0.578015 0.688883
+0.552064 0.697234
+0.578015 0.688883
+0.552064 0.697234
+0.578015 0.688883
+0.552064 0.697234
+0.552064 0.688883
+0.552064 0.697234
+0.578014 0.697254
+0.578014 0.689351
+0.578014 0.697254
+0.578014 0.689351
+0.578014 0.697254
+0.578014 0.688883
+0.758766 0.082512
+0.578014 0.688883
+0.552064 0.697234
+0.578014 0.688883
+0.552064 0.697234
+0.578014 0.688883
+0.552064 0.697234
+0.578014 0.688883
+0.552064 0.697234
+0.578014 0.688883
+0.552064 0.697234
+0.578014 0.688883
+0.552064 0.697234
+0.578014 0.688883
+0.552064 0.697234
+0.578014 0.688883
+0.552064 0.697234
+0.792968 0.265670
+0.792968 0.265670
+0.758766 0.082512
+0.758812 0.082512
+0.792968 0.265670
+0.792979 0.265670
+0.758766 0.082512
+0.758812 0.082512
+0.792968 0.265670
+0.792979 0.265670
+0.578014 0.688883
+0.578014 0.689351
+0.578014 0.697234
+0.151644 0.632590
+0.214091 0.624314
+0.210799 0.611091
+0.151664 0.619016
+0.151644 0.632590
+0.151664 0.619016
+0.214091 0.624314
+0.210799 0.611091
+0.214091 0.624314
+0.210799 0.611091
+0.151644 0.632590
+0.151664 0.619016
+0.151644 0.632590
+0.151664 0.619016
+0.214091 0.624314
+0.210799 0.611091
+0.214091 0.624314
+0.210799 0.611091
+0.151644 0.632590
+0.151664 0.619016
+0.151644 0.632590
+0.151664 0.619016
+0.214091 0.624314
+0.210799 0.611091
+0.214091 0.624314
+0.210799 0.611091
+0.151644 0.632590
+0.151664 0.619016
+0.151644 0.632590
+0.151664 0.619016
+0.214091 0.624314
+0.210799 0.611091
+0.214091 0.624314
+0.210799 0.611091
+0.151644 0.632590
+0.151664 0.619016
+0.151644 0.632590
+0.151664 0.619016
+0.214091 0.624314
+0.210799 0.611091
+0.214091 0.624314
+0.210799 0.611091
+0.151644 0.632590
+0.151664 0.619016
+0.151644 0.632590
+0.151664 0.619016
+0.214091 0.624314
+0.210799 0.611091
+0.089305 0.624320
+0.151644 0.632590
+0.151664 0.619016
+0.210799 0.611091
+0.089305 0.624320
+0.210799 0.611091
+0.151644 0.632590
+0.151664 0.619016
+0.151644 0.632590
+0.151664 0.619016
+0.089305 0.624320
+0.210799 0.611091
+0.089305 0.624320
+0.210799 0.611091
+0.151644 0.632590
+0.151664 0.619016
+0.151644 0.632590
+0.151664 0.619016
+0.089305 0.624320
+0.210799 0.611091
+0.089305 0.624320
+0.210799 0.611091
+0.151644 0.632590
+0.151664 0.619016
+0.151644 0.632590
+0.151664 0.619016
+0.089305 0.624320
+0.210799 0.611091
+0.089305 0.624320
+0.210799 0.611091
+0.151644 0.632590
+0.151664 0.619016
+0.151644 0.632590
+0.151664 0.619016
+0.089305 0.624320
+0.210799 0.611091
+0.089305 0.624320
+0.210799 0.611091
+0.151644 0.632590
+0.151664 0.619016
+0.151644 0.632590
+0.151664 0.619016
+0.089305 0.624320
+0.210799 0.611091
+0.089305 0.624320
+0.210799 0.611091
+0.151644 0.632590
+0.151664 0.619016
+0.532382 0.909561
+0.544902 0.868112
+0.544919 0.909567
+0.532382 0.951703
+0.544919 0.951702
+0.544901 0.992864
+0.544901 0.992864
+0.532382 0.951703
+0.544919 0.951702
+0.532382 0.909561
+0.544919 0.909567
+0.544902 0.868112
+0.532382 0.909561
+0.544902 0.868112
+0.544919 0.909567
+0.532382 0.951703
+0.544919 0.951702
+0.544901 0.992864
+0.544901 0.992864
+0.532382 0.951703
+0.544919 0.951702
+0.532382 0.909561
+0.544919 0.909567
+0.544902 0.868112
+0.532382 0.951703
+0.532382 0.909561
+0.544919 0.909567
+0.544919 0.951702
+0.544902 0.868112
+0.544901 0.992864
+0.532382 0.951703
+0.532382 0.909561
+0.544919 0.909567
+0.544919 0.951702
+0.544902 0.868112
+0.544901 0.992864
+0.532382 0.951703
+0.532382 0.909561
+0.544919 0.909567
+0.544919 0.951702
+0.544902 0.868112
+0.544901 0.992864
+0.532382 0.951703
+0.532382 0.909561
+0.544919 0.909567
+0.544919 0.951702
+0.544902 0.868112
+0.544901 0.992864
+0.792929 0.082512
+0.758797 0.265670
+0.792985 0.082512
+0.758779 0.265670
+0.792930 0.082512
+0.758797 0.265670
+0.792985 0.082512
+0.758779 0.265670
+0.578014 0.697234
+0.552064 0.697254
+0.758797 0.265670
+0.578014 0.697234
+0.578014 0.697234
+0.578014 0.697234
+0.578014 0.697234
+0.578014 0.697234
+0.578014 0.697234
+0.578014 0.697234
+0.578014 0.697234
+0.552064 0.697234
+0.792985 0.082512
+0.578015 0.697234
+0.552064 0.697254
+0.758797 0.265670
+0.578014 0.697234
+0.578014 0.697234
+0.578015 0.697234
+0.578014 0.697234
+0.578015 0.697234
+0.578015 0.697234
+0.578015 0.697234
+0.552064 0.697234
+0.792985 0.082512
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.689351
+0.552064 0.689351
+0.552064 0.697254
+0.552064 0.689351
+0.552064 0.697254
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.688883
+0.552064 0.689351
+0.552064 0.689351
+0.552064 0.697254
+0.552064 0.689351
+0.552064 0.697254
+0.552064 0.688883
+0.214091 0.624314
+0.092949 0.611187
+0.214091 0.624314
+0.092949 0.611187
+0.214091 0.624314
+0.092949 0.611187
+0.214091 0.624314
+0.092949 0.611187
+0.214091 0.624314
+0.092949 0.611187
+0.214091 0.624314
+0.092949 0.611187
+0.214091 0.624314
+0.092949 0.611187
+0.214091 0.624314
+0.092949 0.611187
+0.214091 0.624314
+0.092949 0.611187
+0.214091 0.624314
+0.092949 0.611187
+0.214091 0.624314
+0.092949 0.611187
+0.214091 0.624314
+0.092949 0.611187
+0.089305 0.624320
+0.092949 0.611187
+0.089305 0.624320
+0.092949 0.611187
+0.089305 0.624320
+0.092949 0.611187
+0.089305 0.624320
+0.092949 0.611187
+0.089305 0.624320
+0.092949 0.611187
+0.089305 0.624320
+0.092949 0.611187
+0.089305 0.624320
+0.092949 0.611187
+0.089305 0.624320
+0.092949 0.611187
+0.089305 0.624320
+0.092949 0.611187
+0.089305 0.624320
+0.092949 0.611187
+0.089305 0.624320
+0.092949 0.611187
+0.089305 0.624320
+0.092949 0.611187
+0.537480 0.070277
+0.543744 0.070267
+0.543743 0.241903
+0.537480 0.241893
+0.550000 0.070265
+0.549999 0.241906
+0.556258 0.070268
+0.556258 0.241902
+0.562519 0.070279
+0.562519 0.241891
+0.568790 0.070293
+0.568791 0.241877
+0.531209 0.070292
+0.531209 0.241879
+0.559865 0.273589
+0.554449 0.268173
+0.567264 0.260774
+0.567264 0.275571
+0.574662 0.273589
+0.580078 0.268173
+0.582061 0.260774
+0.552466 0.260774
+0.580817 0.070294
+0.580817 0.241876
+0.519183 0.241878
+0.519183 0.070292
+0.567264 0.246253
+0.582061 0.246253
+0.552467 0.246253
+0.536236 0.278058
+0.542222 0.276462
+0.544126 0.293747
+0.539671 0.295109
+0.548396 0.275817
+0.548726 0.293206
+0.554584 0.276171
+0.553330 0.293603
+0.560602 0.277525
+0.557809 0.294840
+0.566329 0.279635
+0.562078 0.296746
+0.530542 0.280346
+0.535432 0.297124
+0.524563 0.272434
+0.519231 0.267102
+0.531847 0.259818
+0.531847 0.274385
+0.539131 0.272434
+0.544463 0.267102
+0.546414 0.259818
+0.517279 0.259818
+0.576253 0.283777
+0.569905 0.300942
+0.527718 0.301529
+0.520692 0.284836
+0.531847 0.246472
+0.546414 0.246472
+0.517279 0.246472
+0.543905 0.313544
+0.546092 0.312524
+0.548814 0.323741
+0.548726 0.312132
+0.551372 0.312455
+0.553573 0.313424
+0.555101 0.314852
+0.542392 0.315002
+0.558504 0.318841
+0.539042 0.319044
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.247350 0.109416
+0.242622 0.118916
+0.236163 0.096438
+0.236163 0.122394
+0.229704 0.118916
+0.224976 0.109416
+0.223246 0.096438
+0.224976 0.083461
+0.229704 0.073960
+0.236163 0.070483
+0.242622 0.073960
+0.247350 0.083461
+0.249081 0.096438
+0.537480 0.070277
+0.543744 0.070267
+0.543743 0.241903
+0.537480 0.241893
+0.550000 0.070265
+0.549999 0.241906
+0.556258 0.070268
+0.556258 0.241902
+0.562519 0.070279
+0.562519 0.241891
+0.568790 0.070293
+0.568791 0.241877
+0.531209 0.070292
+0.531209 0.241879
+0.559865 0.273589
+0.554449 0.268173
+0.567264 0.260774
+0.567264 0.275571
+0.574662 0.273589
+0.580078 0.268173
+0.582061 0.260774
+0.552466 0.260774
+0.580817 0.070294
+0.580817 0.241876
+0.519183 0.241878
+0.519183 0.070292
+0.567264 0.246253
+0.582061 0.246253
+0.552467 0.246253
+0.536236 0.278058
+0.542222 0.276462
+0.544126 0.293747
+0.539671 0.295109
+0.548396 0.275817
+0.548726 0.293206
+0.554584 0.276171
+0.553330 0.293603
+0.560602 0.277525
+0.557809 0.294840
+0.566329 0.279635
+0.562078 0.296746
+0.530542 0.280346
+0.535432 0.297124
+0.524563 0.272434
+0.519231 0.267102
+0.531847 0.259818
+0.531847 0.274385
+0.539131 0.272434
+0.544463 0.267102
+0.546414 0.259818
+0.517279 0.259818
+0.576253 0.283777
+0.569905 0.300942
+0.527718 0.301529
+0.520692 0.284836
+0.531847 0.246472
+0.546414 0.246472
+0.517279 0.246472
+0.543905 0.313544
+0.546092 0.312524
+0.548814 0.323741
+0.548726 0.312132
+0.551372 0.312455
+0.553573 0.313424
+0.555101 0.314852
+0.542392 0.315002
+0.558504 0.318841
+0.539042 0.319044
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.247350 0.109416
+0.242622 0.118916
+0.236163 0.096438
+0.236163 0.122394
+0.229704 0.118916
+0.224976 0.109416
+0.223246 0.096438
+0.224976 0.083461
+0.229704 0.073960
+0.236163 0.070483
+0.242622 0.073960
+0.247350 0.083461
+0.249081 0.096438
+0.537480 0.070277
+0.543744 0.070267
+0.543743 0.241903
+0.537480 0.241893
+0.550000 0.070265
+0.549999 0.241906
+0.556258 0.070268
+0.556258 0.241902
+0.562519 0.070279
+0.562519 0.241891
+0.568790 0.070293
+0.568791 0.241877
+0.531209 0.070292
+0.531209 0.241879
+0.559865 0.273589
+0.554449 0.268173
+0.567264 0.260774
+0.567264 0.275571
+0.574662 0.273589
+0.580078 0.268173
+0.582061 0.260774
+0.552466 0.260774
+0.580817 0.070294
+0.580817 0.241876
+0.519183 0.241878
+0.519183 0.070292
+0.567264 0.246253
+0.582061 0.246253
+0.552467 0.246253
+0.536236 0.278058
+0.542222 0.276462
+0.544126 0.293747
+0.539671 0.295109
+0.548396 0.275817
+0.548726 0.293206
+0.554584 0.276171
+0.553330 0.293603
+0.560602 0.277525
+0.557809 0.294840
+0.566329 0.279635
+0.562078 0.296746
+0.530542 0.280346
+0.535432 0.297124
+0.524563 0.272434
+0.519231 0.267102
+0.531847 0.259818
+0.531847 0.274385
+0.539131 0.272434
+0.544463 0.267102
+0.546414 0.259818
+0.517279 0.259818
+0.576253 0.283777
+0.569905 0.300942
+0.527718 0.301529
+0.520692 0.284836
+0.531847 0.246472
+0.546414 0.246472
+0.517279 0.246472
+0.543905 0.313544
+0.546092 0.312524
+0.548814 0.323741
+0.548726 0.312132
+0.551372 0.312455
+0.553573 0.313424
+0.555101 0.314852
+0.542392 0.315002
+0.558504 0.318841
+0.539042 0.319044
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.247350 0.109416
+0.242622 0.118916
+0.236163 0.096438
+0.236163 0.122394
+0.229704 0.118916
+0.224976 0.109416
+0.223246 0.096438
+0.224976 0.083461
+0.229704 0.073960
+0.236163 0.070483
+0.242622 0.073960
+0.247350 0.083461
+0.249081 0.096438
+0.537480 0.070277
+0.543744 0.070267
+0.543743 0.241903
+0.537480 0.241893
+0.550000 0.070265
+0.549999 0.241906
+0.556258 0.070268
+0.556258 0.241902
+0.562519 0.070279
+0.562519 0.241891
+0.568790 0.070293
+0.568791 0.241877
+0.531209 0.070292
+0.531209 0.241879
+0.559865 0.273589
+0.554449 0.268173
+0.567264 0.260774
+0.567264 0.275571
+0.574662 0.273589
+0.580078 0.268173
+0.582061 0.260774
+0.552466 0.260774
+0.580817 0.070294
+0.580817 0.241876
+0.519183 0.241878
+0.519183 0.070292
+0.567264 0.246253
+0.582061 0.246253
+0.552467 0.246253
+0.536236 0.278058
+0.542222 0.276462
+0.544126 0.293747
+0.539671 0.295109
+0.548396 0.275817
+0.548726 0.293206
+0.554584 0.276171
+0.553330 0.293603
+0.560602 0.277525
+0.557809 0.294840
+0.566329 0.279635
+0.562078 0.296746
+0.530542 0.280346
+0.535432 0.297124
+0.524563 0.272434
+0.519231 0.267102
+0.531847 0.259818
+0.531847 0.274385
+0.539131 0.272434
+0.544463 0.267102
+0.546414 0.259818
+0.517279 0.259818
+0.576253 0.283777
+0.569905 0.300942
+0.527718 0.301529
+0.520692 0.284836
+0.531847 0.246472
+0.546414 0.246472
+0.517279 0.246472
+0.543905 0.313544
+0.546092 0.312524
+0.548814 0.323741
+0.548726 0.312132
+0.551372 0.312455
+0.553573 0.313424
+0.555101 0.314852
+0.542392 0.315002
+0.558504 0.318841
+0.539042 0.319044
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.520998
+0.155134 0.529861
+0.136782 0.529861
+0.136782 0.520998
+0.155134 0.521001
+0.155134 0.529856
+0.136782 0.529856
+0.136782 0.521001
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.155134 0.521004
+0.155134 0.529851
+0.136782 0.529851
+0.136782 0.521004
+0.247350 0.109416
+0.242622 0.118916
+0.236163 0.096438
+0.236163 0.122394
+0.229704 0.118916
+0.224976 0.109416
+0.223246 0.096438
+0.224976 0.083461
+0.229704 0.073960
+0.236163 0.070483
+0.242622 0.073960
+0.247350 0.083461
+0.249081 0.096438
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface58-UV0-array" count="948" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface58-VERTEX">
+          <input semantic="POSITION" source="#polySurface58-POSITION"/>
+        </vertices>
+        <triangles count="780" material="SIVB"><input semantic="VERTEX" offset="0" source="#polySurface58-VERTEX"/><input semantic="NORMAL" offset="1" source="#polySurface58-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#polySurface58-UV0"/><p> 112 0 3 1 1 1 111 2 2 1 3 1 112 4 3 0 5 0 110 6 5 111 7 2 1 8 1 1 9 1 2 10 4 110 11 5 3 12 6 110 13 5 2 14 4 110 15 5 3 16 6 109 17 7 4 18 93 109 19 7 3 20 6 109 21 7 4 22 93 108 23 8 5 24 9 108 25 8 4 26 93 108 27 8 5 28 9 107 29 10 5 30 9 6 31 11 106 32 12 5 33 9 106 34 12 107 35 10 6 36 11 7 37 13 105 38 14 6 39 11 105 40 14 106 41 12 7 42 13 8 43 15 104 44 16 7 45 13 104 46 16 105 47 14 103 48 18 8 49 15 9 50 17 8 51 15 103 52 18 104 53 16 102 54 20 9 55 99 10 56 19 9 57 99 102 58 20 103 59 96 101 60 22 10 61 19 11 62 21 10 63 19 101 64 22 102 65 20 100 66 24 11 67 21 12 68 23 11 69 21 100 70 24 101 71 22 99 72 26 12 73 23 13 74 25 12 75 23 99 76 26 100 77 24 98 78 28 13 79 25 14 80 27 13 81 25 98 82 28 99 83 26 97 84 30 98 85 28 14 86 27 97 87 30 14 88 27 15 89 29 96 90 32 97 91 30 15 92 29 96 93 32 15 94 29 16 95 31 119 96 34 96 97 32 16 98 31 119 99 34 16 100 31 17 101 33 118 102 36 119 103 34 17 104 33 118 105 36 17 106 33 18 107 35 117 108 38 118 109 36 18 110 35 117 111 38 18 112 35 19 113 37 116 114 40 117 115 38 19 116 37 116 117 40 19 118 37 20 119 39 115 120 42 116 121 40 20 122 39 20 123 39 21 124 41 115 125 42 115 126 100 22 127 43 114 128 44 22 129 43 115 130 100 21 131 103 114 132 44 23 133 45 113 134 46 23 135 45 114 136 44 22 137 43 112 138 3 113 139 46 23 140 45 23 141 45 0 142 0 112 143 3 0 144 430 49 145 183 1 146 180 49 147 183 0 148 430 48 149 431 2 150 186 1 151 180 49 152 183 2 153 186 49 154 183 50 155 187 50 156 429 51 157 191 3 158 190 3 159 190 2 160 428 50 161 429 51 162 191 52 163 195 4 164 194 4 165 194 3 166 190 51 167 191 53 168 199 4 169 426 52 170 427 4 171 426 53 172 199 5 173 198 54 174 203 5 175 198 53 176 199 5 177 198 54 178 203 6 179 202 55 180 207 6 181 424 54 182 425 6 183 424 55 184 207 7 185 206 7 186 206 56 187 211 8 188 210 56 189 211 7 190 206 55 191 207 8 192 422 57 193 215 9 194 214 57 195 215 8 196 422 56 197 423 9 198 214 58 199 219 10 200 218 58 201 219 9 202 214 57 203 215 58 204 421 59 205 223 11 206 222 11 207 222 10 208 420 58 209 421 60 210 227 11 211 222 59 212 223 11 213 222 60 214 227 12 215 226 60 216 419 61 217 225 13 218 224 13 219 224 12 220 418 60 221 419 62 222 221 13 223 224 61 224 225 13 225 224 62 226 221 14 227 220 63 228 217 14 229 416 62 230 417 14 231 416 63 232 217 15 233 216 15 234 216 64 235 213 16 236 212 64 237 213 15 238 216 63 239 217 64 240 415 17 241 208 16 242 414 17 243 208 64 244 415 65 245 209 17 246 208 66 247 205 18 248 204 66 249 205 17 250 208 65 251 209 66 252 413 67 253 201 19 254 200 19 255 200 18 256 412 66 257 413 68 258 197 19 259 200 67 260 201 19 261 200 68 262 197 20 263 196 69 264 193 20 265 410 68 266 411 20 267 410 69 268 193 21 269 192 70 270 189 21 271 192 69 272 193 21 273 192 70 274 189 22 275 188 71 276 185 22 277 408 70 278 409 22 279 408 71 280 185 23 281 184 71 282 185 0 283 181 23 284 184 0 285 181 71 286 185 48 287 182 24 288 406 25 289 229 441 290 230 24 291 406 441 292 230 440 293 231 26 294 232 441 295 230 25 296 229 441 297 230 26 298 232 442 299 405 27 300 236 442 301 233 26 302 404 442 303 233 27 304 236 443 305 237 443 306 237 28 307 240 444 308 403 28 309 240 443 310 237 27 311 236 28 312 402 445 313 245 444 314 241 445 315 245 28 316 402 29 317 244 446 318 401 445 319 245 29 320 244 29 321 244 30 322 248 446 323 401 447 324 253 446 325 249 30 326 400 30 327 400 31 328 252 447 329 253 448 330 399 447 331 253 31 332 252 31 333 252 32 334 256 448 335 399 32 336 398 33 337 260 449 338 261 32 339 398 449 340 261 448 341 257 450 342 397 33 343 260 34 344 264 33 345 260 450 346 397 449 347 261 35 348 268 450 349 265 34 350 396 450 351 265 35 352 268 451 353 269 35 354 268 452 355 395 451 356 269 452 357 395 35 358 268 36 359 272 452 360 273 37 361 274 453 362 275 37 363 274 452 364 273 36 365 394 454 366 393 453 367 275 37 368 274 37 369 274 38 370 270 454 371 393 455 372 267 454 373 271 38 374 392 38 375 392 39 376 266 455 377 267 456 378 391 455 379 267 39 380 266 39 381 266 40 382 262 456 383 391 41 384 258 456 385 263 40 386 390 456 387 263 41 388 258 457 389 259 458 390 389 41 391 258 42 392 254 41 393 258 458 394 389 457 395 259 43 396 250 458 397 255 42 398 388 458 399 255 43 400 250 459 401 251 43 402 250 460 403 387 459 404 251 460 405 387 43 406 250 44 407 246 44 408 386 461 409 243 460 410 247 461 411 243 44 412 386 45 413 242 462 414 385 461 415 243 45 416 242 45 417 242 46 418 238 462 419 385 463 420 235 462 421 239 46 422 384 46 423 384 47 424 234 463 425 235 463 426 235 24 427 228 440 428 407 24 429 228 463 430 235 47 431 234 64 432 120 63 433 381 125 434 382 64 435 120 125 436 382 464 437 123 63 438 121 62 439 379 124 440 380 63 441 121 124 442 380 125 443 122 469 444 346 124 445 125 62 446 124 62 447 124 61 448 378 469 449 346 470 450 129 469 451 345 61 452 126 61 453 126 60 454 377 470 455 129 471 456 131 470 457 348 60 458 128 60 459 128 59 460 376 471 461 131 472 462 133 471 463 349 59 464 130 59 465 130 58 466 375 472 467 133 473 468 135 472 469 350 58 470 132 58 471 132 57 472 374 473 473 135 474 474 137 473 475 351 57 476 134 57 477 134 56 478 373 474 479 137 475 480 139 474 481 352 56 482 136 475 483 139 56 484 136 55 485 372 476 486 141 475 487 353 55 488 138 476 489 141 55 490 138 54 491 371 477 492 143 476 493 354 54 494 140 477 495 143 54 496 140 53 497 142 478 498 355 477 499 179 53 500 177 478 501 355 53 502 177 52 503 370 127 504 369 478 505 144 52 506 178 127 507 369 52 508 178 51 509 368 126 510 367 127 511 146 51 512 145 126 513 367 51 514 145 50 515 366 483 516 333 50 517 147 49 518 365 50 519 147 483 520 333 126 521 148 484 522 152 49 523 149 48 524 364 49 525 149 484 526 152 483 527 332 485 528 154 48 529 151 71 530 363 48 531 151 485 532 154 484 533 335 486 534 156 71 535 153 70 536 362 71 537 153 486 538 156 485 539 336 487 540 158 70 541 155 69 542 361 70 543 155 487 544 158 486 545 337 488 546 160 69 547 157 68 548 360 69 549 157 488 550 160 487 551 338 67 552 359 488 553 339 68 554 159 488 555 339 67 556 359 489 557 162 66 558 358 489 559 340 67 560 161 489 561 340 66 562 358 490 563 164 491 564 166 66 565 163 65 566 357 66 567 163 491 568 166 490 569 341 65 570 165 64 571 383 464 572 343 65 573 165 464 574 343 491 575 342 38 576 50 73 577 47 39 578 49 39 579 49 73 580 47 72 581 48 38 582 50 74 583 51 73 584 47 74 585 51 38 586 50 37 587 52 37 588 52 75 589 53 74 590 51 75 591 53 37 592 52 36 593 54 36 594 54 76 595 55 75 596 53 76 597 55 36 598 54 35 599 56 35 600 56 77 601 57 76 602 55 77 603 57 35 604 56 34 605 58 34 606 58 78 607 97 77 608 57 78 609 97 34 610 58 33 611 98 33 612 60 79 613 61 78 614 59 79 615 61 33 616 60 32 617 62 32 618 62 80 619 63 79 620 61 80 621 63 32 622 62 31 623 64 80 624 63 31 625 64 81 626 65 81 627 65 31 628 64 30 629 66 30 630 66 82 631 67 81 632 65 82 633 67 30 634 66 29 635 68 82 636 67 29 637 68 83 638 95 83 639 95 29 640 68 28 641 94 83 642 95 28 643 94 84 644 69 84 645 69 28 646 94 27 647 70 84 648 69 27 649 70 85 650 71 85 651 71 27 652 70 26 653 72 85 654 71 26 655 72 86 656 73 25 657 74 86 658 73 26 659 72 86 660 73 25 661 74 87 662 75 24 663 76 87 664 75 25 665 74 87 666 75 24 667 76 88 668 77 47 669 78 88 670 77 24 671 76 88 672 77 47 673 78 89 674 79 46 675 80 89 676 79 47 677 78 89 678 79 46 679 80 90 680 101 45 681 102 90 682 101 46 683 80 90 684 81 45 685 82 91 686 83 44 687 84 91 688 83 45 689 82 43 690 86 92 691 85 44 692 84 44 693 84 92 694 85 91 695 83 42 696 88 93 697 87 43 698 86 43 699 86 93 700 87 92 701 85 41 702 90 94 703 89 42 704 88 42 705 88 94 706 89 93 707 87 40 708 92 95 709 91 41 710 90 41 711 90 95 712 91 94 713 89 39 714 49 72 715 48 40 716 92 40 717 92 72 718 48 95 719 91 129 720 107 128 721 104 95 722 106 95 723 106 128 724 104 96 725 105 131 726 109 130 727 108 129 728 107 129 729 107 130 730 108 128 731 104 74 732 111 99 733 110 131 734 109 131 735 109 99 736 110 130 737 108 99 738 26 75 739 53 100 740 24 75 741 53 99 742 26 74 743 51 75 744 53 101 745 22 100 746 24 101 747 22 75 748 53 76 749 55 76 750 55 102 751 20 101 752 22 102 753 20 76 754 55 77 755 57 77 756 57 103 757 96 102 758 20 103 759 96 77 760 57 78 761 97 78 762 59 104 763 16 103 764 18 104 765 16 78 766 59 79 767 61 104 768 16 80 769 63 105 770 14 80 771 63 104 772 16 79 773 61 105 774 14 81 775 65 106 776 12 81 777 65 105 778 14 80 779 63 106 780 12 81 781 65 107 782 10 107 783 10 81 784 65 82 785 67 107 786 10 82 787 67 108 788 8 108 789 8 82 790 67 83 791 95 108 792 113 83 793 114 120 794 112 120 795 112 83 796 114 121 797 115 120 798 112 121 799 115 122 800 116 122 801 116 121 802 115 123 803 117 122 804 116 123 805 117 111 806 118 111 807 118 123 808 117 86 809 119 111 810 2 86 811 73 112 812 3 87 813 75 112 814 3 86 815 73 112 816 3 87 817 75 113 818 46 88 819 77 113 820 46 87 821 75 113 822 46 88 823 77 114 824 44 89 825 79 114 826 44 88 827 77 114 828 44 89 829 79 115 830 100 90 831 101 115 832 100 89 833 79 115 834 42 90 835 81 116 836 40 91 837 83 116 838 40 90 839 81 92 840 85 117 841 38 91 842 83 91 843 83 117 844 38 116 845 40 93 846 87 118 847 36 92 848 85 92 849 85 118 850 36 117 851 38 94 852 89 119 853 34 93 854 87 93 855 87 119 856 34 118 857 36 95 858 91 96 859 32 94 860 89 94 861 89 96 862 32 119 863 34 109 864 276 108 865 277 120 866 278 83 867 282 84 868 283 121 869 284 120 870 278 110 871 279 109 872 276 110 873 279 120 874 278 122 875 280 121 876 284 85 877 285 123 878 286 85 879 285 121 880 284 84 881 283 111 882 281 110 883 279 122 884 280 85 885 285 86 886 287 123 887 286 132 888 170 135 889 172 133 890 328 135 891 172 132 892 170 134 893 331 139 894 176 136 895 174 138 896 327 136 897 174 139 898 176 137 899 324 97 900 288 96 901 289 128 902 290 95 903 294 72 904 295 129 905 296 128 906 290 130 907 292 98 908 291 98 909 291 97 910 288 128 911 290 129 912 296 73 913 297 131 914 298 73 915 297 129 916 296 72 917 295 99 918 293 98 919 291 130 920 292 73 921 297 74 922 299 131 923 298 133 924 303 124 925 301 132 926 302 124 927 301 133 928 303 125 929 300 135 930 308 134 931 309 467 932 306 467 933 306 466 934 307 135 935 308 136 936 314 137 937 315 127 938 312 127 939 312 126 940 313 136 941 314 139 942 320 481 943 318 480 944 319 481 945 318 139 946 320 138 947 321 138 948 175 483 949 150 482 950 334 483 951 150 138 952 175 136 953 326 137 954 173 139 955 325 479 956 167 479 957 167 478 958 356 137 959 173 479 960 322 139 961 320 480 962 319 481 963 318 138 964 321 482 965 323 478 966 317 127 967 312 137 968 315 126 969 313 483 970 316 136 971 314 134 972 171 132 973 330 469 974 127 469 975 127 468 976 347 134 977 171 133 978 169 465 979 168 464 980 344 465 981 168 133 982 169 135 983 329 464 984 305 125 985 300 133 986 303 124 987 301 469 988 304 132 989 302 467 990 306 134 991 309 468 992 311 465 993 310 135 994 308 466 995 307 148 996 434 140 997 432 141 998 433 140 999 432 148 1000 434 147 1001 435 148 1002 434 141 1003 433 149 1004 437 149 1005 437 141 1006 433 142 1007 436 149 1008 437 142 1009 436 150 1010 439 150 1011 439 142 1012 436 143 1013 438 150 1014 439 143 1015 438 151 1016 441 151 1017 441 143 1018 438 144 1019 440 145 1020 442 152 1021 443 144 1022 440 151 1023 441 144 1024 440 152 1025 443 147 1026 435 146 1027 444 140 1028 432 146 1029 444 147 1030 435 153 1031 445 141 1032 446 140 1033 447 154 1034 448 142 1035 449 141 1036 446 154 1037 448 143 1038 450 142 1039 449 154 1040 448 144 1041 451 143 1042 450 154 1043 448 145 1044 452 144 1045 451 154 1046 448 140 1047 447 146 1048 453 154 1049 448 155 1050 454 152 1051 443 145 1052 442 152 1053 443 155 1054 454 156 1055 455 146 1056 444 153 1057 445 158 1058 456 146 1059 444 158 1060 456 157 1061 457 159 1062 458 145 1063 452 154 1064 448 145 1065 452 159 1066 458 155 1067 459 146 1068 453 159 1069 458 154 1070 448 159 1071 458 146 1072 453 157 1073 460 186 1074 463 160 1075 461 161 1076 462 160 1077 461 186 1078 463 187 1079 464 186 1080 463 162 1081 465 185 1082 466 162 1083 465 186 1084 463 161 1085 462 185 1086 466 162 1087 465 184 1088 468 184 1089 468 162 1090 465 163 1091 467 184 1092 468 163 1093 467 183 1094 470 163 1095 467 164 1096 469 183 1097 470 165 1098 471 183 1099 470 164 1100 469 183 1101 470 165 1102 471 182 1103 472 187 1104 464 166 1105 473 160 1106 461 166 1107 473 187 1108 464 188 1109 474 161 1110 475 160 1111 476 174 1112 477 162 1113 478 161 1114 475 174 1115 477 163 1116 479 162 1117 478 174 1118 477 164 1119 480 163 1120 479 174 1121 477 165 1122 481 164 1123 480 174 1124 477 160 1125 476 166 1126 482 174 1127 477 182 1128 472 165 1129 471 175 1130 483 182 1131 472 175 1132 483 181 1133 484 188 1134 474 177 1135 486 166 1136 473 177 1137 486 188 1138 474 189 1139 485 179 1140 487 165 1141 481 174 1142 477 165 1143 481 179 1144 487 175 1145 488 166 1146 482 179 1147 487 174 1148 477 179 1149 487 166 1150 482 177 1151 489 167 1152 490 168 1153 491 180 1154 492 168 1155 491 169 1156 493 180 1157 492 169 1158 493 170 1159 494 180 1160 492 170 1161 494 171 1162 495 180 1163 492 171 1164 495 172 1165 496 180 1166 492 173 1167 497 167 1168 490 180 1169 492 172 1170 496 176 1171 498 180 1172 492 178 1173 499 173 1174 497 180 1175 492 172 1176 496 182 1177 472 181 1178 484 172 1179 496 181 1180 484 176 1181 498 182 1182 472 171 1183 495 183 1184 470 171 1185 495 182 1186 472 172 1187 496 170 1188 494 184 1189 468 171 1190 495 184 1191 468 183 1192 470 171 1193 495 169 1194 493 184 1195 468 170 1196 494 184 1197 468 169 1198 493 185 1199 466 168 1200 491 185 1201 466 169 1202 493 185 1203 466 168 1204 491 186 1205 463 168 1206 491 187 1207 464 186 1208 463 167 1209 490 187 1210 464 168 1211 491 167 1212 490 188 1213 474 187 1214 464 173 1215 497 188 1216 474 167 1217 490 173 1218 497 189 1219 485 188 1220 474 189 1221 485 173 1222 497 178 1223 499 202 1224 503 191 1225 501 203 1226 502 191 1227 501 202 1228 503 190 1229 500 203 1230 507 192 1231 505 204 1232 506 192 1233 505 203 1234 507 191 1235 504 205 1236 510 204 1237 511 192 1238 508 205 1239 510 192 1240 508 193 1241 509 193 1242 512 206 1243 514 205 1244 515 206 1245 514 193 1246 512 194 1247 513 194 1248 516 207 1249 518 206 1250 519 207 1251 518 194 1252 516 195 1253 517 195 1254 520 208 1255 522 207 1256 523 208 1257 522 195 1258 520 196 1259 521 209 1260 526 196 1261 524 197 1262 525 196 1263 524 209 1264 526 208 1265 527 210 1266 530 209 1267 531 197 1268 528 210 1269 530 197 1270 528 198 1271 529 210 1272 535 199 1273 533 211 1274 534 199 1275 533 210 1276 535 198 1277 532 211 1278 539 200 1279 537 212 1280 538 200 1281 537 211 1282 539 199 1283 536 212 1284 543 201 1285 541 213 1286 542 201 1287 541 212 1288 543 200 1289 540 213 1290 547 190 1291 545 202 1292 546 190 1293 545 213 1294 547 201 1295 544 202 1296 548 203 1297 549 214 1298 550 203 1299 549 204 1300 551 214 1301 550 204 1302 551 205 1303 552 214 1304 550 205 1305 552 206 1306 553 214 1307 550 206 1308 553 207 1309 554 214 1310 550 207 1311 554 208 1312 555 214 1313 550 208 1314 555 209 1315 556 214 1316 550 209 1317 556 210 1318 557 214 1319 550 210 1320 557 211 1321 558 214 1322 550 211 1323 558 212 1324 559 214 1325 550 212 1326 559 213 1327 560 214 1328 550 213 1329 560 202 1330 548 214 1331 550 223 1332 563 215 1333 561 216 1334 562 215 1335 561 223 1336 563 222 1337 564 224 1338 566 216 1339 562 217 1340 565 216 1341 562 224 1342 566 223 1343 563 225 1344 568 217 1345 565 218 1346 567 217 1347 565 225 1348 568 224 1349 566 225 1350 568 218 1351 567 226 1352 570 226 1353 570 218 1354 567 219 1355 569 226 1356 570 219 1357 569 227 1358 572 227 1359 572 219 1360 569 220 1361 571 215 1362 561 222 1363 564 221 1364 573 221 1365 573 222 1366 564 228 1367 574 216 1368 575 215 1369 576 229 1370 577 217 1371 578 216 1372 575 229 1373 577 218 1374 579 217 1375 578 229 1376 577 219 1377 580 218 1378 579 229 1379 577 220 1380 581 219 1381 580 229 1382 577 215 1383 576 221 1384 582 229 1385 577 230 1386 583 231 1387 584 227 1388 572 227 1389 572 220 1390 571 230 1391 583 233 1392 585 232 1393 586 221 1394 573 221 1395 573 228 1396 574 233 1397 585 234 1398 587 230 1399 588 220 1400 581 234 1401 587 220 1402 581 229 1403 577 232 1404 589 234 1405 587 229 1406 577 232 1407 589 229 1408 577 221 1409 582 236 1410 591 262 1411 593 235 1412 590 262 1413 593 236 1414 591 261 1415 592 260 1416 595 236 1417 591 237 1418 594 236 1419 591 260 1420 595 261 1421 592 259 1422 597 237 1423 594 238 1424 596 237 1425 594 259 1426 597 260 1427 595 259 1428 597 239 1429 598 258 1430 599 239 1431 598 259 1432 597 238 1433 596 258 1434 599 240 1435 600 257 1436 601 240 1437 600 258 1438 599 239 1439 598 235 1440 590 262 1441 593 241 1442 602 241 1443 602 262 1444 593 263 1445 603 236 1446 604 235 1447 605 249 1448 606 237 1449 607 236 1450 604 249 1451 606 238 1452 608 237 1453 607 249 1454 606 239 1455 609 238 1456 608 249 1457 606 240 1458 610 239 1459 609 249 1460 606 235 1461 605 241 1462 611 249 1463 606 256 1464 613 240 1465 600 250 1466 612 240 1467 600 256 1468 613 257 1469 601 252 1470 615 263 1471 603 264 1472 614 263 1473 603 252 1474 615 241 1475 602 254 1476 616 250 1477 617 240 1478 610 254 1479 616 240 1480 610 249 1481 606 252 1482 618 254 1483 616 249 1484 606 252 1485 618 249 1486 606 241 1487 611 242 1488 619 243 1489 620 255 1490 621 243 1491 620 244 1492 622 255 1493 621 244 1494 622 245 1495 623 255 1496 621 245 1497 623 246 1498 624 255 1499 621 246 1500 624 247 1501 625 255 1502 621 248 1503 626 242 1504 619 255 1505 621 247 1506 625 251 1507 627 255 1508 621 253 1509 628 248 1510 626 255 1511 621 251 1512 627 257 1513 601 256 1514 613 257 1515 601 251 1516 627 247 1517 625 246 1518 624 257 1519 601 247 1520 625 257 1521 601 246 1522 624 258 1523 599 245 1524 623 258 1525 599 246 1526 624 258 1527 599 245 1528 623 259 1529 597 245 1530 623 260 1531 595 259 1532 597 244 1533 622 260 1534 595 245 1535 623 244 1536 622 261 1537 592 260 1538 595 261 1539 592 244 1540 622 243 1541 620 261 1542 592 242 1543 619 262 1544 593 242 1545 619 261 1546 592 243 1547 620 262 1548 593 242 1549 619 263 1550 603 263 1551 603 242 1552 619 248 1553 626 263 1554 603 248 1555 626 264 1556 614 264 1557 614 248 1558 626 253 1559 628 278 1560 631 265 1561 629 266 1562 630 265 1563 629 278 1564 631 277 1565 632 267 1566 634 278 1567 636 266 1568 633 278 1569 636 267 1570 634 279 1571 635 268 1572 638 280 1573 639 267 1574 637 267 1575 637 280 1576 639 279 1577 640 269 1578 642 281 1579 643 268 1580 641 268 1581 641 281 1582 643 280 1583 644 282 1584 647 269 1585 645 270 1586 646 269 1587 645 282 1588 647 281 1589 648 283 1590 651 270 1591 649 271 1592 650 270 1593 649 283 1594 651 282 1595 652 272 1596 654 283 1597 656 271 1598 653 283 1599 656 272 1600 654 284 1601 655 273 1602 658 285 1603 659 272 1604 657 272 1605 657 285 1606 659 284 1607 660 274 1608 662 285 1609 664 273 1610 661 285 1611 664 274 1612 662 286 1613 663 286 1614 668 275 1615 666 287 1616 667 275 1617 666 286 1618 668 274 1619 665 287 1620 672 276 1621 670 288 1622 671 276 1623 670 287 1624 672 275 1625 669 288 1626 676 265 1627 674 277 1628 675 265 1629 674 288 1630 676 276 1631 673 277 1632 677 278 1633 678 289 1634 679 278 1635 678 279 1636 680 289 1637 679 279 1638 680 280 1639 681 289 1640 679 280 1641 681 281 1642 682 289 1643 679 281 1644 682 282 1645 683 289 1646 679 282 1647 683 283 1648 684 289 1649 679 283 1650 684 284 1651 685 289 1652 679 284 1653 685 285 1654 686 289 1655 679 285 1656 686 286 1657 687 289 1658 679 286 1659 687 287 1660 688 289 1661 679 287 1662 688 288 1663 689 289 1664 679 288 1665 689 277 1666 677 289 1667 679 291 1668 691 298 1669 692 290 1670 690 297 1671 693 290 1672 690 298 1673 692 292 1674 694 299 1675 695 291 1676 691 298 1677 692 291 1678 691 299 1679 695 293 1680 696 300 1681 697 292 1682 694 299 1683 695 292 1684 694 300 1685 697 294 1686 698 301 1687 699 293 1688 696 293 1689 696 301 1690 699 300 1691 697 295 1692 700 302 1693 701 294 1694 698 294 1695 698 302 1696 701 301 1697 699 303 1698 703 296 1699 702 297 1700 693 297 1701 693 296 1702 702 290 1703 690 291 1704 704 290 1705 705 304 1706 706 292 1707 707 291 1708 704 304 1709 706 293 1710 708 292 1711 707 304 1712 706 294 1713 709 293 1714 708 304 1715 706 295 1716 710 294 1717 709 304 1718 706 290 1719 705 296 1720 711 304 1721 706 305 1722 712 302 1723 701 295 1724 700 302 1725 701 305 1726 712 306 1727 713 308 1728 714 296 1729 702 303 1730 703 296 1731 702 308 1732 714 307 1733 715 309 1734 716 295 1735 710 304 1736 706 295 1737 710 309 1738 716 305 1739 717 307 1740 718 304 1741 706 296 1742 711 304 1743 706 307 1744 718 309 1745 716 311 1746 720 337 1747 722 310 1748 719 337 1749 722 311 1750 720 336 1751 721 312 1752 723 335 1753 724 311 1754 720 336 1755 721 311 1756 720 335 1757 724 313 1758 725 334 1759 726 312 1760 723 335 1761 724 312 1762 723 334 1763 726 314 1764 727 334 1765 726 313 1766 725 334 1767 726 314 1768 727 333 1769 728 315 1770 729 333 1771 728 314 1772 727 333 1773 728 315 1774 729 332 1775 730 338 1776 732 316 1777 731 337 1778 722 316 1779 731 310 1780 719 337 1781 722 311 1782 733 310 1783 734 324 1784 735 312 1785 736 311 1786 733 324 1787 735 313 1788 737 312 1789 736 324 1790 735 314 1791 738 313 1792 737 324 1793 735 315 1794 739 314 1795 738 324 1796 735 310 1797 734 316 1798 740 324 1799 735 315 1800 729 331 1801 742 332 1802 730 331 1803 742 315 1804 729 325 1805 741 327 1806 744 338 1807 732 339 1808 743 338 1809 732 327 1810 744 316 1811 731 329 1812 745 315 1813 739 324 1814 735 315 1815 739 329 1816 745 325 1817 746 327 1818 747 324 1819 735 316 1820 740 324 1821 735 327 1822 747 329 1823 745 317 1824 748 318 1825 749 330 1826 750 318 1827 749 319 1828 751 330 1829 750 319 1830 751 320 1831 752 330 1832 750 320 1833 752 321 1834 753 330 1835 750 321 1836 753 322 1837 754 330 1838 750 323 1839 755 317 1840 748 330 1841 750 322 1842 754 326 1843 756 330 1844 750 328 1845 757 323 1846 755 330 1847 750 332 1848 730 326 1849 756 322 1850 754 326 1851 756 332 1852 730 331 1853 742 332 1854 730 321 1855 753 333 1856 728 321 1857 753 332 1858 730 322 1859 754 333 1860 728 320 1861 752 334 1862 726 320 1863 752 333 1864 728 321 1865 753 334 1866 726 320 1867 752 335 1868 724 319 1869 751 335 1870 724 320 1871 752 335 1872 724 319 1873 751 336 1874 721 318 1875 749 336 1876 721 319 1877 751 336 1878 721 317 1879 748 337 1880 722 317 1881 748 336 1882 721 318 1883 749 337 1884 722 317 1885 748 338 1886 732 323 1887 755 338 1888 732 317 1889 748 328 1890 757 339 1891 743 323 1892 755 339 1893 743 338 1894 732 323 1895 755 352 1896 761 340 1897 758 353 1898 760 340 1899 758 341 1900 759 353 1901 760 353 1902 765 342 1903 763 354 1904 764 342 1905 763 353 1906 765 341 1907 762 355 1908 768 354 1909 769 342 1910 766 342 1911 766 343 1912 767 355 1913 768 356 1914 772 355 1915 773 343 1916 770 343 1917 770 344 1918 771 356 1919 772 357 1920 776 356 1921 777 344 1922 774 344 1923 774 345 1924 775 357 1925 776 358 1926 780 357 1927 781 345 1928 778 345 1929 778 346 1930 779 358 1931 780 358 1932 785 347 1933 783 359 1934 784 347 1935 783 358 1936 785 346 1937 782 347 1938 786 360 1939 788 359 1940 789 360 1941 788 347 1942 786 348 1943 787 360 1944 793 349 1945 791 361 1946 792 349 1947 791 360 1948 793 348 1949 790 350 1950 795 361 1951 797 349 1952 794 361 1953 797 350 1954 795 362 1955 796 351 1956 799 362 1957 801 350 1958 798 362 1959 801 351 1960 799 363 1961 800 340 1962 803 363 1963 805 351 1964 802 363 1965 805 340 1966 803 352 1967 804 352 1968 806 353 1969 807 364 1970 808 353 1971 807 354 1972 809 364 1973 808 354 1974 809 355 1975 810 364 1976 808 355 1977 810 356 1978 811 364 1979 808 356 1980 811 357 1981 812 364 1982 808 357 1983 812 358 1984 813 364 1985 808 358 1986 813 359 1987 814 364 1988 808 359 1989 814 360 1990 815 364 1991 808 360 1992 815 361 1993 816 364 1994 808 361 1995 816 362 1996 817 364 1997 808 362 1998 817 363 1999 818 364 2000 808 363 2001 818 352 2002 806 364 2003 808 366 2004 820 373 2005 821 365 2006 819 372 2007 822 365 2008 819 373 2009 821 374 2010 824 366 2011 820 367 2012 823 366 2013 820 374 2014 824 373 2015 821 368 2016 825 375 2017 826 367 2018 823 367 2019 823 375 2020 826 374 2021 824 376 2022 828 368 2023 825 369 2024 827 368 2025 825 376 2026 828 375 2027 826 377 2028 830 369 2029 827 370 2030 829 369 2031 827 377 2032 830 376 2033 828 365 2034 819 372 2035 822 371 2036 831 378 2037 832 371 2038 831 372 2039 822 366 2040 833 365 2041 834 379 2042 835 367 2043 836 366 2044 833 379 2045 835 368 2046 837 367 2047 836 379 2048 835 369 2049 838 368 2050 837 379 2051 835 370 2052 839 369 2053 838 379 2054 835 365 2055 834 371 2056 840 379 2057 835 380 2058 841 381 2059 842 377 2060 830 380 2061 841 377 2062 830 370 2063 829 383 2064 843 382 2065 844 371 2066 831 383 2067 843 371 2068 831 378 2069 832 384 2070 845 380 2071 846 370 2072 839 384 2073 845 370 2074 839 379 2075 835 384 2076 845 371 2077 840 382 2078 847 371 2079 840 384 2080 845 379 2081 835 386 2082 849 411 2083 850 385 2084 848 412 2085 851 385 2086 848 411 2087 850 387 2088 852 411 2089 850 386 2090 849 411 2091 850 387 2092 852 410 2093 853 388 2094 854 409 2095 855 387 2096 852 387 2097 852 409 2098 855 410 2099 853 389 2100 856 408 2101 857 388 2102 854 388 2103 854 408 2104 857 409 2105 855 390 2106 858 408 2107 857 389 2108 856 408 2109 857 390 2110 858 407 2111 859 385 2112 848 412 2113 851 391 2114 860 413 2115 861 391 2116 860 412 2117 851 386 2118 862 385 2119 863 399 2120 864 387 2121 865 386 2122 862 399 2123 864 388 2124 866 387 2125 865 399 2126 864 389 2127 867 388 2128 866 399 2129 864 390 2130 868 389 2131 867 399 2132 864 385 2133 863 391 2134 869 399 2135 864 400 2136 870 406 2137 871 407 2138 859 400 2139 870 407 2140 859 390 2141 858 402 2142 873 413 2143 861 414 2144 872 413 2145 861 402 2146 873 391 2147 860 404 2148 874 400 2149 875 390 2150 868 404 2151 874 390 2152 868 399 2153 864 404 2154 874 391 2155 869 402 2156 876 391 2157 869 404 2158 874 399 2159 864 392 2160 877 393 2161 878 405 2162 879 393 2163 878 394 2164 880 405 2165 879 394 2166 880 395 2167 881 405 2168 879 395 2169 881 396 2170 882 405 2171 879 396 2172 882 397 2173 883 405 2174 879 398 2175 884 392 2176 877 405 2177 879 397 2178 883 401 2179 885 405 2180 879 403 2181 886 398 2182 884 405 2183 879 406 2184 871 401 2185 885 397 2186 883 406 2187 871 397 2188 883 407 2189 859 407 2190 859 396 2191 882 408 2192 857 396 2193 882 407 2194 859 397 2195 883 408 2196 857 396 2197 882 409 2198 855 409 2199 855 396 2200 882 395 2201 881 409 2202 855 394 2203 880 410 2204 853 394 2205 880 409 2206 855 395 2207 881 410 2208 853 393 2209 878 411 2210 850 393 2211 878 410 2212 853 394 2213 880 411 2214 850 393 2215 878 412 2216 851 392 2217 877 412 2218 851 393 2219 878 412 2220 851 392 2221 877 413 2222 861 398 2223 884 413 2224 861 392 2225 877 413 2226 861 398 2227 884 414 2228 872 403 2229 886 414 2230 872 398 2231 884 416 2232 888 427 2233 890 415 2234 887 427 2235 890 416 2236 888 428 2237 889 417 2238 892 428 2239 894 416 2240 891 428 2241 894 417 2242 892 429 2243 893 418 2244 896 430 2245 897 417 2246 895 417 2247 895 430 2248 897 429 2249 898 418 2250 899 419 2251 900 431 2252 901 418 2253 899 431 2254 901 430 2255 902 419 2256 903 420 2257 904 432 2258 905 419 2259 903 432 2260 905 431 2261 906 420 2262 907 421 2263 908 433 2264 909 420 2265 907 433 2266 909 432 2267 910 433 2268 914 421 2269 911 434 2270 913 421 2271 911 422 2272 912 434 2273 913 423 2274 916 435 2275 917 422 2276 915 422 2277 915 435 2278 917 434 2279 918 424 2280 920 435 2281 922 423 2282 919 435 2283 922 424 2284 920 436 2285 921 425 2286 924 436 2287 926 424 2288 923 436 2289 926 425 2290 924 437 2291 925 426 2292 928 437 2293 930 425 2294 927 437 2295 930 426 2296 928 438 2297 929 415 2298 932 438 2299 934 426 2300 931 438 2301 934 415 2302 932 427 2303 933 427 2304 935 428 2305 936 439 2306 937 428 2307 936 429 2308 938 439 2309 937 429 2310 938 430 2311 939 439 2312 937 430 2313 939 431 2314 940 439 2315 937 431 2316 940 432 2317 941 439 2318 937 432 2319 941 433 2320 942 439 2321 937 433 2322 942 434 2323 943 439 2324 937 434 2325 943 435 2326 944 439 2327 937 435 2328 944 436 2329 945 439 2330 937 436 2331 945 437 2332 946 439 2333 937 437 2334 946 438 2335 947 439 2336 937 438 2337 947 427 2338 935 439 2339 937</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Saturn_S4B_Interstage" name="Saturn_S4B_Interstage">
+      <node name="S4B_Stage" id="S4B_Stage" sid="S4B_Stage"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 8.864610 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="S4B_Interstage_Merged" id="S4B_Interstage_Merged" sid="S4B_Interstage_Merged"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -5.689876 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Colliders" id="Colliders" sid="Colliders"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Collider" id="Collider" sid="Collider"><matrix sid="matrix">0.980785 0.000000 0.195090 0.000000 0.000000 1.000000 0.000000 -0.090134 -0.195090 0.000000 0.980785 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Collider-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node><node name="Collider2" id="Collider2" sid="Collider2"><matrix sid="matrix">0.555570 0.000000 0.831470 0.000000 0.000000 1.000000 0.000000 -0.090134 -0.831470 0.000000 0.555570 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Collider2-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node><node name="Collider3" id="Collider3" sid="Collider3"><matrix sid="matrix">-0.195090 0.000000 0.980785 0.000000 0.000000 1.000000 0.000000 -0.090134 -0.980785 0.000000 -0.195090 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Collider3-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node><node name="Collider4" id="Collider4" sid="Collider4"><matrix sid="matrix">-0.831470 0.000000 0.555570 0.000000 0.000000 1.000000 0.000000 -0.090134 -0.555570 0.000000 -0.831470 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Collider4-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node><node name="Collider5" id="Collider5" sid="Collider5"><matrix sid="matrix">-0.980785 0.000000 -0.195090 0.000000 0.000000 1.000000 0.000000 -0.090134 0.195090 0.000000 -0.980785 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Collider5-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node><node name="Collider6" id="Collider6" sid="Collider6"><matrix sid="matrix">-0.555570 0.000000 -0.831470 0.000000 0.000000 1.000000 0.000000 -0.090134 0.831470 0.000000 -0.555570 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Collider6-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node><node name="Collider7" id="Collider7" sid="Collider7"><matrix sid="matrix">0.195090 0.000000 -0.980785 0.000000 0.000000 1.000000 0.000000 -0.090134 0.980785 0.000000 0.195090 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Collider7-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node><node name="Collider8" id="Collider8" sid="Collider8"><matrix sid="matrix">0.831470 0.000000 -0.555570 0.000000 0.000000 1.000000 0.000000 -0.090134 0.555570 0.000000 0.831470 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Collider8-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node></node><node name="thrustTransform" id="thrustTransform" sid="thrustTransform"><matrix sid="matrix">-0.988841 -0.136104 -0.054844 -0.259972 0.000000 -0.613255 0.714431 1.577443 -0.130183 1.033809 0.416580 1.974685 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="thrustTransform1" id="thrustTransform1" sid="thrustTransform1"><matrix sid="matrix">-0.381678 -0.963357 -0.388191 -1.840113 0.000000 -0.613255 0.714431 1.577443 -0.921453 0.399035 0.160794 0.762200 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="thrustTransform2" id="thrustTransform2" sid="thrustTransform2"><matrix sid="matrix">0.381678 0.963357 0.388191 1.840113 -0.000000 -0.613255 0.714431 1.577443 0.921453 -0.399035 -0.160794 -0.762200 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="thrustTransform3" id="thrustTransform3" sid="thrustTransform3"><matrix sid="matrix">0.988841 0.136104 0.054844 0.259972 -0.000000 -0.613255 0.714431 1.577443 0.130183 -1.033809 -0.416580 -1.974685 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="S4B_Interstage_Merged_S4B_Interstage_Mesh" id="S4B_Interstage_Merged_S4B_Interstage_Mesh" sid="S4B_Interstage_Merged_S4B_Interstage_Mesh"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -3.344846 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="polySurface57" id="polySurface57" sid="polySurface57"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#polySurface57-lib"><bind_material><technique_common><instance_material symbol="S_IC" target="#S_IC"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="polySurface58" id="polySurface58" sid="polySurface58"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#polySurface58-lib"><bind_material><technique_common><instance_material symbol="SIVB" target="#SIVB"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Saturn_S4B_Interstage"></instance_visual_scene>
+  </scene>
+</COLLADA>

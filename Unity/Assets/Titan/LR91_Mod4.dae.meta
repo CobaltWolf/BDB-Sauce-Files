@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 2f1818f41c27a31458dfbd7313e22fcd
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Engine1
+    100002: fairing
+    100004: group10
+    100006: group11
+    100008: group8
+    100010: //RootNode
+    100012: pCube36
+    100014: pCube37
+    100016: pCube38
+    100018: pCube39
+    100020: pCube40
+    100022: pCube41
+    100024: pCube42
+    100026: pCube43
+    100028: pCube44
+    100030: pCube45
+    100032: pCube46
+    100034: pCube7
+    100036: pCube8
+    100038: pCylinder1
+    100040: pCylinder10
+    100042: pCylinder14
+    100044: pCylinder16
+    100046: polySurface30
+    100048: polySurface34
+    100050: polySurface35_polySurface25
+    100052: polySurface35_polySurface26
+    100054: thrustTransform
+    100056: TitanEnginePlate1
+    400000: Engine1
+    400002: fairing
+    400004: group10
+    400006: group11
+    400008: group8
+    400010: //RootNode
+    400012: pCube36
+    400014: pCube37
+    400016: pCube38
+    400018: pCube39
+    400020: pCube40
+    400022: pCube41
+    400024: pCube42
+    400026: pCube43
+    400028: pCube44
+    400030: pCube45
+    400032: pCube46
+    400034: pCube7
+    400036: pCube8
+    400038: pCylinder1
+    400040: pCylinder10
+    400042: pCylinder14
+    400044: pCylinder16
+    400046: polySurface30
+    400048: polySurface34
+    400050: polySurface35_polySurface25
+    400052: polySurface35_polySurface26
+    400054: thrustTransform
+    400056: TitanEnginePlate1
+    2300000: fairing
+    2300002: pCube36
+    2300004: pCube37
+    2300006: pCube38
+    2300008: pCube39
+    2300010: pCube40
+    2300012: pCube41
+    2300014: pCube42
+    2300016: pCube43
+    2300018: pCube44
+    2300020: pCube45
+    2300022: pCube46
+    2300024: pCube7
+    2300026: pCube8
+    2300028: pCylinder1
+    2300030: pCylinder10
+    2300032: pCylinder14
+    2300034: pCylinder16
+    2300036: polySurface30
+    2300038: polySurface34
+    2300040: polySurface35_polySurface25
+    2300042: polySurface35_polySurface26
+    2300044: TitanEnginePlate1
+    3300000: fairing
+    3300002: pCube36
+    3300004: pCube37
+    3300006: pCube38
+    3300008: pCube39
+    3300010: pCube40
+    3300012: pCube41
+    3300014: pCube42
+    3300016: pCube43
+    3300018: pCube44
+    3300020: pCube45
+    3300022: pCube46
+    3300024: pCube7
+    3300026: pCube8
+    3300028: pCylinder1
+    3300030: pCylinder10
+    3300032: pCylinder14
+    3300034: pCylinder16
+    3300036: polySurface30
+    3300038: polySurface34
+    3300040: polySurface35_polySurface25
+    3300042: polySurface35_polySurface26
+    3300044: TitanEnginePlate1
+    4300000: polySurface34
+    4300002: pCube7
+    4300004: polySurface35_polySurface25
+    4300006: polySurface35_polySurface26
+    4300008: pCylinder16
+    4300010: pCylinder1
+    4300012: pCylinder10
+    4300014: pCylinder14
+    4300016: polySurface30
+    4300018: TitanEnginePlate1
+    4300020: pCube8
+    4300022: pCube36
+    4300024: pCube37
+    4300026: pCube38
+    4300028: pCube39
+    4300030: pCube40
+    4300032: pCube41
+    4300034: pCube42
+    4300036: pCube43
+    4300038: pCube44
+    4300040: pCube45
+    4300042: pCube46
+    4300044: fairing
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

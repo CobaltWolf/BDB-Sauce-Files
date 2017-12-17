@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: dc8504185f841104e8240cf6820ab3b5
+timeCreated: 1497471322
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: pCube76
+    100002: pCube77
+    100004: pCube77_ncl1_1
+    100006: pCube77_ncl1_10
+    100008: pCube77_ncl1_11
+    100010: pCube77_ncl1_12
+    100012: pCube77_ncl1_13
+    100014: pCube77_ncl1_14
+    100016: pCube77_ncl1_2
+    100018: pCube77_ncl1_3
+    100020: pCube77_ncl1_4
+    100022: pCube77_ncl1_5
+    100024: pCube77_ncl1_6
+    100026: pCube77_ncl1_7
+    100028: pCube77_ncl1_8
+    100030: pCube77_ncl1_9
+    100032: //RootNode
+    100034: SolarPanelRotate_1
+    100036: SolarPanelRotate_2
+    100038: SolarPanelRotate_2_ncl1_1
+    100040: SolarPanelRotate_2_ncl1_2
+    100042: SolarPanelRotate_3
+    100044: SolarPanelRotate_3_ncl1_1
+    100046: SolarPanelRotate_3_ncl1_2
+    100048: SolarPanelRotate_4
+    100050: SolarPanelRotate_4_ncl1_1
+    100052: SolarPanelRotate_4_ncl1_2
+    100054: SolarPanelRotate_5
+    100056: SolarPanelRotate_5_ncl1_1
+    100058: SolarPanelRotate_5_ncl1_2
+    100060: SolarPanelRotate_6
+    100062: SolarPanelRotate_7
+    100064: suncatcher
+    400000: pCube76
+    400002: pCube77
+    400004: pCube77_ncl1_1
+    400006: pCube77_ncl1_10
+    400008: pCube77_ncl1_11
+    400010: pCube77_ncl1_12
+    400012: pCube77_ncl1_13
+    400014: pCube77_ncl1_14
+    400016: pCube77_ncl1_2
+    400018: pCube77_ncl1_3
+    400020: pCube77_ncl1_4
+    400022: pCube77_ncl1_5
+    400024: pCube77_ncl1_6
+    400026: pCube77_ncl1_7
+    400028: pCube77_ncl1_8
+    400030: pCube77_ncl1_9
+    400032: //RootNode
+    400034: SolarPanelRotate_1
+    400036: SolarPanelRotate_2
+    400038: SolarPanelRotate_2_ncl1_1
+    400040: SolarPanelRotate_2_ncl1_2
+    400042: SolarPanelRotate_3
+    400044: SolarPanelRotate_3_ncl1_1
+    400046: SolarPanelRotate_3_ncl1_2
+    400048: SolarPanelRotate_4
+    400050: SolarPanelRotate_4_ncl1_1
+    400052: SolarPanelRotate_4_ncl1_2
+    400054: SolarPanelRotate_5
+    400056: SolarPanelRotate_5_ncl1_1
+    400058: SolarPanelRotate_5_ncl1_2
+    400060: SolarPanelRotate_6
+    400062: SolarPanelRotate_7
+    400064: suncatcher
+    2300000: pCube76
+    2300002: pCube77
+    2300004: pCube77_ncl1_1
+    2300006: pCube77_ncl1_10
+    2300008: pCube77_ncl1_11
+    2300010: pCube77_ncl1_12
+    2300012: pCube77_ncl1_13
+    2300014: pCube77_ncl1_14
+    2300016: pCube77_ncl1_2
+    2300018: pCube77_ncl1_3
+    2300020: pCube77_ncl1_4
+    2300022: pCube77_ncl1_5
+    2300024: pCube77_ncl1_6
+    2300026: pCube77_ncl1_7
+    2300028: pCube77_ncl1_8
+    2300030: pCube77_ncl1_9
+    3300000: pCube76
+    3300002: pCube77
+    3300004: pCube77_ncl1_1
+    3300006: pCube77_ncl1_10
+    3300008: pCube77_ncl1_11
+    3300010: pCube77_ncl1_12
+    3300012: pCube77_ncl1_13
+    3300014: pCube77_ncl1_14
+    3300016: pCube77_ncl1_2
+    3300018: pCube77_ncl1_3
+    3300020: pCube77_ncl1_4
+    3300022: pCube77_ncl1_5
+    3300024: pCube77_ncl1_6
+    3300026: pCube77_ncl1_7
+    3300028: pCube77_ncl1_8
+    3300030: pCube77_ncl1_9
+    4300000: pCube77
+    4300002: pCube77_ncl1_1
+    4300004: pCube77_ncl1_2
+    4300006: pCube77_ncl1_3
+    4300008: pCube77_ncl1_4
+    4300010: pCube76
+    4300012: pCube77_ncl1_5
+    4300014: pCube77_ncl1_6
+    4300016: pCube77_ncl1_7
+    4300018: pCube77_ncl1_8
+    4300020: pCube77_ncl1_9
+    4300022: pCube77_ncl1_10
+    4300024: pCube77_ncl1_11
+    4300026: pCube77_ncl1_12
+    4300028: pCube77_ncl1_13
+    4300030: pCube77_ncl1_14
+    7400000: extend
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: extend
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pCube76
+        weight: 1
+      - path: SolarPanelRotate_1
+        weight: 1
+      - path: SolarPanelRotate_1/pCube77
+        weight: 1
+      - path: SolarPanelRotate_1/SolarPanelRotate_2
+        weight: 1
+      - path: SolarPanelRotate_1/SolarPanelRotate_2/pCube77_ncl1_1
+        weight: 1
+      - path: SolarPanelRotate_1/SolarPanelRotate_2/SolarPanelRotate_3
+        weight: 1
+      - path: SolarPanelRotate_1/SolarPanelRotate_2/SolarPanelRotate_3/pCube77_ncl1_2
+        weight: 1
+      - path: SolarPanelRotate_1/SolarPanelRotate_2/SolarPanelRotate_3/SolarPanelRotate_4
+        weight: 1
+      - path: SolarPanelRotate_1/SolarPanelRotate_2/SolarPanelRotate_3/SolarPanelRotate_4/pCube77_ncl1_3
+        weight: 1
+      - path: SolarPanelRotate_1/SolarPanelRotate_2/SolarPanelRotate_3/SolarPanelRotate_4/SolarPanelRotate_5
+        weight: 1
+      - path: SolarPanelRotate_1/SolarPanelRotate_2/SolarPanelRotate_3/SolarPanelRotate_4/SolarPanelRotate_5/pCube77_ncl1_4
+        weight: 1
+      - path: SolarPanelRotate_1/SolarPanelRotate_2/SolarPanelRotate_3/SolarPanelRotate_4/SolarPanelRotate_5/suncatcher
+        weight: 1
+      - path: SolarPanelRotate_6
+        weight: 1
+      - path: SolarPanelRotate_6/pCube77_ncl1_5
+        weight: 1
+      - path: SolarPanelRotate_6/SolarPanelRotate_2_ncl1_1
+        weight: 1
+      - path: SolarPanelRotate_6/SolarPanelRotate_2_ncl1_1/pCube77_ncl1_6
+        weight: 1
+      - path: SolarPanelRotate_6/SolarPanelRotate_2_ncl1_1/SolarPanelRotate_3_ncl1_1
+        weight: 1
+      - path: SolarPanelRotate_6/SolarPanelRotate_2_ncl1_1/SolarPanelRotate_3_ncl1_1/pCube77_ncl1_7
+        weight: 1
+      - path: SolarPanelRotate_6/SolarPanelRotate_2_ncl1_1/SolarPanelRotate_3_ncl1_1/SolarPanelRotate_4_ncl1_1
+        weight: 1
+      - path: SolarPanelRotate_6/SolarPanelRotate_2_ncl1_1/SolarPanelRotate_3_ncl1_1/SolarPanelRotate_4_ncl1_1/pCube77_ncl1_8
+        weight: 1
+      - path: SolarPanelRotate_6/SolarPanelRotate_2_ncl1_1/SolarPanelRotate_3_ncl1_1/SolarPanelRotate_4_ncl1_1/SolarPanelRotate_5_ncl1_1
+        weight: 1
+      - path: SolarPanelRotate_6/SolarPanelRotate_2_ncl1_1/SolarPanelRotate_3_ncl1_1/SolarPanelRotate_4_ncl1_1/SolarPanelRotate_5_ncl1_1/pCube77_ncl1_9
+        weight: 1
+      - path: SolarPanelRotate_7
+        weight: 1
+      - path: SolarPanelRotate_7/pCube77_ncl1_10
+        weight: 1
+      - path: SolarPanelRotate_7/SolarPanelRotate_2_ncl1_2
+        weight: 1
+      - path: SolarPanelRotate_7/SolarPanelRotate_2_ncl1_2/pCube77_ncl1_11
+        weight: 1
+      - path: SolarPanelRotate_7/SolarPanelRotate_2_ncl1_2/SolarPanelRotate_3_ncl1_2
+        weight: 1
+      - path: SolarPanelRotate_7/SolarPanelRotate_2_ncl1_2/SolarPanelRotate_3_ncl1_2/pCube77_ncl1_12
+        weight: 1
+      - path: SolarPanelRotate_7/SolarPanelRotate_2_ncl1_2/SolarPanelRotate_3_ncl1_2/SolarPanelRotate_4_ncl1_2
+        weight: 1
+      - path: SolarPanelRotate_7/SolarPanelRotate_2_ncl1_2/SolarPanelRotate_3_ncl1_2/SolarPanelRotate_4_ncl1_2/pCube77_ncl1_13
+        weight: 1
+      - path: SolarPanelRotate_7/SolarPanelRotate_2_ncl1_2/SolarPanelRotate_3_ncl1_2/SolarPanelRotate_4_ncl1_2/SolarPanelRotate_5_ncl1_2
+        weight: 1
+      - path: SolarPanelRotate_7/SolarPanelRotate_2_ncl1_2/SolarPanelRotate_3_ncl1_2/SolarPanelRotate_4_ncl1_2/SolarPanelRotate_5_ncl1_2/pCube77_ncl1_14
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

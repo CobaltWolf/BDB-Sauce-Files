@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: cf7577289b38e0b4bb1a7e783baccaaa
+timeCreated: 1496944299
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: extrudedSurface5
+    100002: extrudedSurface6
+    100004: extrudedSurface6 1
+    100006: extrudedSurface7
+    100008: extrudedSurface7 1
+    100010: extrudedSurface8
+    100012: extrudedSurface8 1
+    100014: group261
+    100016: group262
+    100018: group263
+    100020: group264
+    100022: group265
+    100024: group266
+    100026: group274
+    100028: group275
+    100030: group275 1
+    100032: group276
+    100034: group277
+    100036: group278
+    100038: pCube17
+    100040: pCube17 1
+    100042: pCube62
+    100044: pCube62 1
+    100046: pCube63
+    100048: pCube63 1
+    100050: pCube64
+    100052: pCube64 1
+    100054: pCube66
+    100056: pCube67
+    100058: pCube68
+    100060: pCube69
+    100062: pCylinder324
+    100064: pCylinder333
+    100066: pCylinder333 1
+    100068: polySurface44
+    100070: polySurface45
+    100072: polySurface46
+    100074: polySurface47
+    100076: polySurface48
+    100078: pSphere7
+    100080: pSphere7 1
+    100082: pSphere7 2
+    100084: pSphere7 3
+    100086: pSphere8
+    100088: pSphere8 1
+    100090: //RootNode
+    100092: Skylab_Airlock_Merged_pCylinder6
+    100094: Skylab_Windows
+    100096: Collider1
+    100098: Collider2
+    100100: Collider3
+    100102: Skylab_Airlock_Merged3
+    100104: extrudedSurface1
+    100106: extrudedSurface2
+    100108: Mount
+    100110: pCylinder261
+    100112: pCylinder262
+    100114: pCylinder264
+    100116: pCylinder265
+    100118: pCylinder266
+    100120: pCylinder321
+    100122: pCylinder322
+    100124: pCylinder344
+    100126: RotateA
+    100128: RotateB
+    400000: extrudedSurface5
+    400002: extrudedSurface6
+    400004: extrudedSurface6 1
+    400006: extrudedSurface7
+    400008: extrudedSurface7 1
+    400010: extrudedSurface8
+    400012: extrudedSurface8 1
+    400014: group261
+    400016: group262
+    400018: group263
+    400020: group264
+    400022: group265
+    400024: group266
+    400026: group274
+    400028: group275
+    400030: group275 1
+    400032: group276
+    400034: group277
+    400036: group278
+    400038: pCube17
+    400040: pCube17 1
+    400042: pCube62
+    400044: pCube62 1
+    400046: pCube63
+    400048: pCube63 1
+    400050: pCube64
+    400052: pCube64 1
+    400054: pCube66
+    400056: pCube67
+    400058: pCube68
+    400060: pCube69
+    400062: pCylinder324
+    400064: pCylinder333
+    400066: pCylinder333 1
+    400068: polySurface44
+    400070: polySurface45
+    400072: polySurface46
+    400074: polySurface47
+    400076: polySurface48
+    400078: pSphere7
+    400080: pSphere7 1
+    400082: pSphere7 2
+    400084: pSphere7 3
+    400086: pSphere8
+    400088: pSphere8 1
+    400090: //RootNode
+    400092: Skylab_Airlock_Merged_pCylinder6
+    400094: Skylab_Windows
+    400096: Collider1
+    400098: Collider2
+    400100: Collider3
+    400102: Skylab_Airlock_Merged3
+    400104: extrudedSurface1
+    400106: extrudedSurface2
+    400108: Mount
+    400110: pCylinder261
+    400112: pCylinder262
+    400114: pCylinder264
+    400116: pCylinder265
+    400118: pCylinder266
+    400120: pCylinder321
+    400122: pCylinder322
+    400124: pCylinder344
+    400126: RotateA
+    400128: RotateB
+    2300000: extrudedSurface5
+    2300002: extrudedSurface6
+    2300004: extrudedSurface6 1
+    2300006: extrudedSurface7
+    2300008: extrudedSurface7 1
+    2300010: extrudedSurface8
+    2300012: extrudedSurface8 1
+    2300014: pCube17
+    2300016: pCube17 1
+    2300018: pCube62
+    2300020: pCube62 1
+    2300022: pCube63
+    2300024: pCube63 1
+    2300026: pCube64
+    2300028: pCube64 1
+    2300030: pCube66
+    2300032: pCube67
+    2300034: pCube68
+    2300036: pCube69
+    2300038: pCylinder324
+    2300040: pCylinder333
+    2300042: pCylinder333 1
+    2300044: polySurface44
+    2300046: polySurface45
+    2300048: polySurface46
+    2300050: polySurface47
+    2300052: polySurface48
+    2300054: pSphere7
+    2300056: pSphere7 1
+    2300058: pSphere7 2
+    2300060: pSphere7 3
+    2300062: pSphere8
+    2300064: pSphere8 1
+    2300066: Skylab_Windows
+    2300068: Collider1
+    2300070: Collider2
+    2300072: Collider3
+    2300074: extrudedSurface1
+    2300076: extrudedSurface2
+    2300078: Mount
+    2300080: pCylinder261
+    2300082: pCylinder262
+    2300084: pCylinder264
+    2300086: pCylinder265
+    2300088: pCylinder266
+    2300090: pCylinder321
+    2300092: pCylinder322
+    2300094: pCylinder344
+    3300000: extrudedSurface5
+    3300002: extrudedSurface6
+    3300004: extrudedSurface6 1
+    3300006: extrudedSurface7
+    3300008: extrudedSurface7 1
+    3300010: extrudedSurface8
+    3300012: extrudedSurface8 1
+    3300014: pCube17
+    3300016: pCube17 1
+    3300018: pCube62
+    3300020: pCube62 1
+    3300022: pCube63
+    3300024: pCube63 1
+    3300026: pCube64
+    3300028: pCube64 1
+    3300030: pCube66
+    3300032: pCube67
+    3300034: pCube68
+    3300036: pCube69
+    3300038: pCylinder324
+    3300040: pCylinder333
+    3300042: pCylinder333 1
+    3300044: polySurface44
+    3300046: polySurface45
+    3300048: polySurface46
+    3300050: polySurface47
+    3300052: polySurface48
+    3300054: pSphere7
+    3300056: pSphere7 1
+    3300058: pSphere7 2
+    3300060: pSphere7 3
+    3300062: pSphere8
+    3300064: pSphere8 1
+    3300066: Skylab_Windows
+    3300068: Collider1
+    3300070: Collider2
+    3300072: Collider3
+    3300074: extrudedSurface1
+    3300076: extrudedSurface2
+    3300078: Mount
+    3300080: pCylinder261
+    3300082: pCylinder262
+    3300084: pCylinder264
+    3300086: pCylinder265
+    3300088: pCylinder266
+    3300090: pCylinder321
+    3300092: pCylinder322
+    3300094: pCylinder344
+    4300000: Skylab_Windows
+    4300002: polySurface44
+    4300004: polySurface45
+    4300006: polySurface46
+    4300008: polySurface47
+    4300010: polySurface48
+    4300012: pCube66
+    4300014: pCube67
+    4300016: pCube68
+    4300018: pCube69
+    4300020: pCube64
+    4300022: pCube17
+    4300024: extrudedSurface6
+    4300026: extrudedSurface7
+    4300028: extrudedSurface8
+    4300030: pCube63
+    4300032: pCube62
+    4300034: pCylinder333
+    4300036: pSphere8
+    4300038: pCube64
+    4300040: pCube17
+    4300042: extrudedSurface6
+    4300044: extrudedSurface7
+    4300046: extrudedSurface8
+    4300048: pCube63
+    4300050: pCube62
+    4300052: pCylinder333
+    4300054: extrudedSurface5
+    4300056: pSphere8
+    4300058: pCylinder324
+    4300060: pSphere7
+    4300062: pSphere7
+    4300064: pSphere7
+    4300066: pSphere7
+    4300068: Collider1
+    4300070: Collider2
+    4300072: Collider3
+    4300074: Mount
+    4300076: pCylinder261
+    4300078: pCylinder262
+    4300080: pCylinder264
+    4300082: pCylinder265
+    4300084: pCylinder266
+    4300086: pCylinder321
+    4300088: extrudedSurface2
+    4300090: extrudedSurface1
+    4300092: pCylinder322
+    4300094: pCylinder344
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

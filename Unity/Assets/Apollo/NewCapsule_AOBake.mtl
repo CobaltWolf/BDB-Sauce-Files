@@ -1,0 +1,218 @@
+newmtl ApolloCapsule_NewDoor:lambert9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_Capsule.psd
+bump bluedog_Apollo_Capsule_NRM.psd -bm 0.25
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks bluedog_Apollo_Capsule_Alpha.psd
+Ns 18.00
+newmtl ApolloCapsule_NewDoor:lambert10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_StructuralTop.psd
+Ni 1.00
+newmtl Apollo_WhiteCapsuleSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_CapsuleWhite.psd
+bump bluedog_Apollo_Capsule_NRM.psd -bm 0.25
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks bluedog_Apollo_Capsule_Alpha.psd
+Ns 18.00
+newmtl Canard_ASG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_LES_canard.psd
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 48.00
+newmtl EscapeSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_LES_escape.psd
+Ni 1.00
+newmtl Jet_Nozzle_ASG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_LES_jetNozzle.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 48.00
+newmtl LowerBPCSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd lowerBpc_ao.psd
+Ni 1.00
+newmtl Nozzle_ASG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd nozzle_diffuse.psd
+Ni 1.00
+newmtl Pitch_CaseSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_LES_nose.psd
+Ni 1.00
+newmtl SkirtSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd skirt_ao.psd
+Ni 1.00
+newmtl TowerSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tower_ao.psd
+Ni 1.00
+newmtl UpperBPCSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd upperBpc_ao.psd
+Ni 1.00
+newmtl blinn6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_Service.psd
+bump bluedog_Apollo_Service_NRM.psd -bm 0.2
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks bluedog_Apollo_Service_Alpha.psd
+Ns 19.92
+newmtl blinn7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_Capsule_New.psd
+bump bluedog_Apollo_Capsule_New_NRM.psd -bm 0.6
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 7.97
+newmtl bluedog_LEM_Snap3_0002:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_LEM.psd
+bump bluedog_LEM_NRM.psd -bm 0.15
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks bluedog_LEM_Alpha.psd
+Ns 18.00
+newmtl bluedog_LEM_Snap3_0003:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_LEM.psd
+bump bluedog_LEM_NRM.psd -bm 0.15
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks bluedog_LEM_Alpha.psd
+Ns 18.00
+newmtl flagDecal:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd BDB.dds
+Ni 1.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.21 0.21 0.21
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_Capsule.psd
+bump bluedog_Apollo_Capsule_NRM.psd -bm 0.25
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks bluedog_Apollo_Capsule_Alpha.psd
+Ns 18.00
+newmtl lambert10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_StructuralTop.psd
+Ni 1.00
+newmtl lambert11SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd CXA_APAS.tif
+bump CXA_APAS_bump_NRM.tif -bm 0.2
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks CXA_APAS - Alpha.tif
+Ns 18.00
+newmtl lambert19SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_MOL_Parts.psd
+Ni 1.00
+newmtl lambert20SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_geminiLander.psd
+Ni 1.00
+newmtl lambert21SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd CXA_APAS.tif
+Ni 1.00
+newmtl lambert23SG
+illum 4
+Kd 0.36 0.36 0.36
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_ExtraParts1.psd
+Ni 1.00
+Ks 0.02 0.02 0.02
+Ns 30.28

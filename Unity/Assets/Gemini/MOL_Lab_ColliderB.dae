@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-04-11T15:34:32Z</created><keywords></keywords><modified>2016-04-11T15:34:32Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="MOL_Lab_ColliderB-lib" name="MOL_Lab_ColliderBMesh">
+      <mesh>
+        <source id="MOL_Lab_ColliderB-POSITION">
+          <float_array id="MOL_Lab_ColliderB-POSITION-array" count="36">
+0.857427 -1.007281 0.530737
+1.034930 -0.893328 0.401643
+0.857427 1.007281 0.412943
+1.034930 0.893328 0.312500
+0.857427 1.007281 -0.412943
+1.034930 0.893328 -0.312500
+0.857427 -1.007281 -0.530737
+1.034930 -0.893328 -0.401643
+1.034930 0.000000 0.401643
+0.857427 0.000000 0.530737
+0.857427 0.000000 -0.530737
+1.034930 0.000000 -0.401643
+</float_array>
+          <technique_common>
+            <accessor source="#MOL_Lab_ColliderB-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MOL_Lab_ColliderB-Normal0">
+          <float_array id="MOL_Lab_ColliderB-Normal0-array" count="180">
+0.575607 0.043465 0.816571
+0.588174 0.000000 0.808734
+0.575054 0.045282 0.816861
+0.588174 0.000000 0.808734
+0.575607 0.043465 0.816571
+0.588174 0.000000 0.808734
+0.540231 0.841517 0.000000
+0.540231 0.841517 0.000000
+0.540231 0.841517 0.000000
+0.540231 0.841517 0.000000
+0.540231 0.841517 0.000000
+0.540231 0.841517 0.000000
+0.588174 0.000000 -0.808734
+0.575607 0.043465 -0.816571
+0.588174 0.000000 -0.808734
+0.588174 0.000000 -0.808734
+0.575607 0.043465 -0.816571
+0.575054 0.045282 -0.816861
+0.540231 -0.841517 0.000000
+0.540231 -0.841517 0.000000
+0.540231 -0.841517 0.000000
+0.540231 -0.841517 0.000000
+0.540231 -0.841517 0.000000
+0.540231 -0.841517 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.560902 0.089610 0.823018
+0.575607 0.043465 0.816571
+0.560902 0.089610 0.823018
+0.560902 0.089610 0.823018
+0.575607 0.043465 0.816571
+0.575054 0.045282 0.816861
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.575607 0.043465 -0.816571
+0.560902 0.089610 -0.823018
+0.575054 0.045282 -0.816861
+0.560902 0.089610 -0.823018
+0.575607 0.043465 -0.816571
+0.560902 0.089610 -0.823018
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#MOL_Lab_ColliderB-Normal0-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="MOL_Lab_ColliderB-UV0">
+          <float_array id="MOL_Lab_ColliderB-UV0-array" count="40">
+0.375000 0.000000
+0.625000 0.000000
+0.375000 0.250000
+0.625000 0.250000
+0.375000 0.500000
+0.625000 0.500000
+0.375000 0.750000
+0.625000 0.750000
+0.375000 1.000000
+0.625000 1.000000
+0.875000 0.000000
+0.875000 0.250000
+0.125000 0.000000
+0.125000 0.250000
+0.625000 0.125000
+0.375000 0.125000
+0.125000 0.125000
+0.375000 0.625000
+0.625000 0.625000
+0.875000 0.125000
+</float_array>
+          <technique_common>
+            <accessor source="#MOL_Lab_ColliderB-UV0-array" count="20" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="MOL_Lab_ColliderB-VERTEX">
+          <input semantic="POSITION" source="#MOL_Lab_ColliderB-POSITION"/>
+        </vertices>
+        <triangles count="20" material="lambert1"><input semantic="VERTEX" offset="0" source="#MOL_Lab_ColliderB-VERTEX"/><input semantic="NORMAL" offset="1" source="#MOL_Lab_ColliderB-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#MOL_Lab_ColliderB-UV0"/><p> 9 0 15 1 1 1 8 2 14 1 3 1 9 4 15 0 5 0 5 6 5 2 7 2 3 8 3 4 9 4 2 10 2 5 11 5 6 12 6 10 13 17 7 14 7 7 15 7 10 16 17 11 17 18 0 18 8 6 19 6 1 20 9 1 21 9 6 22 6 7 23 7 8 24 14 1 25 1 11 26 19 1 27 1 7 28 10 11 29 19 9 30 15 6 31 12 0 32 0 6 33 12 9 34 15 10 35 16 2 36 2 9 37 15 3 38 3 3 39 3 9 40 15 8 41 14 2 42 2 10 43 16 9 44 15 10 45 16 2 46 2 4 47 13 10 48 17 5 49 5 11 50 18 5 51 5 10 52 17 4 53 4 3 54 3 8 55 14 5 56 11 8 57 14 11 58 19 5 59 11</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="MOL_Lab_ColliderB" name="MOL_Lab_ColliderB">
+      <node name="MOL_Lab_ColliderB" id="MOL_Lab_ColliderB" sid="MOL_Lab_ColliderB"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#MOL_Lab_ColliderB-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MOL_Lab_ColliderB"></instance_visual_scene>
+  </scene>
+</COLLADA>

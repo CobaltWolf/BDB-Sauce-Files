@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-03-31T23:34:02Z</created><keywords></keywords><modified>2016-03-31T23:34:02Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="AntennaCollider-lib" name="AntennaColliderMesh">
+      <mesh>
+        <source id="AntennaCollider-POSITION">
+          <float_array id="AntennaCollider-POSITION-array" count="42">
+0.019531 -0.002128 -0.033842
+-0.019531 -0.002128 -0.033842
+-0.039062 -0.002128 -0.000000
+-0.019531 -0.002128 0.033842
+0.019531 -0.002128 0.033842
+0.039062 -0.002128 -0.000000
+0.019531 0.041042 -0.033842
+-0.019531 0.041042 -0.033842
+-0.039062 0.041042 -0.000000
+-0.019531 0.041042 0.033842
+0.019531 0.041042 0.033842
+0.039062 0.041042 -0.000000
+0.000000 -0.002128 -0.000000
+0.000000 0.041042 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#AntennaCollider-POSITION-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AntennaCollider-Normal0">
+          <float_array id="AntennaCollider-Normal0-array" count="216">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.866108 0.000000 -0.499858
+-0.866108 0.000000 -0.499858
+-0.866108 0.000000 -0.499858
+-0.866108 0.000000 -0.499858
+-0.866108 0.000000 -0.499858
+-0.866108 0.000000 -0.499858
+-0.866108 0.000000 0.499857
+-0.866108 0.000000 0.499857
+-0.866108 0.000000 0.499857
+-0.866108 0.000000 0.499857
+-0.866108 0.000000 0.499857
+-0.866108 0.000000 0.499857
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.866108 0.000000 0.499858
+0.866108 0.000000 0.499858
+0.866108 0.000000 0.499858
+0.866108 0.000000 0.499858
+0.866108 0.000000 0.499858
+0.866108 0.000000 0.499858
+0.866108 0.000000 -0.499857
+0.866108 0.000000 -0.499857
+0.866108 0.000000 -0.499857
+0.866108 0.000000 -0.499857
+0.866108 0.000000 -0.499857
+0.866108 0.000000 -0.499857
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#AntennaCollider-Normal0-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AntennaCollider-UV0">
+          <float_array id="AntennaCollider-UV0-array" count="56">
+0.578125 0.020934
+0.421875 0.020934
+0.343750 0.156250
+0.421875 0.291566
+0.578125 0.291566
+0.656250 0.156250
+0.375000 0.312500
+0.416667 0.312500
+0.458333 0.312500
+0.500000 0.312500
+0.541667 0.312500
+0.583333 0.312500
+0.625000 0.312500
+0.375000 0.688440
+0.416667 0.688440
+0.458333 0.688440
+0.500000 0.688440
+0.541667 0.688440
+0.583333 0.688440
+0.625000 0.688440
+0.578125 0.708434
+0.421875 0.708434
+0.343750 0.843750
+0.421875 0.979066
+0.578125 0.979066
+0.656250 0.843750
+0.500000 0.150000
+0.500000 0.837500
+</float_array>
+          <technique_common>
+            <accessor source="#AntennaCollider-UV0-array" count="28" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AntennaCollider-VERTEX">
+          <input semantic="POSITION" source="#AntennaCollider-POSITION"/>
+        </vertices>
+        <triangles count="24" material="lambert1"><input semantic="VERTEX" offset="0" source="#AntennaCollider-VERTEX"/><input semantic="NORMAL" offset="1" source="#AntennaCollider-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#AntennaCollider-UV0"/><p> 1 0 7 7 1 14 0 2 6 0 3 6 7 4 14 6 5 13 8 6 15 1 7 7 2 8 8 1 9 7 8 10 15 7 11 14 9 12 16 2 13 8 3 14 9 2 15 8 9 16 16 8 17 15 10 18 17 9 19 16 3 20 9 10 21 17 3 22 9 4 23 10 10 24 17 4 25 10 11 26 18 4 27 10 5 28 11 11 29 18 11 30 18 5 31 11 6 32 19 5 33 11 0 34 12 6 35 19 1 36 1 0 37 0 12 38 26 2 39 2 1 40 1 12 41 26 3 42 3 2 43 2 12 44 26 4 45 4 3 46 3 12 47 26 5 48 5 4 49 4 12 50 26 0 51 0 5 52 5 12 53 26 6 54 24 7 55 23 13 56 27 7 57 23 8 58 22 13 59 27 8 60 22 9 61 21 13 62 27 9 63 21 10 64 20 13 65 27 10 66 20 11 67 25 13 68 27 11 69 25 6 70 24 13 71 27</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="antennacollider" name="antennacollider">
+      <node name="AntennaCollider" id="AntennaCollider" sid="AntennaCollider"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#AntennaCollider-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#antennacollider"></instance_visual_scene>
+  </scene>
+</COLLADA>

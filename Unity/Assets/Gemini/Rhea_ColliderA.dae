@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-07-07T23:57:24Z</created><keywords></keywords><modified>2016-07-07T23:57:24Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Rhea_ColliderA-lib" name="Rhea_ColliderAMesh">
+      <mesh>
+        <source id="Rhea_ColliderA-POSITION">
+          <float_array id="Rhea_ColliderA-POSITION-array" count="30">
+-0.866137 -0.550155 -0.358766
+-0.937500 -0.550155 -0.000000
+-0.866137 -0.550155 0.358765
+-0.866137 0.550155 -0.358766
+-0.937500 0.550155 -0.000000
+-0.866137 0.550155 0.358765
+-0.757875 -0.550155 -0.313923
+-0.757876 -0.550155 0.313922
+-0.757875 0.550155 -0.313923
+-0.757876 0.550155 0.313922
+</float_array>
+          <technique_common>
+            <accessor source="#Rhea_ColliderA-POSITION-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Rhea_ColliderA-Normal0">
+          <float_array id="Rhea_ColliderA-Normal0-array" count="144">
+-1.000000 0.000000 -0.000000
+-0.980785 0.000000 -0.195091
+-1.000000 0.000000 -0.000000
+-0.980785 0.000000 -0.195091
+-1.000000 0.000000 -0.000000
+-0.980785 0.000000 -0.195091
+-0.980785 0.000000 0.195090
+-1.000000 0.000000 -0.000000
+-0.980785 0.000000 0.195090
+-1.000000 0.000000 -0.000000
+-0.980785 0.000000 0.195090
+-1.000000 0.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.382683 0.000000 0.923880
+0.382683 0.000000 0.923880
+0.987296 0.000000 0.158895
+0.987296 0.000000 0.158895
+0.382683 0.000000 0.923880
+0.987296 0.000000 0.158895
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.987296 0.000000 0.158895
+0.987296 0.000000 0.158895
+0.987296 0.000000 0.158895
+1.000000 0.000000 0.000000
+0.382684 0.000000 -0.923879
+0.382684 0.000000 -0.923879
+0.382684 0.000000 -0.923879
+0.382684 0.000000 -0.923879
+0.382684 0.000000 -0.923879
+0.382684 0.000000 -0.923879
+</float_array>
+          <technique_common>
+            <accessor source="#Rhea_ColliderA-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Rhea_ColliderA-UV0">
+          <float_array id="Rhea_ColliderA-UV0-array" count="24">
+0.412197 0.204478
+0.343750 0.156250
+0.427822 0.264272
+0.484375 0.312500
+0.412197 0.795992
+0.484375 0.688440
+0.427822 0.736198
+0.343750 0.843750
+0.355644 0.096456
+0.349697 0.186147
+0.355644 0.903544
+0.349697 0.813853
+</float_array>
+          <technique_common>
+            <accessor source="#Rhea_ColliderA-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Rhea_ColliderA-VERTEX">
+          <input semantic="POSITION" source="#Rhea_ColliderA-POSITION"/>
+        </vertices>
+        <triangles count="16" material="lambert1"><input semantic="VERTEX" offset="0" source="#Rhea_ColliderA-VERTEX"/><input semantic="NORMAL" offset="1" source="#Rhea_ColliderA-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Rhea_ColliderA-UV0"/><p> 4 0 5 0 1 0 1 2 3 0 3 0 4 4 5 3 5 4 5 6 6 1 7 3 2 8 2 1 9 3 5 10 6 4 11 5 6 12 8 7 13 9 1 14 1 1 15 1 0 16 0 6 17 8 2 18 2 1 19 1 7 20 9 4 21 7 8 22 10 3 23 4 8 24 10 4 25 7 9 26 11 4 27 7 5 28 6 9 29 11 5 30 6 2 31 2 9 32 11 9 33 11 2 34 2 7 35 9 6 36 8 8 37 10 7 38 9 9 39 11 7 40 9 8 41 10 3 42 4 6 43 8 0 44 0 6 45 8 3 46 4 8 47 10</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Rhea_ColliderA" name="Rhea_ColliderA">
+      <node name="Rhea_ColliderA" id="Rhea_ColliderA" sid="Rhea_ColliderA"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Rhea_ColliderA-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Rhea_ColliderA"></instance_visual_scene>
+  </scene>
+</COLLADA>

@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 3301785564872fe4e9af494f7d511c03
+timeCreated: 1460824046
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Antenna
+    100002: AntennaMount
+    100004: Arm1
+    100006: Arm2
+    100008: Center
+    100010: Center1
+    100012: DishBase
+    100014: Hinge1
+    100016: JustTheTip
+    100018: //RootNode
+    100020: SectionWrapper
+    100022: SectionWrapper1
+    100024: SectionWrapper1_ncl1_1
+    100026: SectionWrapper1_Wrapper
+    100028: SectionWrapper1_Wrapper_ncl1_1
+    100030: SectionWrapper2
+    100032: SectionWrapper2_ncl1_1
+    100034: SectionWrapper2_Wrapper
+    100036: SectionWrapper2_Wrapper_ncl1_1
+    100038: SectionWrapper3
+    100040: SectionWrapper3_ncl1_1
+    100042: SectionWrapper3_Wrapper
+    100044: SectionWrapper3_Wrapper_ncl1_1
+    100046: SectionWrapper_ncl1_1
+    100048: SectionWrapper_Wrapper
+    100050: SectionWrapper_Wrapper_ncl1_1
+    400000: Antenna
+    400002: AntennaMount
+    400004: Arm1
+    400006: Arm2
+    400008: Center
+    400010: Center1
+    400012: DishBase
+    400014: Hinge1
+    400016: JustTheTip
+    400018: //RootNode
+    400020: SectionWrapper
+    400022: SectionWrapper1
+    400024: SectionWrapper1_ncl1_1
+    400026: SectionWrapper1_Wrapper
+    400028: SectionWrapper1_Wrapper_ncl1_1
+    400030: SectionWrapper2
+    400032: SectionWrapper2_ncl1_1
+    400034: SectionWrapper2_Wrapper
+    400036: SectionWrapper2_Wrapper_ncl1_1
+    400038: SectionWrapper3
+    400040: SectionWrapper3_ncl1_1
+    400042: SectionWrapper3_Wrapper
+    400044: SectionWrapper3_Wrapper_ncl1_1
+    400046: SectionWrapper_ncl1_1
+    400048: SectionWrapper_Wrapper
+    400050: SectionWrapper_Wrapper_ncl1_1
+    2300000: Antenna
+    2300002: AntennaMount
+    2300004: Center1
+    2300006: DishBase
+    2300008: Hinge1
+    2300010: JustTheTip
+    2300012: SectionWrapper1_Wrapper
+    2300014: SectionWrapper1_Wrapper_ncl1_1
+    2300016: SectionWrapper2_Wrapper
+    2300018: SectionWrapper2_Wrapper_ncl1_1
+    2300020: SectionWrapper3_Wrapper
+    2300022: SectionWrapper3_Wrapper_ncl1_1
+    2300024: SectionWrapper_Wrapper
+    2300026: SectionWrapper_Wrapper_ncl1_1
+    3300000: Antenna
+    3300002: AntennaMount
+    3300004: Center1
+    3300006: DishBase
+    3300008: Hinge1
+    3300010: JustTheTip
+    3300012: SectionWrapper1_Wrapper
+    3300014: SectionWrapper1_Wrapper_ncl1_1
+    3300016: SectionWrapper2_Wrapper
+    3300018: SectionWrapper2_Wrapper_ncl1_1
+    3300020: SectionWrapper3_Wrapper
+    3300022: SectionWrapper3_Wrapper_ncl1_1
+    3300024: SectionWrapper_Wrapper
+    3300026: SectionWrapper_Wrapper_ncl1_1
+    4300000: DishBase
+    4300002: Hinge1
+    4300004: SectionWrapper3_Wrapper
+    4300006: SectionWrapper2_Wrapper
+    4300008: SectionWrapper1_Wrapper
+    4300010: SectionWrapper_Wrapper
+    4300012: SectionWrapper3_Wrapper_ncl1_1
+    4300014: SectionWrapper2_Wrapper_ncl1_1
+    4300016: SectionWrapper1_Wrapper_ncl1_1
+    4300018: SectionWrapper_Wrapper_ncl1_1
+    4300020: Center1
+    4300022: AntennaMount
+    4300024: Antenna
+    4300026: JustTheTip
+    7400000: extendAntenna
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: extendAntenna
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DishBase
+        weight: 1
+      - path: DishBase/Hinge1
+        weight: 1
+      - path: DishBase/Hinge1/AntennaMount
+        weight: 1
+      - path: DishBase/Hinge1/AntennaMount/Antenna
+        weight: 1
+      - path: DishBase/Hinge1/AntennaMount/JustTheTip
+        weight: 1
+      - path: DishBase/Hinge1/Center
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm1
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm1/SectionWrapper
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm1/SectionWrapper/SectionWrapper1
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm1/SectionWrapper/SectionWrapper1/SectionWrapper1_Wrapper
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm1/SectionWrapper/SectionWrapper1/SectionWrapper2
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm1/SectionWrapper/SectionWrapper1/SectionWrapper2/SectionWrapper2_Wrapper
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm1/SectionWrapper/SectionWrapper1/SectionWrapper2/SectionWrapper3
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm1/SectionWrapper/SectionWrapper1/SectionWrapper2/SectionWrapper3/SectionWrapper3_Wrapper
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm1/SectionWrapper/SectionWrapper_Wrapper
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm2
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm2/SectionWrapper_ncl1_1
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm2/SectionWrapper_ncl1_1/SectionWrapper1_ncl1_1
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm2/SectionWrapper_ncl1_1/SectionWrapper1_ncl1_1/SectionWrapper1_Wrapper_ncl1_1
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm2/SectionWrapper_ncl1_1/SectionWrapper1_ncl1_1/SectionWrapper2_ncl1_1
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm2/SectionWrapper_ncl1_1/SectionWrapper1_ncl1_1/SectionWrapper2_ncl1_1/SectionWrapper2_Wrapper_ncl1_1
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm2/SectionWrapper_ncl1_1/SectionWrapper1_ncl1_1/SectionWrapper2_ncl1_1/SectionWrapper3_ncl1_1
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm2/SectionWrapper_ncl1_1/SectionWrapper1_ncl1_1/SectionWrapper2_ncl1_1/SectionWrapper3_ncl1_1/SectionWrapper3_Wrapper_ncl1_1
+        weight: 1
+      - path: DishBase/Hinge1/Center/Arm2/SectionWrapper_ncl1_1/SectionWrapper_Wrapper_ncl1_1
+        weight: 1
+      - path: DishBase/Hinge1/Center/Center1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

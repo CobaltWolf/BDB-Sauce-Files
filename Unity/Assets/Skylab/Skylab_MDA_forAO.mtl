@@ -1,0 +1,128 @@
+newmtl Apollo_Block2:blinn6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_Service.psd
+bump bluedog_Apollo_Service_NRM.psd -bm 0.05
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks bluedog_Apollo_Service_Alpha.psd
+Ns 19.92
+newmtl Apollo_Block2:flagDecal:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd BDB.dds
+Ni 1.00
+newmtl Apollo_Block2:lambert9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_Capsule.psd
+bump bluedog_Apollo_Capsule_NRM.psd -bm 0.25
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks bluedog_Apollo_Capsule_Alpha.psd
+Ns 18.00
+newmtl Apollo_Block2:lambert10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_StructuralTop.psd
+Ni 1.00
+newmtl Apollo_Block2:phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_ExtraParts1.psd
+Ni 1.00
+Ks 0.02 0.02 0.02
+Ns 30.28
+newmtl Collider9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_saturnV.psd
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl Collider24SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_saturnV.psd
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl DoorSG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_MOL_Parts.psd
+Ni 1.00
+newmtl MOL10_Lander_Door1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_geminiLander.psd
+Ni 1.00
+newmtl MOL_Lab_ColliderCSG
+illum 4
+Kd 0.40 0.40 0.40
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl MOS_Laboratory_1875SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_MOL_Lab.psd
+Ni 1.00
+newmtl bluedog_LEM_Snap3_0009_0007:lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_LEM.psd
+Ni 1.00
+newmtl bluedog_LEM_Snap3_0009_0007:lambert7SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.11 0.11 0.11
+Ni 1.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Skylab.psd
+bump bluedog_Skylab_NRM.psd -bm 0.07
+Ni 1.00
+newmtl phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_saturn4B.psd
+bump bluedog_saturn4B_NRM.psd -bm 0.1
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks bluedog_saturn4B_Alpha.psd
+Ns 47.01

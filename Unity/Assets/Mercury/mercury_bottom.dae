@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2017-06-28T17:28:24Z</created><keywords></keywords><modified>2017-06-28T17:28:24Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCylinder3-lib" name="pCylinder3Mesh">
+      <mesh>
+        <source id="pCylinder3-POSITION">
+          <float_array id="pCylinder3-POSITION-array" count="75">
+0.549848 -0.319223 -0.147331
+0.492980 -0.319223 -0.284622
+0.402517 -0.319223 -0.402517
+0.284622 -0.319223 -0.492980
+0.147331 -0.319223 -0.549848
+0.000000 -0.319223 -0.569245
+-0.147331 -0.319223 -0.549848
+-0.284622 -0.319223 -0.492980
+-0.402517 -0.319223 -0.402517
+-0.492980 -0.319223 -0.284622
+-0.549848 -0.319223 -0.147331
+-0.569245 -0.319223 -0.000000
+-0.549848 -0.319223 0.147331
+-0.492981 -0.319223 0.284622
+-0.402517 -0.319223 0.402517
+-0.284622 -0.319223 0.492981
+-0.147331 -0.319223 0.549848
+-0.000000 -0.319223 0.569245
+0.147331 -0.319223 0.549848
+0.284622 -0.319223 0.492981
+0.402517 -0.319223 0.402517
+0.492981 -0.319223 0.284623
+0.549848 -0.319223 0.147331
+0.569245 -0.319223 0.000000
+0.000000 -0.319223 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#pCylinder3-POSITION-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder3-Normal0">
+          <float_array id="pCylinder3-Normal0-array" count="75">
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#pCylinder3-Normal0-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCylinder3-UV0">
+          <float_array id="pCylinder3-UV0-array" count="50">
+0.272511 0.105978
+0.382243 0.060526
+0.500000 0.500000
+0.500000 0.045023
+0.178283 0.178283
+0.617757 0.060526
+0.105978 0.272512
+0.727488 0.105978
+0.060526 0.382243
+0.821717 0.178283
+0.045023 0.500000
+0.894022 0.272511
+0.060526 0.617757
+0.939474 0.382243
+0.105978 0.727489
+0.954977 0.500000
+0.178282 0.821717
+0.939474 0.617757
+0.272511 0.894022
+0.894022 0.727489
+0.382243 0.939474
+0.821717 0.821718
+0.500000 0.954977
+0.727488 0.894022
+0.617757 0.939474
+</float_array>
+          <technique_common>
+            <accessor source="#pCylinder3-UV0-array" count="25" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCylinder3-VERTEX">
+          <input semantic="POSITION" source="#pCylinder3-POSITION"/>
+          <input semantic="NORMAL" source="#pCylinder3-Normal0"/>
+        </vertices>
+        <triangles count="24" material="lambert1"><input semantic="VERTEX" offset="0" source="#pCylinder3-VERTEX"/><input semantic="TEXCOORD" offset="1" set="0" source="#pCylinder3-UV0"/><p> 1 0 0 1 24 2 2 4 1 0 24 2 3 6 2 4 24 2 4 8 3 6 24 2 5 10 4 8 24 2 6 12 5 10 24 2 7 14 6 12 24 2 8 16 7 14 24 2 9 18 8 16 24 2 10 20 9 18 24 2 11 22 10 20 24 2 12 24 11 22 24 2 13 23 12 24 24 2 14 21 13 23 24 2 15 19 14 21 24 2 16 17 15 19 24 2 17 15 16 17 24 2 18 13 17 15 24 2 19 11 18 13 24 2 20 9 19 11 24 2 21 7 20 9 24 2 22 5 21 7 24 2 23 3 22 5 24 2 0 1 23 3 24 2</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="mercury_bottom" name="mercury_bottom">
+      <node name="pCylinder3" id="pCylinder3" sid="pCylinder3"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#pCylinder3-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#mercury_bottom"></instance_visual_scene>
+  </scene>
+</COLLADA>

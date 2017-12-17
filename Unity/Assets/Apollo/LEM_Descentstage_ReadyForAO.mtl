@@ -1,0 +1,45 @@
+newmtl Apoolo_Snap1_0006:lambert9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_Apollo_Capsule.psd
+bump bluedog_Apollo_Capsule.psd -bm 0.05
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks bluedog_Apollo_Capsule.psd
+Ns 18.00
+newmtl SEP_Locker_0001:lambert12SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd SEP_storage.psd
+Ni 1.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.06 0.06 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_LEM.psd
+bump bluedog_LEM_NRM.psd -bm 0
+Ni 1.00
+newmtl lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd bluedog_LEM.psd
+Ni 1.00

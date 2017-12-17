@@ -1,0 +1,1589 @@
+fileFormatVersion: 2
+guid: fce34f7ac69134d4c82a4c686a0aed9d
+timeCreated: 1499960233
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cell1
+    100002: Cell1 1
+    100004: Cell1 2
+    100006: Cell1 3
+    100008: Cell1 4
+    100010: Cell1 5
+    100012: Cell10
+    100014: Cell10 1
+    100016: Cell10 2
+    100018: Cell10 3
+    100020: Cell10 4
+    100022: Cell10 5
+    100024: Cell11
+    100026: Cell11 1
+    100028: Cell11 2
+    100030: Cell11 3
+    100032: Cell11 4
+    100034: Cell11 5
+    100036: Cell12
+    100038: Cell12 1
+    100040: Cell12 2
+    100042: Cell12 3
+    100044: Cell12 4
+    100046: Cell12 5
+    100048: Cell2
+    100050: Cell2 1
+    100052: Cell2 2
+    100054: Cell2 3
+    100056: Cell2 4
+    100058: Cell2 5
+    100060: Cell3
+    100062: Cell3 1
+    100064: Cell3 10
+    100066: Cell3 11
+    100068: Cell3 2
+    100070: Cell3 3
+    100072: Cell3 4
+    100074: Cell3 5
+    100076: Cell3 6
+    100078: Cell3 7
+    100080: Cell3 8
+    100082: Cell3 9
+    100084: Cell4
+    100086: Cell4 1
+    100088: Cell4 10
+    100090: Cell4 11
+    100092: Cell4 2
+    100094: Cell4 3
+    100096: Cell4 4
+    100098: Cell4 5
+    100100: Cell4 6
+    100102: Cell4 7
+    100104: Cell4 8
+    100106: Cell4 9
+    100108: Cell5
+    100110: Cell5 1
+    100112: Cell5 10
+    100114: Cell5 11
+    100116: Cell5 2
+    100118: Cell5 3
+    100120: Cell5 4
+    100122: Cell5 5
+    100124: Cell5 6
+    100126: Cell5 7
+    100128: Cell5 8
+    100130: Cell5 9
+    100132: Cell6
+    100134: Cell6 1
+    100136: Cell6 10
+    100138: Cell6 11
+    100140: Cell6 2
+    100142: Cell6 3
+    100144: Cell6 4
+    100146: Cell6 5
+    100148: Cell6 6
+    100150: Cell6 7
+    100152: Cell6 8
+    100154: Cell6 9
+    100156: Cell7
+    100158: Cell7 1
+    100160: Cell7 10
+    100162: Cell7 11
+    100164: Cell7 2
+    100166: Cell7 3
+    100168: Cell7 4
+    100170: Cell7 5
+    100172: Cell7 6
+    100174: Cell7 7
+    100176: Cell7 8
+    100178: Cell7 9
+    100180: Cell8
+    100182: Cell8 1
+    100184: Cell8 10
+    100186: Cell8 11
+    100188: Cell8 12
+    100190: Cell8 13
+    100192: Cell8 14
+    100194: Cell8 15
+    100196: Cell8 16
+    100198: Cell8 17
+    100200: Cell8 18
+    100202: Cell8 19
+    100204: Cell8 2
+    100206: Cell8 20
+    100208: Cell8 21
+    100210: Cell8 22
+    100212: Cell8 23
+    100214: Cell8 3
+    100216: Cell8 4
+    100218: Cell8 5
+    100220: Cell8 6
+    100222: Cell8 7
+    100224: Cell8 8
+    100226: Cell8 9
+    100228: Cell9
+    100230: Cell9 1
+    100232: Cell9 2
+    100234: Cell9 3
+    100236: Cell9 4
+    100238: Cell9 5
+    100240: CellSet_1
+    100242: CellSet_1 1
+    100244: CellSet_2
+    100246: CellSet_2 1
+    100248: CellSet_3
+    100250: CellSet_3 1
+    100252: CellWrapper
+    100254: CellWrapper 1
+    100256: CellWrapper 2
+    100258: CellWrapper 3
+    100260: CellWrapper 4
+    100262: CellWrapper 5
+    100264: pCube35
+    100266: pCube35 1
+    100268: pCube35 10
+    100270: pCube35 100
+    100272: pCube35 101
+    100274: pCube35 102
+    100276: pCube35 103
+    100278: pCube35 104
+    100280: pCube35 105
+    100282: pCube35 106
+    100284: pCube35 107
+    100286: pCube35 108
+    100288: pCube35 109
+    100290: pCube35 11
+    100292: pCube35 110
+    100294: pCube35 111
+    100296: pCube35 112
+    100298: pCube35 113
+    100300: pCube35 114
+    100302: pCube35 115
+    100304: pCube35 116
+    100306: pCube35 117
+    100308: pCube35 118
+    100310: pCube35 119
+    100312: pCube35 12
+    100314: pCube35 13
+    100316: pCube35 14
+    100318: pCube35 15
+    100320: pCube35 16
+    100322: pCube35 17
+    100324: pCube35 18
+    100326: pCube35 19
+    100328: pCube35 2
+    100330: pCube35 20
+    100332: pCube35 21
+    100334: pCube35 22
+    100336: pCube35 23
+    100338: pCube35 24
+    100340: pCube35 25
+    100342: pCube35 26
+    100344: pCube35 27
+    100346: pCube35 28
+    100348: pCube35 29
+    100350: pCube35 3
+    100352: pCube35 30
+    100354: pCube35 31
+    100356: pCube35 32
+    100358: pCube35 33
+    100360: pCube35 34
+    100362: pCube35 35
+    100364: pCube35 36
+    100366: pCube35 37
+    100368: pCube35 38
+    100370: pCube35 39
+    100372: pCube35 4
+    100374: pCube35 40
+    100376: pCube35 41
+    100378: pCube35 42
+    100380: pCube35 43
+    100382: pCube35 44
+    100384: pCube35 45
+    100386: pCube35 46
+    100388: pCube35 47
+    100390: pCube35 48
+    100392: pCube35 49
+    100394: pCube35 5
+    100396: pCube35 50
+    100398: pCube35 51
+    100400: pCube35 52
+    100402: pCube35 53
+    100404: pCube35 54
+    100406: pCube35 55
+    100408: pCube35 56
+    100410: pCube35 57
+    100412: pCube35 58
+    100414: pCube35 59
+    100416: pCube35 6
+    100418: pCube35 60
+    100420: pCube35 61
+    100422: pCube35 62
+    100424: pCube35 63
+    100426: pCube35 64
+    100428: pCube35 65
+    100430: pCube35 66
+    100432: pCube35 67
+    100434: pCube35 68
+    100436: pCube35 69
+    100438: pCube35 7
+    100440: pCube35 70
+    100442: pCube35 71
+    100444: pCube35 72
+    100446: pCube35 73
+    100448: pCube35 74
+    100450: pCube35 75
+    100452: pCube35 76
+    100454: pCube35 77
+    100456: pCube35 78
+    100458: pCube35 79
+    100460: pCube35 8
+    100462: pCube35 80
+    100464: pCube35 81
+    100466: pCube35 82
+    100468: pCube35 83
+    100470: pCube35 84
+    100472: pCube35 85
+    100474: pCube35 86
+    100476: pCube35 87
+    100478: pCube35 88
+    100480: pCube35 89
+    100482: pCube35 9
+    100484: pCube35 90
+    100486: pCube35 91
+    100488: pCube35 92
+    100490: pCube35 93
+    100492: pCube35 94
+    100494: pCube35 95
+    100496: pCube35 96
+    100498: pCube35 97
+    100500: pCube35 98
+    100502: pCube35 99
+    100504: RibWrapper
+    100506: RibWrapper 1
+    100508: RibWrapper 10
+    100510: RibWrapper 11
+    100512: RibWrapper 2
+    100514: RibWrapper 3
+    100516: RibWrapper 4
+    100518: RibWrapper 5
+    100520: RibWrapper 6
+    100522: RibWrapper 7
+    100524: RibWrapper 8
+    100526: RibWrapper 9
+    100528: RibWrapper1
+    100530: RibWrapper1 1
+    100532: RibWrapper1 10
+    100534: RibWrapper1 11
+    100536: RibWrapper1 2
+    100538: RibWrapper1 3
+    100540: RibWrapper1 4
+    100542: RibWrapper1 5
+    100544: RibWrapper1 6
+    100546: RibWrapper1 7
+    100548: RibWrapper1 8
+    100550: RibWrapper1 9
+    100552: RibWrapper2
+    100554: RibWrapper2 1
+    100556: RibWrapper2 10
+    100558: RibWrapper2 11
+    100560: RibWrapper2 12
+    100562: RibWrapper2 13
+    100564: RibWrapper2 14
+    100566: RibWrapper2 15
+    100568: RibWrapper2 16
+    100570: RibWrapper2 17
+    100572: RibWrapper2 18
+    100574: RibWrapper2 19
+    100576: RibWrapper2 2
+    100578: RibWrapper2 20
+    100580: RibWrapper2 21
+    100582: RibWrapper2 22
+    100584: RibWrapper2 23
+    100586: RibWrapper2 24
+    100588: RibWrapper2 25
+    100590: RibWrapper2 26
+    100592: RibWrapper2 27
+    100594: RibWrapper2 28
+    100596: RibWrapper2 29
+    100598: RibWrapper2 3
+    100600: RibWrapper2 30
+    100602: RibWrapper2 31
+    100604: RibWrapper2 32
+    100606: RibWrapper2 33
+    100608: RibWrapper2 34
+    100610: RibWrapper2 35
+    100612: RibWrapper2 36
+    100614: RibWrapper2 37
+    100616: RibWrapper2 38
+    100618: RibWrapper2 39
+    100620: RibWrapper2 4
+    100622: RibWrapper2 40
+    100624: RibWrapper2 41
+    100626: RibWrapper2 42
+    100628: RibWrapper2 43
+    100630: RibWrapper2 44
+    100632: RibWrapper2 45
+    100634: RibWrapper2 46
+    100636: RibWrapper2 47
+    100638: RibWrapper2 5
+    100640: RibWrapper2 6
+    100642: RibWrapper2 7
+    100644: RibWrapper2 8
+    100646: RibWrapper2 9
+    100648: RibWrapper3
+    100650: RibWrapper3 1
+    100652: RibWrapper3 10
+    100654: RibWrapper3 11
+    100656: RibWrapper3 2
+    100658: RibWrapper3 3
+    100660: RibWrapper3 4
+    100662: RibWrapper3 5
+    100664: RibWrapper3 6
+    100666: RibWrapper3 7
+    100668: RibWrapper3 8
+    100670: RibWrapper3 9
+    100672: RibWrapper4
+    100674: RibWrapper4 1
+    100676: RibWrapper4 10
+    100678: RibWrapper4 11
+    100680: RibWrapper4 2
+    100682: RibWrapper4 3
+    100684: RibWrapper4 4
+    100686: RibWrapper4 5
+    100688: RibWrapper4 6
+    100690: RibWrapper4 7
+    100692: RibWrapper4 8
+    100694: RibWrapper4 9
+    100696: RibWrapper5
+    100698: RibWrapper5 1
+    100700: RibWrapper5 10
+    100702: RibWrapper5 11
+    100704: RibWrapper5 2
+    100706: RibWrapper5 3
+    100708: RibWrapper5 4
+    100710: RibWrapper5 5
+    100712: RibWrapper5 6
+    100714: RibWrapper5 7
+    100716: RibWrapper5 8
+    100718: RibWrapper5 9
+    100720: RibWrapper6
+    100722: RibWrapper6 1
+    100724: RibWrapper6 10
+    100726: RibWrapper6 11
+    100728: RibWrapper6 2
+    100730: RibWrapper6 3
+    100732: RibWrapper6 4
+    100734: RibWrapper6 5
+    100736: RibWrapper6 6
+    100738: RibWrapper6 7
+    100740: RibWrapper6 8
+    100742: RibWrapper6 9
+    100744: Scissors1
+    100746: Scissors1 1
+    100748: Scissors1 2
+    100750: Scissors1 3
+    100752: Scissors1 4
+    100754: Scissors1 5
+    100756: Scissors2
+    100758: Scissors2 1
+    100760: Scissors2 2
+    100762: Scissors2 3
+    100764: Scissors2 4
+    100766: Scissors2 5
+    100768: //RootNode
+    100770: Solar_Direction_1
+    100772: Solar_Direction_2
+    100774: SolarCover
+    100776: SolarWing
+    100778: SolarWing_RotateA
+    100780: SolarWing_RotateB
+    100782: SolarWingHinge
+    100784: sunCatcher
+    100786: sunCatcher 1
+    400000: Cell1
+    400002: Cell1 1
+    400004: Cell1 2
+    400006: Cell1 3
+    400008: Cell1 4
+    400010: Cell1 5
+    400012: Cell10
+    400014: Cell10 1
+    400016: Cell10 2
+    400018: Cell10 3
+    400020: Cell10 4
+    400022: Cell10 5
+    400024: Cell11
+    400026: Cell11 1
+    400028: Cell11 2
+    400030: Cell11 3
+    400032: Cell11 4
+    400034: Cell11 5
+    400036: Cell12
+    400038: Cell12 1
+    400040: Cell12 2
+    400042: Cell12 3
+    400044: Cell12 4
+    400046: Cell12 5
+    400048: Cell2
+    400050: Cell2 1
+    400052: Cell2 2
+    400054: Cell2 3
+    400056: Cell2 4
+    400058: Cell2 5
+    400060: Cell3
+    400062: Cell3 1
+    400064: Cell3 10
+    400066: Cell3 11
+    400068: Cell3 2
+    400070: Cell3 3
+    400072: Cell3 4
+    400074: Cell3 5
+    400076: Cell3 6
+    400078: Cell3 7
+    400080: Cell3 8
+    400082: Cell3 9
+    400084: Cell4
+    400086: Cell4 1
+    400088: Cell4 10
+    400090: Cell4 11
+    400092: Cell4 2
+    400094: Cell4 3
+    400096: Cell4 4
+    400098: Cell4 5
+    400100: Cell4 6
+    400102: Cell4 7
+    400104: Cell4 8
+    400106: Cell4 9
+    400108: Cell5
+    400110: Cell5 1
+    400112: Cell5 10
+    400114: Cell5 11
+    400116: Cell5 2
+    400118: Cell5 3
+    400120: Cell5 4
+    400122: Cell5 5
+    400124: Cell5 6
+    400126: Cell5 7
+    400128: Cell5 8
+    400130: Cell5 9
+    400132: Cell6
+    400134: Cell6 1
+    400136: Cell6 10
+    400138: Cell6 11
+    400140: Cell6 2
+    400142: Cell6 3
+    400144: Cell6 4
+    400146: Cell6 5
+    400148: Cell6 6
+    400150: Cell6 7
+    400152: Cell6 8
+    400154: Cell6 9
+    400156: Cell7
+    400158: Cell7 1
+    400160: Cell7 10
+    400162: Cell7 11
+    400164: Cell7 2
+    400166: Cell7 3
+    400168: Cell7 4
+    400170: Cell7 5
+    400172: Cell7 6
+    400174: Cell7 7
+    400176: Cell7 8
+    400178: Cell7 9
+    400180: Cell8
+    400182: Cell8 1
+    400184: Cell8 10
+    400186: Cell8 11
+    400188: Cell8 12
+    400190: Cell8 13
+    400192: Cell8 14
+    400194: Cell8 15
+    400196: Cell8 16
+    400198: Cell8 17
+    400200: Cell8 18
+    400202: Cell8 19
+    400204: Cell8 2
+    400206: Cell8 20
+    400208: Cell8 21
+    400210: Cell8 22
+    400212: Cell8 23
+    400214: Cell8 3
+    400216: Cell8 4
+    400218: Cell8 5
+    400220: Cell8 6
+    400222: Cell8 7
+    400224: Cell8 8
+    400226: Cell8 9
+    400228: Cell9
+    400230: Cell9 1
+    400232: Cell9 2
+    400234: Cell9 3
+    400236: Cell9 4
+    400238: Cell9 5
+    400240: CellSet_1
+    400242: CellSet_1 1
+    400244: CellSet_2
+    400246: CellSet_2 1
+    400248: CellSet_3
+    400250: CellSet_3 1
+    400252: CellWrapper
+    400254: CellWrapper 1
+    400256: CellWrapper 2
+    400258: CellWrapper 3
+    400260: CellWrapper 4
+    400262: CellWrapper 5
+    400264: pCube35
+    400266: pCube35 1
+    400268: pCube35 10
+    400270: pCube35 100
+    400272: pCube35 101
+    400274: pCube35 102
+    400276: pCube35 103
+    400278: pCube35 104
+    400280: pCube35 105
+    400282: pCube35 106
+    400284: pCube35 107
+    400286: pCube35 108
+    400288: pCube35 109
+    400290: pCube35 11
+    400292: pCube35 110
+    400294: pCube35 111
+    400296: pCube35 112
+    400298: pCube35 113
+    400300: pCube35 114
+    400302: pCube35 115
+    400304: pCube35 116
+    400306: pCube35 117
+    400308: pCube35 118
+    400310: pCube35 119
+    400312: pCube35 12
+    400314: pCube35 13
+    400316: pCube35 14
+    400318: pCube35 15
+    400320: pCube35 16
+    400322: pCube35 17
+    400324: pCube35 18
+    400326: pCube35 19
+    400328: pCube35 2
+    400330: pCube35 20
+    400332: pCube35 21
+    400334: pCube35 22
+    400336: pCube35 23
+    400338: pCube35 24
+    400340: pCube35 25
+    400342: pCube35 26
+    400344: pCube35 27
+    400346: pCube35 28
+    400348: pCube35 29
+    400350: pCube35 3
+    400352: pCube35 30
+    400354: pCube35 31
+    400356: pCube35 32
+    400358: pCube35 33
+    400360: pCube35 34
+    400362: pCube35 35
+    400364: pCube35 36
+    400366: pCube35 37
+    400368: pCube35 38
+    400370: pCube35 39
+    400372: pCube35 4
+    400374: pCube35 40
+    400376: pCube35 41
+    400378: pCube35 42
+    400380: pCube35 43
+    400382: pCube35 44
+    400384: pCube35 45
+    400386: pCube35 46
+    400388: pCube35 47
+    400390: pCube35 48
+    400392: pCube35 49
+    400394: pCube35 5
+    400396: pCube35 50
+    400398: pCube35 51
+    400400: pCube35 52
+    400402: pCube35 53
+    400404: pCube35 54
+    400406: pCube35 55
+    400408: pCube35 56
+    400410: pCube35 57
+    400412: pCube35 58
+    400414: pCube35 59
+    400416: pCube35 6
+    400418: pCube35 60
+    400420: pCube35 61
+    400422: pCube35 62
+    400424: pCube35 63
+    400426: pCube35 64
+    400428: pCube35 65
+    400430: pCube35 66
+    400432: pCube35 67
+    400434: pCube35 68
+    400436: pCube35 69
+    400438: pCube35 7
+    400440: pCube35 70
+    400442: pCube35 71
+    400444: pCube35 72
+    400446: pCube35 73
+    400448: pCube35 74
+    400450: pCube35 75
+    400452: pCube35 76
+    400454: pCube35 77
+    400456: pCube35 78
+    400458: pCube35 79
+    400460: pCube35 8
+    400462: pCube35 80
+    400464: pCube35 81
+    400466: pCube35 82
+    400468: pCube35 83
+    400470: pCube35 84
+    400472: pCube35 85
+    400474: pCube35 86
+    400476: pCube35 87
+    400478: pCube35 88
+    400480: pCube35 89
+    400482: pCube35 9
+    400484: pCube35 90
+    400486: pCube35 91
+    400488: pCube35 92
+    400490: pCube35 93
+    400492: pCube35 94
+    400494: pCube35 95
+    400496: pCube35 96
+    400498: pCube35 97
+    400500: pCube35 98
+    400502: pCube35 99
+    400504: RibWrapper
+    400506: RibWrapper 1
+    400508: RibWrapper 10
+    400510: RibWrapper 11
+    400512: RibWrapper 2
+    400514: RibWrapper 3
+    400516: RibWrapper 4
+    400518: RibWrapper 5
+    400520: RibWrapper 6
+    400522: RibWrapper 7
+    400524: RibWrapper 8
+    400526: RibWrapper 9
+    400528: RibWrapper1
+    400530: RibWrapper1 1
+    400532: RibWrapper1 10
+    400534: RibWrapper1 11
+    400536: RibWrapper1 2
+    400538: RibWrapper1 3
+    400540: RibWrapper1 4
+    400542: RibWrapper1 5
+    400544: RibWrapper1 6
+    400546: RibWrapper1 7
+    400548: RibWrapper1 8
+    400550: RibWrapper1 9
+    400552: RibWrapper2
+    400554: RibWrapper2 1
+    400556: RibWrapper2 10
+    400558: RibWrapper2 11
+    400560: RibWrapper2 12
+    400562: RibWrapper2 13
+    400564: RibWrapper2 14
+    400566: RibWrapper2 15
+    400568: RibWrapper2 16
+    400570: RibWrapper2 17
+    400572: RibWrapper2 18
+    400574: RibWrapper2 19
+    400576: RibWrapper2 2
+    400578: RibWrapper2 20
+    400580: RibWrapper2 21
+    400582: RibWrapper2 22
+    400584: RibWrapper2 23
+    400586: RibWrapper2 24
+    400588: RibWrapper2 25
+    400590: RibWrapper2 26
+    400592: RibWrapper2 27
+    400594: RibWrapper2 28
+    400596: RibWrapper2 29
+    400598: RibWrapper2 3
+    400600: RibWrapper2 30
+    400602: RibWrapper2 31
+    400604: RibWrapper2 32
+    400606: RibWrapper2 33
+    400608: RibWrapper2 34
+    400610: RibWrapper2 35
+    400612: RibWrapper2 36
+    400614: RibWrapper2 37
+    400616: RibWrapper2 38
+    400618: RibWrapper2 39
+    400620: RibWrapper2 4
+    400622: RibWrapper2 40
+    400624: RibWrapper2 41
+    400626: RibWrapper2 42
+    400628: RibWrapper2 43
+    400630: RibWrapper2 44
+    400632: RibWrapper2 45
+    400634: RibWrapper2 46
+    400636: RibWrapper2 47
+    400638: RibWrapper2 5
+    400640: RibWrapper2 6
+    400642: RibWrapper2 7
+    400644: RibWrapper2 8
+    400646: RibWrapper2 9
+    400648: RibWrapper3
+    400650: RibWrapper3 1
+    400652: RibWrapper3 10
+    400654: RibWrapper3 11
+    400656: RibWrapper3 2
+    400658: RibWrapper3 3
+    400660: RibWrapper3 4
+    400662: RibWrapper3 5
+    400664: RibWrapper3 6
+    400666: RibWrapper3 7
+    400668: RibWrapper3 8
+    400670: RibWrapper3 9
+    400672: RibWrapper4
+    400674: RibWrapper4 1
+    400676: RibWrapper4 10
+    400678: RibWrapper4 11
+    400680: RibWrapper4 2
+    400682: RibWrapper4 3
+    400684: RibWrapper4 4
+    400686: RibWrapper4 5
+    400688: RibWrapper4 6
+    400690: RibWrapper4 7
+    400692: RibWrapper4 8
+    400694: RibWrapper4 9
+    400696: RibWrapper5
+    400698: RibWrapper5 1
+    400700: RibWrapper5 10
+    400702: RibWrapper5 11
+    400704: RibWrapper5 2
+    400706: RibWrapper5 3
+    400708: RibWrapper5 4
+    400710: RibWrapper5 5
+    400712: RibWrapper5 6
+    400714: RibWrapper5 7
+    400716: RibWrapper5 8
+    400718: RibWrapper5 9
+    400720: RibWrapper6
+    400722: RibWrapper6 1
+    400724: RibWrapper6 10
+    400726: RibWrapper6 11
+    400728: RibWrapper6 2
+    400730: RibWrapper6 3
+    400732: RibWrapper6 4
+    400734: RibWrapper6 5
+    400736: RibWrapper6 6
+    400738: RibWrapper6 7
+    400740: RibWrapper6 8
+    400742: RibWrapper6 9
+    400744: Scissors1
+    400746: Scissors1 1
+    400748: Scissors1 2
+    400750: Scissors1 3
+    400752: Scissors1 4
+    400754: Scissors1 5
+    400756: Scissors2
+    400758: Scissors2 1
+    400760: Scissors2 2
+    400762: Scissors2 3
+    400764: Scissors2 4
+    400766: Scissors2 5
+    400768: //RootNode
+    400770: Solar_Direction_1
+    400772: Solar_Direction_2
+    400774: SolarCover
+    400776: SolarWing
+    400778: SolarWing_RotateA
+    400780: SolarWing_RotateB
+    400782: SolarWingHinge
+    400784: sunCatcher
+    400786: sunCatcher 1
+    2300000: Cell1
+    2300002: Cell1 1
+    2300004: Cell1 2
+    2300006: Cell1 3
+    2300008: Cell1 4
+    2300010: Cell1 5
+    2300012: Cell10
+    2300014: Cell10 1
+    2300016: Cell10 2
+    2300018: Cell10 3
+    2300020: Cell10 4
+    2300022: Cell10 5
+    2300024: Cell11
+    2300026: Cell11 1
+    2300028: Cell11 2
+    2300030: Cell11 3
+    2300032: Cell11 4
+    2300034: Cell11 5
+    2300036: Cell12
+    2300038: Cell12 1
+    2300040: Cell12 2
+    2300042: Cell12 3
+    2300044: Cell12 4
+    2300046: Cell12 5
+    2300048: Cell2
+    2300050: Cell2 1
+    2300052: Cell2 2
+    2300054: Cell2 3
+    2300056: Cell2 4
+    2300058: Cell2 5
+    2300060: Cell3
+    2300062: Cell3 1
+    2300064: Cell3 10
+    2300066: Cell3 11
+    2300068: Cell3 2
+    2300070: Cell3 3
+    2300072: Cell3 4
+    2300074: Cell3 5
+    2300076: Cell3 6
+    2300078: Cell3 7
+    2300080: Cell3 8
+    2300082: Cell3 9
+    2300084: Cell4
+    2300086: Cell4 1
+    2300088: Cell4 10
+    2300090: Cell4 11
+    2300092: Cell4 2
+    2300094: Cell4 3
+    2300096: Cell4 4
+    2300098: Cell4 5
+    2300100: Cell4 6
+    2300102: Cell4 7
+    2300104: Cell4 8
+    2300106: Cell4 9
+    2300108: Cell5
+    2300110: Cell5 1
+    2300112: Cell5 10
+    2300114: Cell5 11
+    2300116: Cell5 2
+    2300118: Cell5 3
+    2300120: Cell5 4
+    2300122: Cell5 5
+    2300124: Cell5 6
+    2300126: Cell5 7
+    2300128: Cell5 8
+    2300130: Cell5 9
+    2300132: Cell6
+    2300134: Cell6 1
+    2300136: Cell6 10
+    2300138: Cell6 11
+    2300140: Cell6 2
+    2300142: Cell6 3
+    2300144: Cell6 4
+    2300146: Cell6 5
+    2300148: Cell6 6
+    2300150: Cell6 7
+    2300152: Cell6 8
+    2300154: Cell6 9
+    2300156: Cell7
+    2300158: Cell7 1
+    2300160: Cell7 10
+    2300162: Cell7 11
+    2300164: Cell7 2
+    2300166: Cell7 3
+    2300168: Cell7 4
+    2300170: Cell7 5
+    2300172: Cell7 6
+    2300174: Cell7 7
+    2300176: Cell7 8
+    2300178: Cell7 9
+    2300180: Cell8
+    2300182: Cell8 1
+    2300184: Cell8 10
+    2300186: Cell8 11
+    2300188: Cell8 12
+    2300190: Cell8 13
+    2300192: Cell8 14
+    2300194: Cell8 15
+    2300196: Cell8 16
+    2300198: Cell8 17
+    2300200: Cell8 18
+    2300202: Cell8 19
+    2300204: Cell8 2
+    2300206: Cell8 20
+    2300208: Cell8 21
+    2300210: Cell8 22
+    2300212: Cell8 23
+    2300214: Cell8 3
+    2300216: Cell8 4
+    2300218: Cell8 5
+    2300220: Cell8 6
+    2300222: Cell8 7
+    2300224: Cell8 8
+    2300226: Cell8 9
+    2300228: Cell9
+    2300230: Cell9 1
+    2300232: Cell9 2
+    2300234: Cell9 3
+    2300236: Cell9 4
+    2300238: Cell9 5
+    2300240: pCube35
+    2300242: pCube35 1
+    2300244: pCube35 10
+    2300246: pCube35 100
+    2300248: pCube35 101
+    2300250: pCube35 102
+    2300252: pCube35 103
+    2300254: pCube35 104
+    2300256: pCube35 105
+    2300258: pCube35 106
+    2300260: pCube35 107
+    2300262: pCube35 108
+    2300264: pCube35 109
+    2300266: pCube35 11
+    2300268: pCube35 110
+    2300270: pCube35 111
+    2300272: pCube35 112
+    2300274: pCube35 113
+    2300276: pCube35 114
+    2300278: pCube35 115
+    2300280: pCube35 116
+    2300282: pCube35 117
+    2300284: pCube35 118
+    2300286: pCube35 119
+    2300288: pCube35 12
+    2300290: pCube35 13
+    2300292: pCube35 14
+    2300294: pCube35 15
+    2300296: pCube35 16
+    2300298: pCube35 17
+    2300300: pCube35 18
+    2300302: pCube35 19
+    2300304: pCube35 2
+    2300306: pCube35 20
+    2300308: pCube35 21
+    2300310: pCube35 22
+    2300312: pCube35 23
+    2300314: pCube35 24
+    2300316: pCube35 25
+    2300318: pCube35 26
+    2300320: pCube35 27
+    2300322: pCube35 28
+    2300324: pCube35 29
+    2300326: pCube35 3
+    2300328: pCube35 30
+    2300330: pCube35 31
+    2300332: pCube35 32
+    2300334: pCube35 33
+    2300336: pCube35 34
+    2300338: pCube35 35
+    2300340: pCube35 36
+    2300342: pCube35 37
+    2300344: pCube35 38
+    2300346: pCube35 39
+    2300348: pCube35 4
+    2300350: pCube35 40
+    2300352: pCube35 41
+    2300354: pCube35 42
+    2300356: pCube35 43
+    2300358: pCube35 44
+    2300360: pCube35 45
+    2300362: pCube35 46
+    2300364: pCube35 47
+    2300366: pCube35 48
+    2300368: pCube35 49
+    2300370: pCube35 5
+    2300372: pCube35 50
+    2300374: pCube35 51
+    2300376: pCube35 52
+    2300378: pCube35 53
+    2300380: pCube35 54
+    2300382: pCube35 55
+    2300384: pCube35 56
+    2300386: pCube35 57
+    2300388: pCube35 58
+    2300390: pCube35 59
+    2300392: pCube35 6
+    2300394: pCube35 60
+    2300396: pCube35 61
+    2300398: pCube35 62
+    2300400: pCube35 63
+    2300402: pCube35 64
+    2300404: pCube35 65
+    2300406: pCube35 66
+    2300408: pCube35 67
+    2300410: pCube35 68
+    2300412: pCube35 69
+    2300414: pCube35 7
+    2300416: pCube35 70
+    2300418: pCube35 71
+    2300420: pCube35 72
+    2300422: pCube35 73
+    2300424: pCube35 74
+    2300426: pCube35 75
+    2300428: pCube35 76
+    2300430: pCube35 77
+    2300432: pCube35 78
+    2300434: pCube35 79
+    2300436: pCube35 8
+    2300438: pCube35 80
+    2300440: pCube35 81
+    2300442: pCube35 82
+    2300444: pCube35 83
+    2300446: pCube35 84
+    2300448: pCube35 85
+    2300450: pCube35 86
+    2300452: pCube35 87
+    2300454: pCube35 88
+    2300456: pCube35 89
+    2300458: pCube35 9
+    2300460: pCube35 90
+    2300462: pCube35 91
+    2300464: pCube35 92
+    2300466: pCube35 93
+    2300468: pCube35 94
+    2300470: pCube35 95
+    2300472: pCube35 96
+    2300474: pCube35 97
+    2300476: pCube35 98
+    2300478: pCube35 99
+    2300480: SolarCover
+    2300482: SolarWing
+    2300484: SolarWingHinge
+    3300000: Cell1
+    3300002: Cell1 1
+    3300004: Cell1 2
+    3300006: Cell1 3
+    3300008: Cell1 4
+    3300010: Cell1 5
+    3300012: Cell10
+    3300014: Cell10 1
+    3300016: Cell10 2
+    3300018: Cell10 3
+    3300020: Cell10 4
+    3300022: Cell10 5
+    3300024: Cell11
+    3300026: Cell11 1
+    3300028: Cell11 2
+    3300030: Cell11 3
+    3300032: Cell11 4
+    3300034: Cell11 5
+    3300036: Cell12
+    3300038: Cell12 1
+    3300040: Cell12 2
+    3300042: Cell12 3
+    3300044: Cell12 4
+    3300046: Cell12 5
+    3300048: Cell2
+    3300050: Cell2 1
+    3300052: Cell2 2
+    3300054: Cell2 3
+    3300056: Cell2 4
+    3300058: Cell2 5
+    3300060: Cell3
+    3300062: Cell3 1
+    3300064: Cell3 10
+    3300066: Cell3 11
+    3300068: Cell3 2
+    3300070: Cell3 3
+    3300072: Cell3 4
+    3300074: Cell3 5
+    3300076: Cell3 6
+    3300078: Cell3 7
+    3300080: Cell3 8
+    3300082: Cell3 9
+    3300084: Cell4
+    3300086: Cell4 1
+    3300088: Cell4 10
+    3300090: Cell4 11
+    3300092: Cell4 2
+    3300094: Cell4 3
+    3300096: Cell4 4
+    3300098: Cell4 5
+    3300100: Cell4 6
+    3300102: Cell4 7
+    3300104: Cell4 8
+    3300106: Cell4 9
+    3300108: Cell5
+    3300110: Cell5 1
+    3300112: Cell5 10
+    3300114: Cell5 11
+    3300116: Cell5 2
+    3300118: Cell5 3
+    3300120: Cell5 4
+    3300122: Cell5 5
+    3300124: Cell5 6
+    3300126: Cell5 7
+    3300128: Cell5 8
+    3300130: Cell5 9
+    3300132: Cell6
+    3300134: Cell6 1
+    3300136: Cell6 10
+    3300138: Cell6 11
+    3300140: Cell6 2
+    3300142: Cell6 3
+    3300144: Cell6 4
+    3300146: Cell6 5
+    3300148: Cell6 6
+    3300150: Cell6 7
+    3300152: Cell6 8
+    3300154: Cell6 9
+    3300156: Cell7
+    3300158: Cell7 1
+    3300160: Cell7 10
+    3300162: Cell7 11
+    3300164: Cell7 2
+    3300166: Cell7 3
+    3300168: Cell7 4
+    3300170: Cell7 5
+    3300172: Cell7 6
+    3300174: Cell7 7
+    3300176: Cell7 8
+    3300178: Cell7 9
+    3300180: Cell8
+    3300182: Cell8 1
+    3300184: Cell8 10
+    3300186: Cell8 11
+    3300188: Cell8 12
+    3300190: Cell8 13
+    3300192: Cell8 14
+    3300194: Cell8 15
+    3300196: Cell8 16
+    3300198: Cell8 17
+    3300200: Cell8 18
+    3300202: Cell8 19
+    3300204: Cell8 2
+    3300206: Cell8 20
+    3300208: Cell8 21
+    3300210: Cell8 22
+    3300212: Cell8 23
+    3300214: Cell8 3
+    3300216: Cell8 4
+    3300218: Cell8 5
+    3300220: Cell8 6
+    3300222: Cell8 7
+    3300224: Cell8 8
+    3300226: Cell8 9
+    3300228: Cell9
+    3300230: Cell9 1
+    3300232: Cell9 2
+    3300234: Cell9 3
+    3300236: Cell9 4
+    3300238: Cell9 5
+    3300240: pCube35
+    3300242: pCube35 1
+    3300244: pCube35 10
+    3300246: pCube35 100
+    3300248: pCube35 101
+    3300250: pCube35 102
+    3300252: pCube35 103
+    3300254: pCube35 104
+    3300256: pCube35 105
+    3300258: pCube35 106
+    3300260: pCube35 107
+    3300262: pCube35 108
+    3300264: pCube35 109
+    3300266: pCube35 11
+    3300268: pCube35 110
+    3300270: pCube35 111
+    3300272: pCube35 112
+    3300274: pCube35 113
+    3300276: pCube35 114
+    3300278: pCube35 115
+    3300280: pCube35 116
+    3300282: pCube35 117
+    3300284: pCube35 118
+    3300286: pCube35 119
+    3300288: pCube35 12
+    3300290: pCube35 13
+    3300292: pCube35 14
+    3300294: pCube35 15
+    3300296: pCube35 16
+    3300298: pCube35 17
+    3300300: pCube35 18
+    3300302: pCube35 19
+    3300304: pCube35 2
+    3300306: pCube35 20
+    3300308: pCube35 21
+    3300310: pCube35 22
+    3300312: pCube35 23
+    3300314: pCube35 24
+    3300316: pCube35 25
+    3300318: pCube35 26
+    3300320: pCube35 27
+    3300322: pCube35 28
+    3300324: pCube35 29
+    3300326: pCube35 3
+    3300328: pCube35 30
+    3300330: pCube35 31
+    3300332: pCube35 32
+    3300334: pCube35 33
+    3300336: pCube35 34
+    3300338: pCube35 35
+    3300340: pCube35 36
+    3300342: pCube35 37
+    3300344: pCube35 38
+    3300346: pCube35 39
+    3300348: pCube35 4
+    3300350: pCube35 40
+    3300352: pCube35 41
+    3300354: pCube35 42
+    3300356: pCube35 43
+    3300358: pCube35 44
+    3300360: pCube35 45
+    3300362: pCube35 46
+    3300364: pCube35 47
+    3300366: pCube35 48
+    3300368: pCube35 49
+    3300370: pCube35 5
+    3300372: pCube35 50
+    3300374: pCube35 51
+    3300376: pCube35 52
+    3300378: pCube35 53
+    3300380: pCube35 54
+    3300382: pCube35 55
+    3300384: pCube35 56
+    3300386: pCube35 57
+    3300388: pCube35 58
+    3300390: pCube35 59
+    3300392: pCube35 6
+    3300394: pCube35 60
+    3300396: pCube35 61
+    3300398: pCube35 62
+    3300400: pCube35 63
+    3300402: pCube35 64
+    3300404: pCube35 65
+    3300406: pCube35 66
+    3300408: pCube35 67
+    3300410: pCube35 68
+    3300412: pCube35 69
+    3300414: pCube35 7
+    3300416: pCube35 70
+    3300418: pCube35 71
+    3300420: pCube35 72
+    3300422: pCube35 73
+    3300424: pCube35 74
+    3300426: pCube35 75
+    3300428: pCube35 76
+    3300430: pCube35 77
+    3300432: pCube35 78
+    3300434: pCube35 79
+    3300436: pCube35 8
+    3300438: pCube35 80
+    3300440: pCube35 81
+    3300442: pCube35 82
+    3300444: pCube35 83
+    3300446: pCube35 84
+    3300448: pCube35 85
+    3300450: pCube35 86
+    3300452: pCube35 87
+    3300454: pCube35 88
+    3300456: pCube35 89
+    3300458: pCube35 9
+    3300460: pCube35 90
+    3300462: pCube35 91
+    3300464: pCube35 92
+    3300466: pCube35 93
+    3300468: pCube35 94
+    3300470: pCube35 95
+    3300472: pCube35 96
+    3300474: pCube35 97
+    3300476: pCube35 98
+    3300478: pCube35 99
+    3300480: SolarCover
+    3300482: SolarWing
+    3300484: SolarWingHinge
+    4300000: SolarCover
+    4300002: SolarWingHinge
+    4300004: SolarWing
+    4300006: pCube35
+    4300008: pCube35
+    4300010: pCube35
+    4300012: pCube35
+    4300014: pCube35
+    4300016: pCube35
+    4300018: pCube35
+    4300020: pCube35
+    4300022: pCube35
+    4300024: pCube35
+    4300026: Cell1
+    4300028: Cell2
+    4300030: Cell3
+    4300032: Cell4
+    4300034: Cell5
+    4300036: Cell6
+    4300038: Cell7
+    4300040: Cell8
+    4300042: Cell9
+    4300044: Cell10
+    4300046: Cell3
+    4300048: Cell4
+    4300050: Cell5
+    4300052: Cell6
+    4300054: Cell7
+    4300056: Cell8
+    4300058: Cell11
+    4300060: Cell8
+    4300062: Cell12
+    4300064: Cell8
+    4300066: pCube35
+    4300068: pCube35
+    4300070: pCube35
+    4300072: pCube35
+    4300074: pCube35
+    4300076: pCube35
+    4300078: pCube35
+    4300080: pCube35
+    4300082: pCube35
+    4300084: pCube35
+    4300086: pCube35
+    4300088: pCube35
+    4300090: pCube35
+    4300092: pCube35
+    4300094: pCube35
+    4300096: pCube35
+    4300098: pCube35
+    4300100: pCube35
+    4300102: pCube35
+    4300104: pCube35
+    4300106: Cell1
+    4300108: Cell2
+    4300110: Cell3
+    4300112: Cell4
+    4300114: Cell5
+    4300116: Cell6
+    4300118: Cell7
+    4300120: Cell8
+    4300122: Cell9
+    4300124: Cell10
+    4300126: Cell3
+    4300128: Cell4
+    4300130: Cell5
+    4300132: Cell6
+    4300134: Cell7
+    4300136: Cell8
+    4300138: Cell11
+    4300140: Cell8
+    4300142: Cell12
+    4300144: Cell8
+    4300146: pCube35
+    4300148: pCube35
+    4300150: pCube35
+    4300152: pCube35
+    4300154: pCube35
+    4300156: pCube35
+    4300158: pCube35
+    4300160: pCube35
+    4300162: pCube35
+    4300164: pCube35
+    4300166: pCube35
+    4300168: pCube35
+    4300170: pCube35
+    4300172: pCube35
+    4300174: pCube35
+    4300176: pCube35
+    4300178: pCube35
+    4300180: pCube35
+    4300182: pCube35
+    4300184: pCube35
+    4300186: Cell1
+    4300188: Cell2
+    4300190: Cell3
+    4300192: Cell4
+    4300194: Cell5
+    4300196: Cell6
+    4300198: Cell7
+    4300200: Cell8
+    4300202: Cell9
+    4300204: Cell10
+    4300206: Cell3
+    4300208: Cell4
+    4300210: Cell5
+    4300212: Cell6
+    4300214: Cell7
+    4300216: Cell8
+    4300218: Cell11
+    4300220: Cell8
+    4300222: Cell12
+    4300224: Cell8
+    4300226: pCube35
+    4300228: pCube35
+    4300230: pCube35
+    4300232: pCube35
+    4300234: pCube35
+    4300236: pCube35
+    4300238: pCube35
+    4300240: pCube35
+    4300242: pCube35
+    4300244: pCube35
+    4300246: pCube35
+    4300248: pCube35
+    4300250: pCube35
+    4300252: pCube35
+    4300254: pCube35
+    4300256: pCube35
+    4300258: pCube35
+    4300260: pCube35
+    4300262: pCube35
+    4300264: pCube35
+    4300266: Cell1
+    4300268: Cell2
+    4300270: Cell3
+    4300272: Cell4
+    4300274: Cell5
+    4300276: Cell6
+    4300278: Cell7
+    4300280: Cell8
+    4300282: Cell9
+    4300284: Cell10
+    4300286: Cell3
+    4300288: Cell4
+    4300290: Cell5
+    4300292: Cell6
+    4300294: Cell7
+    4300296: Cell8
+    4300298: Cell11
+    4300300: Cell8
+    4300302: Cell12
+    4300304: Cell8
+    4300306: pCube35
+    4300308: pCube35
+    4300310: pCube35
+    4300312: pCube35
+    4300314: pCube35
+    4300316: pCube35
+    4300318: pCube35
+    4300320: pCube35
+    4300322: pCube35
+    4300324: pCube35
+    4300326: pCube35
+    4300328: pCube35
+    4300330: pCube35
+    4300332: pCube35
+    4300334: pCube35
+    4300336: pCube35
+    4300338: pCube35
+    4300340: pCube35
+    4300342: pCube35
+    4300344: pCube35
+    4300346: Cell1
+    4300348: Cell2
+    4300350: Cell3
+    4300352: Cell4
+    4300354: Cell5
+    4300356: Cell6
+    4300358: Cell7
+    4300360: Cell8
+    4300362: Cell9
+    4300364: Cell10
+    4300366: Cell3
+    4300368: Cell4
+    4300370: Cell5
+    4300372: Cell6
+    4300374: Cell7
+    4300376: Cell8
+    4300378: Cell11
+    4300380: Cell8
+    4300382: Cell12
+    4300384: Cell8
+    4300386: pCube35
+    4300388: pCube35
+    4300390: pCube35
+    4300392: pCube35
+    4300394: pCube35
+    4300396: pCube35
+    4300398: pCube35
+    4300400: pCube35
+    4300402: pCube35
+    4300404: pCube35
+    4300406: pCube35
+    4300408: pCube35
+    4300410: pCube35
+    4300412: pCube35
+    4300414: pCube35
+    4300416: pCube35
+    4300418: pCube35
+    4300420: pCube35
+    4300422: pCube35
+    4300424: pCube35
+    4300426: Cell1
+    4300428: Cell2
+    4300430: Cell3
+    4300432: Cell4
+    4300434: Cell5
+    4300436: Cell6
+    4300438: Cell7
+    4300440: Cell8
+    4300442: Cell9
+    4300444: Cell10
+    4300446: Cell3
+    4300448: Cell4
+    4300450: Cell5
+    4300452: Cell6
+    4300454: Cell7
+    4300456: Cell8
+    4300458: Cell11
+    4300460: Cell8
+    4300462: Cell12
+    4300464: Cell8
+    4300466: pCube35
+    4300468: pCube35
+    4300470: pCube35
+    4300472: pCube35
+    4300474: pCube35
+    4300476: pCube35
+    4300478: pCube35
+    4300480: pCube35
+    4300482: pCube35
+    4300484: pCube35
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

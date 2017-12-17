@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 0794b76de89d1e6419d4f93ed7a30842
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: AttachRib
+    100004: AttachRib_ncl1_1
+    100006: AuxThruster_Shield
+    100008: Engine1
+    100010: Engine2
+    100012: EngineBlock
+    100014: MonoTank
+    100016: MonoTank1
+    100018: Pipe
+    100020: Pipe1
+    100022: PipeRib
+    100024: thrustTransform
+    100026: thrustTransform_ncl1_1
+    100028: Attach_Thruster3_MonoTank1
+    400000: //RootNode
+    400002: AttachRib
+    400004: AttachRib_ncl1_1
+    400006: AuxThruster_Shield
+    400008: Engine1
+    400010: Engine2
+    400012: EngineBlock
+    400014: MonoTank
+    400016: MonoTank1
+    400018: Pipe
+    400020: Pipe1
+    400022: PipeRib
+    400024: thrustTransform
+    400026: thrustTransform_ncl1_1
+    400028: Attach_Thruster3_MonoTank1
+    2300000: AttachRib
+    2300002: AttachRib_ncl1_1
+    2300004: AuxThruster_Shield
+    2300006: EngineBlock
+    2300008: MonoTank
+    2300010: MonoTank1
+    2300012: Pipe
+    2300014: Pipe1
+    2300016: PipeRib
+    2300018: thrustTransform
+    2300020: thrustTransform_ncl1_1
+    2300022: Attach_Thruster3_MonoTank1
+    3300000: AttachRib
+    3300002: AttachRib_ncl1_1
+    3300004: AuxThruster_Shield
+    3300006: EngineBlock
+    3300008: MonoTank
+    3300010: MonoTank1
+    3300012: Pipe
+    3300014: Pipe1
+    3300016: PipeRib
+    3300018: thrustTransform
+    3300020: thrustTransform_ncl1_1
+    3300022: Attach_Thruster3_MonoTank1
+    4300000: AuxThruster_Shield
+    4300002: EngineBlock
+    4300004: MonoTank
+    4300006: AttachRib
+    4300008: PipeRib
+    4300010: Pipe
+    4300012: thrustTransform
+    4300014: MonoTank1
+    4300016: AttachRib_ncl1_1
+    4300018: Pipe1
+    4300020: thrustTransform_ncl1_1
+    4300022: Attach_Thruster3_MonoTank1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

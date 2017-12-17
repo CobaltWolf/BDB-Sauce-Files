@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 6234714e914a79a40a588d590f824d32
+timeCreated: 1488155356
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Collider
+    100002: //RootNode
+    100004: Skylab_OWS_Merged_OWS_Hull
+    100006: Skylab_WindowCovers
+    100008: Skylab_Windows
+    100010: ToggleableTunnel
+    100012: Skylab_OWS_Merged
+    100014: ToggleableTunnel1
+    100016: group284
+    100018: group285
+    100020: group286
+    100022: group287
+    100024: group288
+    100026: group289
+    100028: pCylinder276
+    100030: pCylinder276_ncl1_1
+    100032: pCylinder276_ncl1_2
+    100034: pCylinder276_ncl1_3
+    100036: pCylinder276_ncl1_4
+    100038: pCylinder276_ncl1_5
+    400000: Collider
+    400002: //RootNode
+    400004: Skylab_OWS_Merged_OWS_Hull
+    400006: Skylab_WindowCovers
+    400008: Skylab_Windows
+    400010: ToggleableTunnel
+    400012: Skylab_OWS_Merged
+    400014: ToggleableTunnel1
+    400016: group284
+    400018: group285
+    400020: group286
+    400022: group287
+    400024: group288
+    400026: group289
+    400028: pCylinder276
+    400030: pCylinder276_ncl1_1
+    400032: pCylinder276_ncl1_2
+    400034: pCylinder276_ncl1_3
+    400036: pCylinder276_ncl1_4
+    400038: pCylinder276_ncl1_5
+    2300000: Collider
+    2300002: Skylab_OWS_Merged_OWS_Hull
+    2300004: Skylab_WindowCovers
+    2300006: Skylab_Windows
+    2300008: ToggleableTunnel
+    2300010: ToggleableTunnel1
+    2300012: pCylinder276
+    2300014: pCylinder276_ncl1_1
+    2300016: pCylinder276_ncl1_2
+    2300018: pCylinder276_ncl1_3
+    2300020: pCylinder276_ncl1_4
+    2300022: pCylinder276_ncl1_5
+    3300000: Collider
+    3300002: Skylab_OWS_Merged_OWS_Hull
+    3300004: Skylab_WindowCovers
+    3300006: Skylab_Windows
+    3300008: ToggleableTunnel
+    3300010: ToggleableTunnel1
+    3300012: pCylinder276
+    3300014: pCylinder276_ncl1_1
+    3300016: pCylinder276_ncl1_2
+    3300018: pCylinder276_ncl1_3
+    3300020: pCylinder276_ncl1_4
+    3300022: pCylinder276_ncl1_5
+    4300000: ToggleableTunnel
+    4300002: Skylab_Windows
+    4300004: Skylab_OWS_Merged_OWS_Hull
+    4300006: Skylab_WindowCovers
+    4300008: Collider
+    4300010: ToggleableTunnel1
+    4300012: pCylinder276
+    4300014: pCylinder276_ncl1_1
+    4300016: pCylinder276_ncl1_2
+    4300018: pCylinder276_ncl1_3
+    4300020: pCylinder276_ncl1_4
+    4300022: pCylinder276_ncl1_5
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

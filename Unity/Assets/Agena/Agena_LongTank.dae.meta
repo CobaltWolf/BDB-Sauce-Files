@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: f5c9476adab01294f98cc8e1af527fe1
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Agena_LongTank
+    100004: Agena_LongTank1
+    100006: Rib
+    100008: Rib1
+    100010: Rib1_ncl1_1
+    100012: Rib2
+    100014: Rib2_ncl1_1
+    100016: Rib3
+    100018: Rib3_ncl1_1
+    100020: Rib_ncl1_1
+    100022: TankStrut
+    100024: TankStrut_ncl1_1
+    100026: TankStrut_ncl1_2
+    100028: TankStrut_ncl1_3
+    100030: TankStrut_ncl1_4
+    100032: TankStrut_ncl1_5
+    100034: TankStrut_ncl1_6
+    100036: TankStrut_ncl1_7
+    100038: TankTopper2
+    100040: TankTopper3
+    100042: transform10
+    100044: transform11
+    100046: transform12
+    100048: transform13
+    100050: transform14
+    100052: transform15
+    100054: transform16
+    100056: transform17
+    100058: transform18
+    100060: transform19
+    100062: transform20
+    100064: transform21
+    100066: transform22
+    100068: transform23
+    100070: transform24
+    100072: transform6
+    100074: transform7
+    100076: transform8
+    100078: transform9
+    400000: //RootNode
+    400002: Agena_LongTank
+    400004: Agena_LongTank1
+    400006: Rib
+    400008: Rib1
+    400010: Rib1_ncl1_1
+    400012: Rib2
+    400014: Rib2_ncl1_1
+    400016: Rib3
+    400018: Rib3_ncl1_1
+    400020: Rib_ncl1_1
+    400022: TankStrut
+    400024: TankStrut_ncl1_1
+    400026: TankStrut_ncl1_2
+    400028: TankStrut_ncl1_3
+    400030: TankStrut_ncl1_4
+    400032: TankStrut_ncl1_5
+    400034: TankStrut_ncl1_6
+    400036: TankStrut_ncl1_7
+    400038: TankTopper2
+    400040: TankTopper3
+    400042: transform10
+    400044: transform11
+    400046: transform12
+    400048: transform13
+    400050: transform14
+    400052: transform15
+    400054: transform16
+    400056: transform17
+    400058: transform18
+    400060: transform19
+    400062: transform20
+    400064: transform21
+    400066: transform22
+    400068: transform23
+    400070: transform24
+    400072: transform6
+    400074: transform7
+    400076: transform8
+    400078: transform9
+    2300000: //RootNode
+    2300002: Agena_LongTank1
+    3300000: //RootNode
+    3300002: Agena_LongTank1
+    4300000: Agena_LongTank
+    4300002: Agena_LongTank1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

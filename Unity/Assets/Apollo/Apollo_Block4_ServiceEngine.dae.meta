@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: fdfba6312a816e642acf2ba69224a3d9
+timeCreated: 1475725163
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Apollo_ServiceEngine_Merged_Apollo_ServiceEngineMesh_group1
+    100004: Apollo_ServiceEngineMesh
+    100006: bluedog_LEM_Snap3_0002_Collider
+    100008: bluedog_LEM_Snap3_0002_LEM_Descent_Engine
+    100010: bluedog_LEM_Snap3_0002_LEM_Descent_Engine_pCylinder71
+    100012: bluedog_LEM_Snap3_0002_pCylinder70
+    100014: Collider
+    100016: fairing1
+    100018: polySurface29
+    100020: thrustTransform
+    100022: BlockV_ServiceEngine_Merged_Apollo_ServiceEngineMesh
+    100024: Collider_ncl1_1
+    100026: fairing
+    100028: LEM_Descent_Engine
+    100030: pCylinder70
+    100032: LEM_Descent_Engine_pCylinder71
+    100034: BlockV_ServiceEngine_Merged_pCube55
+    100036: BlockV_ServiceEngine_Merged_pCylinder138
+    100038: BlockV_ServiceEngine_Descent
+    100040: group135
+    100042: group136
+    100044: pCube55
+    100046: pCube59
+    100048: pCube60
+    100050: pCylinder138
+    100052: pCylinder139
+    100054: pCylinder139_ncl1_1
+    100056: pTorus3
+    400000: //RootNode
+    400002: Apollo_ServiceEngine_Merged_Apollo_ServiceEngineMesh_group1
+    400004: Apollo_ServiceEngineMesh
+    400006: bluedog_LEM_Snap3_0002_Collider
+    400008: bluedog_LEM_Snap3_0002_LEM_Descent_Engine
+    400010: bluedog_LEM_Snap3_0002_LEM_Descent_Engine_pCylinder71
+    400012: bluedog_LEM_Snap3_0002_pCylinder70
+    400014: Collider
+    400016: fairing1
+    400018: polySurface29
+    400020: thrustTransform
+    400022: BlockV_ServiceEngine_Merged_Apollo_ServiceEngineMesh
+    400024: Collider_ncl1_1
+    400026: fairing
+    400028: LEM_Descent_Engine
+    400030: pCylinder70
+    400032: LEM_Descent_Engine_pCylinder71
+    400034: BlockV_ServiceEngine_Merged_pCube55
+    400036: BlockV_ServiceEngine_Merged_pCylinder138
+    400038: BlockV_ServiceEngine_Descent
+    400040: group135
+    400042: group136
+    400044: pCube55
+    400046: pCube59
+    400048: pCube60
+    400050: pCylinder138
+    400052: pCylinder139
+    400054: pCylinder139_ncl1_1
+    400056: pTorus3
+    2300000: Apollo_ServiceEngine_Merged_Apollo_ServiceEngineMesh_group1
+    2300002: bluedog_LEM_Snap3_0002_Collider
+    2300004: bluedog_LEM_Snap3_0002_LEM_Descent_Engine_pCylinder71
+    2300006: bluedog_LEM_Snap3_0002_pCylinder70
+    2300008: Collider
+    2300010: fairing1
+    2300012: polySurface29
+    2300014: BlockV_ServiceEngine_Merged_Apollo_ServiceEngineMesh
+    2300016: Collider_ncl1_1
+    2300018: fairing
+    2300020: pCylinder70
+    2300022: LEM_Descent_Engine_pCylinder71
+    2300024: BlockV_ServiceEngine_Merged_pCube55
+    2300026: BlockV_ServiceEngine_Merged_pCylinder138
+    2300028: pCube55
+    2300030: pCube59
+    2300032: pCube60
+    2300034: pCylinder138
+    2300036: pCylinder139
+    2300038: pCylinder139_ncl1_1
+    2300040: pTorus3
+    3300000: Apollo_ServiceEngine_Merged_Apollo_ServiceEngineMesh_group1
+    3300002: bluedog_LEM_Snap3_0002_Collider
+    3300004: bluedog_LEM_Snap3_0002_LEM_Descent_Engine_pCylinder71
+    3300006: bluedog_LEM_Snap3_0002_pCylinder70
+    3300008: Collider
+    3300010: fairing1
+    3300012: polySurface29
+    3300014: BlockV_ServiceEngine_Merged_Apollo_ServiceEngineMesh
+    3300016: Collider_ncl1_1
+    3300018: fairing
+    3300020: pCylinder70
+    3300022: LEM_Descent_Engine_pCylinder71
+    3300024: BlockV_ServiceEngine_Merged_pCube55
+    3300026: BlockV_ServiceEngine_Merged_pCylinder138
+    3300028: pCube55
+    3300030: pCube59
+    3300032: pCube60
+    3300034: pCylinder138
+    3300036: pCylinder139
+    3300038: pCylinder139_ncl1_1
+    3300040: pTorus3
+    4300000: polySurface29
+    4300002: Apollo_ServiceEngine_Merged_Apollo_ServiceEngineMesh_group1
+    4300004: Collider
+    4300006: bluedog_LEM_Snap3_0002_LEM_Descent_Engine_pCylinder71
+    4300008: bluedog_LEM_Snap3_0002_pCylinder70
+    4300010: bluedog_LEM_Snap3_0002_Collider
+    4300012: fairing1
+    4300014: pCylinder70
+    4300016: Collider_ncl1_1
+    4300018: fairing
+    4300020: BlockV_ServiceEngine_Merged_Apollo_ServiceEngineMesh
+    4300022: LEM_Descent_Engine_pCylinder71
+    4300024: BlockV_ServiceEngine_Merged_pCylinder138
+    4300026: BlockV_ServiceEngine_Merged_pCube55
+    4300028: pCube55
+    4300030: pCylinder138
+    4300032: pCube59
+    4300034: pCube60
+    4300036: pTorus3
+    4300038: pCylinder139
+    4300040: pCylinder139_ncl1_1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

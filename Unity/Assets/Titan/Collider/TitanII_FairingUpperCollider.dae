@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-01-13T19:56:45Z</created><keywords></keywords><modified>2016-01-13T19:56:45Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="TitanII_FairingUpperCollider-lib" name="TitanII_FairingUpperColliderMesh">
+      <mesh>
+        <source id="TitanII_FairingUpperCollider-POSITION">
+          <float_array id="TitanII_FairingUpperCollider-POSITION-array" count="24">
+0.177745 0.194785 -0.893583
+-0.177744 0.194785 -0.893584
+0.164512 0.373690 -0.827055
+-0.164511 0.373690 -0.827055
+0.143141 0.194785 -0.719615
+-0.143140 0.194785 -0.719615
+0.145108 0.373690 -0.729503
+-0.145107 0.373690 -0.729503
+</float_array>
+          <technique_common>
+            <accessor source="#TitanII_FairingUpperCollider-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TitanII_FairingUpperCollider-Normal0">
+          <float_array id="TitanII_FairingUpperCollider-Normal0-array" count="108">
+0.000000 0.348547 -0.937291
+0.000000 0.348547 -0.937291
+0.000000 0.348547 -0.937291
+0.000000 0.348547 -0.937291
+0.000000 0.348547 -0.937291
+0.000000 0.348547 -0.937291
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000001
+-0.000001 0.055186 0.998476
+-0.000001 0.055187 0.998476
+-0.000001 0.055187 0.998476
+-0.000001 0.055187 0.998476
+-0.000001 0.055187 0.998476
+-0.000001 0.055187 0.998476
+-0.980785 0.000000 0.195090
+-0.980785 0.000000 0.195090
+-0.980785 -0.000000 0.195090
+-0.980785 -0.000000 0.195090
+-0.980785 0.000000 0.195090
+-0.980785 -0.000000 0.195090
+0.980785 0.000000 0.195091
+0.980785 0.000000 0.195091
+0.980785 0.000000 0.195091
+0.980785 0.000000 0.195091
+0.980785 0.000000 0.195091
+0.980785 0.000000 0.195091
+</float_array>
+          <technique_common>
+            <accessor source="#TitanII_FairingUpperCollider-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TitanII_FairingUpperCollider-UV0">
+          <float_array id="TitanII_FairingUpperCollider-UV0-array" count="16">
+0.483022 0.162197
+0.460938 0.156250
+0.483022 0.838273
+0.460938 0.844220
+0.559794 0.011894
+0.500000 0.000000
+0.559794 0.988106
+0.500000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#TitanII_FairingUpperCollider-UV0-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TitanII_FairingUpperCollider-VERTEX">
+          <input semantic="POSITION" source="#TitanII_FairingUpperCollider-POSITION"/>
+        </vertices>
+        <triangles count="12" material="lambert1"><input semantic="VERTEX" offset="0" source="#TitanII_FairingUpperCollider-VERTEX"/><input semantic="NORMAL" offset="1" source="#TitanII_FairingUpperCollider-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#TitanII_FairingUpperCollider-UV0"/><p> 0 0 0 1 1 1 2 2 2 2 3 2 1 4 1 3 5 3 1 6 1 0 7 0 5 8 5 5 9 5 0 10 0 4 11 4 2 12 2 3 13 3 6 14 6 6 15 6 3 16 3 7 17 7 5 18 5 4 19 4 7 20 7 7 21 7 4 22 4 6 23 6 1 24 1 5 25 5 3 26 3 3 27 3 5 28 5 7 29 7 0 30 0 2 31 2 4 32 4 4 33 4 2 34 2 6 35 6</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TitanII_FairingUpperCollider" name="TitanII_FairingUpperCollider">
+      <node name="TitanII_FairingUpperCollider" id="TitanII_FairingUpperCollider" sid="TitanII_FairingUpperCollider"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#TitanII_FairingUpperCollider-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TitanII_FairingUpperCollider"></instance_visual_scene>
+  </scene>
+</COLLADA>

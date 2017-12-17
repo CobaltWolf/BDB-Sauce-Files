@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 3ae6488be2cba4f4bb625b7841312013
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BottomNode
+    100002: FairingHeight
+    100004: FairingRib
+    100006: FairingRib1
+    100008: FairingRib2
+    100010: polySurface38
+    100012: polySurface39
+    100014: Rib
+    100016: Rib6
+    100018: Rib7
+    100020: Rib8
+    100022: Ribs
+    100024: TankTopper
+    100026: TankTopper1
+    100028: //RootNode
+    100030: TitanEnginePlate2
+    100032: TitanEnginePlate3
+    100034: TopNode
+    100036: TitanII_FairingBase1_TitanEnginePlate2_polySurface39
+    100038: TitanII_FairingBase_FairingRib2
+    400000: BottomNode
+    400002: FairingHeight
+    400004: FairingRib
+    400006: FairingRib1
+    400008: FairingRib2
+    400010: polySurface38
+    400012: polySurface39
+    400014: Rib
+    400016: Rib6
+    400018: Rib7
+    400020: Rib8
+    400022: Ribs
+    400024: TankTopper
+    400026: TankTopper1
+    400028: //RootNode
+    400030: TitanEnginePlate2
+    400032: TitanEnginePlate3
+    400034: TopNode
+    400036: TitanII_FairingBase1_TitanEnginePlate2_polySurface39
+    400038: TitanII_FairingBase_FairingRib2
+    2300000: FairingRib
+    2300002: FairingRib1
+    2300004: FairingRib2
+    2300006: polySurface38
+    2300008: polySurface39
+    2300010: Rib
+    2300012: Rib6
+    2300014: Rib7
+    2300016: Rib8
+    2300018: TankTopper1
+    2300020: TitanEnginePlate3
+    2300022: TitanII_FairingBase1_TitanEnginePlate2_polySurface39
+    2300024: TitanII_FairingBase_FairingRib2
+    3300000: FairingRib
+    3300002: FairingRib1
+    3300004: FairingRib2
+    3300006: polySurface38
+    3300008: polySurface39
+    3300010: Rib
+    3300012: Rib6
+    3300014: Rib7
+    3300016: Rib8
+    3300018: TankTopper1
+    3300020: TitanEnginePlate3
+    3300022: TitanII_FairingBase1_TitanEnginePlate2_polySurface39
+    3300024: TitanII_FairingBase_FairingRib2
+    4300000: polySurface38
+    4300002: polySurface39
+    4300004: TitanEnginePlate3
+    4300006: TankTopper1
+    4300008: Rib8
+    4300010: Rib7
+    4300012: Rib6
+    4300014: Rib
+    4300016: FairingRib
+    4300018: FairingRib1
+    4300020: FairingRib2
+    4300022: TitanII_FairingBase_FairingRib2
+    4300024: TitanII_FairingBase1_TitanEnginePlate2_polySurface39
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

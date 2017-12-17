@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: db58d75cbca36ab48b68151f1970d532
+timeCreated: 1460828475
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: null48
+    100004: pCube140
+    100006: pCube141
+    100008: pCube142
+    100010: pCube142_ncl1_1
+    100012: pCube142_ncl1_2
+    100014: pCube142_ncl1_3
+    100016: pCube143
+    100018: pCube144
+    100020: pCube145
+    100022: pCylinder103
+    100024: pCylinder104
+    100026: pCylinder105
+    100028: pivot
+    100030: sunCatcher
+    400000: //RootNode
+    400002: null48
+    400004: pCube140
+    400006: pCube141
+    400008: pCube142
+    400010: pCube142_ncl1_1
+    400012: pCube142_ncl1_2
+    400014: pCube142_ncl1_3
+    400016: pCube143
+    400018: pCube144
+    400020: pCube145
+    400022: pCylinder103
+    400024: pCylinder104
+    400026: pCylinder105
+    400028: pivot
+    400030: sunCatcher
+    2300000: //RootNode
+    2300002: pCube140
+    2300004: pCube141
+    2300006: pCube142
+    2300008: pCube142_ncl1_1
+    2300010: pCube142_ncl1_2
+    2300012: pCube142_ncl1_3
+    2300014: pCube143
+    2300016: pCube144
+    2300018: pCube145
+    2300020: pCylinder103
+    2300022: pCylinder104
+    2300024: pCylinder105
+    3300000: //RootNode
+    3300002: pCube140
+    3300004: pCube141
+    3300006: pCube142
+    3300008: pCube142_ncl1_1
+    3300010: pCube142_ncl1_2
+    3300012: pCube142_ncl1_3
+    3300014: pCube143
+    3300016: pCube144
+    3300018: pCube145
+    3300020: pCylinder103
+    3300022: pCylinder104
+    3300024: pCylinder105
+    4300000: SolarBase
+    4300002: pCylinder104
+    4300004: pCylinder105
+    4300006: pCylinder103
+    4300008: pCube141
+    4300010: pCube140
+    4300012: pCube142
+    4300014: pCube143
+    4300016: pCube142_ncl1_1
+    4300018: pCube144
+    4300020: pCube142_ncl1_2
+    4300022: pCube145
+    4300024: pCube142_ncl1_3
+    7400000: deploy
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: deploy
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pivot
+        weight: 1
+      - path: pivot/null48
+        weight: 1
+      - path: pivot/null48/pCylinder103
+        weight: 1
+      - path: pivot/null48/pCylinder103/pCube141
+        weight: 1
+      - path: pivot/null48/pCylinder103/pCube141/pCube140
+        weight: 1
+      - path: pivot/null48/pCylinder103/pCube141/pCube140/pCube142
+        weight: 1
+      - path: pivot/null48/pCylinder103/pCube141/pCube143
+        weight: 1
+      - path: pivot/null48/pCylinder103/pCube141/pCube143/pCube142_ncl1_1
+        weight: 1
+      - path: pivot/null48/pCylinder103/pCube141/pCube144
+        weight: 1
+      - path: pivot/null48/pCylinder103/pCube141/pCube144/pCube142_ncl1_2
+        weight: 1
+      - path: pivot/null48/pCylinder103/pCube141/pCube145
+        weight: 1
+      - path: pivot/null48/pCylinder103/pCube141/pCube145/pCube142_ncl1_3
+        weight: 1
+      - path: pivot/null48/pCylinder104
+        weight: 1
+      - path: pivot/null48/pCylinder105
+        weight: 1
+      - path: pivot/sunCatcher
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

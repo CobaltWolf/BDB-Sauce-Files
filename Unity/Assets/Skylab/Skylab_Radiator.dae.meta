@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: f851322cc842c974792376ddf5ec32b7
+timeCreated: 1488156568
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Collider1
+    100002: Collider2
+    100004: //RootNode
+    100006: Skylab_Radiator_Merged
+    100008: Skylab_Radiator_Merged_pCylinder21
+    100010: extrudedSurface9
+    100012: extrudedSurface9_ncl1_1
+    100014: extrudedSurface9_ncl1_2
+    100016: group279
+    100018: group281
+    100020: group283
+    400000: Collider1
+    400002: Collider2
+    400004: //RootNode
+    400006: Skylab_Radiator_Merged
+    400008: Skylab_Radiator_Merged_pCylinder21
+    400010: extrudedSurface9
+    400012: extrudedSurface9_ncl1_1
+    400014: extrudedSurface9_ncl1_2
+    400016: group279
+    400018: group281
+    400020: group283
+    2300000: Collider1
+    2300002: Collider2
+    2300004: Skylab_Radiator_Merged_pCylinder21
+    2300006: extrudedSurface9
+    2300008: extrudedSurface9_ncl1_1
+    2300010: extrudedSurface9_ncl1_2
+    3300000: Collider1
+    3300002: Collider2
+    3300004: Skylab_Radiator_Merged_pCylinder21
+    3300006: extrudedSurface9
+    3300008: extrudedSurface9_ncl1_1
+    3300010: extrudedSurface9_ncl1_2
+    4300000: Collider1
+    4300002: Collider2
+    4300004: Skylab_Radiator_Merged_pCylinder21
+    4300006: extrudedSurface9
+    4300008: extrudedSurface9_ncl1_1
+    4300010: extrudedSurface9_ncl1_2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

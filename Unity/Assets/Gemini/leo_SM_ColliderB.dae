@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-07-10T16:41:24Z</created><keywords></keywords><modified>2016-07-10T16:41:24Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="leo_SM_ColliderB-lib" name="leo_SM_ColliderBMesh">
+      <mesh>
+        <source id="leo_SM_ColliderB-POSITION">
+          <float_array id="leo_SM_ColliderB-POSITION-array" count="24">
+-0.182897 -0.700000 0.919486
+0.182897 -0.700000 0.919486
+0.175279 -0.408445 0.881189
+-0.175280 -0.408445 0.881189
+-0.171917 -0.700000 0.864285
+0.171917 -0.700000 0.864286
+-0.060836 -0.407000 0.305841
+0.060835 -0.407000 0.305841
+</float_array>
+          <technique_common>
+            <accessor source="#leo_SM_ColliderB-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="leo_SM_ColliderB-Normal0">
+          <float_array id="leo_SM_ColliderB-Normal0-array" count="108">
+0.000000 0.130236 0.991483
+0.000000 0.130236 0.991483
+0.000000 0.130236 0.991483
+0.000000 0.130236 0.991483
+0.000000 0.130236 0.991483
+0.000000 0.130236 0.991483
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -0.885518 -0.464606
+0.000000 -0.885518 -0.464606
+0.000000 -0.885518 -0.464606
+0.000000 -0.885518 -0.464606
+0.000000 -0.885518 -0.464606
+0.000000 -0.885518 -0.464606
+-0.000000 0.999997 0.002512
+-0.000000 0.999997 0.002512
+-0.000000 0.999997 0.002512
+-0.000000 0.999997 0.002512
+-0.000000 0.999997 0.002512
+-0.000000 0.999997 0.002512
+0.980785 -0.000000 -0.195090
+0.980785 -0.000000 -0.195090
+0.980785 -0.000000 -0.195090
+0.980785 -0.000000 -0.195090
+0.980785 -0.000000 -0.195090
+0.980785 -0.000000 -0.195090
+-0.980785 0.000000 -0.195090
+-0.980785 0.000000 -0.195090
+-0.980785 0.000000 -0.195090
+-0.980785 0.000000 -0.195090
+-0.980785 0.000000 -0.195090
+-0.980785 0.000000 -0.195090
+</float_array>
+          <technique_common>
+            <accessor source="#leo_SM_ColliderB-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="leo_SM_ColliderB-UV0">
+          <float_array id="leo_SM_ColliderB-UV0-array" count="16">
+0.440206 0.300606
+0.500000 0.312500
+0.500000 0.390595
+0.440206 0.383655
+0.440206 0.300606
+0.500000 0.312500
+0.440206 0.300606
+0.500000 0.312500
+</float_array>
+          <technique_common>
+            <accessor source="#leo_SM_ColliderB-UV0-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="leo_SM_ColliderB-VERTEX">
+          <input semantic="POSITION" source="#leo_SM_ColliderB-POSITION"/>
+        </vertices>
+        <triangles count="12" material="lambert1"><input semantic="VERTEX" offset="0" source="#leo_SM_ColliderB-VERTEX"/><input semantic="NORMAL" offset="1" source="#leo_SM_ColliderB-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#leo_SM_ColliderB-UV0"/><p> 3 0 3 1 1 1 2 2 2 1 3 1 3 4 3 0 5 0 0 6 0 5 7 5 1 8 1 5 9 5 0 10 0 4 11 4 4 12 4 7 13 7 5 14 5 7 15 7 4 16 4 6 17 6 2 18 2 7 19 7 3 20 3 3 21 3 7 22 7 6 23 6 2 24 2 5 25 5 7 26 7 5 27 5 2 28 2 1 29 1 3 30 3 4 31 4 0 32 0 3 33 3 6 34 6 4 35 4</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="leo_SM_ColliderB" name="leo_SM_ColliderB">
+      <node name="pCylinder201" id="pCylinder201" sid="pCylinder201"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="transform2" id="transform2" sid="transform2"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node></node>
+      <node name="pCylinder202" id="pCylinder202" sid="pCylinder202"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="transform3" id="transform3" sid="transform3"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>0.000000</visibility></technique></extra></node></node>
+      <node name="leo_SM_ColliderB" id="leo_SM_ColliderB" sid="leo_SM_ColliderB"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#leo_SM_ColliderB-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#leo_SM_ColliderB"></instance_visual_scene>
+  </scene>
+</COLLADA>

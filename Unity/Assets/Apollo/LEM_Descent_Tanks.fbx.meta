@@ -1,0 +1,954 @@
+fileFormatVersion: 2
+guid: d12451733979beb4ba27f45b8945fa32
+timeCreated: 1494085930
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Apollo_Descent_Leg
+    100002: Apollo_Descent_Leg 1
+    100004: Apollo_Descent_Leg 2
+    100006: Apollo_Descent_Leg 3
+    100008: ContactProbe
+    100010: ContactProbe1
+    100012: ContactProbe2
+    100014: group100
+    100016: group112
+    100018: group112 1
+    100020: group112 2
+    100022: group112 3
+    100024: group113
+    100026: group113 1
+    100028: group113 2
+    100030: group113 3
+    100032: group114
+    100034: group114 1
+    100036: group114 2
+    100038: group114 3
+    100040: group115
+    100042: group115 1
+    100044: group115 2
+    100046: group115 3
+    100048: group116
+    100050: group116 1
+    100052: group116 2
+    100054: group116 3
+    100056: group117
+    100058: group117 1
+    100060: group117 2
+    100062: group117 3
+    100064: group118
+    100066: group118 1
+    100068: group118 2
+    100070: group118 3
+    100072: group93
+    100074: group99
+    100076: group99 1
+    100078: group99 2
+    100080: group99 3
+    100082: LEM_Descent_FuelTank_LEM_Descent_Leg_null1
+    100084: LEM_Descent_FuelTank_LEM_Descent_Leg_null1 1
+    100086: LEM_Descent_FuelTank_LEM_Descent_Leg_null1 2
+    100088: LEM_Descent_FuelTank_LEM_Descent_Leg_null1 3
+    100090: LEM_Descent_FuelTank_LEM_Descent_Leg_null8_null6_group101
+    100092: LEM_Descent_FuelTank_pCube60
+    100094: LEM_Descent_Leg
+    100096: LEM_Descent_Leg4
+    100098: LEM_Descent_Leg5
+    100100: LEM_Descent_Leg6
+    100102: //RootNode
+    100104: LEM_DescentStage_ColliderA
+    100106: LEM_DescentStage_ColliderA2
+    100108: LEM_DescentStage_ColliderA4
+    100110: LEM_DescentStage_ColliderA5
+    100112: LEM_DescentStage_ColliderA6
+    100114: LEM_DescentStage_ColliderA7
+    100116: LEM_DescentStage_ColliderA8
+    100118: LEM_DescentStage_ColliderA9
+    100120: LEM_DescentStage_ColliderB
+    100122: LEM_Leg_Collider
+    100124: LEM_Leg_Collider 1
+    100126: LEM_Leg_Collider 2
+    100128: LEM_Leg_Collider 3
+    100130: null6
+    100132: null6 1
+    100134: null6 2
+    100136: null6 3
+    100138: null7
+    100140: null7 1
+    100142: null7 2
+    100144: null7 3
+    100146: null8
+    100148: null8 1
+    100150: null8 2
+    100152: null8 3
+    100154: pCube36
+    100156: pCube36 1
+    100158: pCube36 2
+    100160: pCube36 3
+    100162: pCylinder100
+    100164: pCylinder23
+    100166: pCylinder23 1
+    100168: pCylinder23 2
+    100170: pCylinder23 3
+    100172: pCylinder24
+    100174: pCylinder24 1
+    100176: pCylinder24 2
+    100178: pCylinder24 3
+    100180: pCylinder30
+    100182: pCylinder30 1
+    100184: pCylinder30 2
+    100186: pCylinder30 3
+    100188: pCylinder38
+    100190: pCylinder63
+    100192: pCylinder63 1
+    100194: pCylinder63 2
+    100196: pCylinder63 3
+    100198: pCylinder64
+    100200: pCylinder64 1
+    100202: pCylinder64 2
+    100204: pCylinder64 3
+    100206: pCylinder64 4
+    100208: pCylinder64 5
+    100210: pCylinder64 6
+    100212: pCylinder64 7
+    100214: pCylinder65
+    100216: pCylinder65 1
+    100218: pCylinder65 2
+    100220: pCylinder65 3
+    100222: pCylinder65 4
+    100224: pCylinder65 5
+    100226: pCylinder65 6
+    100228: pCylinder65 7
+    100230: pCylinder66
+    100232: pCylinder66 1
+    100234: pCylinder66 2
+    100236: pCylinder66 3
+    100238: pCylinder67
+    100240: pCylinder67 1
+    100242: pCylinder67 2
+    100244: pCylinder67 3
+    100246: pCylinder67 4
+    100248: pCylinder67 5
+    100250: pCylinder67 6
+    100252: pCylinder67 7
+    100254: pCylinder99
+    100256: pSphere31
+    100258: pSphere31 1
+    100260: pSphere31 2
+    100262: pSphere31 3
+    100264: pSphere32
+    100266: pSphere32 1
+    100268: pSphere32 2
+    100270: pSphere32 3
+    100272: pSphere33
+    100274: pSphere33 1
+    100276: pSphere33 2
+    100278: pSphere33 3
+    100280: pSphere33 4
+    100282: pSphere33 5
+    100284: pSphere33 6
+    100286: pSphere33 7
+    400000: Apollo_Descent_Leg
+    400002: Apollo_Descent_Leg 1
+    400004: Apollo_Descent_Leg 2
+    400006: Apollo_Descent_Leg 3
+    400008: ContactProbe
+    400010: ContactProbe1
+    400012: ContactProbe2
+    400014: group100
+    400016: group112
+    400018: group112 1
+    400020: group112 2
+    400022: group112 3
+    400024: group113
+    400026: group113 1
+    400028: group113 2
+    400030: group113 3
+    400032: group114
+    400034: group114 1
+    400036: group114 2
+    400038: group114 3
+    400040: group115
+    400042: group115 1
+    400044: group115 2
+    400046: group115 3
+    400048: group116
+    400050: group116 1
+    400052: group116 2
+    400054: group116 3
+    400056: group117
+    400058: group117 1
+    400060: group117 2
+    400062: group117 3
+    400064: group118
+    400066: group118 1
+    400068: group118 2
+    400070: group118 3
+    400072: group93
+    400074: group99
+    400076: group99 1
+    400078: group99 2
+    400080: group99 3
+    400082: LEM_Descent_FuelTank_LEM_Descent_Leg_null1
+    400084: LEM_Descent_FuelTank_LEM_Descent_Leg_null1 1
+    400086: LEM_Descent_FuelTank_LEM_Descent_Leg_null1 2
+    400088: LEM_Descent_FuelTank_LEM_Descent_Leg_null1 3
+    400090: LEM_Descent_FuelTank_LEM_Descent_Leg_null8_null6_group101
+    400092: LEM_Descent_FuelTank_pCube60
+    400094: LEM_Descent_Leg
+    400096: LEM_Descent_Leg4
+    400098: LEM_Descent_Leg5
+    400100: LEM_Descent_Leg6
+    400102: //RootNode
+    400104: LEM_DescentStage_ColliderA
+    400106: LEM_DescentStage_ColliderA2
+    400108: LEM_DescentStage_ColliderA4
+    400110: LEM_DescentStage_ColliderA5
+    400112: LEM_DescentStage_ColliderA6
+    400114: LEM_DescentStage_ColliderA7
+    400116: LEM_DescentStage_ColliderA8
+    400118: LEM_DescentStage_ColliderA9
+    400120: LEM_DescentStage_ColliderB
+    400122: LEM_Leg_Collider
+    400124: LEM_Leg_Collider 1
+    400126: LEM_Leg_Collider 2
+    400128: LEM_Leg_Collider 3
+    400130: null6
+    400132: null6 1
+    400134: null6 2
+    400136: null6 3
+    400138: null7
+    400140: null7 1
+    400142: null7 2
+    400144: null7 3
+    400146: null8
+    400148: null8 1
+    400150: null8 2
+    400152: null8 3
+    400154: pCube36
+    400156: pCube36 1
+    400158: pCube36 2
+    400160: pCube36 3
+    400162: pCylinder100
+    400164: pCylinder23
+    400166: pCylinder23 1
+    400168: pCylinder23 2
+    400170: pCylinder23 3
+    400172: pCylinder24
+    400174: pCylinder24 1
+    400176: pCylinder24 2
+    400178: pCylinder24 3
+    400180: pCylinder30
+    400182: pCylinder30 1
+    400184: pCylinder30 2
+    400186: pCylinder30 3
+    400188: pCylinder38
+    400190: pCylinder63
+    400192: pCylinder63 1
+    400194: pCylinder63 2
+    400196: pCylinder63 3
+    400198: pCylinder64
+    400200: pCylinder64 1
+    400202: pCylinder64 2
+    400204: pCylinder64 3
+    400206: pCylinder64 4
+    400208: pCylinder64 5
+    400210: pCylinder64 6
+    400212: pCylinder64 7
+    400214: pCylinder65
+    400216: pCylinder65 1
+    400218: pCylinder65 2
+    400220: pCylinder65 3
+    400222: pCylinder65 4
+    400224: pCylinder65 5
+    400226: pCylinder65 6
+    400228: pCylinder65 7
+    400230: pCylinder66
+    400232: pCylinder66 1
+    400234: pCylinder66 2
+    400236: pCylinder66 3
+    400238: pCylinder67
+    400240: pCylinder67 1
+    400242: pCylinder67 2
+    400244: pCylinder67 3
+    400246: pCylinder67 4
+    400248: pCylinder67 5
+    400250: pCylinder67 6
+    400252: pCylinder67 7
+    400254: pCylinder99
+    400256: pSphere31
+    400258: pSphere31 1
+    400260: pSphere31 2
+    400262: pSphere31 3
+    400264: pSphere32
+    400266: pSphere32 1
+    400268: pSphere32 2
+    400270: pSphere32 3
+    400272: pSphere33
+    400274: pSphere33 1
+    400276: pSphere33 2
+    400278: pSphere33 3
+    400280: pSphere33 4
+    400282: pSphere33 5
+    400284: pSphere33 6
+    400286: pSphere33 7
+    2300000: ContactProbe
+    2300002: ContactProbe1
+    2300004: ContactProbe2
+    2300006: LEM_Descent_FuelTank_LEM_Descent_Leg_null1
+    2300008: LEM_Descent_FuelTank_LEM_Descent_Leg_null1 1
+    2300010: LEM_Descent_FuelTank_LEM_Descent_Leg_null1 2
+    2300012: LEM_Descent_FuelTank_LEM_Descent_Leg_null1 3
+    2300014: LEM_Descent_FuelTank_LEM_Descent_Leg_null8_null6_group101
+    2300016: LEM_Descent_FuelTank_pCube60
+    2300018: LEM_DescentStage_ColliderA
+    2300020: LEM_DescentStage_ColliderA2
+    2300022: LEM_DescentStage_ColliderA4
+    2300024: LEM_DescentStage_ColliderA5
+    2300026: LEM_DescentStage_ColliderA6
+    2300028: LEM_DescentStage_ColliderA7
+    2300030: LEM_DescentStage_ColliderA8
+    2300032: LEM_DescentStage_ColliderA9
+    2300034: LEM_DescentStage_ColliderB
+    2300036: LEM_Leg_Collider
+    2300038: LEM_Leg_Collider 1
+    2300040: LEM_Leg_Collider 2
+    2300042: LEM_Leg_Collider 3
+    2300044: pCube36
+    2300046: pCube36 1
+    2300048: pCube36 2
+    2300050: pCube36 3
+    2300052: pCylinder100
+    2300054: pCylinder23
+    2300056: pCylinder23 1
+    2300058: pCylinder23 2
+    2300060: pCylinder23 3
+    2300062: pCylinder24
+    2300064: pCylinder24 1
+    2300066: pCylinder24 2
+    2300068: pCylinder24 3
+    2300070: pCylinder30
+    2300072: pCylinder30 1
+    2300074: pCylinder30 2
+    2300076: pCylinder30 3
+    2300078: pCylinder63
+    2300080: pCylinder63 1
+    2300082: pCylinder63 2
+    2300084: pCylinder63 3
+    2300086: pCylinder64
+    2300088: pCylinder64 1
+    2300090: pCylinder64 2
+    2300092: pCylinder64 3
+    2300094: pCylinder64 4
+    2300096: pCylinder64 5
+    2300098: pCylinder64 6
+    2300100: pCylinder64 7
+    2300102: pCylinder65
+    2300104: pCylinder65 1
+    2300106: pCylinder65 2
+    2300108: pCylinder65 3
+    2300110: pCylinder65 4
+    2300112: pCylinder65 5
+    2300114: pCylinder65 6
+    2300116: pCylinder65 7
+    2300118: pCylinder66
+    2300120: pCylinder66 1
+    2300122: pCylinder66 2
+    2300124: pCylinder66 3
+    2300126: pCylinder67
+    2300128: pCylinder67 1
+    2300130: pCylinder67 2
+    2300132: pCylinder67 3
+    2300134: pCylinder67 4
+    2300136: pCylinder67 5
+    2300138: pCylinder67 6
+    2300140: pCylinder67 7
+    2300142: pCylinder99
+    2300144: pSphere31
+    2300146: pSphere31 1
+    2300148: pSphere31 2
+    2300150: pSphere31 3
+    2300152: pSphere32
+    2300154: pSphere32 1
+    2300156: pSphere32 2
+    2300158: pSphere32 3
+    2300160: pSphere33
+    2300162: pSphere33 1
+    2300164: pSphere33 2
+    2300166: pSphere33 3
+    2300168: pSphere33 4
+    2300170: pSphere33 5
+    2300172: pSphere33 6
+    2300174: pSphere33 7
+    3300000: ContactProbe
+    3300002: ContactProbe1
+    3300004: ContactProbe2
+    3300006: LEM_Descent_FuelTank_LEM_Descent_Leg_null1
+    3300008: LEM_Descent_FuelTank_LEM_Descent_Leg_null1 1
+    3300010: LEM_Descent_FuelTank_LEM_Descent_Leg_null1 2
+    3300012: LEM_Descent_FuelTank_LEM_Descent_Leg_null1 3
+    3300014: LEM_Descent_FuelTank_LEM_Descent_Leg_null8_null6_group101
+    3300016: LEM_Descent_FuelTank_pCube60
+    3300018: LEM_DescentStage_ColliderA
+    3300020: LEM_DescentStage_ColliderA2
+    3300022: LEM_DescentStage_ColliderA4
+    3300024: LEM_DescentStage_ColliderA5
+    3300026: LEM_DescentStage_ColliderA6
+    3300028: LEM_DescentStage_ColliderA7
+    3300030: LEM_DescentStage_ColliderA8
+    3300032: LEM_DescentStage_ColliderA9
+    3300034: LEM_DescentStage_ColliderB
+    3300036: LEM_Leg_Collider
+    3300038: LEM_Leg_Collider 1
+    3300040: LEM_Leg_Collider 2
+    3300042: LEM_Leg_Collider 3
+    3300044: pCube36
+    3300046: pCube36 1
+    3300048: pCube36 2
+    3300050: pCube36 3
+    3300052: pCylinder100
+    3300054: pCylinder23
+    3300056: pCylinder23 1
+    3300058: pCylinder23 2
+    3300060: pCylinder23 3
+    3300062: pCylinder24
+    3300064: pCylinder24 1
+    3300066: pCylinder24 2
+    3300068: pCylinder24 3
+    3300070: pCylinder30
+    3300072: pCylinder30 1
+    3300074: pCylinder30 2
+    3300076: pCylinder30 3
+    3300078: pCylinder63
+    3300080: pCylinder63 1
+    3300082: pCylinder63 2
+    3300084: pCylinder63 3
+    3300086: pCylinder64
+    3300088: pCylinder64 1
+    3300090: pCylinder64 2
+    3300092: pCylinder64 3
+    3300094: pCylinder64 4
+    3300096: pCylinder64 5
+    3300098: pCylinder64 6
+    3300100: pCylinder64 7
+    3300102: pCylinder65
+    3300104: pCylinder65 1
+    3300106: pCylinder65 2
+    3300108: pCylinder65 3
+    3300110: pCylinder65 4
+    3300112: pCylinder65 5
+    3300114: pCylinder65 6
+    3300116: pCylinder65 7
+    3300118: pCylinder66
+    3300120: pCylinder66 1
+    3300122: pCylinder66 2
+    3300124: pCylinder66 3
+    3300126: pCylinder67
+    3300128: pCylinder67 1
+    3300130: pCylinder67 2
+    3300132: pCylinder67 3
+    3300134: pCylinder67 4
+    3300136: pCylinder67 5
+    3300138: pCylinder67 6
+    3300140: pCylinder67 7
+    3300142: pCylinder99
+    3300144: pSphere31
+    3300146: pSphere31 1
+    3300148: pSphere31 2
+    3300150: pSphere31 3
+    3300152: pSphere32
+    3300154: pSphere32 1
+    3300156: pSphere32 2
+    3300158: pSphere32 3
+    3300160: pSphere33
+    3300162: pSphere33 1
+    3300164: pSphere33 2
+    3300166: pSphere33 3
+    3300168: pSphere33 4
+    3300170: pSphere33 5
+    3300172: pSphere33 6
+    3300174: pSphere33 7
+    4300000: pCube36
+    4300002: LEM_Descent_FuelTank_LEM_Descent_Leg_null1
+    4300004: pCylinder23
+    4300006: pCylinder66
+    4300008: pCylinder24
+    4300010: pCylinder30
+    4300012: pCylinder63
+    4300014: pSphere31
+    4300016: pSphere32
+    4300018: pCylinder65
+    4300020: pCylinder65
+    4300022: LEM_Descent_FuelTank_LEM_Descent_Leg_null8_null6_group101
+    4300024: pCylinder64
+    4300026: pCylinder64
+    4300028: pSphere33
+    4300030: pCylinder67
+    4300032: pSphere33
+    4300034: pCylinder67
+    4300036: LEM_Leg_Collider
+    4300038: LEM_DescentStage_ColliderB
+    4300040: LEM_Descent_FuelTank_pCube60
+    4300042: LEM_DescentStage_ColliderA
+    4300044: LEM_DescentStage_ColliderA2
+    4300046: LEM_DescentStage_ColliderA4
+    4300048: LEM_DescentStage_ColliderA5
+    4300050: LEM_DescentStage_ColliderA6
+    4300052: LEM_DescentStage_ColliderA7
+    4300054: LEM_DescentStage_ColliderA8
+    4300056: LEM_DescentStage_ColliderA9
+    4300058: pCube36
+    4300060: LEM_Descent_FuelTank_LEM_Descent_Leg_null1
+    4300062: pCylinder23
+    4300064: pCylinder66
+    4300066: pCylinder24
+    4300068: ContactProbe2
+    4300070: pCylinder30
+    4300072: pCylinder63
+    4300074: pSphere31
+    4300076: pSphere32
+    4300078: pCylinder65
+    4300080: pCylinder65
+    4300082: pCylinder64
+    4300084: pCylinder64
+    4300086: pSphere33
+    4300088: pCylinder67
+    4300090: pSphere33
+    4300092: pCylinder67
+    4300094: LEM_Leg_Collider
+    4300096: pCube36
+    4300098: LEM_Descent_FuelTank_LEM_Descent_Leg_null1
+    4300100: pCylinder23
+    4300102: pCylinder66
+    4300104: pCylinder24
+    4300106: ContactProbe1
+    4300108: pCylinder30
+    4300110: pCylinder63
+    4300112: pSphere31
+    4300114: pSphere32
+    4300116: pCylinder65
+    4300118: pCylinder65
+    4300120: pCylinder64
+    4300122: pCylinder64
+    4300124: pSphere33
+    4300126: pCylinder67
+    4300128: pSphere33
+    4300130: pCylinder67
+    4300132: LEM_Leg_Collider
+    4300134: pCube36
+    4300136: LEM_Descent_FuelTank_LEM_Descent_Leg_null1
+    4300138: pCylinder23
+    4300140: pCylinder66
+    4300142: pCylinder24
+    4300144: ContactProbe
+    4300146: pCylinder30
+    4300148: pCylinder63
+    4300150: pSphere31
+    4300152: pSphere32
+    4300154: pCylinder65
+    4300156: pCylinder65
+    4300158: pCylinder64
+    4300160: pCylinder64
+    4300162: pSphere33
+    4300164: pCylinder67
+    4300166: pSphere33
+    4300168: pCylinder67
+    4300170: LEM_Leg_Collider
+    4300172: pCylinder99
+    4300174: pCylinder100
+    7400000: demLegs
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: demLegs
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: LEM_Descent_FuelTank_pCube60
+        weight: 1
+      - path: LEM_Descent_Leg
+        weight: 1
+      - path: LEM_Descent_Leg/Apollo_Descent_Leg
+        weight: 1
+      - path: LEM_Descent_Leg/Apollo_Descent_Leg/LEM_Descent_FuelTank_LEM_Descent_Leg_null1
+        weight: 1
+      - path: LEM_Descent_Leg/Apollo_Descent_Leg/pCube36
+        weight: 1
+      - path: LEM_Descent_Leg/LEM_DescentStage_ColliderB
+        weight: 1
+      - path: LEM_Descent_Leg/LEM_Leg_Collider
+        weight: 1
+      - path: LEM_Descent_Leg/null8
+        weight: 1
+      - path: LEM_Descent_Leg/null8/group114
+        weight: 1
+      - path: LEM_Descent_Leg/null8/group114/pCylinder64
+        weight: 1
+      - path: LEM_Descent_Leg/null8/group115
+        weight: 1
+      - path: LEM_Descent_Leg/null8/group115/pCylinder64 1
+        weight: 1
+      - path: LEM_Descent_Leg/null8/group117
+        weight: 1
+      - path: LEM_Descent_Leg/null8/group117/pSphere33
+        weight: 1
+      - path: LEM_Descent_Leg/null8/group117/pSphere33/pCylinder67
+        weight: 1
+      - path: LEM_Descent_Leg/null8/group118
+        weight: 1
+      - path: LEM_Descent_Leg/null8/group118/pSphere33 1
+        weight: 1
+      - path: LEM_Descent_Leg/null8/group118/pSphere33 1/pCylinder67 1
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/group99
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/group99/pCylinder23
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/group99/pCylinder23/pCylinder66
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/group99/pCylinder23/pCylinder66/pCylinder24
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/LEM_Descent_FuelTank_LEM_Descent_Leg_null8_null6_group101
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/null7
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/null7/group112
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/null7/group112/pCylinder63
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/null7/group113
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/null7/group113/pCylinder65
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/null7/group116
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/null7/group116/pCylinder65 1
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/null7/pCylinder30
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/null7/pSphere31
+        weight: 1
+      - path: LEM_Descent_Leg/null8/null6/null7/pSphere32
+        weight: 1
+      - path: LEM_Descent_Leg4
+        weight: 1
+      - path: LEM_Descent_Leg4/Apollo_Descent_Leg 1
+        weight: 1
+      - path: LEM_Descent_Leg4/Apollo_Descent_Leg 1/LEM_Descent_FuelTank_LEM_Descent_Leg_null1
+          1
+        weight: 1
+      - path: LEM_Descent_Leg4/Apollo_Descent_Leg 1/pCube36 1
+        weight: 1
+      - path: LEM_Descent_Leg4/LEM_Leg_Collider 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/group114 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/group114 1/pCylinder64 2
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/group115 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/group115 1/pCylinder64 3
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/group117 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/group117 1/pSphere33 2
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/group117 1/pSphere33 2/pCylinder67 2
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/group118 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/group118 1/pSphere33 3
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/group118 1/pSphere33 3/pCylinder67 3
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/group99 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/group99 1/pCylinder23 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/group99 1/pCylinder23 1/pCylinder66
+          1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/group99 1/pCylinder23 1/pCylinder66
+          1/pCylinder24 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/group99 1/pCylinder23 1/pCylinder66
+          1/pCylinder24 1/ContactProbe2
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/null7 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/null7 1/group112 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/null7 1/group112 1/pCylinder63 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/null7 1/group113 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/null7 1/group113 1/pCylinder65 2
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/null7 1/group116 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/null7 1/group116 1/pCylinder65 3
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/null7 1/pCylinder30 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/null7 1/pSphere31 1
+        weight: 1
+      - path: LEM_Descent_Leg4/null8 1/null6 1/null7 1/pSphere32 1
+        weight: 1
+      - path: LEM_Descent_Leg5
+        weight: 1
+      - path: LEM_Descent_Leg5/Apollo_Descent_Leg 2
+        weight: 1
+      - path: LEM_Descent_Leg5/Apollo_Descent_Leg 2/LEM_Descent_FuelTank_LEM_Descent_Leg_null1
+          2
+        weight: 1
+      - path: LEM_Descent_Leg5/Apollo_Descent_Leg 2/pCube36 2
+        weight: 1
+      - path: LEM_Descent_Leg5/LEM_Leg_Collider 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/group114 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/group114 2/pCylinder64 4
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/group115 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/group115 2/pCylinder64 5
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/group117 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/group117 2/pSphere33 4
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/group117 2/pSphere33 4/pCylinder67 4
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/group118 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/group118 2/pSphere33 5
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/group118 2/pSphere33 5/pCylinder67 5
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/group99 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/group99 2/pCylinder23 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/group99 2/pCylinder23 2/pCylinder66
+          2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/group99 2/pCylinder23 2/pCylinder66
+          2/pCylinder24 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/group99 2/pCylinder23 2/pCylinder66
+          2/pCylinder24 2/ContactProbe1
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/null7 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/null7 2/group112 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/null7 2/group112 2/pCylinder63 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/null7 2/group113 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/null7 2/group113 2/pCylinder65 4
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/null7 2/group116 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/null7 2/group116 2/pCylinder65 5
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/null7 2/pCylinder30 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/null7 2/pSphere31 2
+        weight: 1
+      - path: LEM_Descent_Leg5/null8 2/null6 2/null7 2/pSphere32 2
+        weight: 1
+      - path: LEM_Descent_Leg6
+        weight: 1
+      - path: LEM_Descent_Leg6/Apollo_Descent_Leg 3
+        weight: 1
+      - path: LEM_Descent_Leg6/Apollo_Descent_Leg 3/LEM_Descent_FuelTank_LEM_Descent_Leg_null1
+          3
+        weight: 1
+      - path: LEM_Descent_Leg6/Apollo_Descent_Leg 3/pCube36 3
+        weight: 1
+      - path: LEM_Descent_Leg6/LEM_Leg_Collider 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/group114 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/group114 3/pCylinder64 6
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/group115 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/group115 3/pCylinder64 7
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/group117 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/group117 3/pSphere33 6
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/group117 3/pSphere33 6/pCylinder67 6
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/group118 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/group118 3/pSphere33 7
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/group118 3/pSphere33 7/pCylinder67 7
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/group99 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/group99 3/pCylinder23 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/group99 3/pCylinder23 3/pCylinder66
+          3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/group99 3/pCylinder23 3/pCylinder66
+          3/pCylinder24 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/group99 3/pCylinder23 3/pCylinder66
+          3/pCylinder24 3/ContactProbe
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/group100
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/group100/group93
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/group100/group93/pCylinder38
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/null7 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/null7 3/group112 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/null7 3/group112 3/pCylinder63 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/null7 3/group113 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/null7 3/group113 3/pCylinder65 6
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/null7 3/group116 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/null7 3/group116 3/pCylinder65 7
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/null7 3/pCylinder30 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/null7 3/pSphere31 3
+        weight: 1
+      - path: LEM_Descent_Leg6/null8 3/null6 3/null7 3/pSphere32 3
+        weight: 1
+      - path: LEM_DescentStage_ColliderA
+        weight: 1
+      - path: LEM_DescentStage_ColliderA2
+        weight: 1
+      - path: LEM_DescentStage_ColliderA4
+        weight: 1
+      - path: LEM_DescentStage_ColliderA5
+        weight: 1
+      - path: LEM_DescentStage_ColliderA6
+        weight: 1
+      - path: LEM_DescentStage_ColliderA7
+        weight: 1
+      - path: LEM_DescentStage_ColliderA8
+        weight: 1
+      - path: LEM_DescentStage_ColliderA9
+        weight: 1
+      - path: pCylinder99
+        weight: 1
+      - path: pCylinder100
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

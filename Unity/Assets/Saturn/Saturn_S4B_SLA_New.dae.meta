@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: c557d2489f594854b84ffbe7f2fdcb88
+timeCreated: 1499654523
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Collider
+    100002: Collider24
+    100004: Collider24_ncl1_1
+    100006: Collider24_ncl1_2
+    100008: Collider24_ncl1_3
+    100010: Collider25
+    100012: Collider25_ncl1_1
+    100014: Collider25_ncl1_2
+    100016: Collider25_ncl1_3
+    100018: Collider30
+    100020: Collider31
+    100022: Collider32
+    100024: Collider33
+    100026: Collider34
+    100028: Collider35
+    100030: Collider36
+    100032: Colliders
+    100034: pCylinder230
+    100036: pCylinder231
+    100038: polySurface75
+    100040: polySurface76
+    100042: polySurface78
+    100044: polySurface79
+    100046: polySurface81
+    100048: polySurface82
+    100050: polySurface84
+    100052: polySurface85
+    100054: //RootNode
+    100056: SLA
+    100058: SLA_hinge
+    100060: SLA_hinge_ncl1_1
+    100062: SLA_hinge_ncl1_2
+    100064: SLA_hinge_ncl1_3
+    100066: SLA_section1
+    100068: SLA_section2
+    100070: SLA_section3
+    100072: SLA_section4
+    400000: Collider
+    400002: Collider24
+    400004: Collider24_ncl1_1
+    400006: Collider24_ncl1_2
+    400008: Collider24_ncl1_3
+    400010: Collider25
+    400012: Collider25_ncl1_1
+    400014: Collider25_ncl1_2
+    400016: Collider25_ncl1_3
+    400018: Collider30
+    400020: Collider31
+    400022: Collider32
+    400024: Collider33
+    400026: Collider34
+    400028: Collider35
+    400030: Collider36
+    400032: Colliders
+    400034: pCylinder230
+    400036: pCylinder231
+    400038: polySurface75
+    400040: polySurface76
+    400042: polySurface78
+    400044: polySurface79
+    400046: polySurface81
+    400048: polySurface82
+    400050: polySurface84
+    400052: polySurface85
+    400054: //RootNode
+    400056: SLA
+    400058: SLA_hinge
+    400060: SLA_hinge_ncl1_1
+    400062: SLA_hinge_ncl1_2
+    400064: SLA_hinge_ncl1_3
+    400066: SLA_section1
+    400068: SLA_section2
+    400070: SLA_section3
+    400072: SLA_section4
+    2300000: Collider
+    2300002: Collider24
+    2300004: Collider24_ncl1_1
+    2300006: Collider24_ncl1_2
+    2300008: Collider24_ncl1_3
+    2300010: Collider25
+    2300012: Collider25_ncl1_1
+    2300014: Collider25_ncl1_2
+    2300016: Collider25_ncl1_3
+    2300018: Collider30
+    2300020: Collider31
+    2300022: Collider32
+    2300024: Collider33
+    2300026: Collider34
+    2300028: Collider35
+    2300030: Collider36
+    2300032: pCylinder230
+    2300034: pCylinder231
+    2300036: polySurface75
+    2300038: polySurface76
+    2300040: polySurface78
+    2300042: polySurface79
+    2300044: polySurface81
+    2300046: polySurface82
+    2300048: polySurface84
+    2300050: polySurface85
+    3300000: Collider
+    3300002: Collider24
+    3300004: Collider24_ncl1_1
+    3300006: Collider24_ncl1_2
+    3300008: Collider24_ncl1_3
+    3300010: Collider25
+    3300012: Collider25_ncl1_1
+    3300014: Collider25_ncl1_2
+    3300016: Collider25_ncl1_3
+    3300018: Collider30
+    3300020: Collider31
+    3300022: Collider32
+    3300024: Collider33
+    3300026: Collider34
+    3300028: Collider35
+    3300030: Collider36
+    3300032: pCylinder230
+    3300034: pCylinder231
+    3300036: polySurface75
+    3300038: polySurface76
+    3300040: polySurface78
+    3300042: polySurface79
+    3300044: polySurface81
+    3300046: polySurface82
+    3300048: polySurface84
+    3300050: polySurface85
+    4300000: Collider36
+    4300002: Collider35
+    4300004: Collider34
+    4300006: Collider33
+    4300008: Collider32
+    4300010: Collider31
+    4300012: Collider30
+    4300014: Collider
+    4300016: Collider24
+    4300018: Collider25
+    4300020: polySurface82
+    4300022: polySurface81
+    4300024: pCylinder230
+    4300026: pCylinder231
+    4300028: Collider24_ncl1_1
+    4300030: Collider25_ncl1_1
+    4300032: polySurface79
+    4300034: polySurface78
+    4300036: Collider24_ncl1_2
+    4300038: Collider25_ncl1_2
+    4300040: polySurface76
+    4300042: polySurface75
+    4300044: Collider24_ncl1_3
+    4300046: Collider25_ncl1_3
+    4300048: polySurface84
+    4300050: polySurface85
+    7400000: open
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: open
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SLA
+        weight: 1
+      - path: SLA/Colliders
+        weight: 1
+      - path: SLA/Colliders/Collider
+        weight: 1
+      - path: SLA/Colliders/Collider30
+        weight: 1
+      - path: SLA/Colliders/Collider31
+        weight: 1
+      - path: SLA/Colliders/Collider32
+        weight: 1
+      - path: SLA/Colliders/Collider33
+        weight: 1
+      - path: SLA/Colliders/Collider34
+        weight: 1
+      - path: SLA/Colliders/Collider35
+        weight: 1
+      - path: SLA/Colliders/Collider36
+        weight: 1
+      - path: SLA/pCylinder230
+        weight: 1
+      - path: SLA/pCylinder231
+        weight: 1
+      - path: SLA/SLA_section1
+        weight: 1
+      - path: SLA/SLA_section1/SLA_hinge
+        weight: 1
+      - path: SLA/SLA_section1/SLA_hinge/Collider24
+        weight: 1
+      - path: SLA/SLA_section1/SLA_hinge/Collider25
+        weight: 1
+      - path: SLA/SLA_section1/SLA_hinge/polySurface81
+        weight: 1
+      - path: SLA/SLA_section1/SLA_hinge/polySurface82
+        weight: 1
+      - path: SLA/SLA_section2
+        weight: 1
+      - path: SLA/SLA_section2/SLA_hinge_ncl1_1
+        weight: 1
+      - path: SLA/SLA_section2/SLA_hinge_ncl1_1/Collider24_ncl1_1
+        weight: 1
+      - path: SLA/SLA_section2/SLA_hinge_ncl1_1/Collider25_ncl1_1
+        weight: 1
+      - path: SLA/SLA_section2/SLA_hinge_ncl1_1/polySurface78
+        weight: 1
+      - path: SLA/SLA_section2/SLA_hinge_ncl1_1/polySurface79
+        weight: 1
+      - path: SLA/SLA_section3
+        weight: 1
+      - path: SLA/SLA_section3/SLA_hinge_ncl1_2
+        weight: 1
+      - path: SLA/SLA_section3/SLA_hinge_ncl1_2/Collider24_ncl1_2
+        weight: 1
+      - path: SLA/SLA_section3/SLA_hinge_ncl1_2/Collider25_ncl1_2
+        weight: 1
+      - path: SLA/SLA_section3/SLA_hinge_ncl1_2/polySurface75
+        weight: 1
+      - path: SLA/SLA_section3/SLA_hinge_ncl1_2/polySurface76
+        weight: 1
+      - path: SLA/SLA_section4
+        weight: 1
+      - path: SLA/SLA_section4/SLA_hinge_ncl1_3
+        weight: 1
+      - path: SLA/SLA_section4/SLA_hinge_ncl1_3/Collider24_ncl1_3
+        weight: 1
+      - path: SLA/SLA_section4/SLA_hinge_ncl1_3/Collider25_ncl1_3
+        weight: 1
+      - path: SLA/SLA_section4/SLA_hinge_ncl1_3/polySurface84
+        weight: 1
+      - path: SLA/SLA_section4/SLA_hinge_ncl1_3/polySurface85
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

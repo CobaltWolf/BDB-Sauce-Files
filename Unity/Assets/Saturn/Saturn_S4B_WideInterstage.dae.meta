@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: a8f2fec5ab8993c458bd7662ae87bdb6
+timeCreated: 1477702613
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Collider
+    100002: Collider10
+    100004: Collider11
+    100006: Collider12
+    100008: Collider13
+    100010: Collider14
+    100012: Collider15
+    100014: Collider9
+    100016: Colliders
+    100018: group169
+    100020: group169_pCube127
+    100022: group248
+    100024: group249
+    100026: group250
+    100028: Retros
+    100030: S4B_WideInterstage
+    100032: //RootNode
+    100034: thrustTransform
+    100036: thrustTransform_ncl1_1
+    100038: thrustTransform_ncl1_2
+    100040: thrustTransform_ncl1_3
+    100042: Adapter
+    400000: Collider
+    400002: Collider10
+    400004: Collider11
+    400006: Collider12
+    400008: Collider13
+    400010: Collider14
+    400012: Collider15
+    400014: Collider9
+    400016: Colliders
+    400018: group169
+    400020: group169_pCube127
+    400022: group248
+    400024: group249
+    400026: group250
+    400028: Retros
+    400030: S4B_WideInterstage
+    400032: //RootNode
+    400034: thrustTransform
+    400036: thrustTransform_ncl1_1
+    400038: thrustTransform_ncl1_2
+    400040: thrustTransform_ncl1_3
+    400042: Adapter
+    2300000: Collider
+    2300002: Collider10
+    2300004: Collider11
+    2300006: Collider12
+    2300008: Collider13
+    2300010: Collider14
+    2300012: Collider15
+    2300014: Collider9
+    2300016: group169_pCube127
+    2300018: Adapter
+    3300000: Collider
+    3300002: Collider10
+    3300004: Collider11
+    3300006: Collider12
+    3300008: Collider13
+    3300010: Collider14
+    3300012: Collider15
+    3300014: Collider9
+    3300016: group169_pCube127
+    3300018: Adapter
+    4300000: Collider
+    4300002: Collider9
+    4300004: Collider10
+    4300006: Collider11
+    4300008: Collider12
+    4300010: Collider13
+    4300012: Collider14
+    4300014: Collider15
+    4300016: group169_pCube127
+    4300018: Adapter
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

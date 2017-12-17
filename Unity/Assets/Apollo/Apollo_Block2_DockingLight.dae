@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2017-06-21T14:45:20Z</created><keywords></keywords><modified>2017-06-21T14:45:20Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="file33-image" name="file33"><init_from>file://C:/Users/Matthew/OneDrive/Personal/Kerbal/Unity/Assets/Apollo/bluedog_Apollo_Capsule_New.psd</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="phong2" name="phong2">
+      <instance_effect url="#phong2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="phong2-fx" name="phong2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file33-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">9.967480</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Apollo_DockingLight-lib" name="Apollo_DockingLightMesh">
+      <mesh>
+        <source id="Apollo_DockingLight-POSITION">
+          <float_array id="Apollo_DockingLight-POSITION-array" count="54">
+-0.020020 -0.045657 0.020020
+0.020020 -0.045657 0.020020
+-0.020020 0.045657 0.020020
+0.020020 0.045657 0.020020
+-0.020020 0.000000 -0.020020
+-0.020020 0.027472 -0.005776
+-0.020020 0.015473 -0.016247
+0.020020 0.000000 -0.020020
+0.020020 0.015473 -0.016247
+0.020020 0.027472 -0.005776
+-0.020020 -0.027472 -0.005776
+-0.020020 -0.015473 -0.016247
+0.020020 -0.027472 -0.005776
+0.020020 -0.015473 -0.016247
+-0.020020 -0.045657 0.038064
+0.020020 -0.045657 0.038064
+0.020020 0.045657 0.038064
+-0.020020 0.045657 0.038064
+</float_array>
+          <technique_common>
+            <accessor source="#Apollo_DockingLight-POSITION-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Apollo_DockingLight-Normal0">
+          <float_array id="Apollo_DockingLight-Normal0-array" count="288">
+0.000003 0.000000 1.000000
+0.000003 0.000000 1.000000
+0.000003 0.000000 1.000000
+0.000003 0.000000 1.000000
+0.000003 0.000000 1.000000
+0.000003 0.000000 1.000000
+-0.000001 0.923679 -0.383168
+-0.000001 0.768616 -0.639710
+-0.000001 0.923679 -0.383167
+-0.000001 0.768616 -0.639710
+-0.000001 0.923679 -0.383168
+-0.000001 0.768616 -0.639710
+-0.000001 -0.923679 -0.383168
+-0.000001 -0.923679 -0.383167
+-0.000001 -0.768616 -0.639710
+-0.000001 -0.923679 -0.383168
+-0.000001 -0.768616 -0.639710
+-0.000001 -0.768616 -0.639710
+-0.000004 0.460304 -0.887762
+-0.000004 0.460303 -0.887762
+-0.000006 0.000000 -1.000000
+-0.000006 0.000000 -1.000000
+-0.000006 0.000000 -1.000000
+-0.000004 0.460303 -0.887762
+-0.000001 0.768616 -0.639710
+-0.000004 0.460303 -0.887762
+-0.000004 0.460304 -0.887762
+-0.000004 0.460303 -0.887762
+-0.000001 0.768616 -0.639710
+-0.000001 0.768616 -0.639710
+-0.000004 -0.460304 -0.887761
+-0.000004 -0.460303 -0.887762
+-0.000001 -0.768616 -0.639710
+-0.000001 -0.768616 -0.639710
+-0.000001 -0.768616 -0.639710
+-0.000004 -0.460303 -0.887762
+-0.000006 0.000000 -1.000000
+-0.000004 -0.460303 -0.887762
+-0.000004 -0.460304 -0.887761
+-0.000004 -0.460303 -0.887762
+-0.000006 0.000000 -1.000000
+-0.000006 0.000000 -1.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+1.000000 -0.000000 0.000001
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-0.000001 -0.923679 -0.383167
+0.000000 -1.000000 0.000000
+-0.000001 -0.923679 -0.383167
+-0.000001 -0.923679 -0.383168
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+-0.000001 0.923679 -0.383167
+0.000000 1.000000 0.000000
+-0.000001 0.923679 -0.383167
+0.000000 1.000000 0.000000
+-0.000001 0.923679 -0.383168
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Apollo_DockingLight-Normal0-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Apollo_DockingLight-UV0">
+          <float_array id="Apollo_DockingLight-UV0-array" count="80">
+0.607209 0.533498
+0.612954 0.541647
+0.584105 0.541647
+0.589851 0.533498
+0.593641 0.530190
+0.598530 0.528998
+0.603418 0.530190
+0.612954 0.547348
+0.584106 0.547348
+0.598530 0.528998
+0.603418 0.530190
+0.607209 0.533498
+0.612954 0.541647
+0.584105 0.541647
+0.589851 0.533498
+0.593641 0.530190
+0.612954 0.547348
+0.584105 0.547348
+0.607245 0.550297
+0.607245 0.562946
+0.599077 0.562946
+0.599077 0.550297
+0.612945 0.550297
+0.612945 0.562946
+0.581707 0.550297
+0.581707 0.562946
+0.573563 0.562946
+0.573563 0.550297
+0.567862 0.562946
+0.567862 0.550297
+0.581680 0.546546
+0.569031 0.546546
+0.569031 0.517698
+0.581681 0.517698
+0.590380 0.550297
+0.595268 0.550297
+0.595268 0.562946
+0.590380 0.562946
+0.585491 0.550297
+0.585491 0.562946
+</float_array>
+          <technique_common>
+            <accessor source="#Apollo_DockingLight-UV0-array" count="40" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Apollo_DockingLight-VERTEX">
+          <input semantic="POSITION" source="#Apollo_DockingLight-POSITION"/>
+        </vertices>
+        <triangles count="32" material="phong2"><input semantic="VERTEX" offset="0" source="#Apollo_DockingLight-VERTEX"/><input semantic="NORMAL" offset="1" source="#Apollo_DockingLight-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Apollo_DockingLight-UV0"/><p> 17 0 33 14 1 30 16 2 32 16 3 32 14 4 30 15 5 31 3 6 19 5 7 21 2 8 18 5 9 21 3 10 19 9 11 20 1 12 26 0 13 27 10 14 24 1 15 26 10 16 24 12 17 25 6 18 35 8 19 36 4 20 34 7 21 37 4 22 34 8 23 36 5 24 21 8 25 36 6 26 35 8 27 36 5 28 21 9 29 20 11 30 38 13 31 39 10 32 24 12 33 25 10 34 24 13 35 39 4 36 34 13 37 39 11 38 38 13 39 39 4 40 34 7 41 37 2 42 2 10 43 0 0 44 1 10 45 0 5 46 3 4 47 5 5 48 3 10 49 0 2 50 2 4 51 5 5 52 3 6 53 4 10 54 0 4 55 5 11 56 6 3 57 12 1 58 13 12 59 14 7 60 9 9 61 11 12 62 14 9 63 11 7 64 9 8 65 10 3 66 12 12 67 14 9 68 11 7 69 9 12 70 14 13 71 15 15 72 28 14 73 29 0 74 27 15 75 28 0 76 27 1 77 26 16 78 16 15 79 17 1 80 13 16 81 16 1 82 13 3 83 12 16 84 23 2 85 18 17 86 22 2 87 18 16 88 23 3 89 19 14 90 7 17 91 8 2 92 2 14 93 7 2 94 2 0 95 1</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="LightArm-lib" name="LightArmMesh">
+      <mesh>
+        <source id="LightArm-POSITION">
+          <float_array id="LightArm-POSITION-array" count="24">
+-0.000000 0.671703 -0.009594
+-0.009594 0.671703 0.000000
+-0.000000 0.671703 0.009593
+0.009594 0.671703 -0.000000
+-0.000000 0.000000 -0.009594
+0.009594 0.000000 -0.000000
+-0.000000 0.000000 0.009593
+-0.009594 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#LightArm-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="LightArm-Normal0">
+          <float_array id="LightArm-Normal0-array" count="24">
+-0.000006 0.000000 -1.000000
+-1.000000 0.000000 -0.000000
+0.000006 0.000000 1.000000
+1.000000 0.000000 0.000000
+-0.000006 0.000000 -1.000000
+1.000000 0.000000 0.000000
+0.000006 0.000000 1.000000
+-1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#LightArm-Normal0-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="LightArm-UV0">
+          <float_array id="LightArm-UV0-array" count="32">
+0.525062 0.571732
+0.525062 0.570292
+0.596315 0.570292
+0.525062 0.570292
+0.596315 0.570292
+0.525062 0.571732
+0.596315 0.571732
+0.525062 0.570292
+0.596315 0.571732
+0.596315 0.570292
+0.525062 0.571732
+0.596315 0.571732
+0.525062 0.571732
+0.596315 0.571732
+0.525062 0.570292
+0.596315 0.570292
+</float_array>
+          <technique_common>
+            <accessor source="#LightArm-UV0-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="LightArm-VERTEX">
+          <input semantic="POSITION" source="#LightArm-POSITION"/>
+          <input semantic="NORMAL" source="#LightArm-Normal0"/>
+        </vertices>
+        <triangles count="8" material="phong2"><input semantic="VERTEX" offset="0" source="#LightArm-VERTEX"/><input semantic="TEXCOORD" offset="1" set="0" source="#LightArm-UV0"/><p> 0 15 5 12 4 1 5 12 0 15 3 8 2 9 6 7 3 13 3 13 6 7 5 0 1 6 7 10 2 4 2 4 7 10 6 3 1 11 4 14 7 5 4 14 1 11 0 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Light-lib" name="LightMesh">
+      <mesh>
+        <source id="Light-POSITION">
+          <float_array id="Light-POSITION-array" count="48">
+-0.013686 -0.006599 0.034802
+0.013686 -0.006599 0.034802
+-0.013686 0.006599 0.034802
+0.013686 0.006599 0.034802
+-0.023840 0.010612 0.008310
+0.023840 0.010612 0.008310
+-0.023840 -0.010612 0.008310
+0.023840 -0.010612 0.008310
+-0.023840 0.010612 -0.010805
+0.023840 0.010612 -0.010805
+0.023840 -0.010612 -0.010805
+-0.023840 -0.010612 -0.010805
+0.014695 -0.008606 0.021556
+-0.014695 -0.008606 0.021556
+-0.014695 0.008606 0.021556
+0.014695 0.008606 0.021556
+</float_array>
+          <technique_common>
+            <accessor source="#Light-POSITION-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Light-Normal0">
+          <float_array id="Light-Normal0-array" count="252">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.988722 0.149760
+0.000000 0.988722 0.149760
+0.000000 0.988722 0.149760
+0.000000 0.988722 0.149760
+0.000000 0.988722 0.149760
+0.000000 0.988722 0.149760
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.988722 0.149760
+0.000000 -0.988722 0.149760
+0.000000 -0.988722 0.149760
+0.000000 -0.988722 0.149760
+0.000000 -0.988722 0.149760
+0.000000 -0.988722 0.149760
+0.822923 0.000000 0.568153
+0.913476 0.000000 0.406893
+0.913476 0.000000 0.406893
+0.913476 0.000000 0.406893
+0.822923 0.000000 0.568153
+0.822923 0.000000 0.568153
+-0.913476 0.000000 0.406893
+-0.822923 0.000000 0.568153
+-0.913476 0.000000 0.406893
+-0.822923 0.000000 0.568153
+-0.913476 0.000000 0.406893
+-0.822923 0.000000 0.568153
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 -0.988722 0.149760
+0.000000 -0.988722 0.149760
+0.000000 -0.988722 0.149760
+0.000000 -0.988722 0.149760
+0.000000 -0.988722 0.149760
+0.000000 -0.988722 0.149760
+-0.997115 0.000000 0.075905
+-0.997115 0.000000 0.075905
+-0.913476 0.000000 0.406893
+-0.997115 0.000000 0.075905
+-0.913476 0.000000 0.406893
+-0.913476 0.000000 0.406893
+0.000000 0.988722 0.149760
+0.000000 0.988722 0.149760
+0.000000 0.988722 0.149760
+0.000000 0.988722 0.149760
+0.000000 0.988722 0.149760
+0.000000 0.988722 0.149760
+0.997115 0.000000 0.075905
+0.997115 0.000000 0.075905
+0.913476 0.000000 0.406893
+0.997115 0.000000 0.075905
+0.913476 0.000000 0.406893
+0.913476 0.000000 0.406893
+</float_array>
+          <technique_common>
+            <accessor source="#Light-Normal0-array" count="84" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Light-UV0">
+          <float_array id="Light-UV0-array" count="80">
+0.538339 0.538834
+0.528960 0.538834
+0.527866 0.531616
+0.539433 0.531616
+0.530053 0.546053
+0.537246 0.546053
+0.527866 0.521200
+0.539433 0.521200
+0.539433 0.531616
+0.538339 0.538834
+0.528960 0.538834
+0.527866 0.531616
+0.537246 0.546053
+0.530053 0.546053
+0.527866 0.521200
+0.539433 0.521200
+0.539828 0.545441
+0.555843 0.545441
+0.560827 0.552659
+0.534844 0.552659
+0.540377 0.538223
+0.555294 0.538223
+0.560827 0.563076
+0.534844 0.563076
+0.560827 0.552659
+0.534844 0.552659
+0.539828 0.545441
+0.555843 0.545441
+0.560827 0.563076
+0.534844 0.563076
+0.540377 0.538223
+0.555294 0.538223
+0.524379 0.563782
+0.524379 0.548865
+0.531572 0.548865
+0.531571 0.563782
+0.542052 0.535269
+0.542052 0.509286
+0.553618 0.509286
+0.553618 0.535269
+</float_array>
+          <technique_common>
+            <accessor source="#Light-UV0-array" count="40" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Light-VERTEX">
+          <input semantic="POSITION" source="#Light-POSITION"/>
+        </vertices>
+        <triangles count="28" material="phong2"><input semantic="VERTEX" offset="0" source="#Light-VERTEX"/><input semantic="NORMAL" offset="1" source="#Light-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Light-UV0"/><p> 3 0 34 2 1 35 0 2 32 3 3 34 0 4 32 1 5 33 14 6 16 15 7 17 5 8 18 14 9 16 5 10 18 4 11 19 10 12 38 11 13 39 8 14 36 10 15 38 8 16 36 9 17 37 6 18 24 7 19 25 12 20 26 6 21 24 12 22 26 13 23 27 7 24 2 15 25 0 12 26 1 15 27 0 7 28 2 5 29 3 14 30 10 6 31 8 13 32 9 6 33 8 14 34 10 4 35 11 4 36 19 5 37 18 9 38 22 4 39 19 9 40 22 8 41 23 7 42 2 10 43 6 5 44 3 5 45 3 10 46 6 9 47 7 7 48 25 6 49 24 11 50 28 7 51 25 11 52 28 10 53 29 4 54 11 8 55 14 6 56 8 6 57 8 8 58 14 11 59 15 1 60 30 0 61 31 13 62 27 1 63 30 13 64 27 12 65 26 0 66 12 2 67 13 14 68 10 0 69 12 14 70 10 13 71 9 2 72 20 3 73 21 15 74 17 2 75 20 15 76 17 14 77 16 3 78 5 1 79 4 15 80 0 1 81 4 12 82 1 15 83 0</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Apollo_Block2_DockingLight" name="Apollo_Block2_DockingLight">
+      <node name="Apollo_DockingLight" id="Apollo_DockingLight" sid="Apollo_DockingLight"><matrix sid="matrix">0.984201 0.000000 0.177055 -0.316610 0.000000 1.000000 0.000000 0.066940 -0.177055 0.000000 0.984201 -1.225473 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Apollo_DockingLight-lib"><bind_material><technique_common><instance_material symbol="phong2" target="#phong2"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="LightArm" id="LightArm" sid="LightArm"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 -0.000000 -1.000000 -0.006061 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#LightArm-lib"><bind_material><technique_common><instance_material symbol="phong2" target="#phong2"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Light" id="Light" sid="Light"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.671703 0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Light-lib"><bind_material><technique_common><instance_material symbol="phong2" target="#phong2"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Apollo_Block2_DockingLight"></instance_visual_scene>
+  </scene>
+</COLLADA>

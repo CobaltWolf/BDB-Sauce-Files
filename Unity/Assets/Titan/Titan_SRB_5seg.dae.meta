@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: be199b9fee131b04d9dc64be86eea71b
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BellCasing
+    100002: Booster_Segment
+    100004: Booster_Segment1
+    100006: Booster_Segment2
+    100008: Booster_Segment3
+    100010: Booster_Segment4
+    100012: Booster_Segment5
+    100014: Booster_Segment_Rim
+    100016: Booster_Segment_Rim1
+    100018: Booster_Segment_Rim2
+    100020: Booster_Segment_Rim3
+    100022: Booster_Segment_Rim_ncl1_1
+    100024: Booster_Segment_Rim_ncl1_2
+    100026: Booster_Segment_Rim_ncl1_3
+    100028: Booster_Segment_Rim_ncl1_4
+    100030: Booster_Segment_Rim_ncl1_5
+    100032: Cap
+    100034: Nozzle
+    100036: SRB
+    100038: //RootNode
+    100040: TVC_Pipe
+    100042: TVC_Strut
+    100044: TVC_Strut1
+    100046: TVC_Strut2
+    100048: TVC_Strut3
+    100050: TVC_Tank
+    400000: BellCasing
+    400002: Booster_Segment
+    400004: Booster_Segment1
+    400006: Booster_Segment2
+    400008: Booster_Segment3
+    400010: Booster_Segment4
+    400012: Booster_Segment5
+    400014: Booster_Segment_Rim
+    400016: Booster_Segment_Rim1
+    400018: Booster_Segment_Rim2
+    400020: Booster_Segment_Rim3
+    400022: Booster_Segment_Rim_ncl1_1
+    400024: Booster_Segment_Rim_ncl1_2
+    400026: Booster_Segment_Rim_ncl1_3
+    400028: Booster_Segment_Rim_ncl1_4
+    400030: Booster_Segment_Rim_ncl1_5
+    400032: Cap
+    400034: Nozzle
+    400036: SRB
+    400038: //RootNode
+    400040: TVC_Pipe
+    400042: TVC_Strut
+    400044: TVC_Strut1
+    400046: TVC_Strut2
+    400048: TVC_Strut3
+    400050: TVC_Tank
+    2300000: BellCasing
+    2300002: Booster_Segment
+    2300004: Booster_Segment1
+    2300006: Booster_Segment2
+    2300008: Booster_Segment3
+    2300010: Booster_Segment4
+    2300012: Booster_Segment5
+    2300014: Booster_Segment_Rim
+    2300016: Booster_Segment_Rim1
+    2300018: Booster_Segment_Rim2
+    2300020: Booster_Segment_Rim3
+    2300022: Booster_Segment_Rim_ncl1_1
+    2300024: Booster_Segment_Rim_ncl1_2
+    2300026: Booster_Segment_Rim_ncl1_3
+    2300028: Booster_Segment_Rim_ncl1_4
+    2300030: Booster_Segment_Rim_ncl1_5
+    2300032: Cap
+    2300034: Nozzle
+    2300036: TVC_Pipe
+    2300038: TVC_Strut
+    2300040: TVC_Strut1
+    2300042: TVC_Strut2
+    2300044: TVC_Strut3
+    2300046: TVC_Tank
+    2300048: //RootNode
+    3300000: BellCasing
+    3300002: Booster_Segment
+    3300004: Booster_Segment1
+    3300006: Booster_Segment2
+    3300008: Booster_Segment3
+    3300010: Booster_Segment4
+    3300012: Booster_Segment5
+    3300014: Booster_Segment_Rim
+    3300016: Booster_Segment_Rim1
+    3300018: Booster_Segment_Rim2
+    3300020: Booster_Segment_Rim3
+    3300022: Booster_Segment_Rim_ncl1_1
+    3300024: Booster_Segment_Rim_ncl1_2
+    3300026: Booster_Segment_Rim_ncl1_3
+    3300028: Booster_Segment_Rim_ncl1_4
+    3300030: Booster_Segment_Rim_ncl1_5
+    3300032: Cap
+    3300034: Nozzle
+    3300036: TVC_Pipe
+    3300038: TVC_Strut
+    3300040: TVC_Strut1
+    3300042: TVC_Strut2
+    3300044: TVC_Strut3
+    3300046: TVC_Tank
+    3300048: //RootNode
+    4300000: Booster_Segment5
+    4300002: Booster_Segment_Rim
+    4300004: Booster_Segment_Rim1
+    4300006: Booster_Segment_Rim2
+    4300008: Booster_Segment_Rim3
+    4300010: Booster_Segment4
+    4300012: Booster_Segment_Rim_ncl1_1
+    4300014: Booster_Segment3
+    4300016: Booster_Segment_Rim_ncl1_2
+    4300018: Booster_Segment2
+    4300020: Booster_Segment_Rim_ncl1_3
+    4300022: Booster_Segment1
+    4300024: Booster_Segment_Rim_ncl1_4
+    4300026: Booster_Segment
+    4300028: Booster_Segment_Rim_ncl1_5
+    4300030: TVC_Tank
+    4300032: TVC_Pipe
+    4300034: TVC_Strut
+    4300036: TVC_Strut1
+    4300038: TVC_Strut2
+    4300040: TVC_Strut3
+    4300042: BellCasing
+    4300044: Nozzle
+    4300046: Cap
+    4300048: SRB_5segMerge
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

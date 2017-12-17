@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-01-16T02:21:03Z</created><keywords></keywords><modified>2016-01-16T02:21:03Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="file1-image" name="file1"><init_from>file://C:/Users/Matthew/OneDrive/Personal/Kerbal/Unity/Assets/RocketsExpansion/Bluedog_EarlyTanks1.psd</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="EarlyTanks1" name="EarlyTanks1">
+      <instance_effect url="#EarlyTanks1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="EarlyTanks1-fx" name="EarlyTanks1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCube8-lib" name="pCube8Mesh">
+      <mesh>
+        <source id="pCube8-POSITION">
+          <float_array id="pCube8-POSITION-array" count="54">
+-0.051631 -0.571338 0.012281
+0.067422 -0.571338 0.012281
+-0.051631 0.596597 0.012281
+0.067422 0.596597 0.012281
+-0.051631 0.596597 -0.012281
+0.067422 0.596597 -0.012281
+-0.051631 -0.571338 -0.012281
+0.067422 -0.571338 -0.012281
+0.303979 -0.308520 -0.012281
+0.303979 -0.308520 0.012281
+0.303979 0.333779 -0.012281
+0.303979 0.333779 0.012281
+-0.052445 0.622666 -0.000000
+0.080214 0.622666 -0.000000
+-0.052445 -0.597407 -0.000000
+0.080214 -0.597407 -0.000000
+0.343805 -0.322856 -0.000000
+0.343805 0.348115 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#pCube8-POSITION-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube8-Normal0">
+          <float_array id="pCube8-Normal0-array" count="288">
+0.000000 0.011050 0.999939
+0.000000 0.000000 1.000000
+0.000000 0.013663 0.999907
+0.000000 0.013663 0.999907
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.011050 -0.999939
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.011050 -0.999939
+0.000000 0.013663 -0.999907
+-1.000000 -0.000249 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 -0.000249 0.000000
+-1.000000 -0.000249 0.000000
+0.035137 0.032703 -0.998847
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+0.035137 0.032703 -0.998847
+0.011881 0.011058 -0.999868
+0.035137 0.032703 0.998847
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.035137 0.032703 0.998847
+-0.000000 0.000000 1.000000
+0.011881 0.011058 0.999868
+0.000000 0.426180 0.904638
+0.000000 0.013663 0.999907
+0.000000 0.426180 0.904638
+0.000000 0.013663 0.999907
+0.000000 0.426180 0.904638
+0.000000 0.011050 0.999939
+0.000000 0.013663 -0.999907
+0.000000 0.011050 -0.999939
+0.000000 0.426181 -0.904638
+0.000000 0.013663 -0.999907
+0.000000 0.426181 -0.904638
+0.000000 0.426181 -0.904638
+-1.000000 -0.000249 0.000000
+-1.000000 -0.000249 0.000000
+-0.999513 -0.031203 0.000000
+0.000000 -0.426180 -0.904638
+0.000000 -0.426180 -0.904638
+0.000000 -0.426180 -0.904638
+0.000000 -0.426180 -0.904638
+0.000000 -0.426180 -0.904638
+0.000000 -0.426180 -0.904638
+0.000000 -0.426181 0.904638
+0.000000 -0.426181 0.904638
+0.000000 -0.426181 0.904638
+0.000000 -0.426181 0.904638
+0.000000 -0.426181 0.904638
+0.000000 -0.426181 0.904638
+-0.999513 0.031203 0.000000
+-0.999513 0.031203 0.000000
+-0.999513 0.031203 0.000000
+0.294673 0.000000 -0.955598
+0.294673 0.000000 -0.955598
+0.294674 0.000000 -0.955598
+0.294673 0.000000 -0.955598
+0.294674 0.000000 -0.955598
+0.294674 0.000000 -0.955598
+0.294673 0.000000 0.955598
+0.294673 0.000000 0.955598
+0.294674 0.000000 0.955598
+0.294673 0.000000 0.955598
+0.294674 0.000000 0.955598
+0.294674 0.000000 0.955598
+0.255159 -0.237485 -0.937280
+0.255159 -0.237485 -0.937280
+0.255159 -0.237485 -0.937280
+0.255159 -0.237485 -0.937280
+0.255159 -0.237485 -0.937280
+0.255159 -0.237485 -0.937280
+0.255159 -0.237485 0.937280
+0.255159 -0.237485 0.937280
+0.255159 -0.237485 0.937280
+0.255159 -0.237485 0.937280
+0.255159 -0.237485 0.937280
+0.255159 -0.237485 0.937280
+0.011881 0.011058 0.999868
+0.255159 0.237485 0.937280
+0.035137 0.032703 0.998847
+0.255159 0.237485 0.937280
+0.011881 0.011058 0.999868
+0.255159 0.237485 0.937280
+0.255159 0.237485 -0.937280
+0.255159 0.237485 -0.937280
+0.011881 0.011058 -0.999868
+0.255159 0.237485 -0.937280
+0.011881 0.011058 -0.999868
+0.035137 0.032703 -0.998847
+</float_array>
+          <technique_common>
+            <accessor source="#pCube8-Normal0-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube8-UV0">
+          <float_array id="pCube8-UV0-array" count="124">
+0.863629 0.832798
+0.863636 0.682588
+0.875167 0.675261
+0.875167 0.837025
+0.863636 0.829698
+0.863629 0.679488
+0.875167 0.675261
+0.875167 0.837025
+0.863629 0.832798
+0.863636 0.682588
+0.875168 0.675261
+0.875167 0.837025
+0.863636 0.829698
+0.863629 0.679488
+0.875167 0.675261
+0.875167 0.837025
+0.863636 0.780215
+0.863636 0.736472
+0.875113 0.731772
+0.875113 0.780514
+0.875113 0.736472
+0.875113 0.780215
+0.863636 0.780514
+0.863636 0.731772
+0.863636 0.780215
+0.863636 0.736472
+0.875113 0.731772
+0.875113 0.780514
+0.875113 0.736472
+0.875113 0.780215
+0.863636 0.780514
+0.863636 0.731772
+0.863636 0.874139
+0.863636 0.638146
+0.875153 0.632879
+0.875153 0.879407
+0.863636 0.874140
+0.863636 0.638146
+0.875153 0.632879
+0.875153 0.879407
+0.863734 0.632879
+0.875062 0.632879
+0.875062 0.879407
+0.863734 0.879407
+0.863402 0.728640
+0.868587 0.728640
+0.865995 0.734143
+0.871990 0.746519
+0.866806 0.746519
+0.869398 0.741016
+0.255804 0.309426
+0.224794 0.309426
+0.224794 0.005216
+0.255804 0.005216
+0.163179 0.240970
+0.163179 0.073672
+0.255804 0.309426
+0.224794 0.309426
+0.224794 0.005216
+0.255804 0.005217
+0.163179 0.240971
+0.163179 0.073672
+</float_array>
+          <technique_common>
+            <accessor source="#pCube8-UV0-array" count="62" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube8-VERTEX">
+          <input semantic="POSITION" source="#pCube8-POSITION"/>
+        </vertices>
+        <triangles count="32" material="EarlyTanks1"><input semantic="VERTEX" offset="0" source="#pCube8-VERTEX"/><input semantic="NORMAL" offset="1" source="#pCube8-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#pCube8-UV0"/><p> 2 0 53 0 1 50 3 2 52 3 3 52 0 4 50 1 5 51 6 6 59 4 7 56 7 8 58 7 9 58 4 10 56 5 11 57 2 12 42 6 13 40 0 14 41 6 15 40 2 16 42 4 17 43 5 18 57 8 19 61 7 20 58 8 21 61 5 22 57 10 23 60 3 24 52 1 25 51 9 26 54 3 27 52 9 28 54 11 29 55 12 30 19 3 31 17 13 32 18 3 33 17 12 34 19 2 35 16 5 36 20 4 37 21 12 38 22 5 39 20 12 40 22 13 41 23 4 42 44 2 43 45 12 44 46 14 45 27 7 46 25 15 47 26 7 48 25 14 49 27 6 50 24 1 51 28 0 52 29 14 53 30 1 54 28 14 55 30 15 56 31 0 57 47 6 58 48 14 59 49 17 60 34 16 61 35 8 62 32 17 63 34 8 64 32 10 65 33 16 66 38 17 67 39 11 68 36 16 69 38 11 70 36 9 71 37 8 72 1 15 73 3 7 74 0 15 75 3 8 76 1 16 77 2 15 78 6 16 79 7 9 80 4 15 81 6 9 82 4 1 83 5 11 84 9 13 85 11 3 86 8 13 87 11 11 88 9 17 89 10 13 90 14 17 91 15 10 92 12 13 93 14 10 94 12 5 95 13</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="earlyTrapezoidFin" name="earlyTrapezoidFin">
+      <node name="pCube8" id="pCube8" sid="pCube8"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#pCube8-lib"><bind_material><technique_common><instance_material symbol="EarlyTanks1" target="#EarlyTanks1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#earlyTrapezoidFin"></instance_visual_scene>
+  </scene>
+</COLLADA>

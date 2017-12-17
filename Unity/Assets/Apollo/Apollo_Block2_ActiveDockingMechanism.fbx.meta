@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: a47ee82e1c809f84eabbf82b25befc78
+timeCreated: 1469825837
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Arms1
+    100004: Arms2
+    100006: Arms3
+    100008: Arms4
+    100010: Arms5
+    100012: group61
+    100014: group66
+    100016: group67
+    100018: pCube32
+    100020: pCube32 1
+    100022: pCube32 2
+    100024: pCube33
+    100026: pCube33 1
+    100028: pCube33 2
+    100030: pCube34
+    100032: pCube34 1
+    100034: pCube34 2
+    100036: pCylinder66
+    100038: pCylinder78
+    100040: pCylinder79
+    100042: Probe
+    100044: ProbeArm1
+    100046: ProbeArm2
+    100048: ProbeArm3
+    100050: DockingBumper_
+    100052: pCylinder160
+    100054: pCylinder161
+    100056: pCylinder162
+    100058: pCylinder163
+    100060: pCylinder164
+    100062: pCylinder165
+    100064: pTorus4
+    400000: //RootNode
+    400002: Arms1
+    400004: Arms2
+    400006: Arms3
+    400008: Arms4
+    400010: Arms5
+    400012: group61
+    400014: group66
+    400016: group67
+    400018: pCube32
+    400020: pCube32 1
+    400022: pCube32 2
+    400024: pCube33
+    400026: pCube33 1
+    400028: pCube33 2
+    400030: pCube34
+    400032: pCube34 1
+    400034: pCube34 2
+    400036: pCylinder66
+    400038: pCylinder78
+    400040: pCylinder79
+    400042: Probe
+    400044: ProbeArm1
+    400046: ProbeArm2
+    400048: ProbeArm3
+    400050: DockingBumper_
+    400052: pCylinder160
+    400054: pCylinder161
+    400056: pCylinder162
+    400058: pCylinder163
+    400060: pCylinder164
+    400062: pCylinder165
+    400064: pTorus4
+    2300000: //RootNode
+    2300002: pCube32
+    2300004: pCube32 1
+    2300006: pCube32 2
+    2300008: pCube33
+    2300010: pCube33 1
+    2300012: pCube33 2
+    2300014: pCube34
+    2300016: pCube34 1
+    2300018: pCube34 2
+    2300020: pCylinder66
+    2300022: pCylinder78
+    2300024: pCylinder79
+    2300026: Probe
+    2300028: ProbeArm1
+    2300030: ProbeArm2
+    2300032: ProbeArm3
+    2300034: pCylinder160
+    2300036: pCylinder161
+    2300038: pCylinder162
+    2300040: pCylinder163
+    2300042: pCylinder164
+    2300044: pCylinder165
+    2300046: pTorus4
+    3300000: //RootNode
+    3300002: pCube32
+    3300004: pCube32 1
+    3300006: pCube32 2
+    3300008: pCube33
+    3300010: pCube33 1
+    3300012: pCube33 2
+    3300014: pCube34
+    3300016: pCube34 1
+    3300018: pCube34 2
+    3300020: pCylinder66
+    3300022: pCylinder78
+    3300024: pCylinder79
+    3300026: Probe
+    3300028: ProbeArm1
+    3300030: ProbeArm2
+    3300032: ProbeArm3
+    3300034: pCylinder160
+    3300036: pCylinder161
+    3300038: pCylinder162
+    3300040: pCylinder163
+    3300042: pCylinder164
+    3300044: pCylinder165
+    3300046: pTorus4
+    4300000: Apollo_Docking_Active
+    4300002: Probe
+    4300004: ProbeArm1
+    4300006: ProbeArm2
+    4300008: ProbeArm3
+    4300010: pCylinder79
+    4300012: pCylinder66
+    4300014: pCube32
+    4300016: pCube33
+    4300018: pCube34
+    4300020: pCube34
+    4300022: pCube34
+    4300024: pCube32
+    4300026: pCube33
+    4300028: pCube32
+    4300030: pCube33
+    4300032: pCylinder78
+    4300034: pCylinder165
+    4300036: pCylinder164
+    4300038: pCylinder163
+    4300040: pCylinder162
+    4300042: pCylinder161
+    4300044: pCylinder160
+    4300046: pTorus4
+    7400000: retract
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: retract
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms1
+        weight: 1
+      - path: Arms1/pCube32
+        weight: 1
+      - path: Arms1/pCube33
+        weight: 1
+      - path: Arms4
+        weight: 1
+      - path: Arms4/pCube32 1
+        weight: 1
+      - path: Arms4/pCube33 1
+        weight: 1
+      - path: Arms5
+        weight: 1
+      - path: Arms5/pCube32 2
+        weight: 1
+      - path: Arms5/pCube33 2
+        weight: 1
+      - path: group61
+        weight: 1
+      - path: group61/pCube34
+        weight: 1
+      - path: group66
+        weight: 1
+      - path: group66/pCube34 1
+        weight: 1
+      - path: group67
+        weight: 1
+      - path: group67/pCube34 2
+        weight: 1
+      - path: pCylinder66
+        weight: 1
+      - path: pCylinder78
+        weight: 1
+      - path: Probe
+        weight: 1
+      - path: Probe/Arms2
+        weight: 1
+      - path: Probe/Arms2/ProbeArm2
+        weight: 1
+      - path: Probe/Arms3
+        weight: 1
+      - path: Probe/Arms3/ProbeArm3
+        weight: 1
+      - path: Probe/pCylinder79
+        weight: 1
+      - path: Probe/ProbeArm1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

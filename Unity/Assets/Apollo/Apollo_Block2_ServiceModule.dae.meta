@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 19651fa1bf602084eb210a520689b02d
+timeCreated: 1469591158
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: D1_Door1
+    100004: D1_Door1_ncl1_1
+    100006: D1_Door1_ncl1_2
+    100008: D1_Door1_ncl1_3
+    100010: Doors1
+    100012: Doors2
+    100014: Doors3
+    100016: Doors4
+    100018: pCylinder38
+    100020: polySurface26
+    100022: group81
+    100024: group82
+    100026: pCylinder71
+    100028: pCylinder72
+    100030: pCylinder73
+    100032: pCylinder73_ncl1_1
+    100034: pCylinder74
+    100036: pCylinder74_ncl1_1
+    100038: pCylinder75
+    100040: pCylinder75_ncl1_1
+    100042: pCylinder76
+    100044: pCylinder76_ncl1_1
+    100046: pCylinder77
+    100048: flagDecal1
+    100050: flagDecal2
+    100052: D2_Door1
+    100054: D3_Door1
+    100056: D4_Door1
+    400000: //RootNode
+    400002: D1_Door1
+    400004: D1_Door1_ncl1_1
+    400006: D1_Door1_ncl1_2
+    400008: D1_Door1_ncl1_3
+    400010: Doors1
+    400012: Doors2
+    400014: Doors3
+    400016: Doors4
+    400018: pCylinder38
+    400020: polySurface26
+    400022: group81
+    400024: group82
+    400026: pCylinder71
+    400028: pCylinder72
+    400030: pCylinder73
+    400032: pCylinder73_ncl1_1
+    400034: pCylinder74
+    400036: pCylinder74_ncl1_1
+    400038: pCylinder75
+    400040: pCylinder75_ncl1_1
+    400042: pCylinder76
+    400044: pCylinder76_ncl1_1
+    400046: pCylinder77
+    400048: flagDecal1
+    400050: flagDecal2
+    400052: D2_Door1
+    400054: D3_Door1
+    400056: D4_Door1
+    2300000: D1_Door1
+    2300002: D1_Door1_ncl1_1
+    2300004: D1_Door1_ncl1_2
+    2300006: D1_Door1_ncl1_3
+    2300008: pCylinder38
+    2300010: polySurface26
+    2300012: pCylinder71
+    2300014: pCylinder72
+    2300016: pCylinder73
+    2300018: pCylinder73_ncl1_1
+    2300020: pCylinder74
+    2300022: pCylinder74_ncl1_1
+    2300024: pCylinder75
+    2300026: pCylinder75_ncl1_1
+    2300028: pCylinder76
+    2300030: pCylinder76_ncl1_1
+    2300032: pCylinder77
+    2300034: flagDecal1
+    2300036: flagDecal2
+    2300038: D2_Door1
+    2300040: D3_Door1
+    2300042: D4_Door1
+    3300000: D1_Door1
+    3300002: D1_Door1_ncl1_1
+    3300004: D1_Door1_ncl1_2
+    3300006: D1_Door1_ncl1_3
+    3300008: pCylinder38
+    3300010: polySurface26
+    3300012: pCylinder71
+    3300014: pCylinder72
+    3300016: pCylinder73
+    3300018: pCylinder73_ncl1_1
+    3300020: pCylinder74
+    3300022: pCylinder74_ncl1_1
+    3300024: pCylinder75
+    3300026: pCylinder75_ncl1_1
+    3300028: pCylinder76
+    3300030: pCylinder76_ncl1_1
+    3300032: pCylinder77
+    3300034: flagDecal1
+    3300036: flagDecal2
+    3300038: D2_Door1
+    3300040: D3_Door1
+    3300042: D4_Door1
+    4300000: D1_Door1
+    4300002: D1_Door1_ncl1_1
+    4300004: D1_Door1_ncl1_2
+    4300006: D1_Door1_ncl1_3
+    4300008: polySurface26
+    4300010: pCylinder38
+    4300012: pCylinder71
+    4300014: pCylinder72
+    4300016: pCylinder73
+    4300018: pCylinder74
+    4300020: pCylinder75
+    4300022: pCylinder76
+    4300024: pCylinder73_ncl1_1
+    4300026: pCylinder74_ncl1_1
+    4300028: pCylinder75_ncl1_1
+    4300030: pCylinder76_ncl1_1
+    4300032: pCylinder77
+    4300034: flagDecal2
+    4300036: flagDecal1
+    4300038: D2_Door1
+    4300040: D3_Door1
+    4300042: D4_Door1
+    7400000: bayDoors
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: bayDoors
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Doors1
+        weight: 1
+      - path: Doors1/D1_Door1
+        weight: 1
+      - path: Doors2
+        weight: 1
+      - path: Doors2/D1_Door1_ncl1_1
+        weight: 1
+      - path: Doors3
+        weight: 1
+      - path: Doors3/D1_Door1_ncl1_2
+        weight: 1
+      - path: Doors4
+        weight: 1
+      - path: Doors4/D1_Door1_ncl1_3
+        weight: 1
+      - path: pCylinder38
+        weight: 1
+      - path: polySurface26
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

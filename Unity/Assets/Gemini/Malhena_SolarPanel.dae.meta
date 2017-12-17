@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: cb99acb3126bca04bb02ae63a379ab84
+timeCreated: 1461023754
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Antenna1
+    100002: Antenna2
+    100004: Antenna3
+    100006: AntennaCase
+    100008: Hinge1
+    100010: Hinge3
+    100012: InnerPanel
+    100014: InnerPanelWrapper
+    100016: MajorHinge
+    100018: MajorHinge3
+    100020: //RootNode
+    100022: OuterPanel
+    100024: OuterPanelWrapper
+    100026: PanelHinge
+    100028: SolarHingeWrapper
+    400000: Antenna1
+    400002: Antenna2
+    400004: Antenna3
+    400006: AntennaCase
+    400008: Hinge1
+    400010: Hinge3
+    400012: InnerPanel
+    400014: InnerPanelWrapper
+    400016: MajorHinge
+    400018: MajorHinge3
+    400020: //RootNode
+    400022: OuterPanel
+    400024: OuterPanelWrapper
+    400026: PanelHinge
+    400028: SolarHingeWrapper
+    2300000: Antenna1
+    2300002: Antenna2
+    2300004: Antenna3
+    2300006: AntennaCase
+    2300008: Hinge1
+    2300010: Hinge3
+    2300012: InnerPanel
+    2300014: MajorHinge
+    2300016: MajorHinge3
+    2300018: OuterPanel
+    2300020: PanelHinge
+    3300000: Antenna1
+    3300002: Antenna2
+    3300004: Antenna3
+    3300006: AntennaCase
+    3300008: Hinge1
+    3300010: Hinge3
+    3300012: InnerPanel
+    3300014: MajorHinge
+    3300016: MajorHinge3
+    3300018: OuterPanel
+    3300020: PanelHinge
+    4300000: MajorHinge
+    4300002: Hinge1
+    4300004: InnerPanel
+    4300006: PanelHinge
+    4300008: OuterPanel
+    4300010: AntennaCase
+    4300012: Antenna1
+    4300014: Antenna2
+    4300016: Antenna3
+    4300018: Hinge3
+    4300020: MajorHinge3
+    7400000: deploy
+    7400002: antenna
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: deploy
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MajorHinge
+        weight: 1
+      - path: MajorHinge3
+        weight: 1
+      - path: SolarHingeWrapper
+        weight: 1
+      - path: SolarHingeWrapper/Hinge1
+        weight: 1
+      - path: SolarHingeWrapper/Hinge3
+        weight: 1
+      - path: SolarHingeWrapper/InnerPanelWrapper
+        weight: 1
+      - path: SolarHingeWrapper/InnerPanelWrapper/InnerPanel
+        weight: 1
+      - path: SolarHingeWrapper/InnerPanelWrapper/InnerPanel/PanelHinge
+        weight: 1
+      - path: SolarHingeWrapper/InnerPanelWrapper/InnerPanel/PanelHinge/OuterPanelWrapper
+        weight: 1
+      - path: SolarHingeWrapper/InnerPanelWrapper/InnerPanel/PanelHinge/OuterPanelWrapper/Antenna1
+        weight: 1
+      - path: SolarHingeWrapper/InnerPanelWrapper/InnerPanel/PanelHinge/OuterPanelWrapper/Antenna1/Antenna2
+        weight: 1
+      - path: SolarHingeWrapper/InnerPanelWrapper/InnerPanel/PanelHinge/OuterPanelWrapper/Antenna1/Antenna2/Antenna3
+        weight: 1
+      - path: SolarHingeWrapper/InnerPanelWrapper/InnerPanel/PanelHinge/OuterPanelWrapper/AntennaCase
+        weight: 1
+      - path: SolarHingeWrapper/InnerPanelWrapper/InnerPanel/PanelHinge/OuterPanelWrapper/OuterPanel
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-05-14T00:28:43Z</created><keywords></keywords><modified>2016-05-14T00:28:43Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="geminiLander_Collider-lib" name="geminiLander_ColliderMesh">
+      <mesh>
+        <source id="geminiLander_Collider-POSITION">
+          <float_array id="geminiLander_Collider-POSITION-array" count="54">
+-0.419219 -0.419787 0.465904
+0.419373 -0.419787 0.465904
+-0.419219 0.233464 0.465904
+0.419373 0.233464 0.465904
+-0.419219 0.233464 -0.145830
+0.419373 0.233464 -0.145830
+-0.419219 -0.419787 -0.145830
+0.419373 -0.419787 -0.145830
+-0.297745 0.233464 -0.504702
+0.297900 0.233464 -0.504702
+0.297900 -0.419787 -0.504702
+-0.297745 -0.419787 -0.504702
+-0.357578 0.524558 0.465904
+0.357732 0.524558 0.465904
+0.357732 0.524558 -0.145830
+-0.357578 0.524558 -0.145830
+0.297900 0.524558 -0.330025
+-0.297745 0.524558 -0.330025
+</float_array>
+          <technique_common>
+            <accessor source="#geminiLander_Collider-POSITION-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geminiLander_Collider-Normal0">
+          <float_array id="geminiLander_Collider-Normal0-array" count="288">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.947208 0.000000 -0.320619
+0.947208 0.000000 -0.320619
+0.947208 0.000000 -0.320619
+0.947208 0.000000 -0.320619
+0.947208 0.000000 -0.320619
+0.947208 0.000000 -0.320619
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-0.947208 0.000000 -0.320619
+-0.947208 0.000000 -0.320619
+-0.947208 0.000000 -0.320619
+-0.947208 0.000000 -0.320619
+-0.947208 0.000000 -0.320619
+-0.947208 0.000000 -0.320619
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.978306 0.207163 0.000000
+0.978306 0.207163 0.000000
+0.978306 0.207163 0.000000
+0.978306 0.207163 0.000000
+0.978306 0.207163 0.000000
+0.978306 0.207163 0.000000
+-0.978306 0.207163 0.000000
+-0.978306 0.207163 0.000000
+-0.978306 0.207163 0.000000
+-0.978306 0.207163 0.000000
+-0.978306 0.207163 0.000000
+-0.978306 0.207163 0.000000
+0.930921 0.191814 -0.310795
+0.930921 0.191814 -0.310795
+0.930921 0.191814 -0.310795
+0.930921 0.191814 -0.310795
+0.930921 0.191814 -0.310795
+0.930921 0.191814 -0.310795
+0.000000 0.514540 -0.857466
+0.000000 0.514540 -0.857466
+0.000000 0.514540 -0.857466
+0.000000 0.514540 -0.857466
+0.000000 0.514540 -0.857466
+0.000000 0.514540 -0.857466
+-0.930921 0.191814 -0.310795
+-0.930921 0.191814 -0.310795
+-0.930921 0.191814 -0.310795
+-0.930921 0.191814 -0.310795
+-0.930921 0.191814 -0.310795
+-0.930921 0.191814 -0.310795
+</float_array>
+          <technique_common>
+            <accessor source="#geminiLander_Collider-Normal0-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geminiLander_Collider-UV0">
+          <float_array id="geminiLander_Collider-UV0-array" count="48">
+0.375000 0.000000
+0.625000 0.000000
+0.375000 0.250000
+0.625000 0.250000
+0.375000 0.500000
+0.625000 0.500000
+0.375000 0.750000
+0.625000 0.750000
+0.375000 1.000000
+0.625000 1.000000
+0.875000 0.000000
+0.875000 0.250000
+0.125000 0.000000
+0.125000 0.250000
+0.375000 0.500000
+0.625000 0.500000
+0.625000 0.750000
+0.375000 0.750000
+0.375000 0.250000
+0.625000 0.250000
+0.625000 0.500000
+0.375000 0.500000
+0.625000 0.500000
+0.375000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#geminiLander_Collider-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geminiLander_Collider-VERTEX">
+          <input semantic="POSITION" source="#geminiLander_Collider-POSITION"/>
+        </vertices>
+        <triangles count="32" material="lambert1"><input semantic="VERTEX" offset="0" source="#geminiLander_Collider-VERTEX"/><input semantic="NORMAL" offset="1" source="#geminiLander_Collider-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#geminiLander_Collider-UV0"/><p> 3 0 3 2 1 2 0 2 0 3 3 3 0 4 0 1 5 1 13 6 19 14 7 20 12 8 18 12 9 18 14 10 20 15 11 21 10 12 16 11 13 17 8 14 14 10 15 16 8 16 14 9 17 15 1 18 9 0 19 8 6 20 6 1 21 9 6 22 6 7 23 7 3 24 3 1 25 1 5 26 11 1 27 1 7 28 10 5 29 11 2 30 2 6 31 12 0 32 0 6 33 12 2 34 2 4 35 13 15 36 21 14 37 20 16 38 22 15 39 21 16 40 22 17 41 23 5 42 5 7 43 7 10 44 16 5 45 5 10 46 16 9 47 15 7 48 7 6 49 6 11 50 17 7 51 7 11 52 17 10 53 16 6 54 6 4 55 4 8 56 14 6 57 6 8 58 14 11 59 17 13 60 19 12 61 18 2 62 2 13 63 19 2 64 2 3 65 3 14 66 20 13 67 19 3 68 3 3 69 3 5 70 5 14 71 20 12 72 18 4 73 4 2 74 2 4 75 4 12 76 18 15 77 21 9 78 15 16 79 22 5 80 5 14 81 20 5 82 5 16 83 22 9 84 15 8 85 14 17 86 23 9 87 15 17 88 23 16 89 22 4 90 4 17 91 23 8 92 14 17 93 23 4 94 4 15 95 21</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="bluedog_geminiLander_Collider" name="bluedog_geminiLander_Collider">
+      <node name="geminiLander_Collider" id="geminiLander_Collider" sid="geminiLander_Collider"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#geminiLander_Collider-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#bluedog_geminiLander_Collider"></instance_visual_scene>
+  </scene>
+</COLLADA>

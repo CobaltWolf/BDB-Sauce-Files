@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: b20e17b5558a46c4fa173e27c7ce1924
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: FuelTankRib19
+    100002: FuelTankRib19_ncl1_1
+    100004: FuelTankRib19_ncl1_2
+    100006: FuelTankRib19_ncl1_3
+    100008: group22
+    100010: group23
+    100012: group24
+    100014: group25
+    100016: locator12
+    100018: locator13
+    100020: Rims
+    100022: Tank
+    100024: //RootNode
+    100026: Titan4_Stage1_Fuel2
+    400000: FuelTankRib19
+    400002: FuelTankRib19_ncl1_1
+    400004: FuelTankRib19_ncl1_2
+    400006: FuelTankRib19_ncl1_3
+    400008: group22
+    400010: group23
+    400012: group24
+    400014: group25
+    400016: locator12
+    400018: locator13
+    400020: Rims
+    400022: Tank
+    400024: //RootNode
+    400026: Titan4_Stage1_Fuel2
+    2300000: FuelTankRib19
+    2300002: FuelTankRib19_ncl1_1
+    2300004: FuelTankRib19_ncl1_2
+    2300006: FuelTankRib19_ncl1_3
+    2300008: Rims
+    2300010: Tank
+    3300000: FuelTankRib19
+    3300002: FuelTankRib19_ncl1_1
+    3300004: FuelTankRib19_ncl1_2
+    3300006: FuelTankRib19_ncl1_3
+    3300008: Rims
+    3300010: Tank
+    4300000: Tank
+    4300002: Rims
+    4300004: FuelTankRib19
+    4300006: FuelTankRib19_ncl1_1
+    4300008: FuelTankRib19_ncl1_2
+    4300010: FuelTankRib19_ncl1_3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

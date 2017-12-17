@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 8c6058def20c62d49a6d5a54415926c5
+timeCreated: 1477109043
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Vega_Engine_Mount1_Vega_EngineMount
+    100002: //RootNode
+    100004: Vega_EngineMount_Merged
+    100006: pCylinder156
+    100008: Vega_Engine_Mount2
+    100010: group144
+    100012: group144_ncl1_1
+    100014: group144_ncl1_2
+    100016: group144_ncl1_3
+    100018: group145
+    100020: group145_ncl1_1
+    100022: group145_ncl1_2
+    100024: group145_ncl1_3
+    100026: group146
+    100028: group147
+    100030: group148
+    100032: group74
+    100034: group74_ncl1_1
+    100036: group74_ncl1_2
+    100038: group74_ncl1_3
+    100040: group75
+    100042: group75_ncl1_1
+    100044: group75_ncl1_2
+    100046: group75_ncl1_3
+    100048: group79
+    100050: null67
+    100052: null67_ncl1_1
+    100054: null67_ncl1_2
+    100056: null67_ncl1_3
+    100058: null67_ncl1_4
+    100060: null67_ncl1_5
+    100062: null67_ncl1_6
+    100064: null67_ncl1_7
+    100066: null69
+    100068: null69_ncl1_1
+    100070: null69_ncl1_2
+    100072: null69_ncl1_3
+    100074: pCube26
+    100076: pCube26_ncl1_1
+    100078: pCube26_ncl1_2
+    100080: pCube26_ncl1_3
+    100082: pCube26_ncl1_4
+    100084: pCube26_ncl1_5
+    100086: pCube26_ncl1_6
+    100088: pCube26_ncl1_7
+    100090: pCylinder158
+    100092: Vega_Engine_Mount4
+    100094: Vega_Engine_Mount4_Vega_EngineMount
+    100096: Vega_EngineMount
+    100098: Vega_Engine_Mount_MergedNew
+    100100: Vega_Engine_Mount_MergedNew_RCS
+    400000: Vega_Engine_Mount1_Vega_EngineMount
+    400002: //RootNode
+    400004: Vega_EngineMount_Merged
+    400006: pCylinder156
+    400008: Vega_Engine_Mount2
+    400010: group144
+    400012: group144_ncl1_1
+    400014: group144_ncl1_2
+    400016: group144_ncl1_3
+    400018: group145
+    400020: group145_ncl1_1
+    400022: group145_ncl1_2
+    400024: group145_ncl1_3
+    400026: group146
+    400028: group147
+    400030: group148
+    400032: group74
+    400034: group74_ncl1_1
+    400036: group74_ncl1_2
+    400038: group74_ncl1_3
+    400040: group75
+    400042: group75_ncl1_1
+    400044: group75_ncl1_2
+    400046: group75_ncl1_3
+    400048: group79
+    400050: null67
+    400052: null67_ncl1_1
+    400054: null67_ncl1_2
+    400056: null67_ncl1_3
+    400058: null67_ncl1_4
+    400060: null67_ncl1_5
+    400062: null67_ncl1_6
+    400064: null67_ncl1_7
+    400066: null69
+    400068: null69_ncl1_1
+    400070: null69_ncl1_2
+    400072: null69_ncl1_3
+    400074: pCube26
+    400076: pCube26_ncl1_1
+    400078: pCube26_ncl1_2
+    400080: pCube26_ncl1_3
+    400082: pCube26_ncl1_4
+    400084: pCube26_ncl1_5
+    400086: pCube26_ncl1_6
+    400088: pCube26_ncl1_7
+    400090: pCylinder158
+    400092: Vega_Engine_Mount4
+    400094: Vega_Engine_Mount4_Vega_EngineMount
+    400096: Vega_EngineMount
+    400098: Vega_Engine_Mount_MergedNew
+    400100: Vega_Engine_Mount_MergedNew_RCS
+    2300000: Vega_Engine_Mount1_Vega_EngineMount
+    2300002: pCylinder156
+    2300004: Vega_Engine_Mount2
+    2300006: pCylinder158
+    2300008: Vega_Engine_Mount4_Vega_EngineMount
+    2300010: Vega_Engine_Mount_MergedNew_RCS
+    3300000: Vega_Engine_Mount1_Vega_EngineMount
+    3300002: pCylinder156
+    3300004: Vega_Engine_Mount2
+    3300006: pCylinder158
+    3300008: Vega_Engine_Mount4_Vega_EngineMount
+    3300010: Vega_Engine_Mount_MergedNew_RCS
+    4300000: Vega_Engine_Mount1_Vega_EngineMount
+    4300002: pCylinder156
+    4300004: Vega_Engine_Mount2
+    4300006: pCylinder158
+    4300008: Vega_Engine_Mount4_Vega_EngineMount
+    4300010: Vega_Engine_Mount_MergedNew_RCS
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

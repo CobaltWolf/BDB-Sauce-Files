@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 7cd920f501c9af4488396ef893a6a81a
+timeCreated: 1499450584
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Agena_MaterialsBay4
+    100002: Agena_MaterialsBay5
+    100004: //RootNode
+    100006: Door
+    100008: DoorRotate
+    100010: extrudedSurface2
+    100012: extrudedSurface3
+    100014: LadderRotate
+    100016: null10
+    100018: null11
+    100020: null12
+    100022: null6
+    100024: null6 1
+    100026: null8
+    100028: null8 1
+    100030: null9
+    100032: Package
+    100034: Package2
+    100036: Package3
+    100038: Package4
+    100040: pCube12
+    100042: pCube12 1
+    100044: pCube12 2
+    100046: pCube12 3
+    100048: pCube12 4
+    100050: pCube12 5
+    100052: pCube12 6
+    100054: pCube12 7
+    100056: pCube13
+    100058: pCube15
+    100060: pCube16
+    100062: pCube17
+    100064: pCube19
+    100066: pCube19 1
+    100068: pCube19 2
+    100070: pCube19 3
+    100072: pCube19 4
+    100074: pCube19 5
+    100076: pCube19 6
+    100078: pCube19 7
+    100080: pCube20
+    100082: pCube21
+    100084: pCube9
+    100086: pCylinder48
+    100088: pCylinder49
+    100090: pCylinder50
+    100092: polySurface9
+    100094: transform10
+    100096: transform11
+    100098: transform12
+    100100: transform13
+    100102: transform14
+    100104: transform15
+    100106: transform16
+    100108: transform17
+    100110: transform18
+    100112: transform19
+    100114: transform20
+    100116: transform21
+    100118: transform22
+    100120: transform23
+    100122: transform24
+    100124: transform25
+    100126: transform26
+    100128: transform27
+    100130: transform28
+    100132: transform29
+    100134: transform30
+    100136: transform31
+    100138: transform32
+    100140: transform33
+    100142: transform34
+    100144: transform35
+    100146: transform36
+    100148: transform37
+    100150: transform38
+    100152: transform39
+    100154: transform40
+    100156: transform7
+    100158: transform8
+    100160: transform9
+    100162: Agena_MaterialsBay7
+    100164: Agena_MaterialsBay8
+    100166: transform41
+    100168: transform42
+    100170: transform43
+    100172: transform44
+    100174: transform45
+    100176: transform46
+    100178: transform47
+    100180: transform48
+    100182: transform49
+    100184: transform50
+    100186: transform51
+    100188: transform52
+    100190: transform53
+    100192: transform54
+    400000: Agena_MaterialsBay4
+    400002: Agena_MaterialsBay5
+    400004: //RootNode
+    400006: Door
+    400008: DoorRotate
+    400010: extrudedSurface2
+    400012: extrudedSurface3
+    400014: LadderRotate
+    400016: null10
+    400018: null11
+    400020: null12
+    400022: null6
+    400024: null6 1
+    400026: null8
+    400028: null8 1
+    400030: null9
+    400032: Package
+    400034: Package2
+    400036: Package3
+    400038: Package4
+    400040: pCube12
+    400042: pCube12 1
+    400044: pCube12 2
+    400046: pCube12 3
+    400048: pCube12 4
+    400050: pCube12 5
+    400052: pCube12 6
+    400054: pCube12 7
+    400056: pCube13
+    400058: pCube15
+    400060: pCube16
+    400062: pCube17
+    400064: pCube19
+    400066: pCube19 1
+    400068: pCube19 2
+    400070: pCube19 3
+    400072: pCube19 4
+    400074: pCube19 5
+    400076: pCube19 6
+    400078: pCube19 7
+    400080: pCube20
+    400082: pCube21
+    400084: pCube9
+    400086: pCylinder48
+    400088: pCylinder49
+    400090: pCylinder50
+    400092: polySurface9
+    400094: transform10
+    400096: transform11
+    400098: transform12
+    400100: transform13
+    400102: transform14
+    400104: transform15
+    400106: transform16
+    400108: transform17
+    400110: transform18
+    400112: transform19
+    400114: transform20
+    400116: transform21
+    400118: transform22
+    400120: transform23
+    400122: transform24
+    400124: transform25
+    400126: transform26
+    400128: transform27
+    400130: transform28
+    400132: transform29
+    400134: transform30
+    400136: transform31
+    400138: transform32
+    400140: transform33
+    400142: transform34
+    400144: transform35
+    400146: transform36
+    400148: transform37
+    400150: transform38
+    400152: transform39
+    400154: transform40
+    400156: transform7
+    400158: transform8
+    400160: transform9
+    400162: Agena_MaterialsBay7
+    400164: Agena_MaterialsBay8
+    400166: transform41
+    400168: transform42
+    400170: transform43
+    400172: transform44
+    400174: transform45
+    400176: transform46
+    400178: transform47
+    400180: transform48
+    400182: transform49
+    400184: transform50
+    400186: transform51
+    400188: transform52
+    400190: transform53
+    400192: transform54
+    2300000: Agena_MaterialsBay5
+    2300002: Agena_MaterialsBay8
+    3300000: Agena_MaterialsBay5
+    3300002: Agena_MaterialsBay8
+    4300000: Agena_MaterialsBay5
+    4300002: Agena_MaterialsBay8
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

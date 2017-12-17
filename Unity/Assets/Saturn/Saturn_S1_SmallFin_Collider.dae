@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-05-13T22:02:50Z</created><keywords></keywords><modified>2016-05-13T22:02:50Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="file1-image" name="file1"><init_from>file://C:/Users/Matthew/OneDrive/Personal/Kerbal/Unity/Assets/Saturn/bluedog_saturn1.psd</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="Saturn1" name="Saturn1">
+      <instance_effect url="#Saturn1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Saturn1-fx" name="Saturn1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="S1_SmallFin5-lib" name="S1_SmallFin5Mesh">
+      <mesh>
+        <source id="S1_SmallFin5-POSITION">
+          <float_array id="S1_SmallFin5-POSITION-array" count="30">
+-0.216306 -0.282941 0.065119
+0.595728 -0.283894 0.065119
+-0.431240 1.676712 0.065119
+0.595728 1.156337 0.065119
+-0.431240 1.676712 -0.065119
+0.595728 1.156337 -0.065119
+-0.216306 -0.282941 -0.065119
+0.595728 -0.283894 -0.065119
+-0.431240 1.805088 0.000000
+0.595728 1.284713 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#S1_SmallFin5-POSITION-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="S1_SmallFin5-Normal0">
+          <float_array id="S1_SmallFin5-Normal0-array" count="144">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.001174 -0.999999 0.000000
+-0.001174 -0.999999 0.000000
+-0.001174 -0.999999 0.000000
+-0.001174 -0.999999 0.000000
+-0.001174 -0.999999 0.000000
+-0.001174 -0.999999 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-0.994039 -0.109026 0.000000
+-0.994039 -0.109026 0.000000
+-0.994039 -0.109026 0.000000
+-0.994039 -0.109026 0.000000
+-0.994039 -0.109026 0.000000
+-0.994039 -0.109026 0.000000
+0.223430 0.440942 0.869281
+0.223430 0.440942 0.869281
+0.223430 0.440942 0.869281
+0.223430 0.440942 0.869281
+0.223430 0.440942 0.869281
+0.223430 0.440942 0.869281
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.223430 0.440942 -0.869281
+0.223430 0.440942 -0.869281
+0.223430 0.440942 -0.869281
+0.223430 0.440942 -0.869281
+0.223430 0.440942 -0.869281
+0.223430 0.440942 -0.869281
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#S1_SmallFin5-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="S1_SmallFin5-UV0">
+          <float_array id="S1_SmallFin5-UV0-array" count="52">
+0.743028 0.342918
+0.753761 0.342918
+0.753761 0.493730
+0.743028 0.493730
+0.748394 0.504309
+0.743028 0.342917
+0.753761 0.342917
+0.753761 0.493728
+0.743028 0.493728
+0.748394 0.504309
+0.763197 0.515546
+0.763197 0.463203
+0.771592 0.463203
+0.771592 0.515546
+0.672459 0.333076
+0.737073 0.333000
+0.737073 0.447600
+0.655357 0.489006
+0.737073 0.457815
+0.655357 0.499221
+0.655357 0.489006
+0.737073 0.447600
+0.737073 0.333000
+0.672459 0.333076
+0.655357 0.499221
+0.737073 0.457815
+</float_array>
+          <technique_common>
+            <accessor source="#S1_SmallFin5-UV0-array" count="26" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="S1_SmallFin5-VERTEX">
+          <input semantic="POSITION" source="#S1_SmallFin5-POSITION"/>
+        </vertices>
+        <triangles count="16" material="Saturn1"><input semantic="VERTEX" offset="0" source="#S1_SmallFin5-VERTEX"/><input semantic="NORMAL" offset="1" source="#S1_SmallFin5-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#S1_SmallFin5-UV0"/><p> 2 0 17 0 1 14 3 2 16 3 3 16 0 4 14 1 5 15 6 6 23 5 7 21 7 8 22 5 9 21 6 10 23 4 11 20 1 12 12 0 13 13 6 14 10 1 15 12 6 16 10 7 17 11 7 18 1 5 19 2 1 20 0 3 21 3 1 22 0 5 23 2 2 24 7 6 25 5 0 26 6 6 27 5 2 28 7 4 29 8 9 30 18 8 31 19 2 32 17 9 33 18 2 34 17 3 35 16 3 36 3 5 37 2 9 38 4 4 39 20 9 40 25 5 41 21 9 42 25 4 43 20 8 44 24 4 45 8 2 46 7 8 47 9</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Saturn_S1_SmallFin_Collider" name="Saturn_S1_SmallFin_Collider">
+      <node name="S1_SmallFin5" id="S1_SmallFin5" sid="S1_SmallFin5"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#S1_SmallFin5-lib"><bind_material><technique_common><instance_material symbol="Saturn1" target="#Saturn1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Saturn_S1_SmallFin_Collider"></instance_visual_scene>
+  </scene>
+</COLLADA>

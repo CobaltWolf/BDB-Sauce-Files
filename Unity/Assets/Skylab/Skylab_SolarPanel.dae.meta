@@ -1,0 +1,2432 @@
+fileFormatVersion: 2
+guid: e9fb9d7068f718d418bf963ba3af9dfa
+timeCreated: 1488158752
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cell1
+    100002: Cell10
+    100004: Cell10_ncl1_1
+    100006: Cell10_ncl1_2
+    100008: Cell10_ncl1_3
+    100010: Cell10_ncl1_4
+    100012: Cell10_ncl1_5
+    100014: Cell11
+    100016: Cell11_ncl1_1
+    100018: Cell11_ncl1_2
+    100020: Cell11_ncl1_3
+    100022: Cell11_ncl1_4
+    100024: Cell11_ncl1_5
+    100026: Cell12
+    100028: Cell12_ncl1_1
+    100030: Cell12_ncl1_2
+    100032: Cell12_ncl1_3
+    100034: Cell12_ncl1_4
+    100036: Cell12_ncl1_5
+    100038: Cell1_ncl1_1
+    100040: Cell1_ncl1_2
+    100042: Cell1_ncl1_3
+    100044: Cell1_ncl1_4
+    100046: Cell1_ncl1_5
+    100048: Cell2
+    100050: Cell2_ncl1_1
+    100052: Cell2_ncl1_2
+    100054: Cell2_ncl1_3
+    100056: Cell2_ncl1_4
+    100058: Cell2_ncl1_5
+    100060: Cell3
+    100062: Cell3_ncl1_1
+    100064: Cell3_ncl1_10
+    100066: Cell3_ncl1_11
+    100068: Cell3_ncl1_2
+    100070: Cell3_ncl1_3
+    100072: Cell3_ncl1_4
+    100074: Cell3_ncl1_5
+    100076: Cell3_ncl1_6
+    100078: Cell3_ncl1_7
+    100080: Cell3_ncl1_8
+    100082: Cell3_ncl1_9
+    100084: Cell4
+    100086: Cell4_ncl1_1
+    100088: Cell4_ncl1_10
+    100090: Cell4_ncl1_11
+    100092: Cell4_ncl1_2
+    100094: Cell4_ncl1_3
+    100096: Cell4_ncl1_4
+    100098: Cell4_ncl1_5
+    100100: Cell4_ncl1_6
+    100102: Cell4_ncl1_7
+    100104: Cell4_ncl1_8
+    100106: Cell4_ncl1_9
+    100108: Cell5
+    100110: Cell5_ncl1_1
+    100112: Cell5_ncl1_10
+    100114: Cell5_ncl1_11
+    100116: Cell5_ncl1_2
+    100118: Cell5_ncl1_3
+    100120: Cell5_ncl1_4
+    100122: Cell5_ncl1_5
+    100124: Cell5_ncl1_6
+    100126: Cell5_ncl1_7
+    100128: Cell5_ncl1_8
+    100130: Cell5_ncl1_9
+    100132: Cell6
+    100134: Cell6_ncl1_1
+    100136: Cell6_ncl1_10
+    100138: Cell6_ncl1_11
+    100140: Cell6_ncl1_2
+    100142: Cell6_ncl1_3
+    100144: Cell6_ncl1_4
+    100146: Cell6_ncl1_5
+    100148: Cell6_ncl1_6
+    100150: Cell6_ncl1_7
+    100152: Cell6_ncl1_8
+    100154: Cell6_ncl1_9
+    100156: Cell7
+    100158: Cell7_ncl1_1
+    100160: Cell7_ncl1_10
+    100162: Cell7_ncl1_11
+    100164: Cell7_ncl1_2
+    100166: Cell7_ncl1_3
+    100168: Cell7_ncl1_4
+    100170: Cell7_ncl1_5
+    100172: Cell7_ncl1_6
+    100174: Cell7_ncl1_7
+    100176: Cell7_ncl1_8
+    100178: Cell7_ncl1_9
+    100180: Cell8
+    100182: Cell8_ncl1_1
+    100184: Cell8_ncl1_10
+    100186: Cell8_ncl1_11
+    100188: Cell8_ncl1_12
+    100190: Cell8_ncl1_13
+    100192: Cell8_ncl1_14
+    100194: Cell8_ncl1_15
+    100196: Cell8_ncl1_16
+    100198: Cell8_ncl1_17
+    100200: Cell8_ncl1_18
+    100202: Cell8_ncl1_19
+    100204: Cell8_ncl1_2
+    100206: Cell8_ncl1_20
+    100208: Cell8_ncl1_21
+    100210: Cell8_ncl1_22
+    100212: Cell8_ncl1_23
+    100214: Cell8_ncl1_3
+    100216: Cell8_ncl1_4
+    100218: Cell8_ncl1_5
+    100220: Cell8_ncl1_6
+    100222: Cell8_ncl1_7
+    100224: Cell8_ncl1_8
+    100226: Cell8_ncl1_9
+    100228: Cell9
+    100230: Cell9_ncl1_1
+    100232: Cell9_ncl1_2
+    100234: Cell9_ncl1_3
+    100236: Cell9_ncl1_4
+    100238: Cell9_ncl1_5
+    100240: CellSet_1
+    100242: CellSet_1_ncl1_1
+    100244: CellSet_2
+    100246: CellSet_2_ncl1_1
+    100248: CellSet_3
+    100250: CellSet_3_ncl1_1
+    100252: CellWrapper
+    100254: CellWrapper_ncl1_1
+    100256: CellWrapper_ncl1_2
+    100258: CellWrapper_ncl1_3
+    100260: CellWrapper_ncl1_4
+    100262: CellWrapper_ncl1_5
+    100264: Collider
+    100266: Collider2
+    100268: Collider3
+    100270: pCube35
+    100272: pCube35_ncl1_1
+    100274: pCube35_ncl1_10
+    100276: pCube35_ncl1_100
+    100278: pCube35_ncl1_101
+    100280: pCube35_ncl1_102
+    100282: pCube35_ncl1_103
+    100284: pCube35_ncl1_104
+    100286: pCube35_ncl1_105
+    100288: pCube35_ncl1_106
+    100290: pCube35_ncl1_107
+    100292: pCube35_ncl1_108
+    100294: pCube35_ncl1_109
+    100296: pCube35_ncl1_11
+    100298: pCube35_ncl1_110
+    100300: pCube35_ncl1_111
+    100302: pCube35_ncl1_112
+    100304: pCube35_ncl1_113
+    100306: pCube35_ncl1_114
+    100308: pCube35_ncl1_115
+    100310: pCube35_ncl1_116
+    100312: pCube35_ncl1_117
+    100314: pCube35_ncl1_118
+    100316: pCube35_ncl1_119
+    100318: pCube35_ncl1_12
+    100320: pCube35_ncl1_13
+    100322: pCube35_ncl1_14
+    100324: pCube35_ncl1_15
+    100326: pCube35_ncl1_16
+    100328: pCube35_ncl1_17
+    100330: pCube35_ncl1_18
+    100332: pCube35_ncl1_19
+    100334: pCube35_ncl1_2
+    100336: pCube35_ncl1_20
+    100338: pCube35_ncl1_21
+    100340: pCube35_ncl1_22
+    100342: pCube35_ncl1_23
+    100344: pCube35_ncl1_24
+    100346: pCube35_ncl1_25
+    100348: pCube35_ncl1_26
+    100350: pCube35_ncl1_27
+    100352: pCube35_ncl1_28
+    100354: pCube35_ncl1_29
+    100356: pCube35_ncl1_3
+    100358: pCube35_ncl1_30
+    100360: pCube35_ncl1_31
+    100362: pCube35_ncl1_32
+    100364: pCube35_ncl1_33
+    100366: pCube35_ncl1_34
+    100368: pCube35_ncl1_35
+    100370: pCube35_ncl1_36
+    100372: pCube35_ncl1_37
+    100374: pCube35_ncl1_38
+    100376: pCube35_ncl1_39
+    100378: pCube35_ncl1_4
+    100380: pCube35_ncl1_40
+    100382: pCube35_ncl1_41
+    100384: pCube35_ncl1_42
+    100386: pCube35_ncl1_43
+    100388: pCube35_ncl1_44
+    100390: pCube35_ncl1_45
+    100392: pCube35_ncl1_46
+    100394: pCube35_ncl1_47
+    100396: pCube35_ncl1_48
+    100398: pCube35_ncl1_49
+    100400: pCube35_ncl1_5
+    100402: pCube35_ncl1_50
+    100404: pCube35_ncl1_51
+    100406: pCube35_ncl1_52
+    100408: pCube35_ncl1_53
+    100410: pCube35_ncl1_54
+    100412: pCube35_ncl1_55
+    100414: pCube35_ncl1_56
+    100416: pCube35_ncl1_57
+    100418: pCube35_ncl1_58
+    100420: pCube35_ncl1_59
+    100422: pCube35_ncl1_6
+    100424: pCube35_ncl1_60
+    100426: pCube35_ncl1_61
+    100428: pCube35_ncl1_62
+    100430: pCube35_ncl1_63
+    100432: pCube35_ncl1_64
+    100434: pCube35_ncl1_65
+    100436: pCube35_ncl1_66
+    100438: pCube35_ncl1_67
+    100440: pCube35_ncl1_68
+    100442: pCube35_ncl1_69
+    100444: pCube35_ncl1_7
+    100446: pCube35_ncl1_70
+    100448: pCube35_ncl1_71
+    100450: pCube35_ncl1_72
+    100452: pCube35_ncl1_73
+    100454: pCube35_ncl1_74
+    100456: pCube35_ncl1_75
+    100458: pCube35_ncl1_76
+    100460: pCube35_ncl1_77
+    100462: pCube35_ncl1_78
+    100464: pCube35_ncl1_79
+    100466: pCube35_ncl1_8
+    100468: pCube35_ncl1_80
+    100470: pCube35_ncl1_81
+    100472: pCube35_ncl1_82
+    100474: pCube35_ncl1_83
+    100476: pCube35_ncl1_84
+    100478: pCube35_ncl1_85
+    100480: pCube35_ncl1_86
+    100482: pCube35_ncl1_87
+    100484: pCube35_ncl1_88
+    100486: pCube35_ncl1_89
+    100488: pCube35_ncl1_9
+    100490: pCube35_ncl1_90
+    100492: pCube35_ncl1_91
+    100494: pCube35_ncl1_92
+    100496: pCube35_ncl1_93
+    100498: pCube35_ncl1_94
+    100500: pCube35_ncl1_95
+    100502: pCube35_ncl1_96
+    100504: pCube35_ncl1_97
+    100506: pCube35_ncl1_98
+    100508: pCube35_ncl1_99
+    100510: RibWrapper
+    100512: RibWrapper1
+    100514: RibWrapper1_ncl1_1
+    100516: RibWrapper1_ncl1_10
+    100518: RibWrapper1_ncl1_11
+    100520: RibWrapper1_ncl1_2
+    100522: RibWrapper1_ncl1_3
+    100524: RibWrapper1_ncl1_4
+    100526: RibWrapper1_ncl1_5
+    100528: RibWrapper1_ncl1_6
+    100530: RibWrapper1_ncl1_7
+    100532: RibWrapper1_ncl1_8
+    100534: RibWrapper1_ncl1_9
+    100536: RibWrapper2
+    100538: RibWrapper2_ncl1_1
+    100540: RibWrapper2_ncl1_10
+    100542: RibWrapper2_ncl1_11
+    100544: RibWrapper2_ncl1_12
+    100546: RibWrapper2_ncl1_13
+    100548: RibWrapper2_ncl1_14
+    100550: RibWrapper2_ncl1_15
+    100552: RibWrapper2_ncl1_16
+    100554: RibWrapper2_ncl1_17
+    100556: RibWrapper2_ncl1_18
+    100558: RibWrapper2_ncl1_19
+    100560: RibWrapper2_ncl1_2
+    100562: RibWrapper2_ncl1_20
+    100564: RibWrapper2_ncl1_21
+    100566: RibWrapper2_ncl1_22
+    100568: RibWrapper2_ncl1_23
+    100570: RibWrapper2_ncl1_24
+    100572: RibWrapper2_ncl1_25
+    100574: RibWrapper2_ncl1_26
+    100576: RibWrapper2_ncl1_27
+    100578: RibWrapper2_ncl1_28
+    100580: RibWrapper2_ncl1_29
+    100582: RibWrapper2_ncl1_3
+    100584: RibWrapper2_ncl1_30
+    100586: RibWrapper2_ncl1_31
+    100588: RibWrapper2_ncl1_32
+    100590: RibWrapper2_ncl1_33
+    100592: RibWrapper2_ncl1_34
+    100594: RibWrapper2_ncl1_35
+    100596: RibWrapper2_ncl1_36
+    100598: RibWrapper2_ncl1_37
+    100600: RibWrapper2_ncl1_38
+    100602: RibWrapper2_ncl1_39
+    100604: RibWrapper2_ncl1_4
+    100606: RibWrapper2_ncl1_40
+    100608: RibWrapper2_ncl1_41
+    100610: RibWrapper2_ncl1_42
+    100612: RibWrapper2_ncl1_43
+    100614: RibWrapper2_ncl1_44
+    100616: RibWrapper2_ncl1_45
+    100618: RibWrapper2_ncl1_46
+    100620: RibWrapper2_ncl1_47
+    100622: RibWrapper2_ncl1_5
+    100624: RibWrapper2_ncl1_6
+    100626: RibWrapper2_ncl1_7
+    100628: RibWrapper2_ncl1_8
+    100630: RibWrapper2_ncl1_9
+    100632: RibWrapper3
+    100634: RibWrapper3_ncl1_1
+    100636: RibWrapper3_ncl1_10
+    100638: RibWrapper3_ncl1_11
+    100640: RibWrapper3_ncl1_2
+    100642: RibWrapper3_ncl1_3
+    100644: RibWrapper3_ncl1_4
+    100646: RibWrapper3_ncl1_5
+    100648: RibWrapper3_ncl1_6
+    100650: RibWrapper3_ncl1_7
+    100652: RibWrapper3_ncl1_8
+    100654: RibWrapper3_ncl1_9
+    100656: RibWrapper4
+    100658: RibWrapper4_ncl1_1
+    100660: RibWrapper4_ncl1_10
+    100662: RibWrapper4_ncl1_11
+    100664: RibWrapper4_ncl1_2
+    100666: RibWrapper4_ncl1_3
+    100668: RibWrapper4_ncl1_4
+    100670: RibWrapper4_ncl1_5
+    100672: RibWrapper4_ncl1_6
+    100674: RibWrapper4_ncl1_7
+    100676: RibWrapper4_ncl1_8
+    100678: RibWrapper4_ncl1_9
+    100680: RibWrapper5
+    100682: RibWrapper5_ncl1_1
+    100684: RibWrapper5_ncl1_10
+    100686: RibWrapper5_ncl1_11
+    100688: RibWrapper5_ncl1_2
+    100690: RibWrapper5_ncl1_3
+    100692: RibWrapper5_ncl1_4
+    100694: RibWrapper5_ncl1_5
+    100696: RibWrapper5_ncl1_6
+    100698: RibWrapper5_ncl1_7
+    100700: RibWrapper5_ncl1_8
+    100702: RibWrapper5_ncl1_9
+    100704: RibWrapper6
+    100706: RibWrapper6_ncl1_1
+    100708: RibWrapper6_ncl1_10
+    100710: RibWrapper6_ncl1_11
+    100712: RibWrapper6_ncl1_2
+    100714: RibWrapper6_ncl1_3
+    100716: RibWrapper6_ncl1_4
+    100718: RibWrapper6_ncl1_5
+    100720: RibWrapper6_ncl1_6
+    100722: RibWrapper6_ncl1_7
+    100724: RibWrapper6_ncl1_8
+    100726: RibWrapper6_ncl1_9
+    100728: RibWrapper_ncl1_1
+    100730: RibWrapper_ncl1_10
+    100732: RibWrapper_ncl1_11
+    100734: RibWrapper_ncl1_2
+    100736: RibWrapper_ncl1_3
+    100738: RibWrapper_ncl1_4
+    100740: RibWrapper_ncl1_5
+    100742: RibWrapper_ncl1_6
+    100744: RibWrapper_ncl1_7
+    100746: RibWrapper_ncl1_8
+    100748: RibWrapper_ncl1_9
+    100750: Scissors1
+    100752: Scissors1_ncl1_1
+    100754: Scissors1_ncl1_2
+    100756: Scissors1_ncl1_3
+    100758: Scissors1_ncl1_4
+    100760: Scissors1_ncl1_5
+    100762: Scissors2
+    100764: Scissors2_ncl1_1
+    100766: Scissors2_ncl1_2
+    100768: Scissors2_ncl1_3
+    100770: Scissors2_ncl1_4
+    100772: Scissors2_ncl1_5
+    100774: //RootNode
+    100776: Skylab_SolarPanel2
+    100778: Solar_Direction_1
+    100780: Solar_Direction_2
+    100782: SolarCover
+    100784: SolarWing
+    100786: SolarWing_RotateA
+    100788: SolarWing_RotateB
+    100790: SolarWingHinge
+    100792: sunCatcher
+    100794: sunCatcher_ncl1_1
+    400000: Cell1
+    400002: Cell10
+    400004: Cell10_ncl1_1
+    400006: Cell10_ncl1_2
+    400008: Cell10_ncl1_3
+    400010: Cell10_ncl1_4
+    400012: Cell10_ncl1_5
+    400014: Cell11
+    400016: Cell11_ncl1_1
+    400018: Cell11_ncl1_2
+    400020: Cell11_ncl1_3
+    400022: Cell11_ncl1_4
+    400024: Cell11_ncl1_5
+    400026: Cell12
+    400028: Cell12_ncl1_1
+    400030: Cell12_ncl1_2
+    400032: Cell12_ncl1_3
+    400034: Cell12_ncl1_4
+    400036: Cell12_ncl1_5
+    400038: Cell1_ncl1_1
+    400040: Cell1_ncl1_2
+    400042: Cell1_ncl1_3
+    400044: Cell1_ncl1_4
+    400046: Cell1_ncl1_5
+    400048: Cell2
+    400050: Cell2_ncl1_1
+    400052: Cell2_ncl1_2
+    400054: Cell2_ncl1_3
+    400056: Cell2_ncl1_4
+    400058: Cell2_ncl1_5
+    400060: Cell3
+    400062: Cell3_ncl1_1
+    400064: Cell3_ncl1_10
+    400066: Cell3_ncl1_11
+    400068: Cell3_ncl1_2
+    400070: Cell3_ncl1_3
+    400072: Cell3_ncl1_4
+    400074: Cell3_ncl1_5
+    400076: Cell3_ncl1_6
+    400078: Cell3_ncl1_7
+    400080: Cell3_ncl1_8
+    400082: Cell3_ncl1_9
+    400084: Cell4
+    400086: Cell4_ncl1_1
+    400088: Cell4_ncl1_10
+    400090: Cell4_ncl1_11
+    400092: Cell4_ncl1_2
+    400094: Cell4_ncl1_3
+    400096: Cell4_ncl1_4
+    400098: Cell4_ncl1_5
+    400100: Cell4_ncl1_6
+    400102: Cell4_ncl1_7
+    400104: Cell4_ncl1_8
+    400106: Cell4_ncl1_9
+    400108: Cell5
+    400110: Cell5_ncl1_1
+    400112: Cell5_ncl1_10
+    400114: Cell5_ncl1_11
+    400116: Cell5_ncl1_2
+    400118: Cell5_ncl1_3
+    400120: Cell5_ncl1_4
+    400122: Cell5_ncl1_5
+    400124: Cell5_ncl1_6
+    400126: Cell5_ncl1_7
+    400128: Cell5_ncl1_8
+    400130: Cell5_ncl1_9
+    400132: Cell6
+    400134: Cell6_ncl1_1
+    400136: Cell6_ncl1_10
+    400138: Cell6_ncl1_11
+    400140: Cell6_ncl1_2
+    400142: Cell6_ncl1_3
+    400144: Cell6_ncl1_4
+    400146: Cell6_ncl1_5
+    400148: Cell6_ncl1_6
+    400150: Cell6_ncl1_7
+    400152: Cell6_ncl1_8
+    400154: Cell6_ncl1_9
+    400156: Cell7
+    400158: Cell7_ncl1_1
+    400160: Cell7_ncl1_10
+    400162: Cell7_ncl1_11
+    400164: Cell7_ncl1_2
+    400166: Cell7_ncl1_3
+    400168: Cell7_ncl1_4
+    400170: Cell7_ncl1_5
+    400172: Cell7_ncl1_6
+    400174: Cell7_ncl1_7
+    400176: Cell7_ncl1_8
+    400178: Cell7_ncl1_9
+    400180: Cell8
+    400182: Cell8_ncl1_1
+    400184: Cell8_ncl1_10
+    400186: Cell8_ncl1_11
+    400188: Cell8_ncl1_12
+    400190: Cell8_ncl1_13
+    400192: Cell8_ncl1_14
+    400194: Cell8_ncl1_15
+    400196: Cell8_ncl1_16
+    400198: Cell8_ncl1_17
+    400200: Cell8_ncl1_18
+    400202: Cell8_ncl1_19
+    400204: Cell8_ncl1_2
+    400206: Cell8_ncl1_20
+    400208: Cell8_ncl1_21
+    400210: Cell8_ncl1_22
+    400212: Cell8_ncl1_23
+    400214: Cell8_ncl1_3
+    400216: Cell8_ncl1_4
+    400218: Cell8_ncl1_5
+    400220: Cell8_ncl1_6
+    400222: Cell8_ncl1_7
+    400224: Cell8_ncl1_8
+    400226: Cell8_ncl1_9
+    400228: Cell9
+    400230: Cell9_ncl1_1
+    400232: Cell9_ncl1_2
+    400234: Cell9_ncl1_3
+    400236: Cell9_ncl1_4
+    400238: Cell9_ncl1_5
+    400240: CellSet_1
+    400242: CellSet_1_ncl1_1
+    400244: CellSet_2
+    400246: CellSet_2_ncl1_1
+    400248: CellSet_3
+    400250: CellSet_3_ncl1_1
+    400252: CellWrapper
+    400254: CellWrapper_ncl1_1
+    400256: CellWrapper_ncl1_2
+    400258: CellWrapper_ncl1_3
+    400260: CellWrapper_ncl1_4
+    400262: CellWrapper_ncl1_5
+    400264: Collider
+    400266: Collider2
+    400268: Collider3
+    400270: pCube35
+    400272: pCube35_ncl1_1
+    400274: pCube35_ncl1_10
+    400276: pCube35_ncl1_100
+    400278: pCube35_ncl1_101
+    400280: pCube35_ncl1_102
+    400282: pCube35_ncl1_103
+    400284: pCube35_ncl1_104
+    400286: pCube35_ncl1_105
+    400288: pCube35_ncl1_106
+    400290: pCube35_ncl1_107
+    400292: pCube35_ncl1_108
+    400294: pCube35_ncl1_109
+    400296: pCube35_ncl1_11
+    400298: pCube35_ncl1_110
+    400300: pCube35_ncl1_111
+    400302: pCube35_ncl1_112
+    400304: pCube35_ncl1_113
+    400306: pCube35_ncl1_114
+    400308: pCube35_ncl1_115
+    400310: pCube35_ncl1_116
+    400312: pCube35_ncl1_117
+    400314: pCube35_ncl1_118
+    400316: pCube35_ncl1_119
+    400318: pCube35_ncl1_12
+    400320: pCube35_ncl1_13
+    400322: pCube35_ncl1_14
+    400324: pCube35_ncl1_15
+    400326: pCube35_ncl1_16
+    400328: pCube35_ncl1_17
+    400330: pCube35_ncl1_18
+    400332: pCube35_ncl1_19
+    400334: pCube35_ncl1_2
+    400336: pCube35_ncl1_20
+    400338: pCube35_ncl1_21
+    400340: pCube35_ncl1_22
+    400342: pCube35_ncl1_23
+    400344: pCube35_ncl1_24
+    400346: pCube35_ncl1_25
+    400348: pCube35_ncl1_26
+    400350: pCube35_ncl1_27
+    400352: pCube35_ncl1_28
+    400354: pCube35_ncl1_29
+    400356: pCube35_ncl1_3
+    400358: pCube35_ncl1_30
+    400360: pCube35_ncl1_31
+    400362: pCube35_ncl1_32
+    400364: pCube35_ncl1_33
+    400366: pCube35_ncl1_34
+    400368: pCube35_ncl1_35
+    400370: pCube35_ncl1_36
+    400372: pCube35_ncl1_37
+    400374: pCube35_ncl1_38
+    400376: pCube35_ncl1_39
+    400378: pCube35_ncl1_4
+    400380: pCube35_ncl1_40
+    400382: pCube35_ncl1_41
+    400384: pCube35_ncl1_42
+    400386: pCube35_ncl1_43
+    400388: pCube35_ncl1_44
+    400390: pCube35_ncl1_45
+    400392: pCube35_ncl1_46
+    400394: pCube35_ncl1_47
+    400396: pCube35_ncl1_48
+    400398: pCube35_ncl1_49
+    400400: pCube35_ncl1_5
+    400402: pCube35_ncl1_50
+    400404: pCube35_ncl1_51
+    400406: pCube35_ncl1_52
+    400408: pCube35_ncl1_53
+    400410: pCube35_ncl1_54
+    400412: pCube35_ncl1_55
+    400414: pCube35_ncl1_56
+    400416: pCube35_ncl1_57
+    400418: pCube35_ncl1_58
+    400420: pCube35_ncl1_59
+    400422: pCube35_ncl1_6
+    400424: pCube35_ncl1_60
+    400426: pCube35_ncl1_61
+    400428: pCube35_ncl1_62
+    400430: pCube35_ncl1_63
+    400432: pCube35_ncl1_64
+    400434: pCube35_ncl1_65
+    400436: pCube35_ncl1_66
+    400438: pCube35_ncl1_67
+    400440: pCube35_ncl1_68
+    400442: pCube35_ncl1_69
+    400444: pCube35_ncl1_7
+    400446: pCube35_ncl1_70
+    400448: pCube35_ncl1_71
+    400450: pCube35_ncl1_72
+    400452: pCube35_ncl1_73
+    400454: pCube35_ncl1_74
+    400456: pCube35_ncl1_75
+    400458: pCube35_ncl1_76
+    400460: pCube35_ncl1_77
+    400462: pCube35_ncl1_78
+    400464: pCube35_ncl1_79
+    400466: pCube35_ncl1_8
+    400468: pCube35_ncl1_80
+    400470: pCube35_ncl1_81
+    400472: pCube35_ncl1_82
+    400474: pCube35_ncl1_83
+    400476: pCube35_ncl1_84
+    400478: pCube35_ncl1_85
+    400480: pCube35_ncl1_86
+    400482: pCube35_ncl1_87
+    400484: pCube35_ncl1_88
+    400486: pCube35_ncl1_89
+    400488: pCube35_ncl1_9
+    400490: pCube35_ncl1_90
+    400492: pCube35_ncl1_91
+    400494: pCube35_ncl1_92
+    400496: pCube35_ncl1_93
+    400498: pCube35_ncl1_94
+    400500: pCube35_ncl1_95
+    400502: pCube35_ncl1_96
+    400504: pCube35_ncl1_97
+    400506: pCube35_ncl1_98
+    400508: pCube35_ncl1_99
+    400510: RibWrapper
+    400512: RibWrapper1
+    400514: RibWrapper1_ncl1_1
+    400516: RibWrapper1_ncl1_10
+    400518: RibWrapper1_ncl1_11
+    400520: RibWrapper1_ncl1_2
+    400522: RibWrapper1_ncl1_3
+    400524: RibWrapper1_ncl1_4
+    400526: RibWrapper1_ncl1_5
+    400528: RibWrapper1_ncl1_6
+    400530: RibWrapper1_ncl1_7
+    400532: RibWrapper1_ncl1_8
+    400534: RibWrapper1_ncl1_9
+    400536: RibWrapper2
+    400538: RibWrapper2_ncl1_1
+    400540: RibWrapper2_ncl1_10
+    400542: RibWrapper2_ncl1_11
+    400544: RibWrapper2_ncl1_12
+    400546: RibWrapper2_ncl1_13
+    400548: RibWrapper2_ncl1_14
+    400550: RibWrapper2_ncl1_15
+    400552: RibWrapper2_ncl1_16
+    400554: RibWrapper2_ncl1_17
+    400556: RibWrapper2_ncl1_18
+    400558: RibWrapper2_ncl1_19
+    400560: RibWrapper2_ncl1_2
+    400562: RibWrapper2_ncl1_20
+    400564: RibWrapper2_ncl1_21
+    400566: RibWrapper2_ncl1_22
+    400568: RibWrapper2_ncl1_23
+    400570: RibWrapper2_ncl1_24
+    400572: RibWrapper2_ncl1_25
+    400574: RibWrapper2_ncl1_26
+    400576: RibWrapper2_ncl1_27
+    400578: RibWrapper2_ncl1_28
+    400580: RibWrapper2_ncl1_29
+    400582: RibWrapper2_ncl1_3
+    400584: RibWrapper2_ncl1_30
+    400586: RibWrapper2_ncl1_31
+    400588: RibWrapper2_ncl1_32
+    400590: RibWrapper2_ncl1_33
+    400592: RibWrapper2_ncl1_34
+    400594: RibWrapper2_ncl1_35
+    400596: RibWrapper2_ncl1_36
+    400598: RibWrapper2_ncl1_37
+    400600: RibWrapper2_ncl1_38
+    400602: RibWrapper2_ncl1_39
+    400604: RibWrapper2_ncl1_4
+    400606: RibWrapper2_ncl1_40
+    400608: RibWrapper2_ncl1_41
+    400610: RibWrapper2_ncl1_42
+    400612: RibWrapper2_ncl1_43
+    400614: RibWrapper2_ncl1_44
+    400616: RibWrapper2_ncl1_45
+    400618: RibWrapper2_ncl1_46
+    400620: RibWrapper2_ncl1_47
+    400622: RibWrapper2_ncl1_5
+    400624: RibWrapper2_ncl1_6
+    400626: RibWrapper2_ncl1_7
+    400628: RibWrapper2_ncl1_8
+    400630: RibWrapper2_ncl1_9
+    400632: RibWrapper3
+    400634: RibWrapper3_ncl1_1
+    400636: RibWrapper3_ncl1_10
+    400638: RibWrapper3_ncl1_11
+    400640: RibWrapper3_ncl1_2
+    400642: RibWrapper3_ncl1_3
+    400644: RibWrapper3_ncl1_4
+    400646: RibWrapper3_ncl1_5
+    400648: RibWrapper3_ncl1_6
+    400650: RibWrapper3_ncl1_7
+    400652: RibWrapper3_ncl1_8
+    400654: RibWrapper3_ncl1_9
+    400656: RibWrapper4
+    400658: RibWrapper4_ncl1_1
+    400660: RibWrapper4_ncl1_10
+    400662: RibWrapper4_ncl1_11
+    400664: RibWrapper4_ncl1_2
+    400666: RibWrapper4_ncl1_3
+    400668: RibWrapper4_ncl1_4
+    400670: RibWrapper4_ncl1_5
+    400672: RibWrapper4_ncl1_6
+    400674: RibWrapper4_ncl1_7
+    400676: RibWrapper4_ncl1_8
+    400678: RibWrapper4_ncl1_9
+    400680: RibWrapper5
+    400682: RibWrapper5_ncl1_1
+    400684: RibWrapper5_ncl1_10
+    400686: RibWrapper5_ncl1_11
+    400688: RibWrapper5_ncl1_2
+    400690: RibWrapper5_ncl1_3
+    400692: RibWrapper5_ncl1_4
+    400694: RibWrapper5_ncl1_5
+    400696: RibWrapper5_ncl1_6
+    400698: RibWrapper5_ncl1_7
+    400700: RibWrapper5_ncl1_8
+    400702: RibWrapper5_ncl1_9
+    400704: RibWrapper6
+    400706: RibWrapper6_ncl1_1
+    400708: RibWrapper6_ncl1_10
+    400710: RibWrapper6_ncl1_11
+    400712: RibWrapper6_ncl1_2
+    400714: RibWrapper6_ncl1_3
+    400716: RibWrapper6_ncl1_4
+    400718: RibWrapper6_ncl1_5
+    400720: RibWrapper6_ncl1_6
+    400722: RibWrapper6_ncl1_7
+    400724: RibWrapper6_ncl1_8
+    400726: RibWrapper6_ncl1_9
+    400728: RibWrapper_ncl1_1
+    400730: RibWrapper_ncl1_10
+    400732: RibWrapper_ncl1_11
+    400734: RibWrapper_ncl1_2
+    400736: RibWrapper_ncl1_3
+    400738: RibWrapper_ncl1_4
+    400740: RibWrapper_ncl1_5
+    400742: RibWrapper_ncl1_6
+    400744: RibWrapper_ncl1_7
+    400746: RibWrapper_ncl1_8
+    400748: RibWrapper_ncl1_9
+    400750: Scissors1
+    400752: Scissors1_ncl1_1
+    400754: Scissors1_ncl1_2
+    400756: Scissors1_ncl1_3
+    400758: Scissors1_ncl1_4
+    400760: Scissors1_ncl1_5
+    400762: Scissors2
+    400764: Scissors2_ncl1_1
+    400766: Scissors2_ncl1_2
+    400768: Scissors2_ncl1_3
+    400770: Scissors2_ncl1_4
+    400772: Scissors2_ncl1_5
+    400774: //RootNode
+    400776: Skylab_SolarPanel2
+    400778: Solar_Direction_1
+    400780: Solar_Direction_2
+    400782: SolarCover
+    400784: SolarWing
+    400786: SolarWing_RotateA
+    400788: SolarWing_RotateB
+    400790: SolarWingHinge
+    400792: sunCatcher
+    400794: sunCatcher_ncl1_1
+    2300000: Cell1
+    2300002: Cell10
+    2300004: Cell10_ncl1_1
+    2300006: Cell10_ncl1_2
+    2300008: Cell10_ncl1_3
+    2300010: Cell10_ncl1_4
+    2300012: Cell10_ncl1_5
+    2300014: Cell11
+    2300016: Cell11_ncl1_1
+    2300018: Cell11_ncl1_2
+    2300020: Cell11_ncl1_3
+    2300022: Cell11_ncl1_4
+    2300024: Cell11_ncl1_5
+    2300026: Cell12
+    2300028: Cell12_ncl1_1
+    2300030: Cell12_ncl1_2
+    2300032: Cell12_ncl1_3
+    2300034: Cell12_ncl1_4
+    2300036: Cell12_ncl1_5
+    2300038: Cell1_ncl1_1
+    2300040: Cell1_ncl1_2
+    2300042: Cell1_ncl1_3
+    2300044: Cell1_ncl1_4
+    2300046: Cell1_ncl1_5
+    2300048: Cell2
+    2300050: Cell2_ncl1_1
+    2300052: Cell2_ncl1_2
+    2300054: Cell2_ncl1_3
+    2300056: Cell2_ncl1_4
+    2300058: Cell2_ncl1_5
+    2300060: Cell3
+    2300062: Cell3_ncl1_1
+    2300064: Cell3_ncl1_10
+    2300066: Cell3_ncl1_11
+    2300068: Cell3_ncl1_2
+    2300070: Cell3_ncl1_3
+    2300072: Cell3_ncl1_4
+    2300074: Cell3_ncl1_5
+    2300076: Cell3_ncl1_6
+    2300078: Cell3_ncl1_7
+    2300080: Cell3_ncl1_8
+    2300082: Cell3_ncl1_9
+    2300084: Cell4
+    2300086: Cell4_ncl1_1
+    2300088: Cell4_ncl1_10
+    2300090: Cell4_ncl1_11
+    2300092: Cell4_ncl1_2
+    2300094: Cell4_ncl1_3
+    2300096: Cell4_ncl1_4
+    2300098: Cell4_ncl1_5
+    2300100: Cell4_ncl1_6
+    2300102: Cell4_ncl1_7
+    2300104: Cell4_ncl1_8
+    2300106: Cell4_ncl1_9
+    2300108: Cell5
+    2300110: Cell5_ncl1_1
+    2300112: Cell5_ncl1_10
+    2300114: Cell5_ncl1_11
+    2300116: Cell5_ncl1_2
+    2300118: Cell5_ncl1_3
+    2300120: Cell5_ncl1_4
+    2300122: Cell5_ncl1_5
+    2300124: Cell5_ncl1_6
+    2300126: Cell5_ncl1_7
+    2300128: Cell5_ncl1_8
+    2300130: Cell5_ncl1_9
+    2300132: Cell6
+    2300134: Cell6_ncl1_1
+    2300136: Cell6_ncl1_10
+    2300138: Cell6_ncl1_11
+    2300140: Cell6_ncl1_2
+    2300142: Cell6_ncl1_3
+    2300144: Cell6_ncl1_4
+    2300146: Cell6_ncl1_5
+    2300148: Cell6_ncl1_6
+    2300150: Cell6_ncl1_7
+    2300152: Cell6_ncl1_8
+    2300154: Cell6_ncl1_9
+    2300156: Cell7
+    2300158: Cell7_ncl1_1
+    2300160: Cell7_ncl1_10
+    2300162: Cell7_ncl1_11
+    2300164: Cell7_ncl1_2
+    2300166: Cell7_ncl1_3
+    2300168: Cell7_ncl1_4
+    2300170: Cell7_ncl1_5
+    2300172: Cell7_ncl1_6
+    2300174: Cell7_ncl1_7
+    2300176: Cell7_ncl1_8
+    2300178: Cell7_ncl1_9
+    2300180: Cell8
+    2300182: Cell8_ncl1_1
+    2300184: Cell8_ncl1_10
+    2300186: Cell8_ncl1_11
+    2300188: Cell8_ncl1_12
+    2300190: Cell8_ncl1_13
+    2300192: Cell8_ncl1_14
+    2300194: Cell8_ncl1_15
+    2300196: Cell8_ncl1_16
+    2300198: Cell8_ncl1_17
+    2300200: Cell8_ncl1_18
+    2300202: Cell8_ncl1_19
+    2300204: Cell8_ncl1_2
+    2300206: Cell8_ncl1_20
+    2300208: Cell8_ncl1_21
+    2300210: Cell8_ncl1_22
+    2300212: Cell8_ncl1_23
+    2300214: Cell8_ncl1_3
+    2300216: Cell8_ncl1_4
+    2300218: Cell8_ncl1_5
+    2300220: Cell8_ncl1_6
+    2300222: Cell8_ncl1_7
+    2300224: Cell8_ncl1_8
+    2300226: Cell8_ncl1_9
+    2300228: Cell9
+    2300230: Cell9_ncl1_1
+    2300232: Cell9_ncl1_2
+    2300234: Cell9_ncl1_3
+    2300236: Cell9_ncl1_4
+    2300238: Cell9_ncl1_5
+    2300240: Collider
+    2300242: Collider2
+    2300244: Collider3
+    2300246: pCube35
+    2300248: pCube35_ncl1_1
+    2300250: pCube35_ncl1_10
+    2300252: pCube35_ncl1_100
+    2300254: pCube35_ncl1_101
+    2300256: pCube35_ncl1_102
+    2300258: pCube35_ncl1_103
+    2300260: pCube35_ncl1_104
+    2300262: pCube35_ncl1_105
+    2300264: pCube35_ncl1_106
+    2300266: pCube35_ncl1_107
+    2300268: pCube35_ncl1_108
+    2300270: pCube35_ncl1_109
+    2300272: pCube35_ncl1_11
+    2300274: pCube35_ncl1_110
+    2300276: pCube35_ncl1_111
+    2300278: pCube35_ncl1_112
+    2300280: pCube35_ncl1_113
+    2300282: pCube35_ncl1_114
+    2300284: pCube35_ncl1_115
+    2300286: pCube35_ncl1_116
+    2300288: pCube35_ncl1_117
+    2300290: pCube35_ncl1_118
+    2300292: pCube35_ncl1_119
+    2300294: pCube35_ncl1_12
+    2300296: pCube35_ncl1_13
+    2300298: pCube35_ncl1_14
+    2300300: pCube35_ncl1_15
+    2300302: pCube35_ncl1_16
+    2300304: pCube35_ncl1_17
+    2300306: pCube35_ncl1_18
+    2300308: pCube35_ncl1_19
+    2300310: pCube35_ncl1_2
+    2300312: pCube35_ncl1_20
+    2300314: pCube35_ncl1_21
+    2300316: pCube35_ncl1_22
+    2300318: pCube35_ncl1_23
+    2300320: pCube35_ncl1_24
+    2300322: pCube35_ncl1_25
+    2300324: pCube35_ncl1_26
+    2300326: pCube35_ncl1_27
+    2300328: pCube35_ncl1_28
+    2300330: pCube35_ncl1_29
+    2300332: pCube35_ncl1_3
+    2300334: pCube35_ncl1_30
+    2300336: pCube35_ncl1_31
+    2300338: pCube35_ncl1_32
+    2300340: pCube35_ncl1_33
+    2300342: pCube35_ncl1_34
+    2300344: pCube35_ncl1_35
+    2300346: pCube35_ncl1_36
+    2300348: pCube35_ncl1_37
+    2300350: pCube35_ncl1_38
+    2300352: pCube35_ncl1_39
+    2300354: pCube35_ncl1_4
+    2300356: pCube35_ncl1_40
+    2300358: pCube35_ncl1_41
+    2300360: pCube35_ncl1_42
+    2300362: pCube35_ncl1_43
+    2300364: pCube35_ncl1_44
+    2300366: pCube35_ncl1_45
+    2300368: pCube35_ncl1_46
+    2300370: pCube35_ncl1_47
+    2300372: pCube35_ncl1_48
+    2300374: pCube35_ncl1_49
+    2300376: pCube35_ncl1_5
+    2300378: pCube35_ncl1_50
+    2300380: pCube35_ncl1_51
+    2300382: pCube35_ncl1_52
+    2300384: pCube35_ncl1_53
+    2300386: pCube35_ncl1_54
+    2300388: pCube35_ncl1_55
+    2300390: pCube35_ncl1_56
+    2300392: pCube35_ncl1_57
+    2300394: pCube35_ncl1_58
+    2300396: pCube35_ncl1_59
+    2300398: pCube35_ncl1_6
+    2300400: pCube35_ncl1_60
+    2300402: pCube35_ncl1_61
+    2300404: pCube35_ncl1_62
+    2300406: pCube35_ncl1_63
+    2300408: pCube35_ncl1_64
+    2300410: pCube35_ncl1_65
+    2300412: pCube35_ncl1_66
+    2300414: pCube35_ncl1_67
+    2300416: pCube35_ncl1_68
+    2300418: pCube35_ncl1_69
+    2300420: pCube35_ncl1_7
+    2300422: pCube35_ncl1_70
+    2300424: pCube35_ncl1_71
+    2300426: pCube35_ncl1_72
+    2300428: pCube35_ncl1_73
+    2300430: pCube35_ncl1_74
+    2300432: pCube35_ncl1_75
+    2300434: pCube35_ncl1_76
+    2300436: pCube35_ncl1_77
+    2300438: pCube35_ncl1_78
+    2300440: pCube35_ncl1_79
+    2300442: pCube35_ncl1_8
+    2300444: pCube35_ncl1_80
+    2300446: pCube35_ncl1_81
+    2300448: pCube35_ncl1_82
+    2300450: pCube35_ncl1_83
+    2300452: pCube35_ncl1_84
+    2300454: pCube35_ncl1_85
+    2300456: pCube35_ncl1_86
+    2300458: pCube35_ncl1_87
+    2300460: pCube35_ncl1_88
+    2300462: pCube35_ncl1_89
+    2300464: pCube35_ncl1_9
+    2300466: pCube35_ncl1_90
+    2300468: pCube35_ncl1_91
+    2300470: pCube35_ncl1_92
+    2300472: pCube35_ncl1_93
+    2300474: pCube35_ncl1_94
+    2300476: pCube35_ncl1_95
+    2300478: pCube35_ncl1_96
+    2300480: pCube35_ncl1_97
+    2300482: pCube35_ncl1_98
+    2300484: pCube35_ncl1_99
+    2300486: SolarCover
+    2300488: SolarWing
+    2300490: SolarWingHinge
+    3300000: Cell1
+    3300002: Cell10
+    3300004: Cell10_ncl1_1
+    3300006: Cell10_ncl1_2
+    3300008: Cell10_ncl1_3
+    3300010: Cell10_ncl1_4
+    3300012: Cell10_ncl1_5
+    3300014: Cell11
+    3300016: Cell11_ncl1_1
+    3300018: Cell11_ncl1_2
+    3300020: Cell11_ncl1_3
+    3300022: Cell11_ncl1_4
+    3300024: Cell11_ncl1_5
+    3300026: Cell12
+    3300028: Cell12_ncl1_1
+    3300030: Cell12_ncl1_2
+    3300032: Cell12_ncl1_3
+    3300034: Cell12_ncl1_4
+    3300036: Cell12_ncl1_5
+    3300038: Cell1_ncl1_1
+    3300040: Cell1_ncl1_2
+    3300042: Cell1_ncl1_3
+    3300044: Cell1_ncl1_4
+    3300046: Cell1_ncl1_5
+    3300048: Cell2
+    3300050: Cell2_ncl1_1
+    3300052: Cell2_ncl1_2
+    3300054: Cell2_ncl1_3
+    3300056: Cell2_ncl1_4
+    3300058: Cell2_ncl1_5
+    3300060: Cell3
+    3300062: Cell3_ncl1_1
+    3300064: Cell3_ncl1_10
+    3300066: Cell3_ncl1_11
+    3300068: Cell3_ncl1_2
+    3300070: Cell3_ncl1_3
+    3300072: Cell3_ncl1_4
+    3300074: Cell3_ncl1_5
+    3300076: Cell3_ncl1_6
+    3300078: Cell3_ncl1_7
+    3300080: Cell3_ncl1_8
+    3300082: Cell3_ncl1_9
+    3300084: Cell4
+    3300086: Cell4_ncl1_1
+    3300088: Cell4_ncl1_10
+    3300090: Cell4_ncl1_11
+    3300092: Cell4_ncl1_2
+    3300094: Cell4_ncl1_3
+    3300096: Cell4_ncl1_4
+    3300098: Cell4_ncl1_5
+    3300100: Cell4_ncl1_6
+    3300102: Cell4_ncl1_7
+    3300104: Cell4_ncl1_8
+    3300106: Cell4_ncl1_9
+    3300108: Cell5
+    3300110: Cell5_ncl1_1
+    3300112: Cell5_ncl1_10
+    3300114: Cell5_ncl1_11
+    3300116: Cell5_ncl1_2
+    3300118: Cell5_ncl1_3
+    3300120: Cell5_ncl1_4
+    3300122: Cell5_ncl1_5
+    3300124: Cell5_ncl1_6
+    3300126: Cell5_ncl1_7
+    3300128: Cell5_ncl1_8
+    3300130: Cell5_ncl1_9
+    3300132: Cell6
+    3300134: Cell6_ncl1_1
+    3300136: Cell6_ncl1_10
+    3300138: Cell6_ncl1_11
+    3300140: Cell6_ncl1_2
+    3300142: Cell6_ncl1_3
+    3300144: Cell6_ncl1_4
+    3300146: Cell6_ncl1_5
+    3300148: Cell6_ncl1_6
+    3300150: Cell6_ncl1_7
+    3300152: Cell6_ncl1_8
+    3300154: Cell6_ncl1_9
+    3300156: Cell7
+    3300158: Cell7_ncl1_1
+    3300160: Cell7_ncl1_10
+    3300162: Cell7_ncl1_11
+    3300164: Cell7_ncl1_2
+    3300166: Cell7_ncl1_3
+    3300168: Cell7_ncl1_4
+    3300170: Cell7_ncl1_5
+    3300172: Cell7_ncl1_6
+    3300174: Cell7_ncl1_7
+    3300176: Cell7_ncl1_8
+    3300178: Cell7_ncl1_9
+    3300180: Cell8
+    3300182: Cell8_ncl1_1
+    3300184: Cell8_ncl1_10
+    3300186: Cell8_ncl1_11
+    3300188: Cell8_ncl1_12
+    3300190: Cell8_ncl1_13
+    3300192: Cell8_ncl1_14
+    3300194: Cell8_ncl1_15
+    3300196: Cell8_ncl1_16
+    3300198: Cell8_ncl1_17
+    3300200: Cell8_ncl1_18
+    3300202: Cell8_ncl1_19
+    3300204: Cell8_ncl1_2
+    3300206: Cell8_ncl1_20
+    3300208: Cell8_ncl1_21
+    3300210: Cell8_ncl1_22
+    3300212: Cell8_ncl1_23
+    3300214: Cell8_ncl1_3
+    3300216: Cell8_ncl1_4
+    3300218: Cell8_ncl1_5
+    3300220: Cell8_ncl1_6
+    3300222: Cell8_ncl1_7
+    3300224: Cell8_ncl1_8
+    3300226: Cell8_ncl1_9
+    3300228: Cell9
+    3300230: Cell9_ncl1_1
+    3300232: Cell9_ncl1_2
+    3300234: Cell9_ncl1_3
+    3300236: Cell9_ncl1_4
+    3300238: Cell9_ncl1_5
+    3300240: Collider
+    3300242: Collider2
+    3300244: Collider3
+    3300246: pCube35
+    3300248: pCube35_ncl1_1
+    3300250: pCube35_ncl1_10
+    3300252: pCube35_ncl1_100
+    3300254: pCube35_ncl1_101
+    3300256: pCube35_ncl1_102
+    3300258: pCube35_ncl1_103
+    3300260: pCube35_ncl1_104
+    3300262: pCube35_ncl1_105
+    3300264: pCube35_ncl1_106
+    3300266: pCube35_ncl1_107
+    3300268: pCube35_ncl1_108
+    3300270: pCube35_ncl1_109
+    3300272: pCube35_ncl1_11
+    3300274: pCube35_ncl1_110
+    3300276: pCube35_ncl1_111
+    3300278: pCube35_ncl1_112
+    3300280: pCube35_ncl1_113
+    3300282: pCube35_ncl1_114
+    3300284: pCube35_ncl1_115
+    3300286: pCube35_ncl1_116
+    3300288: pCube35_ncl1_117
+    3300290: pCube35_ncl1_118
+    3300292: pCube35_ncl1_119
+    3300294: pCube35_ncl1_12
+    3300296: pCube35_ncl1_13
+    3300298: pCube35_ncl1_14
+    3300300: pCube35_ncl1_15
+    3300302: pCube35_ncl1_16
+    3300304: pCube35_ncl1_17
+    3300306: pCube35_ncl1_18
+    3300308: pCube35_ncl1_19
+    3300310: pCube35_ncl1_2
+    3300312: pCube35_ncl1_20
+    3300314: pCube35_ncl1_21
+    3300316: pCube35_ncl1_22
+    3300318: pCube35_ncl1_23
+    3300320: pCube35_ncl1_24
+    3300322: pCube35_ncl1_25
+    3300324: pCube35_ncl1_26
+    3300326: pCube35_ncl1_27
+    3300328: pCube35_ncl1_28
+    3300330: pCube35_ncl1_29
+    3300332: pCube35_ncl1_3
+    3300334: pCube35_ncl1_30
+    3300336: pCube35_ncl1_31
+    3300338: pCube35_ncl1_32
+    3300340: pCube35_ncl1_33
+    3300342: pCube35_ncl1_34
+    3300344: pCube35_ncl1_35
+    3300346: pCube35_ncl1_36
+    3300348: pCube35_ncl1_37
+    3300350: pCube35_ncl1_38
+    3300352: pCube35_ncl1_39
+    3300354: pCube35_ncl1_4
+    3300356: pCube35_ncl1_40
+    3300358: pCube35_ncl1_41
+    3300360: pCube35_ncl1_42
+    3300362: pCube35_ncl1_43
+    3300364: pCube35_ncl1_44
+    3300366: pCube35_ncl1_45
+    3300368: pCube35_ncl1_46
+    3300370: pCube35_ncl1_47
+    3300372: pCube35_ncl1_48
+    3300374: pCube35_ncl1_49
+    3300376: pCube35_ncl1_5
+    3300378: pCube35_ncl1_50
+    3300380: pCube35_ncl1_51
+    3300382: pCube35_ncl1_52
+    3300384: pCube35_ncl1_53
+    3300386: pCube35_ncl1_54
+    3300388: pCube35_ncl1_55
+    3300390: pCube35_ncl1_56
+    3300392: pCube35_ncl1_57
+    3300394: pCube35_ncl1_58
+    3300396: pCube35_ncl1_59
+    3300398: pCube35_ncl1_6
+    3300400: pCube35_ncl1_60
+    3300402: pCube35_ncl1_61
+    3300404: pCube35_ncl1_62
+    3300406: pCube35_ncl1_63
+    3300408: pCube35_ncl1_64
+    3300410: pCube35_ncl1_65
+    3300412: pCube35_ncl1_66
+    3300414: pCube35_ncl1_67
+    3300416: pCube35_ncl1_68
+    3300418: pCube35_ncl1_69
+    3300420: pCube35_ncl1_7
+    3300422: pCube35_ncl1_70
+    3300424: pCube35_ncl1_71
+    3300426: pCube35_ncl1_72
+    3300428: pCube35_ncl1_73
+    3300430: pCube35_ncl1_74
+    3300432: pCube35_ncl1_75
+    3300434: pCube35_ncl1_76
+    3300436: pCube35_ncl1_77
+    3300438: pCube35_ncl1_78
+    3300440: pCube35_ncl1_79
+    3300442: pCube35_ncl1_8
+    3300444: pCube35_ncl1_80
+    3300446: pCube35_ncl1_81
+    3300448: pCube35_ncl1_82
+    3300450: pCube35_ncl1_83
+    3300452: pCube35_ncl1_84
+    3300454: pCube35_ncl1_85
+    3300456: pCube35_ncl1_86
+    3300458: pCube35_ncl1_87
+    3300460: pCube35_ncl1_88
+    3300462: pCube35_ncl1_89
+    3300464: pCube35_ncl1_9
+    3300466: pCube35_ncl1_90
+    3300468: pCube35_ncl1_91
+    3300470: pCube35_ncl1_92
+    3300472: pCube35_ncl1_93
+    3300474: pCube35_ncl1_94
+    3300476: pCube35_ncl1_95
+    3300478: pCube35_ncl1_96
+    3300480: pCube35_ncl1_97
+    3300482: pCube35_ncl1_98
+    3300484: pCube35_ncl1_99
+    3300486: SolarCover
+    3300488: SolarWing
+    3300490: SolarWingHinge
+    4300000: SolarCover
+    4300002: SolarWingHinge
+    4300004: SolarWing
+    4300006: pCube35
+    4300008: pCube35_ncl1_1
+    4300010: pCube35_ncl1_2
+    4300012: pCube35_ncl1_3
+    4300014: pCube35_ncl1_4
+    4300016: pCube35_ncl1_5
+    4300018: pCube35_ncl1_6
+    4300020: pCube35_ncl1_7
+    4300022: pCube35_ncl1_8
+    4300024: pCube35_ncl1_9
+    4300026: Cell1
+    4300028: Cell2
+    4300030: Cell3
+    4300032: Cell4
+    4300034: Cell5
+    4300036: Cell6
+    4300038: Cell7
+    4300040: Cell8
+    4300042: Cell9
+    4300044: Cell10
+    4300046: Cell3_ncl1_1
+    4300048: Cell4_ncl1_1
+    4300050: Cell5_ncl1_1
+    4300052: Cell6_ncl1_1
+    4300054: Cell7_ncl1_1
+    4300056: Cell8_ncl1_1
+    4300058: Cell11
+    4300060: Cell8_ncl1_2
+    4300062: Cell12
+    4300064: Cell8_ncl1_3
+    4300066: pCube35_ncl1_10
+    4300068: pCube35_ncl1_11
+    4300070: pCube35_ncl1_12
+    4300072: pCube35_ncl1_13
+    4300074: pCube35_ncl1_14
+    4300076: pCube35_ncl1_15
+    4300078: pCube35_ncl1_16
+    4300080: pCube35_ncl1_17
+    4300082: pCube35_ncl1_18
+    4300084: pCube35_ncl1_19
+    4300086: pCube35_ncl1_20
+    4300088: pCube35_ncl1_21
+    4300090: pCube35_ncl1_22
+    4300092: pCube35_ncl1_23
+    4300094: pCube35_ncl1_24
+    4300096: pCube35_ncl1_25
+    4300098: pCube35_ncl1_26
+    4300100: pCube35_ncl1_27
+    4300102: pCube35_ncl1_28
+    4300104: pCube35_ncl1_29
+    4300106: Cell1_ncl1_1
+    4300108: Cell2_ncl1_1
+    4300110: Cell3_ncl1_2
+    4300112: Cell4_ncl1_2
+    4300114: Cell5_ncl1_2
+    4300116: Cell6_ncl1_2
+    4300118: Cell7_ncl1_2
+    4300120: Cell8_ncl1_4
+    4300122: Cell9_ncl1_1
+    4300124: Cell10_ncl1_1
+    4300126: Cell3_ncl1_3
+    4300128: Cell4_ncl1_3
+    4300130: Cell5_ncl1_3
+    4300132: Cell6_ncl1_3
+    4300134: Cell7_ncl1_3
+    4300136: Cell8_ncl1_5
+    4300138: Cell11_ncl1_1
+    4300140: Cell8_ncl1_6
+    4300142: Cell12_ncl1_1
+    4300144: Cell8_ncl1_7
+    4300146: pCube35_ncl1_30
+    4300148: pCube35_ncl1_31
+    4300150: pCube35_ncl1_32
+    4300152: pCube35_ncl1_33
+    4300154: pCube35_ncl1_34
+    4300156: pCube35_ncl1_35
+    4300158: pCube35_ncl1_36
+    4300160: pCube35_ncl1_37
+    4300162: pCube35_ncl1_38
+    4300164: pCube35_ncl1_39
+    4300166: pCube35_ncl1_40
+    4300168: pCube35_ncl1_41
+    4300170: pCube35_ncl1_42
+    4300172: pCube35_ncl1_43
+    4300174: pCube35_ncl1_44
+    4300176: pCube35_ncl1_45
+    4300178: pCube35_ncl1_46
+    4300180: pCube35_ncl1_47
+    4300182: pCube35_ncl1_48
+    4300184: pCube35_ncl1_49
+    4300186: Cell1_ncl1_2
+    4300188: Cell2_ncl1_2
+    4300190: Cell3_ncl1_4
+    4300192: Cell4_ncl1_4
+    4300194: Cell5_ncl1_4
+    4300196: Cell6_ncl1_4
+    4300198: Cell7_ncl1_4
+    4300200: Cell8_ncl1_8
+    4300202: Cell9_ncl1_2
+    4300204: Cell10_ncl1_2
+    4300206: Cell3_ncl1_5
+    4300208: Cell4_ncl1_5
+    4300210: Cell5_ncl1_5
+    4300212: Cell6_ncl1_5
+    4300214: Cell7_ncl1_5
+    4300216: Cell8_ncl1_9
+    4300218: Cell11_ncl1_2
+    4300220: Cell8_ncl1_10
+    4300222: Cell12_ncl1_2
+    4300224: Cell8_ncl1_11
+    4300226: pCube35_ncl1_50
+    4300228: pCube35_ncl1_51
+    4300230: pCube35_ncl1_52
+    4300232: pCube35_ncl1_53
+    4300234: pCube35_ncl1_54
+    4300236: pCube35_ncl1_55
+    4300238: pCube35_ncl1_56
+    4300240: pCube35_ncl1_57
+    4300242: pCube35_ncl1_58
+    4300244: pCube35_ncl1_59
+    4300246: pCube35_ncl1_60
+    4300248: pCube35_ncl1_61
+    4300250: pCube35_ncl1_62
+    4300252: pCube35_ncl1_63
+    4300254: pCube35_ncl1_64
+    4300256: pCube35_ncl1_65
+    4300258: pCube35_ncl1_66
+    4300260: pCube35_ncl1_67
+    4300262: pCube35_ncl1_68
+    4300264: pCube35_ncl1_69
+    4300266: Cell1_ncl1_3
+    4300268: Cell2_ncl1_3
+    4300270: Cell3_ncl1_6
+    4300272: Cell4_ncl1_6
+    4300274: Cell5_ncl1_6
+    4300276: Cell6_ncl1_6
+    4300278: Cell7_ncl1_6
+    4300280: Cell8_ncl1_12
+    4300282: Cell9_ncl1_3
+    4300284: Cell10_ncl1_3
+    4300286: Cell3_ncl1_7
+    4300288: Cell4_ncl1_7
+    4300290: Cell5_ncl1_7
+    4300292: Cell6_ncl1_7
+    4300294: Cell7_ncl1_7
+    4300296: Cell8_ncl1_13
+    4300298: Cell11_ncl1_3
+    4300300: Cell8_ncl1_14
+    4300302: Cell12_ncl1_3
+    4300304: Cell8_ncl1_15
+    4300306: pCube35_ncl1_70
+    4300308: pCube35_ncl1_71
+    4300310: pCube35_ncl1_72
+    4300312: pCube35_ncl1_73
+    4300314: pCube35_ncl1_74
+    4300316: pCube35_ncl1_75
+    4300318: pCube35_ncl1_76
+    4300320: pCube35_ncl1_77
+    4300322: pCube35_ncl1_78
+    4300324: pCube35_ncl1_79
+    4300326: pCube35_ncl1_80
+    4300328: pCube35_ncl1_81
+    4300330: pCube35_ncl1_82
+    4300332: pCube35_ncl1_83
+    4300334: pCube35_ncl1_84
+    4300336: pCube35_ncl1_85
+    4300338: pCube35_ncl1_86
+    4300340: pCube35_ncl1_87
+    4300342: pCube35_ncl1_88
+    4300344: pCube35_ncl1_89
+    4300346: Cell1_ncl1_4
+    4300348: Cell2_ncl1_4
+    4300350: Cell3_ncl1_8
+    4300352: Cell4_ncl1_8
+    4300354: Cell5_ncl1_8
+    4300356: Cell6_ncl1_8
+    4300358: Cell7_ncl1_8
+    4300360: Cell8_ncl1_16
+    4300362: Cell9_ncl1_4
+    4300364: Cell10_ncl1_4
+    4300366: Cell3_ncl1_9
+    4300368: Cell4_ncl1_9
+    4300370: Cell5_ncl1_9
+    4300372: Cell6_ncl1_9
+    4300374: Cell7_ncl1_9
+    4300376: Cell8_ncl1_17
+    4300378: Cell11_ncl1_4
+    4300380: Cell8_ncl1_18
+    4300382: Cell12_ncl1_4
+    4300384: Cell8_ncl1_19
+    4300386: pCube35_ncl1_90
+    4300388: pCube35_ncl1_91
+    4300390: pCube35_ncl1_92
+    4300392: pCube35_ncl1_93
+    4300394: pCube35_ncl1_94
+    4300396: pCube35_ncl1_95
+    4300398: pCube35_ncl1_96
+    4300400: pCube35_ncl1_97
+    4300402: pCube35_ncl1_98
+    4300404: pCube35_ncl1_99
+    4300406: pCube35_ncl1_100
+    4300408: pCube35_ncl1_101
+    4300410: pCube35_ncl1_102
+    4300412: pCube35_ncl1_103
+    4300414: pCube35_ncl1_104
+    4300416: pCube35_ncl1_105
+    4300418: pCube35_ncl1_106
+    4300420: pCube35_ncl1_107
+    4300422: pCube35_ncl1_108
+    4300424: pCube35_ncl1_109
+    4300426: Cell1_ncl1_5
+    4300428: Cell2_ncl1_5
+    4300430: Cell3_ncl1_10
+    4300432: Cell4_ncl1_10
+    4300434: Cell5_ncl1_10
+    4300436: Cell6_ncl1_10
+    4300438: Cell7_ncl1_10
+    4300440: Cell8_ncl1_20
+    4300442: Cell9_ncl1_5
+    4300444: Cell10_ncl1_5
+    4300446: Cell3_ncl1_11
+    4300448: Cell4_ncl1_11
+    4300450: Cell5_ncl1_11
+    4300452: Cell6_ncl1_11
+    4300454: Cell7_ncl1_11
+    4300456: Cell8_ncl1_21
+    4300458: Cell11_ncl1_5
+    4300460: Cell8_ncl1_22
+    4300462: Cell12_ncl1_5
+    4300464: Cell8_ncl1_23
+    4300466: pCube35_ncl1_110
+    4300468: pCube35_ncl1_111
+    4300470: pCube35_ncl1_112
+    4300472: pCube35_ncl1_113
+    4300474: pCube35_ncl1_114
+    4300476: pCube35_ncl1_115
+    4300478: pCube35_ncl1_116
+    4300480: pCube35_ncl1_117
+    4300482: pCube35_ncl1_118
+    4300484: pCube35_ncl1_119
+    4300486: Collider2
+    4300488: Collider3
+    4300490: Collider
+    7400000: extend
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: extend
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skylab_SolarPanel2
+        weight: 1
+      - path: Skylab_SolarPanel2/Collider
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Collider2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Collider3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8/Cell9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8/Cell9/Cell10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8/Cell9/Cell10/Cell3_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8/Cell9/Cell10/Cell3_ncl1_1/Cell4_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8/Cell9/Cell10/Cell3_ncl1_1/Cell4_ncl1_1/Cell5_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8/Cell9/Cell10/Cell3_ncl1_1/Cell4_ncl1_1/Cell5_ncl1_1/Cell6_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8/Cell9/Cell10/Cell3_ncl1_1/Cell4_ncl1_1/Cell5_ncl1_1/Cell6_ncl1_1/Cell7_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8/Cell9/Cell10/Cell3_ncl1_1/Cell4_ncl1_1/Cell5_ncl1_1/Cell6_ncl1_1/Cell7_ncl1_1/Cell8_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8/Cell9/Cell10/Cell3_ncl1_1/Cell4_ncl1_1/Cell5_ncl1_1/Cell6_ncl1_1/Cell7_ncl1_1/Cell8_ncl1_1/Cell11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8/Cell9/Cell10/Cell3_ncl1_1/Cell4_ncl1_1/Cell5_ncl1_1/Cell6_ncl1_1/Cell7_ncl1_1/Cell8_ncl1_1/Cell11/Cell8_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8/Cell9/Cell10/Cell3_ncl1_1/Cell4_ncl1_1/Cell5_ncl1_1/Cell6_ncl1_1/Cell7_ncl1_1/Cell8_ncl1_1/Cell11/Cell8_ncl1_2/Cell12
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/CellWrapper/Cell1/Cell2/Cell3/Cell4/Cell5/Cell6/Cell7/Cell8/Cell9/Cell10/Cell3_ncl1_1/Cell4_ncl1_1/Cell5_ncl1_1/Cell6_ncl1_1/Cell7_ncl1_1/Cell8_ncl1_1/Cell11/Cell8_ncl1_2/Cell12/Cell8_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/pCube35
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/pCube35_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/pCube35_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/pCube35_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/RibWrapper2_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/RibWrapper2_ncl1_1/pCube35_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/RibWrapper2_ncl1_1/RibWrapper4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/RibWrapper2_ncl1_1/RibWrapper4/pCube35_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/RibWrapper2_ncl1_1/RibWrapper4/RibWrapper2_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/RibWrapper2_ncl1_1/RibWrapper4/RibWrapper2_ncl1_2/pCube35_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/RibWrapper2_ncl1_1/RibWrapper4/RibWrapper2_ncl1_2/RibWrapper5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/RibWrapper2_ncl1_1/RibWrapper4/RibWrapper2_ncl1_2/RibWrapper5/pCube35_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/RibWrapper2_ncl1_1/RibWrapper4/RibWrapper2_ncl1_2/RibWrapper5/RibWrapper2_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/RibWrapper2_ncl1_1/RibWrapper4/RibWrapper2_ncl1_2/RibWrapper5/RibWrapper2_ncl1_3/pCube35_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/RibWrapper2_ncl1_1/RibWrapper4/RibWrapper2_ncl1_2/RibWrapper5/RibWrapper2_ncl1_3/RibWrapper6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors1/RibWrapper/RibWrapper1/RibWrapper2/RibWrapper3/RibWrapper2_ncl1_1/RibWrapper4/RibWrapper2_ncl1_2/RibWrapper5/RibWrapper2_ncl1_3/RibWrapper6/pCube35_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/pCube35_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/pCube35_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/pCube35_ncl1_12
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/pCube35_ncl1_13
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/RibWrapper2_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/RibWrapper2_ncl1_5/pCube35_ncl1_14
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/RibWrapper2_ncl1_5/RibWrapper4_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/RibWrapper2_ncl1_5/RibWrapper4_ncl1_1/pCube35_ncl1_15
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/RibWrapper2_ncl1_5/RibWrapper4_ncl1_1/RibWrapper2_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/RibWrapper2_ncl1_5/RibWrapper4_ncl1_1/RibWrapper2_ncl1_6/pCube35_ncl1_16
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/RibWrapper2_ncl1_5/RibWrapper4_ncl1_1/RibWrapper2_ncl1_6/RibWrapper5_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/RibWrapper2_ncl1_5/RibWrapper4_ncl1_1/RibWrapper2_ncl1_6/RibWrapper5_ncl1_1/pCube35_ncl1_17
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/RibWrapper2_ncl1_5/RibWrapper4_ncl1_1/RibWrapper2_ncl1_6/RibWrapper5_ncl1_1/RibWrapper2_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/RibWrapper2_ncl1_5/RibWrapper4_ncl1_1/RibWrapper2_ncl1_6/RibWrapper5_ncl1_1/RibWrapper2_ncl1_7/pCube35_ncl1_18
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/RibWrapper2_ncl1_5/RibWrapper4_ncl1_1/RibWrapper2_ncl1_6/RibWrapper5_ncl1_1/RibWrapper2_ncl1_7/RibWrapper6_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_1/Scissors2/RibWrapper_ncl1_1/RibWrapper1_ncl1_1/RibWrapper2_ncl1_4/RibWrapper3_ncl1_1/RibWrapper2_ncl1_5/RibWrapper4_ncl1_1/RibWrapper2_ncl1_6/RibWrapper5_ncl1_1/RibWrapper2_ncl1_7/RibWrapper6_ncl1_1/pCube35_ncl1_19
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4/Cell9_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4/Cell9_ncl1_1/Cell10_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4/Cell9_ncl1_1/Cell10_ncl1_1/Cell3_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4/Cell9_ncl1_1/Cell10_ncl1_1/Cell3_ncl1_3/Cell4_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4/Cell9_ncl1_1/Cell10_ncl1_1/Cell3_ncl1_3/Cell4_ncl1_3/Cell5_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4/Cell9_ncl1_1/Cell10_ncl1_1/Cell3_ncl1_3/Cell4_ncl1_3/Cell5_ncl1_3/Cell6_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4/Cell9_ncl1_1/Cell10_ncl1_1/Cell3_ncl1_3/Cell4_ncl1_3/Cell5_ncl1_3/Cell6_ncl1_3/Cell7_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4/Cell9_ncl1_1/Cell10_ncl1_1/Cell3_ncl1_3/Cell4_ncl1_3/Cell5_ncl1_3/Cell6_ncl1_3/Cell7_ncl1_3/Cell8_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4/Cell9_ncl1_1/Cell10_ncl1_1/Cell3_ncl1_3/Cell4_ncl1_3/Cell5_ncl1_3/Cell6_ncl1_3/Cell7_ncl1_3/Cell8_ncl1_5/Cell11_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4/Cell9_ncl1_1/Cell10_ncl1_1/Cell3_ncl1_3/Cell4_ncl1_3/Cell5_ncl1_3/Cell6_ncl1_3/Cell7_ncl1_3/Cell8_ncl1_5/Cell11_ncl1_1/Cell8_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4/Cell9_ncl1_1/Cell10_ncl1_1/Cell3_ncl1_3/Cell4_ncl1_3/Cell5_ncl1_3/Cell6_ncl1_3/Cell7_ncl1_3/Cell8_ncl1_5/Cell11_ncl1_1/Cell8_ncl1_6/Cell12_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/CellWrapper_ncl1_1/Cell1_ncl1_1/Cell2_ncl1_1/Cell3_ncl1_2/Cell4_ncl1_2/Cell5_ncl1_2/Cell6_ncl1_2/Cell7_ncl1_2/Cell8_ncl1_4/Cell9_ncl1_1/Cell10_ncl1_1/Cell3_ncl1_3/Cell4_ncl1_3/Cell5_ncl1_3/Cell6_ncl1_3/Cell7_ncl1_3/Cell8_ncl1_5/Cell11_ncl1_1/Cell8_ncl1_6/Cell12_ncl1_1/Cell8_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/pCube35_ncl1_20
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/pCube35_ncl1_21
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/pCube35_ncl1_22
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/pCube35_ncl1_23
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/RibWrapper2_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/RibWrapper2_ncl1_9/pCube35_ncl1_24
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/RibWrapper2_ncl1_9/RibWrapper4_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/RibWrapper2_ncl1_9/RibWrapper4_ncl1_2/pCube35_ncl1_25
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/RibWrapper2_ncl1_9/RibWrapper4_ncl1_2/RibWrapper2_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/RibWrapper2_ncl1_9/RibWrapper4_ncl1_2/RibWrapper2_ncl1_10/pCube35_ncl1_26
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/RibWrapper2_ncl1_9/RibWrapper4_ncl1_2/RibWrapper2_ncl1_10/RibWrapper5_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/RibWrapper2_ncl1_9/RibWrapper4_ncl1_2/RibWrapper2_ncl1_10/RibWrapper5_ncl1_2/pCube35_ncl1_27
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/RibWrapper2_ncl1_9/RibWrapper4_ncl1_2/RibWrapper2_ncl1_10/RibWrapper5_ncl1_2/RibWrapper2_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/RibWrapper2_ncl1_9/RibWrapper4_ncl1_2/RibWrapper2_ncl1_10/RibWrapper5_ncl1_2/RibWrapper2_ncl1_11/pCube35_ncl1_28
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/RibWrapper2_ncl1_9/RibWrapper4_ncl1_2/RibWrapper2_ncl1_10/RibWrapper5_ncl1_2/RibWrapper2_ncl1_11/RibWrapper6_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors1_ncl1_1/RibWrapper_ncl1_2/RibWrapper1_ncl1_2/RibWrapper2_ncl1_8/RibWrapper3_ncl1_2/RibWrapper2_ncl1_9/RibWrapper4_ncl1_2/RibWrapper2_ncl1_10/RibWrapper5_ncl1_2/RibWrapper2_ncl1_11/RibWrapper6_ncl1_2/pCube35_ncl1_29
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/pCube35_ncl1_30
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/pCube35_ncl1_31
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/pCube35_ncl1_32
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/pCube35_ncl1_33
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/RibWrapper2_ncl1_13
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/RibWrapper2_ncl1_13/pCube35_ncl1_34
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/RibWrapper2_ncl1_13/RibWrapper4_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/RibWrapper2_ncl1_13/RibWrapper4_ncl1_3/pCube35_ncl1_35
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/RibWrapper2_ncl1_13/RibWrapper4_ncl1_3/RibWrapper2_ncl1_14
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/RibWrapper2_ncl1_13/RibWrapper4_ncl1_3/RibWrapper2_ncl1_14/pCube35_ncl1_36
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/RibWrapper2_ncl1_13/RibWrapper4_ncl1_3/RibWrapper2_ncl1_14/RibWrapper5_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/RibWrapper2_ncl1_13/RibWrapper4_ncl1_3/RibWrapper2_ncl1_14/RibWrapper5_ncl1_3/pCube35_ncl1_37
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/RibWrapper2_ncl1_13/RibWrapper4_ncl1_3/RibWrapper2_ncl1_14/RibWrapper5_ncl1_3/RibWrapper2_ncl1_15
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/RibWrapper2_ncl1_13/RibWrapper4_ncl1_3/RibWrapper2_ncl1_14/RibWrapper5_ncl1_3/RibWrapper2_ncl1_15/pCube35_ncl1_38
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/RibWrapper2_ncl1_13/RibWrapper4_ncl1_3/RibWrapper2_ncl1_14/RibWrapper5_ncl1_3/RibWrapper2_ncl1_15/RibWrapper6_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_2/Scissors2_ncl1_1/RibWrapper_ncl1_3/RibWrapper1_ncl1_3/RibWrapper2_ncl1_12/RibWrapper3_ncl1_3/RibWrapper2_ncl1_13/RibWrapper4_ncl1_3/RibWrapper2_ncl1_14/RibWrapper5_ncl1_3/RibWrapper2_ncl1_15/RibWrapper6_ncl1_3/pCube35_ncl1_39
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8/Cell9_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8/Cell9_ncl1_2/Cell10_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8/Cell9_ncl1_2/Cell10_ncl1_2/Cell3_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8/Cell9_ncl1_2/Cell10_ncl1_2/Cell3_ncl1_5/Cell4_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8/Cell9_ncl1_2/Cell10_ncl1_2/Cell3_ncl1_5/Cell4_ncl1_5/Cell5_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8/Cell9_ncl1_2/Cell10_ncl1_2/Cell3_ncl1_5/Cell4_ncl1_5/Cell5_ncl1_5/Cell6_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8/Cell9_ncl1_2/Cell10_ncl1_2/Cell3_ncl1_5/Cell4_ncl1_5/Cell5_ncl1_5/Cell6_ncl1_5/Cell7_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8/Cell9_ncl1_2/Cell10_ncl1_2/Cell3_ncl1_5/Cell4_ncl1_5/Cell5_ncl1_5/Cell6_ncl1_5/Cell7_ncl1_5/Cell8_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8/Cell9_ncl1_2/Cell10_ncl1_2/Cell3_ncl1_5/Cell4_ncl1_5/Cell5_ncl1_5/Cell6_ncl1_5/Cell7_ncl1_5/Cell8_ncl1_9/Cell11_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8/Cell9_ncl1_2/Cell10_ncl1_2/Cell3_ncl1_5/Cell4_ncl1_5/Cell5_ncl1_5/Cell6_ncl1_5/Cell7_ncl1_5/Cell8_ncl1_9/Cell11_ncl1_2/Cell8_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8/Cell9_ncl1_2/Cell10_ncl1_2/Cell3_ncl1_5/Cell4_ncl1_5/Cell5_ncl1_5/Cell6_ncl1_5/Cell7_ncl1_5/Cell8_ncl1_9/Cell11_ncl1_2/Cell8_ncl1_10/Cell12_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/CellWrapper_ncl1_2/Cell1_ncl1_2/Cell2_ncl1_2/Cell3_ncl1_4/Cell4_ncl1_4/Cell5_ncl1_4/Cell6_ncl1_4/Cell7_ncl1_4/Cell8_ncl1_8/Cell9_ncl1_2/Cell10_ncl1_2/Cell3_ncl1_5/Cell4_ncl1_5/Cell5_ncl1_5/Cell6_ncl1_5/Cell7_ncl1_5/Cell8_ncl1_9/Cell11_ncl1_2/Cell8_ncl1_10/Cell12_ncl1_2/Cell8_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/pCube35_ncl1_40
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/pCube35_ncl1_41
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/pCube35_ncl1_42
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/pCube35_ncl1_43
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/RibWrapper2_ncl1_17
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/RibWrapper2_ncl1_17/pCube35_ncl1_44
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/RibWrapper2_ncl1_17/RibWrapper4_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/RibWrapper2_ncl1_17/RibWrapper4_ncl1_4/pCube35_ncl1_45
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/RibWrapper2_ncl1_17/RibWrapper4_ncl1_4/RibWrapper2_ncl1_18
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/RibWrapper2_ncl1_17/RibWrapper4_ncl1_4/RibWrapper2_ncl1_18/pCube35_ncl1_46
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/RibWrapper2_ncl1_17/RibWrapper4_ncl1_4/RibWrapper2_ncl1_18/RibWrapper5_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/RibWrapper2_ncl1_17/RibWrapper4_ncl1_4/RibWrapper2_ncl1_18/RibWrapper5_ncl1_4/pCube35_ncl1_47
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/RibWrapper2_ncl1_17/RibWrapper4_ncl1_4/RibWrapper2_ncl1_18/RibWrapper5_ncl1_4/RibWrapper2_ncl1_19
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/RibWrapper2_ncl1_17/RibWrapper4_ncl1_4/RibWrapper2_ncl1_18/RibWrapper5_ncl1_4/RibWrapper2_ncl1_19/pCube35_ncl1_48
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/RibWrapper2_ncl1_17/RibWrapper4_ncl1_4/RibWrapper2_ncl1_18/RibWrapper5_ncl1_4/RibWrapper2_ncl1_19/RibWrapper6_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors1_ncl1_2/RibWrapper_ncl1_4/RibWrapper1_ncl1_4/RibWrapper2_ncl1_16/RibWrapper3_ncl1_4/RibWrapper2_ncl1_17/RibWrapper4_ncl1_4/RibWrapper2_ncl1_18/RibWrapper5_ncl1_4/RibWrapper2_ncl1_19/RibWrapper6_ncl1_4/pCube35_ncl1_49
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/pCube35_ncl1_50
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/pCube35_ncl1_51
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/pCube35_ncl1_52
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/pCube35_ncl1_53
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/RibWrapper2_ncl1_21
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/RibWrapper2_ncl1_21/pCube35_ncl1_54
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/RibWrapper2_ncl1_21/RibWrapper4_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/RibWrapper2_ncl1_21/RibWrapper4_ncl1_5/pCube35_ncl1_55
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/RibWrapper2_ncl1_21/RibWrapper4_ncl1_5/RibWrapper2_ncl1_22
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/RibWrapper2_ncl1_21/RibWrapper4_ncl1_5/RibWrapper2_ncl1_22/pCube35_ncl1_56
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/RibWrapper2_ncl1_21/RibWrapper4_ncl1_5/RibWrapper2_ncl1_22/RibWrapper5_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/RibWrapper2_ncl1_21/RibWrapper4_ncl1_5/RibWrapper2_ncl1_22/RibWrapper5_ncl1_5/pCube35_ncl1_57
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/RibWrapper2_ncl1_21/RibWrapper4_ncl1_5/RibWrapper2_ncl1_22/RibWrapper5_ncl1_5/RibWrapper2_ncl1_23
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/RibWrapper2_ncl1_21/RibWrapper4_ncl1_5/RibWrapper2_ncl1_22/RibWrapper5_ncl1_5/RibWrapper2_ncl1_23/pCube35_ncl1_58
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/RibWrapper2_ncl1_21/RibWrapper4_ncl1_5/RibWrapper2_ncl1_22/RibWrapper5_ncl1_5/RibWrapper2_ncl1_23/RibWrapper6_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/CellSet_3/Scissors2_ncl1_2/RibWrapper_ncl1_5/RibWrapper1_ncl1_5/RibWrapper2_ncl1_20/RibWrapper3_ncl1_5/RibWrapper2_ncl1_21/RibWrapper4_ncl1_5/RibWrapper2_ncl1_22/RibWrapper5_ncl1_5/RibWrapper2_ncl1_23/RibWrapper6_ncl1_5/pCube35_ncl1_59
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_1/sunCatcher
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12/Cell9_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12/Cell9_ncl1_3/Cell10_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12/Cell9_ncl1_3/Cell10_ncl1_3/Cell3_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12/Cell9_ncl1_3/Cell10_ncl1_3/Cell3_ncl1_7/Cell4_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12/Cell9_ncl1_3/Cell10_ncl1_3/Cell3_ncl1_7/Cell4_ncl1_7/Cell5_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12/Cell9_ncl1_3/Cell10_ncl1_3/Cell3_ncl1_7/Cell4_ncl1_7/Cell5_ncl1_7/Cell6_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12/Cell9_ncl1_3/Cell10_ncl1_3/Cell3_ncl1_7/Cell4_ncl1_7/Cell5_ncl1_7/Cell6_ncl1_7/Cell7_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12/Cell9_ncl1_3/Cell10_ncl1_3/Cell3_ncl1_7/Cell4_ncl1_7/Cell5_ncl1_7/Cell6_ncl1_7/Cell7_ncl1_7/Cell8_ncl1_13
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12/Cell9_ncl1_3/Cell10_ncl1_3/Cell3_ncl1_7/Cell4_ncl1_7/Cell5_ncl1_7/Cell6_ncl1_7/Cell7_ncl1_7/Cell8_ncl1_13/Cell11_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12/Cell9_ncl1_3/Cell10_ncl1_3/Cell3_ncl1_7/Cell4_ncl1_7/Cell5_ncl1_7/Cell6_ncl1_7/Cell7_ncl1_7/Cell8_ncl1_13/Cell11_ncl1_3/Cell8_ncl1_14
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12/Cell9_ncl1_3/Cell10_ncl1_3/Cell3_ncl1_7/Cell4_ncl1_7/Cell5_ncl1_7/Cell6_ncl1_7/Cell7_ncl1_7/Cell8_ncl1_13/Cell11_ncl1_3/Cell8_ncl1_14/Cell12_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/CellWrapper_ncl1_3/Cell1_ncl1_3/Cell2_ncl1_3/Cell3_ncl1_6/Cell4_ncl1_6/Cell5_ncl1_6/Cell6_ncl1_6/Cell7_ncl1_6/Cell8_ncl1_12/Cell9_ncl1_3/Cell10_ncl1_3/Cell3_ncl1_7/Cell4_ncl1_7/Cell5_ncl1_7/Cell6_ncl1_7/Cell7_ncl1_7/Cell8_ncl1_13/Cell11_ncl1_3/Cell8_ncl1_14/Cell12_ncl1_3/Cell8_ncl1_15
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/pCube35_ncl1_60
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/pCube35_ncl1_61
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/pCube35_ncl1_62
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/pCube35_ncl1_63
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/RibWrapper2_ncl1_25
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/RibWrapper2_ncl1_25/pCube35_ncl1_64
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/RibWrapper2_ncl1_25/RibWrapper4_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/RibWrapper2_ncl1_25/RibWrapper4_ncl1_6/pCube35_ncl1_65
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/RibWrapper2_ncl1_25/RibWrapper4_ncl1_6/RibWrapper2_ncl1_26
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/RibWrapper2_ncl1_25/RibWrapper4_ncl1_6/RibWrapper2_ncl1_26/pCube35_ncl1_66
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/RibWrapper2_ncl1_25/RibWrapper4_ncl1_6/RibWrapper2_ncl1_26/RibWrapper5_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/RibWrapper2_ncl1_25/RibWrapper4_ncl1_6/RibWrapper2_ncl1_26/RibWrapper5_ncl1_6/pCube35_ncl1_67
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/RibWrapper2_ncl1_25/RibWrapper4_ncl1_6/RibWrapper2_ncl1_26/RibWrapper5_ncl1_6/RibWrapper2_ncl1_27
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/RibWrapper2_ncl1_25/RibWrapper4_ncl1_6/RibWrapper2_ncl1_26/RibWrapper5_ncl1_6/RibWrapper2_ncl1_27/pCube35_ncl1_68
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/RibWrapper2_ncl1_25/RibWrapper4_ncl1_6/RibWrapper2_ncl1_26/RibWrapper5_ncl1_6/RibWrapper2_ncl1_27/RibWrapper6_ncl1_6
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors1_ncl1_3/RibWrapper_ncl1_6/RibWrapper1_ncl1_6/RibWrapper2_ncl1_24/RibWrapper3_ncl1_6/RibWrapper2_ncl1_25/RibWrapper4_ncl1_6/RibWrapper2_ncl1_26/RibWrapper5_ncl1_6/RibWrapper2_ncl1_27/RibWrapper6_ncl1_6/pCube35_ncl1_69
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/pCube35_ncl1_70
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/pCube35_ncl1_71
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/pCube35_ncl1_72
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/pCube35_ncl1_73
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/RibWrapper2_ncl1_29
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/RibWrapper2_ncl1_29/pCube35_ncl1_74
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/RibWrapper2_ncl1_29/RibWrapper4_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/RibWrapper2_ncl1_29/RibWrapper4_ncl1_7/pCube35_ncl1_75
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/RibWrapper2_ncl1_29/RibWrapper4_ncl1_7/RibWrapper2_ncl1_30
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/RibWrapper2_ncl1_29/RibWrapper4_ncl1_7/RibWrapper2_ncl1_30/pCube35_ncl1_76
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/RibWrapper2_ncl1_29/RibWrapper4_ncl1_7/RibWrapper2_ncl1_30/RibWrapper5_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/RibWrapper2_ncl1_29/RibWrapper4_ncl1_7/RibWrapper2_ncl1_30/RibWrapper5_ncl1_7/pCube35_ncl1_77
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/RibWrapper2_ncl1_29/RibWrapper4_ncl1_7/RibWrapper2_ncl1_30/RibWrapper5_ncl1_7/RibWrapper2_ncl1_31
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/RibWrapper2_ncl1_29/RibWrapper4_ncl1_7/RibWrapper2_ncl1_30/RibWrapper5_ncl1_7/RibWrapper2_ncl1_31/pCube35_ncl1_78
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/RibWrapper2_ncl1_29/RibWrapper4_ncl1_7/RibWrapper2_ncl1_30/RibWrapper5_ncl1_7/RibWrapper2_ncl1_31/RibWrapper6_ncl1_7
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_1_ncl1_1/Scissors2_ncl1_3/RibWrapper_ncl1_7/RibWrapper1_ncl1_7/RibWrapper2_ncl1_28/RibWrapper3_ncl1_7/RibWrapper2_ncl1_29/RibWrapper4_ncl1_7/RibWrapper2_ncl1_30/RibWrapper5_ncl1_7/RibWrapper2_ncl1_31/RibWrapper6_ncl1_7/pCube35_ncl1_79
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16/Cell9_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16/Cell9_ncl1_4/Cell10_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16/Cell9_ncl1_4/Cell10_ncl1_4/Cell3_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16/Cell9_ncl1_4/Cell10_ncl1_4/Cell3_ncl1_9/Cell4_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16/Cell9_ncl1_4/Cell10_ncl1_4/Cell3_ncl1_9/Cell4_ncl1_9/Cell5_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16/Cell9_ncl1_4/Cell10_ncl1_4/Cell3_ncl1_9/Cell4_ncl1_9/Cell5_ncl1_9/Cell6_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16/Cell9_ncl1_4/Cell10_ncl1_4/Cell3_ncl1_9/Cell4_ncl1_9/Cell5_ncl1_9/Cell6_ncl1_9/Cell7_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16/Cell9_ncl1_4/Cell10_ncl1_4/Cell3_ncl1_9/Cell4_ncl1_9/Cell5_ncl1_9/Cell6_ncl1_9/Cell7_ncl1_9/Cell8_ncl1_17
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16/Cell9_ncl1_4/Cell10_ncl1_4/Cell3_ncl1_9/Cell4_ncl1_9/Cell5_ncl1_9/Cell6_ncl1_9/Cell7_ncl1_9/Cell8_ncl1_17/Cell11_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16/Cell9_ncl1_4/Cell10_ncl1_4/Cell3_ncl1_9/Cell4_ncl1_9/Cell5_ncl1_9/Cell6_ncl1_9/Cell7_ncl1_9/Cell8_ncl1_17/Cell11_ncl1_4/Cell8_ncl1_18
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16/Cell9_ncl1_4/Cell10_ncl1_4/Cell3_ncl1_9/Cell4_ncl1_9/Cell5_ncl1_9/Cell6_ncl1_9/Cell7_ncl1_9/Cell8_ncl1_17/Cell11_ncl1_4/Cell8_ncl1_18/Cell12_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/CellWrapper_ncl1_4/Cell1_ncl1_4/Cell2_ncl1_4/Cell3_ncl1_8/Cell4_ncl1_8/Cell5_ncl1_8/Cell6_ncl1_8/Cell7_ncl1_8/Cell8_ncl1_16/Cell9_ncl1_4/Cell10_ncl1_4/Cell3_ncl1_9/Cell4_ncl1_9/Cell5_ncl1_9/Cell6_ncl1_9/Cell7_ncl1_9/Cell8_ncl1_17/Cell11_ncl1_4/Cell8_ncl1_18/Cell12_ncl1_4/Cell8_ncl1_19
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/pCube35_ncl1_80
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/pCube35_ncl1_81
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/pCube35_ncl1_82
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/pCube35_ncl1_83
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/RibWrapper2_ncl1_33
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/RibWrapper2_ncl1_33/pCube35_ncl1_84
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/RibWrapper2_ncl1_33/RibWrapper4_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/RibWrapper2_ncl1_33/RibWrapper4_ncl1_8/pCube35_ncl1_85
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/RibWrapper2_ncl1_33/RibWrapper4_ncl1_8/RibWrapper2_ncl1_34
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/RibWrapper2_ncl1_33/RibWrapper4_ncl1_8/RibWrapper2_ncl1_34/pCube35_ncl1_86
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/RibWrapper2_ncl1_33/RibWrapper4_ncl1_8/RibWrapper2_ncl1_34/RibWrapper5_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/RibWrapper2_ncl1_33/RibWrapper4_ncl1_8/RibWrapper2_ncl1_34/RibWrapper5_ncl1_8/pCube35_ncl1_87
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/RibWrapper2_ncl1_33/RibWrapper4_ncl1_8/RibWrapper2_ncl1_34/RibWrapper5_ncl1_8/RibWrapper2_ncl1_35
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/RibWrapper2_ncl1_33/RibWrapper4_ncl1_8/RibWrapper2_ncl1_34/RibWrapper5_ncl1_8/RibWrapper2_ncl1_35/pCube35_ncl1_88
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/RibWrapper2_ncl1_33/RibWrapper4_ncl1_8/RibWrapper2_ncl1_34/RibWrapper5_ncl1_8/RibWrapper2_ncl1_35/RibWrapper6_ncl1_8
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors1_ncl1_4/RibWrapper_ncl1_8/RibWrapper1_ncl1_8/RibWrapper2_ncl1_32/RibWrapper3_ncl1_8/RibWrapper2_ncl1_33/RibWrapper4_ncl1_8/RibWrapper2_ncl1_34/RibWrapper5_ncl1_8/RibWrapper2_ncl1_35/RibWrapper6_ncl1_8/pCube35_ncl1_89
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/pCube35_ncl1_90
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/pCube35_ncl1_91
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/pCube35_ncl1_92
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/pCube35_ncl1_93
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/RibWrapper2_ncl1_37
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/RibWrapper2_ncl1_37/pCube35_ncl1_94
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/RibWrapper2_ncl1_37/RibWrapper4_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/RibWrapper2_ncl1_37/RibWrapper4_ncl1_9/pCube35_ncl1_95
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/RibWrapper2_ncl1_37/RibWrapper4_ncl1_9/RibWrapper2_ncl1_38
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/RibWrapper2_ncl1_37/RibWrapper4_ncl1_9/RibWrapper2_ncl1_38/pCube35_ncl1_96
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/RibWrapper2_ncl1_37/RibWrapper4_ncl1_9/RibWrapper2_ncl1_38/RibWrapper5_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/RibWrapper2_ncl1_37/RibWrapper4_ncl1_9/RibWrapper2_ncl1_38/RibWrapper5_ncl1_9/pCube35_ncl1_97
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/RibWrapper2_ncl1_37/RibWrapper4_ncl1_9/RibWrapper2_ncl1_38/RibWrapper5_ncl1_9/RibWrapper2_ncl1_39
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/RibWrapper2_ncl1_37/RibWrapper4_ncl1_9/RibWrapper2_ncl1_38/RibWrapper5_ncl1_9/RibWrapper2_ncl1_39/pCube35_ncl1_98
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/RibWrapper2_ncl1_37/RibWrapper4_ncl1_9/RibWrapper2_ncl1_38/RibWrapper5_ncl1_9/RibWrapper2_ncl1_39/RibWrapper6_ncl1_9
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_2_ncl1_1/Scissors2_ncl1_4/RibWrapper_ncl1_9/RibWrapper1_ncl1_9/RibWrapper2_ncl1_36/RibWrapper3_ncl1_9/RibWrapper2_ncl1_37/RibWrapper4_ncl1_9/RibWrapper2_ncl1_38/RibWrapper5_ncl1_9/RibWrapper2_ncl1_39/RibWrapper6_ncl1_9/pCube35_ncl1_99
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20/Cell9_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20/Cell9_ncl1_5/Cell10_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20/Cell9_ncl1_5/Cell10_ncl1_5/Cell3_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20/Cell9_ncl1_5/Cell10_ncl1_5/Cell3_ncl1_11/Cell4_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20/Cell9_ncl1_5/Cell10_ncl1_5/Cell3_ncl1_11/Cell4_ncl1_11/Cell5_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20/Cell9_ncl1_5/Cell10_ncl1_5/Cell3_ncl1_11/Cell4_ncl1_11/Cell5_ncl1_11/Cell6_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20/Cell9_ncl1_5/Cell10_ncl1_5/Cell3_ncl1_11/Cell4_ncl1_11/Cell5_ncl1_11/Cell6_ncl1_11/Cell7_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20/Cell9_ncl1_5/Cell10_ncl1_5/Cell3_ncl1_11/Cell4_ncl1_11/Cell5_ncl1_11/Cell6_ncl1_11/Cell7_ncl1_11/Cell8_ncl1_21
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20/Cell9_ncl1_5/Cell10_ncl1_5/Cell3_ncl1_11/Cell4_ncl1_11/Cell5_ncl1_11/Cell6_ncl1_11/Cell7_ncl1_11/Cell8_ncl1_21/Cell11_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20/Cell9_ncl1_5/Cell10_ncl1_5/Cell3_ncl1_11/Cell4_ncl1_11/Cell5_ncl1_11/Cell6_ncl1_11/Cell7_ncl1_11/Cell8_ncl1_21/Cell11_ncl1_5/Cell8_ncl1_22
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20/Cell9_ncl1_5/Cell10_ncl1_5/Cell3_ncl1_11/Cell4_ncl1_11/Cell5_ncl1_11/Cell6_ncl1_11/Cell7_ncl1_11/Cell8_ncl1_21/Cell11_ncl1_5/Cell8_ncl1_22/Cell12_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/CellWrapper_ncl1_5/Cell1_ncl1_5/Cell2_ncl1_5/Cell3_ncl1_10/Cell4_ncl1_10/Cell5_ncl1_10/Cell6_ncl1_10/Cell7_ncl1_10/Cell8_ncl1_20/Cell9_ncl1_5/Cell10_ncl1_5/Cell3_ncl1_11/Cell4_ncl1_11/Cell5_ncl1_11/Cell6_ncl1_11/Cell7_ncl1_11/Cell8_ncl1_21/Cell11_ncl1_5/Cell8_ncl1_22/Cell12_ncl1_5/Cell8_ncl1_23
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/pCube35_ncl1_100
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/pCube35_ncl1_101
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/pCube35_ncl1_102
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/pCube35_ncl1_103
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/RibWrapper2_ncl1_41
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/RibWrapper2_ncl1_41/pCube35_ncl1_104
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/RibWrapper2_ncl1_41/RibWrapper4_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/RibWrapper2_ncl1_41/RibWrapper4_ncl1_10/pCube35_ncl1_105
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/RibWrapper2_ncl1_41/RibWrapper4_ncl1_10/RibWrapper2_ncl1_42
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/RibWrapper2_ncl1_41/RibWrapper4_ncl1_10/RibWrapper2_ncl1_42/pCube35_ncl1_106
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/RibWrapper2_ncl1_41/RibWrapper4_ncl1_10/RibWrapper2_ncl1_42/RibWrapper5_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/RibWrapper2_ncl1_41/RibWrapper4_ncl1_10/RibWrapper2_ncl1_42/RibWrapper5_ncl1_10/pCube35_ncl1_107
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/RibWrapper2_ncl1_41/RibWrapper4_ncl1_10/RibWrapper2_ncl1_42/RibWrapper5_ncl1_10/RibWrapper2_ncl1_43
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/RibWrapper2_ncl1_41/RibWrapper4_ncl1_10/RibWrapper2_ncl1_42/RibWrapper5_ncl1_10/RibWrapper2_ncl1_43/pCube35_ncl1_108
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/RibWrapper2_ncl1_41/RibWrapper4_ncl1_10/RibWrapper2_ncl1_42/RibWrapper5_ncl1_10/RibWrapper2_ncl1_43/RibWrapper6_ncl1_10
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors1_ncl1_5/RibWrapper_ncl1_10/RibWrapper1_ncl1_10/RibWrapper2_ncl1_40/RibWrapper3_ncl1_10/RibWrapper2_ncl1_41/RibWrapper4_ncl1_10/RibWrapper2_ncl1_42/RibWrapper5_ncl1_10/RibWrapper2_ncl1_43/RibWrapper6_ncl1_10/pCube35_ncl1_109
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/pCube35_ncl1_110
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/pCube35_ncl1_111
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/pCube35_ncl1_112
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/pCube35_ncl1_113
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/RibWrapper2_ncl1_45
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/RibWrapper2_ncl1_45/pCube35_ncl1_114
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/RibWrapper2_ncl1_45/RibWrapper4_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/RibWrapper2_ncl1_45/RibWrapper4_ncl1_11/pCube35_ncl1_115
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/RibWrapper2_ncl1_45/RibWrapper4_ncl1_11/RibWrapper2_ncl1_46
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/RibWrapper2_ncl1_45/RibWrapper4_ncl1_11/RibWrapper2_ncl1_46/pCube35_ncl1_116
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/RibWrapper2_ncl1_45/RibWrapper4_ncl1_11/RibWrapper2_ncl1_46/RibWrapper5_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/RibWrapper2_ncl1_45/RibWrapper4_ncl1_11/RibWrapper2_ncl1_46/RibWrapper5_ncl1_11/pCube35_ncl1_117
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/RibWrapper2_ncl1_45/RibWrapper4_ncl1_11/RibWrapper2_ncl1_46/RibWrapper5_ncl1_11/RibWrapper2_ncl1_47
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/RibWrapper2_ncl1_45/RibWrapper4_ncl1_11/RibWrapper2_ncl1_46/RibWrapper5_ncl1_11/RibWrapper2_ncl1_47/pCube35_ncl1_118
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/RibWrapper2_ncl1_45/RibWrapper4_ncl1_11/RibWrapper2_ncl1_46/RibWrapper5_ncl1_11/RibWrapper2_ncl1_47/RibWrapper6_ncl1_11
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/CellSet_3_ncl1_1/Scissors2_ncl1_5/RibWrapper_ncl1_11/RibWrapper1_ncl1_11/RibWrapper2_ncl1_44/RibWrapper3_ncl1_11/RibWrapper2_ncl1_45/RibWrapper4_ncl1_11/RibWrapper2_ncl1_46/RibWrapper5_ncl1_11/RibWrapper2_ncl1_47/RibWrapper6_ncl1_11/pCube35_ncl1_119
+        weight: 1
+      - path: Skylab_SolarPanel2/SolarCover/SolarWing_RotateA/SolarWingHinge/SolarWing_RotateB/SolarWing/Solar_Direction_2/sunCatcher_ncl1_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-06-20T19:50:52Z</created><keywords></keywords><modified>2016-06-20T19:50:52Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Saturn_S1_SmallFin_Collider-lib" name="Saturn_S1_SmallFin_ColliderMesh">
+      <mesh>
+        <source id="Saturn_S1_SmallFin_Collider-POSITION">
+          <float_array id="Saturn_S1_SmallFin_Collider-POSITION-array" count="18">
+-0.312500 -0.312500 0.065119
+0.595728 -0.312500 0.065119
+-0.312500 1.676712 0.000000
+0.595728 1.156337 0.000000
+-0.312500 -0.312500 -0.065119
+0.595728 -0.312500 -0.065119
+</float_array>
+          <technique_common>
+            <accessor source="#Saturn_S1_SmallFin_Collider-POSITION-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Saturn_S1_SmallFin_Collider-Normal0">
+          <float_array id="Saturn_S1_SmallFin_Collider-Normal0-array" count="72">
+0.010781 0.037633 0.999233
+0.010781 0.037633 0.999233
+0.010781 0.037633 0.999233
+0.010781 0.037633 0.999233
+0.010781 0.037633 0.999233
+0.010781 0.037633 0.999233
+0.010781 0.037633 -0.999233
+0.010781 0.037633 -0.999233
+0.010781 0.037633 -0.999233
+0.010781 0.037633 -0.999233
+0.010781 0.037633 -0.999233
+0.010781 0.037633 -0.999233
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Saturn_S1_SmallFin_Collider-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Saturn_S1_SmallFin_Collider-UV0">
+          <float_array id="Saturn_S1_SmallFin_Collider-UV0-array" count="20">
+0.375000 0.000000
+0.625000 0.000000
+0.291667 0.333333
+0.708333 0.333333
+0.375000 0.750000
+0.625000 0.750000
+0.375000 1.000000
+0.625000 1.000000
+0.875000 0.000000
+0.125000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Saturn_S1_SmallFin_Collider-UV0-array" count="10" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Saturn_S1_SmallFin_Collider-VERTEX">
+          <input semantic="POSITION" source="#Saturn_S1_SmallFin_Collider-POSITION"/>
+        </vertices>
+        <triangles count="8" material="lambert1"><input semantic="VERTEX" offset="0" source="#Saturn_S1_SmallFin_Collider-VERTEX"/><input semantic="NORMAL" offset="1" source="#Saturn_S1_SmallFin_Collider-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Saturn_S1_SmallFin_Collider-UV0"/><p> 2 0 2 0 1 0 3 2 3 3 3 3 0 4 0 1 5 1 4 6 4 3 7 3 5 8 5 3 9 3 4 10 4 2 11 2 1 12 7 0 13 6 4 14 4 1 15 7 4 16 4 5 17 5 1 18 1 5 19 8 3 20 3 4 21 9 0 22 0 2 23 2</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Saturn_S1_SmallFin_ColliderNew" name="Saturn_S1_SmallFin_ColliderNew">
+      <node name="Saturn_S1_SmallFin_Collider" id="Saturn_S1_SmallFin_Collider" sid="Saturn_S1_SmallFin_Collider"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Saturn_S1_SmallFin_Collider-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Saturn_S1_SmallFin_ColliderNew"></instance_visual_scene>
+  </scene>
+</COLLADA>

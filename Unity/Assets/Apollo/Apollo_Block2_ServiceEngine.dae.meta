@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: d01a522e341a46e4088c60d9f6060086
+timeCreated: 1469666819
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Apollo_ServiceEngine_Merged_Apollo_ServiceEngineMesh_group1
+    100004: Apollo_ServiceEngineMesh
+    100006: fairing
+    100008: pCylinder68
+    100010: pCylinder69
+    100012: polySurface29
+    100014: thrustTransform
+    100016: Collider
+    100018: Collider_ncl1_1
+    100020: EngineCollar1
+    100022: pCylinder12
+    400000: //RootNode
+    400002: Apollo_ServiceEngine_Merged_Apollo_ServiceEngineMesh_group1
+    400004: Apollo_ServiceEngineMesh
+    400006: fairing
+    400008: pCylinder68
+    400010: pCylinder69
+    400012: polySurface29
+    400014: thrustTransform
+    400016: Collider
+    400018: Collider_ncl1_1
+    400020: EngineCollar1
+    400022: pCylinder12
+    2300000: Apollo_ServiceEngine_Merged_Apollo_ServiceEngineMesh_group1
+    2300002: fairing
+    2300004: pCylinder68
+    2300006: pCylinder69
+    2300008: polySurface29
+    2300010: thrustTransform
+    2300012: Collider
+    2300014: Collider_ncl1_1
+    2300016: EngineCollar1
+    2300018: pCylinder12
+    3300000: Apollo_ServiceEngine_Merged_Apollo_ServiceEngineMesh_group1
+    3300002: fairing
+    3300004: pCylinder68
+    3300006: pCylinder69
+    3300008: polySurface29
+    3300010: thrustTransform
+    3300012: Collider
+    3300014: Collider_ncl1_1
+    3300016: EngineCollar1
+    3300018: pCylinder12
+    4300000: thrustTransform
+    4300002: pCylinder69
+    4300004: polySurface29
+    4300006: Apollo_ServiceEngine_Merged_Apollo_ServiceEngineMesh_group1
+    4300008: fairing
+    4300010: pCylinder68
+    4300012: Collider
+    4300014: Collider_ncl1_1
+    4300016: pCylinder12
+    4300018: EngineCollar1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

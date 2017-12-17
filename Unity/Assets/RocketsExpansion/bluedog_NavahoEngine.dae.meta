@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: 2f0a8e10fb86523468d965917ebc6239
+timeCreated: 1464032080
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AblestarEngine1
+    100002: //RootNode
+    100004: Bottom2
+    100006: EngineBase1_thrustTransform_Nozzle
+    100008: EngineBase1_thrustTransform_Nozzle_ncl1_1
+    100010: EngineBase1_thrustTransform_Nozzle_ncl1_2
+    100012: EngineBase2
+    100014: EngineBase2_ncl1_1
+    100016: EngineBase2_ncl1_2
+    100018: fairing
+    100020: group10
+    100022: group11
+    100024: group12
+    100026: group12_ncl1_1
+    100028: group7
+    100030: null1
+    100032: null2
+    100034: null5
+    100036: null6
+    100038: null7
+    100040: pCylinder41
+    100042: pCylinder41_ncl1_1
+    100044: pCylinder41_ncl1_2
+    100046: polySurface27
+    100048: ThingCylinderDown
+    100050: ThingCylinderDown1
+    100052: ThingCylinderDown1_ncl1_1
+    100054: ThingCylinderDown_ncl1_1
+    100056: thrustTransform
+    100058: thrustTransform_ncl1_1
+    100060: thrustTransform_ncl1_2
+    100062: Top
+    100064: UhThingCylinder
+    100066: UhThingCylinder_ncl1_1
+    100068: VanguardEngine
+    100070: VanguardEngine_ncl1_1
+    100072: VanguardEngine_ncl1_2
+    100074: VanguardEngine1
+    100076: VanguardEngine2
+    100078: VanguardEngine3
+    400000: AblestarEngine1
+    400002: //RootNode
+    400004: Bottom2
+    400006: EngineBase1_thrustTransform_Nozzle
+    400008: EngineBase1_thrustTransform_Nozzle_ncl1_1
+    400010: EngineBase1_thrustTransform_Nozzle_ncl1_2
+    400012: EngineBase2
+    400014: EngineBase2_ncl1_1
+    400016: EngineBase2_ncl1_2
+    400018: fairing
+    400020: group10
+    400022: group11
+    400024: group12
+    400026: group12_ncl1_1
+    400028: group7
+    400030: null1
+    400032: null2
+    400034: null5
+    400036: null6
+    400038: null7
+    400040: pCylinder41
+    400042: pCylinder41_ncl1_1
+    400044: pCylinder41_ncl1_2
+    400046: polySurface27
+    400048: ThingCylinderDown
+    400050: ThingCylinderDown1
+    400052: ThingCylinderDown1_ncl1_1
+    400054: ThingCylinderDown_ncl1_1
+    400056: thrustTransform
+    400058: thrustTransform_ncl1_1
+    400060: thrustTransform_ncl1_2
+    400062: Top
+    400064: UhThingCylinder
+    400066: UhThingCylinder_ncl1_1
+    400068: VanguardEngine
+    400070: VanguardEngine_ncl1_1
+    400072: VanguardEngine_ncl1_2
+    400074: VanguardEngine1
+    400076: VanguardEngine2
+    400078: VanguardEngine3
+    2300000: AblestarEngine1
+    2300002: EngineBase1_thrustTransform_Nozzle
+    2300004: EngineBase1_thrustTransform_Nozzle_ncl1_1
+    2300006: EngineBase1_thrustTransform_Nozzle_ncl1_2
+    2300008: EngineBase2
+    2300010: EngineBase2_ncl1_1
+    2300012: EngineBase2_ncl1_2
+    2300014: fairing
+    2300016: pCylinder41
+    2300018: pCylinder41_ncl1_1
+    2300020: pCylinder41_ncl1_2
+    2300022: polySurface27
+    2300024: ThingCylinderDown
+    2300026: ThingCylinderDown1
+    2300028: ThingCylinderDown1_ncl1_1
+    2300030: ThingCylinderDown_ncl1_1
+    2300032: UhThingCylinder
+    2300034: UhThingCylinder_ncl1_1
+    3300000: AblestarEngine1
+    3300002: EngineBase1_thrustTransform_Nozzle
+    3300004: EngineBase1_thrustTransform_Nozzle_ncl1_1
+    3300006: EngineBase1_thrustTransform_Nozzle_ncl1_2
+    3300008: EngineBase2
+    3300010: EngineBase2_ncl1_1
+    3300012: EngineBase2_ncl1_2
+    3300014: fairing
+    3300016: pCylinder41
+    3300018: pCylinder41_ncl1_1
+    3300020: pCylinder41_ncl1_2
+    3300022: polySurface27
+    3300024: ThingCylinderDown
+    3300026: ThingCylinderDown1
+    3300028: ThingCylinderDown1_ncl1_1
+    3300030: ThingCylinderDown_ncl1_1
+    3300032: UhThingCylinder
+    3300034: UhThingCylinder_ncl1_1
+    4300000: EngineBase1_thrustTransform_Nozzle
+    4300002: EngineBase2
+    4300004: AblestarEngine1
+    4300006: ThingCylinderDown1
+    4300008: UhThingCylinder
+    4300010: ThingCylinderDown
+    4300012: pCylinder41
+    4300014: polySurface27
+    4300016: EngineBase1_thrustTransform_Nozzle_ncl1_1
+    4300018: EngineBase2_ncl1_1
+    4300020: EngineBase1_thrustTransform_Nozzle_ncl1_2
+    4300022: EngineBase2_ncl1_2
+    4300024: ThingCylinderDown1_ncl1_1
+    4300026: UhThingCylinder_ncl1_1
+    4300028: ThingCylinderDown_ncl1_1
+    4300030: pCylinder41_ncl1_1
+    4300032: pCylinder41_ncl1_2
+    4300034: fairing
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

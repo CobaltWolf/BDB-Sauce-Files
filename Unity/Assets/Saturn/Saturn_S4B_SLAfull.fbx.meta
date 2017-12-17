@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: e8399a45f5ae07c4d8a2461a6c846c5e
+timeCreated: 1477704004
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Collider
+    100002: Collider24
+    100004: Collider24 1
+    100006: Collider24 2
+    100008: Collider24 3
+    100010: Collider25
+    100012: Collider25 1
+    100014: Collider25 2
+    100016: Collider25 3
+    100018: Collider30
+    100020: Collider31
+    100022: Collider32
+    100024: Collider33
+    100026: Collider34
+    100028: Collider35
+    100030: Collider36
+    100032: Colliders
+    100034: pCylinder230
+    100036: pCylinder231
+    100038: pCylinder241
+    100040: pCylinder251
+    100042: pCylinder253
+    100044: pCylinder254
+    100046: //RootNode
+    100048: SLA_Full
+    100050: SLA_hinge
+    100052: SLA_hinge 1
+    100054: SLA_hinge 2
+    100056: SLA_hinge 3
+    100058: SLA_section1
+    100060: SLA_section1_SLA_hinge_SLA_hinge1
+    100062: SLA_section1_SLA_hinge_SLA_hinge1 1
+    100064: SLA_section1_SLA_hinge_SLA_hinge1 2
+    100066: SLA_section1_SLA_hinge_SLA_hinge1 3
+    100068: SLA_section1_SLA_hinge_SLA_hinge2
+    100070: SLA_section1_SLA_hinge_SLA_hinge2 1
+    100072: SLA_section1_SLA_hinge_SLA_hinge2 2
+    100074: SLA_section1_SLA_hinge_SLA_hinge2 3
+    100076: SLA_section5
+    100078: SLA_section6
+    100080: SLA_section7
+    400000: Collider
+    400002: Collider24
+    400004: Collider24 1
+    400006: Collider24 2
+    400008: Collider24 3
+    400010: Collider25
+    400012: Collider25 1
+    400014: Collider25 2
+    400016: Collider25 3
+    400018: Collider30
+    400020: Collider31
+    400022: Collider32
+    400024: Collider33
+    400026: Collider34
+    400028: Collider35
+    400030: Collider36
+    400032: Colliders
+    400034: pCylinder230
+    400036: pCylinder231
+    400038: pCylinder241
+    400040: pCylinder251
+    400042: pCylinder253
+    400044: pCylinder254
+    400046: //RootNode
+    400048: SLA_Full
+    400050: SLA_hinge
+    400052: SLA_hinge 1
+    400054: SLA_hinge 2
+    400056: SLA_hinge 3
+    400058: SLA_section1
+    400060: SLA_section1_SLA_hinge_SLA_hinge1
+    400062: SLA_section1_SLA_hinge_SLA_hinge1 1
+    400064: SLA_section1_SLA_hinge_SLA_hinge1 2
+    400066: SLA_section1_SLA_hinge_SLA_hinge1 3
+    400068: SLA_section1_SLA_hinge_SLA_hinge2
+    400070: SLA_section1_SLA_hinge_SLA_hinge2 1
+    400072: SLA_section1_SLA_hinge_SLA_hinge2 2
+    400074: SLA_section1_SLA_hinge_SLA_hinge2 3
+    400076: SLA_section5
+    400078: SLA_section6
+    400080: SLA_section7
+    2300000: Collider
+    2300002: Collider24
+    2300004: Collider24 1
+    2300006: Collider24 2
+    2300008: Collider24 3
+    2300010: Collider25
+    2300012: Collider25 1
+    2300014: Collider25 2
+    2300016: Collider25 3
+    2300018: Collider30
+    2300020: Collider31
+    2300022: Collider32
+    2300024: Collider33
+    2300026: Collider34
+    2300028: Collider35
+    2300030: Collider36
+    2300032: pCylinder230
+    2300034: pCylinder231
+    2300036: pCylinder241
+    2300038: pCylinder251
+    2300040: pCylinder253
+    2300042: pCylinder254
+    2300044: SLA_section1_SLA_hinge_SLA_hinge1
+    2300046: SLA_section1_SLA_hinge_SLA_hinge1 1
+    2300048: SLA_section1_SLA_hinge_SLA_hinge1 2
+    2300050: SLA_section1_SLA_hinge_SLA_hinge1 3
+    2300052: SLA_section1_SLA_hinge_SLA_hinge2
+    2300054: SLA_section1_SLA_hinge_SLA_hinge2 1
+    2300056: SLA_section1_SLA_hinge_SLA_hinge2 2
+    2300058: SLA_section1_SLA_hinge_SLA_hinge2 3
+    3300000: Collider
+    3300002: Collider24
+    3300004: Collider24 1
+    3300006: Collider24 2
+    3300008: Collider24 3
+    3300010: Collider25
+    3300012: Collider25 1
+    3300014: Collider25 2
+    3300016: Collider25 3
+    3300018: Collider30
+    3300020: Collider31
+    3300022: Collider32
+    3300024: Collider33
+    3300026: Collider34
+    3300028: Collider35
+    3300030: Collider36
+    3300032: pCylinder230
+    3300034: pCylinder231
+    3300036: pCylinder241
+    3300038: pCylinder251
+    3300040: pCylinder253
+    3300042: pCylinder254
+    3300044: SLA_section1_SLA_hinge_SLA_hinge1
+    3300046: SLA_section1_SLA_hinge_SLA_hinge1 1
+    3300048: SLA_section1_SLA_hinge_SLA_hinge1 2
+    3300050: SLA_section1_SLA_hinge_SLA_hinge1 3
+    3300052: SLA_section1_SLA_hinge_SLA_hinge2
+    3300054: SLA_section1_SLA_hinge_SLA_hinge2 1
+    3300056: SLA_section1_SLA_hinge_SLA_hinge2 2
+    3300058: SLA_section1_SLA_hinge_SLA_hinge2 3
+    4300000: Collider36
+    4300002: Collider35
+    4300004: Collider34
+    4300006: Collider33
+    4300008: Collider32
+    4300010: Collider31
+    4300012: Collider30
+    4300014: Collider
+    4300016: Collider24
+    4300018: Collider25
+    4300020: SLA_section1_SLA_hinge_SLA_hinge1
+    4300022: SLA_section1_SLA_hinge_SLA_hinge2
+    4300024: pCylinder253
+    4300026: pCylinder254
+    4300028: pCylinder230
+    4300030: pCylinder231
+    4300032: Collider24
+    4300034: Collider25
+    4300036: SLA_section1_SLA_hinge_SLA_hinge1
+    4300038: SLA_section1_SLA_hinge_SLA_hinge2
+    4300040: Collider24
+    4300042: Collider25
+    4300044: SLA_section1_SLA_hinge_SLA_hinge1
+    4300046: SLA_section1_SLA_hinge_SLA_hinge2
+    4300048: pCylinder241
+    4300050: Collider24
+    4300052: Collider25
+    4300054: SLA_section1_SLA_hinge_SLA_hinge1
+    4300056: SLA_section1_SLA_hinge_SLA_hinge2
+    4300058: pCylinder251
+    7400000: open
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: open
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SLA_Full
+        weight: 1
+      - path: SLA_Full/Colliders
+        weight: 1
+      - path: SLA_Full/Colliders/Collider
+        weight: 1
+      - path: SLA_Full/Colliders/Collider30
+        weight: 1
+      - path: SLA_Full/Colliders/Collider31
+        weight: 1
+      - path: SLA_Full/Colliders/Collider32
+        weight: 1
+      - path: SLA_Full/Colliders/Collider33
+        weight: 1
+      - path: SLA_Full/Colliders/Collider34
+        weight: 1
+      - path: SLA_Full/Colliders/Collider35
+        weight: 1
+      - path: SLA_Full/Colliders/Collider36
+        weight: 1
+      - path: SLA_Full/pCylinder230
+        weight: 1
+      - path: SLA_Full/pCylinder231
+        weight: 1
+      - path: SLA_Full/SLA_section1
+        weight: 1
+      - path: SLA_Full/SLA_section1/SLA_hinge
+        weight: 1
+      - path: SLA_Full/SLA_section1/SLA_hinge/Collider24
+        weight: 1
+      - path: SLA_Full/SLA_section1/SLA_hinge/Collider25
+        weight: 1
+      - path: SLA_Full/SLA_section1/SLA_hinge/pCylinder253
+        weight: 1
+      - path: SLA_Full/SLA_section1/SLA_hinge/pCylinder254
+        weight: 1
+      - path: SLA_Full/SLA_section1/SLA_hinge/SLA_section1_SLA_hinge_SLA_hinge1
+        weight: 1
+      - path: SLA_Full/SLA_section1/SLA_hinge/SLA_section1_SLA_hinge_SLA_hinge2
+        weight: 1
+      - path: SLA_Full/SLA_section5
+        weight: 1
+      - path: SLA_Full/SLA_section5/SLA_hinge 1
+        weight: 1
+      - path: SLA_Full/SLA_section5/SLA_hinge 1/Collider24 1
+        weight: 1
+      - path: SLA_Full/SLA_section5/SLA_hinge 1/Collider25 1
+        weight: 1
+      - path: SLA_Full/SLA_section5/SLA_hinge 1/SLA_section1_SLA_hinge_SLA_hinge1
+          1
+        weight: 1
+      - path: SLA_Full/SLA_section5/SLA_hinge 1/SLA_section1_SLA_hinge_SLA_hinge2
+          1
+        weight: 1
+      - path: SLA_Full/SLA_section6
+        weight: 1
+      - path: SLA_Full/SLA_section6/SLA_hinge 2
+        weight: 1
+      - path: SLA_Full/SLA_section6/SLA_hinge 2/Collider24 2
+        weight: 1
+      - path: SLA_Full/SLA_section6/SLA_hinge 2/Collider25 2
+        weight: 1
+      - path: SLA_Full/SLA_section6/SLA_hinge 2/pCylinder241
+        weight: 1
+      - path: SLA_Full/SLA_section6/SLA_hinge 2/SLA_section1_SLA_hinge_SLA_hinge1
+          2
+        weight: 1
+      - path: SLA_Full/SLA_section6/SLA_hinge 2/SLA_section1_SLA_hinge_SLA_hinge2
+          2
+        weight: 1
+      - path: SLA_Full/SLA_section7
+        weight: 1
+      - path: SLA_Full/SLA_section7/SLA_hinge 3
+        weight: 1
+      - path: SLA_Full/SLA_section7/SLA_hinge 3/Collider24 3
+        weight: 1
+      - path: SLA_Full/SLA_section7/SLA_hinge 3/Collider25 3
+        weight: 1
+      - path: SLA_Full/SLA_section7/SLA_hinge 3/pCylinder251
+        weight: 1
+      - path: SLA_Full/SLA_section7/SLA_hinge 3/SLA_section1_SLA_hinge_SLA_hinge1
+          3
+        weight: 1
+      - path: SLA_Full/SLA_section7/SLA_hinge 3/SLA_section1_SLA_hinge_SLA_hinge2
+          3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

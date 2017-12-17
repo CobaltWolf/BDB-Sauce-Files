@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: 6500cb5e6eb4981438c31df1e0f01d03
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: FuelTankRib20
+    100002: FuelTankRib20_ncl1_1
+    100004: FuelTankRib20_ncl1_2
+    100006: FuelTankRib20_ncl1_3
+    100008: group18
+    100010: group19
+    100012: group20
+    100014: group21
+    100016: locator12
+    100018: locator13
+    100020: Rims
+    100022: Tank
+    100024: //RootNode
+    400000: FuelTankRib20
+    400002: FuelTankRib20_ncl1_1
+    400004: FuelTankRib20_ncl1_2
+    400006: FuelTankRib20_ncl1_3
+    400008: group18
+    400010: group19
+    400012: group20
+    400014: group21
+    400016: locator12
+    400018: locator13
+    400020: Rims
+    400022: Tank
+    400024: //RootNode
+    2300000: FuelTankRib20
+    2300002: FuelTankRib20_ncl1_1
+    2300004: FuelTankRib20_ncl1_2
+    2300006: FuelTankRib20_ncl1_3
+    2300008: Rims
+    2300010: Tank
+    3300000: FuelTankRib20
+    3300002: FuelTankRib20_ncl1_1
+    3300004: FuelTankRib20_ncl1_2
+    3300006: FuelTankRib20_ncl1_3
+    3300008: Rims
+    3300010: Tank
+    4300000: Tank
+    4300002: Rims
+    4300004: FuelTankRib20
+    4300006: FuelTankRib20_ncl1_1
+    4300008: FuelTankRib20_ncl1_2
+    4300010: FuelTankRib20_ncl1_3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

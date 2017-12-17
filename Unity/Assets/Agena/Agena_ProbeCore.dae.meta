@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 39d6d6b19c3a9d54a855c1f285d98a39
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BatteryPack
+    100004: BatteryPack1
+    100006: ChipHolder
+    100008: CircuitBoard
+    100010: CircuitBoard1
+    100012: CircuitBoard2
+    100014: extrudedSurface1
+    100016: ReactionWheel
+    100018: Rib
+    100020: Rib1
+    100022: Rib2
+    100024: Rib3
+    100026: TankStrut
+    100028: TankStrut_ncl1_1
+    100030: TankTopper1
+    100032: pCylinder60
+    100034: pCylinder61
+    100036: polySurface3
+    100038: polySurface4
+    100040: transform2
+    400000: //RootNode
+    400002: BatteryPack
+    400004: BatteryPack1
+    400006: ChipHolder
+    400008: CircuitBoard
+    400010: CircuitBoard1
+    400012: CircuitBoard2
+    400014: extrudedSurface1
+    400016: ReactionWheel
+    400018: Rib
+    400020: Rib1
+    400022: Rib2
+    400024: Rib3
+    400026: TankStrut
+    400028: TankStrut_ncl1_1
+    400030: TankTopper1
+    400032: pCylinder60
+    400034: pCylinder61
+    400036: polySurface3
+    400038: polySurface4
+    400040: transform2
+    2300000: //RootNode
+    2300002: BatteryPack
+    2300004: BatteryPack1
+    2300006: ChipHolder
+    2300008: CircuitBoard
+    2300010: CircuitBoard1
+    2300012: CircuitBoard2
+    2300014: extrudedSurface1
+    2300016: ReactionWheel
+    2300018: Rib
+    2300020: Rib1
+    2300022: Rib2
+    2300024: Rib3
+    2300026: TankStrut
+    2300028: TankStrut_ncl1_1
+    2300030: TankTopper1
+    2300032: pCylinder61
+    2300034: polySurface3
+    2300036: polySurface4
+    3300000: //RootNode
+    3300002: BatteryPack
+    3300004: BatteryPack1
+    3300006: ChipHolder
+    3300008: CircuitBoard
+    3300010: CircuitBoard1
+    3300012: CircuitBoard2
+    3300014: extrudedSurface1
+    3300016: ReactionWheel
+    3300018: Rib
+    3300020: Rib1
+    3300022: Rib2
+    3300024: Rib3
+    3300026: TankStrut
+    3300028: TankStrut_ncl1_1
+    3300030: TankTopper1
+    3300032: pCylinder61
+    3300034: polySurface3
+    3300036: polySurface4
+    4300000: AgenaProbeCore
+    4300002: BatteryPack
+    4300004: BatteryPack1
+    4300006: ReactionWheel
+    4300008: ChipHolder
+    4300010: CircuitBoard
+    4300012: CircuitBoard1
+    4300014: CircuitBoard2
+    4300016: TankTopper1
+    4300018: Rib
+    4300020: Rib1
+    4300022: TankStrut
+    4300024: Rib2
+    4300026: Rib3
+    4300028: TankStrut_ncl1_1
+    4300030: extrudedSurface1
+    4300032: AgenaProbeCore_Merged
+    4300034: polySurface3
+    4300036: polySurface4
+    4300038: pCylinder61
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

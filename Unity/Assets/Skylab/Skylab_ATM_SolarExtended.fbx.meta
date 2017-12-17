@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: bc26e6084113dfe459526648f6de0d83
+timeCreated: 1499960232
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: pCube76
+    100002: pCube77
+    100004: pCube77 1
+    100006: pCube77 10
+    100008: pCube77 11
+    100010: pCube77 12
+    100012: pCube77 13
+    100014: pCube77 14
+    100016: pCube77 2
+    100018: pCube77 3
+    100020: pCube77 4
+    100022: pCube77 5
+    100024: pCube77 6
+    100026: pCube77 7
+    100028: pCube77 8
+    100030: pCube77 9
+    100032: //RootNode
+    100034: SolarPanelRotate_1
+    100036: SolarPanelRotate_2
+    100038: SolarPanelRotate_2 1
+    100040: SolarPanelRotate_2 2
+    100042: SolarPanelRotate_3
+    100044: SolarPanelRotate_3 1
+    100046: SolarPanelRotate_3 2
+    100048: SolarPanelRotate_4
+    100050: SolarPanelRotate_4 1
+    100052: SolarPanelRotate_4 2
+    100054: SolarPanelRotate_5
+    100056: SolarPanelRotate_5 1
+    100058: SolarPanelRotate_5 2
+    100060: SolarPanelRotate_6
+    100062: SolarPanelRotate_7
+    100064: suncatcher
+    400000: pCube76
+    400002: pCube77
+    400004: pCube77 1
+    400006: pCube77 10
+    400008: pCube77 11
+    400010: pCube77 12
+    400012: pCube77 13
+    400014: pCube77 14
+    400016: pCube77 2
+    400018: pCube77 3
+    400020: pCube77 4
+    400022: pCube77 5
+    400024: pCube77 6
+    400026: pCube77 7
+    400028: pCube77 8
+    400030: pCube77 9
+    400032: //RootNode
+    400034: SolarPanelRotate_1
+    400036: SolarPanelRotate_2
+    400038: SolarPanelRotate_2 1
+    400040: SolarPanelRotate_2 2
+    400042: SolarPanelRotate_3
+    400044: SolarPanelRotate_3 1
+    400046: SolarPanelRotate_3 2
+    400048: SolarPanelRotate_4
+    400050: SolarPanelRotate_4 1
+    400052: SolarPanelRotate_4 2
+    400054: SolarPanelRotate_5
+    400056: SolarPanelRotate_5 1
+    400058: SolarPanelRotate_5 2
+    400060: SolarPanelRotate_6
+    400062: SolarPanelRotate_7
+    400064: suncatcher
+    2300000: pCube76
+    2300002: pCube77
+    2300004: pCube77 1
+    2300006: pCube77 10
+    2300008: pCube77 11
+    2300010: pCube77 12
+    2300012: pCube77 13
+    2300014: pCube77 14
+    2300016: pCube77 2
+    2300018: pCube77 3
+    2300020: pCube77 4
+    2300022: pCube77 5
+    2300024: pCube77 6
+    2300026: pCube77 7
+    2300028: pCube77 8
+    2300030: pCube77 9
+    3300000: pCube76
+    3300002: pCube77
+    3300004: pCube77 1
+    3300006: pCube77 10
+    3300008: pCube77 11
+    3300010: pCube77 12
+    3300012: pCube77 13
+    3300014: pCube77 14
+    3300016: pCube77 2
+    3300018: pCube77 3
+    3300020: pCube77 4
+    3300022: pCube77 5
+    3300024: pCube77 6
+    3300026: pCube77 7
+    3300028: pCube77 8
+    3300030: pCube77 9
+    4300000: pCube77
+    4300002: pCube77
+    4300004: pCube77
+    4300006: pCube77
+    4300008: pCube77
+    4300010: pCube76
+    4300012: pCube77
+    4300014: pCube77
+    4300016: pCube77
+    4300018: pCube77
+    4300020: pCube77
+    4300022: pCube77
+    4300024: pCube77
+    4300026: pCube77
+    4300028: pCube77
+    4300030: pCube77
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
