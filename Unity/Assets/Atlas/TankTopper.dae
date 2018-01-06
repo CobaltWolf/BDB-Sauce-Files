@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2015-11-05T00:35:20Z</created><keywords></keywords><modified>2015-11-05T00:35:20Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="file5-image" name="file5"><init_from>file://C:/Users/Matthew/OneDrive/Personal/Kerbal/Unity/Assets/Atlas/bluedog_atlas1tanks.psd</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="AtlasTanks" name="AtlasTanks">
+      <instance_effect url="#AtlasTanks-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="AtlasTanks-fx" name="AtlasTanks">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file5-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="TankTopper-lib" name="TankTopperMesh">
+      <mesh>
+        <source id="TankTopper-POSITION">
+          <float_array id="TankTopper-POSITION-array" count="291">
+0.897680 -0.149840 -0.240533
+0.804838 -0.149840 -0.464673
+0.657148 -0.149840 -0.657147
+0.464674 -0.149840 -0.804838
+0.240533 -0.149840 -0.897680
+0.000000 -0.149840 -0.929347
+-0.240533 -0.149840 -0.897680
+-0.464673 -0.149840 -0.804838
+-0.657148 -0.149840 -0.657148
+-0.804838 -0.149840 -0.464674
+-0.897680 -0.149840 -0.240533
+-0.929347 -0.149840 -0.000000
+-0.897681 -0.149840 0.240533
+-0.804838 -0.149840 0.464674
+-0.657148 -0.149840 0.657148
+-0.464674 -0.149840 0.804838
+-0.240533 -0.149840 0.897680
+-0.000000 -0.149840 0.929347
+0.240533 -0.149840 0.897681
+0.464674 -0.149840 0.804838
+0.657148 -0.149840 0.657148
+0.804838 -0.149840 0.464674
+0.897681 -0.149840 0.240533
+0.929347 -0.149840 -0.000000
+0.763612 -0.070612 -0.204609
+0.684636 -0.070612 -0.395275
+0.559003 -0.070612 -0.559003
+0.395275 -0.070612 -0.684636
+0.204609 -0.070612 -0.763612
+0.000000 -0.070612 -0.790550
+-0.204609 -0.070612 -0.763612
+-0.395275 -0.070612 -0.684636
+-0.559003 -0.070612 -0.559003
+-0.684636 -0.070612 -0.395275
+-0.763613 -0.070612 -0.204609
+-0.790550 -0.070612 -0.000000
+-0.763613 -0.070612 0.204609
+-0.684636 -0.070612 0.395275
+-0.559003 -0.070612 0.559003
+-0.395275 -0.070612 0.684636
+-0.204609 -0.070612 0.763613
+-0.000000 -0.070612 0.790550
+0.204609 -0.070612 0.763613
+0.395275 -0.070612 0.684636
+0.559003 -0.070612 0.559003
+0.684636 -0.070612 0.395275
+0.763613 -0.070612 0.204609
+0.790550 -0.070612 -0.000000
+0.554797 -0.007737 -0.148657
+0.497417 -0.007737 -0.287184
+0.406139 -0.007737 -0.406139
+0.287184 -0.007737 -0.497417
+0.148657 -0.007737 -0.554797
+0.000000 -0.007737 -0.574368
+-0.148657 -0.007737 -0.554797
+-0.287184 -0.007737 -0.497417
+-0.406139 -0.007737 -0.406140
+-0.497417 -0.007737 -0.287184
+-0.554797 -0.007737 -0.148657
+-0.574368 -0.007737 -0.000000
+-0.554797 -0.007737 0.148657
+-0.497417 -0.007737 0.287184
+-0.406140 -0.007737 0.406140
+-0.287184 -0.007737 0.497417
+-0.148657 -0.007737 0.554797
+-0.000000 -0.007737 0.574368
+0.148657 -0.007737 0.554797
+0.287184 -0.007737 0.497417
+0.406140 -0.007737 0.406140
+0.497417 -0.007737 0.287184
+0.554797 -0.007737 0.148657
+0.574368 -0.007737 -0.000000
+0.291674 0.032631 -0.078154
+0.261508 0.032631 -0.150982
+0.213520 0.032631 -0.213520
+0.150982 0.032631 -0.261508
+0.078154 0.032631 -0.291674
+0.000000 0.032631 -0.301963
+-0.078154 0.032631 -0.291674
+-0.150982 0.032631 -0.261508
+-0.213520 0.032631 -0.213520
+-0.261508 0.032631 -0.150982
+-0.291674 0.032631 -0.078154
+-0.301963 0.032631 -0.000000
+-0.291674 0.032631 0.078154
+-0.261508 0.032631 0.150982
+-0.213520 0.032631 0.213520
+-0.150982 0.032631 0.261508
+-0.078154 0.032631 0.291674
+-0.000000 0.032631 0.301963
+0.078154 0.032631 0.291674
+0.150982 0.032631 0.261508
+0.213520 0.032631 0.213520
+0.261508 0.032631 0.150982
+0.291674 0.032631 0.078154
+0.301963 0.032631 -0.000000
+-0.000000 0.046541 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopper-POSITION-array" count="97" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TankTopper-Normal0">
+          <float_array id="TankTopper-Normal0-array" count="291">
+0.478845 0.868473 -0.128307
+0.429321 0.868473 -0.247868
+0.350539 0.868473 -0.350539
+0.247868 0.868473 -0.429321
+0.128306 0.868473 -0.478845
+0.000000 0.868473 -0.495737
+-0.128306 0.868473 -0.478845
+-0.247868 0.868473 -0.429320
+-0.350539 0.868473 -0.350539
+-0.429320 0.868473 -0.247868
+-0.478845 0.868473 -0.128306
+-0.495737 0.868473 -0.000000
+-0.478845 0.868473 0.128306
+-0.429320 0.868473 0.247868
+-0.350539 0.868473 0.350539
+-0.247868 0.868473 0.429320
+-0.128306 0.868473 0.478845
+0.000000 0.868473 0.495737
+0.128306 0.868473 0.478845
+0.247868 0.868473 0.429321
+0.350539 0.868473 0.350539
+0.429320 0.868473 0.247868
+0.478845 0.868473 0.128306
+0.495737 0.868473 -0.000000
+0.379106 0.919761 -0.101582
+0.339898 0.919761 -0.196240
+0.277525 0.919761 -0.277525
+0.196240 0.919761 -0.339898
+0.101581 0.919761 -0.379106
+0.000000 0.919761 -0.392480
+-0.101581 0.919761 -0.379106
+-0.196240 0.919761 -0.339897
+-0.277525 0.919761 -0.277525
+-0.339897 0.919761 -0.196240
+-0.379106 0.919761 -0.101581
+-0.392480 0.919761 -0.000000
+-0.379106 0.919761 0.101581
+-0.339897 0.919761 0.196240
+-0.277525 0.919761 0.277525
+-0.196240 0.919761 0.339897
+-0.101581 0.919761 0.379106
+-0.000000 0.919761 0.392480
+0.101581 0.919761 0.379106
+0.196240 0.919761 0.339897
+0.277525 0.919761 0.277525
+0.339897 0.919761 0.196240
+0.379106 0.919761 0.101581
+0.392480 0.919761 -0.000000
+0.218952 0.973970 -0.058668
+0.196307 0.973970 -0.113338
+0.160284 0.973970 -0.160284
+0.113338 0.973970 -0.196307
+0.058668 0.973970 -0.218952
+0.000000 0.973970 -0.226676
+-0.058668 0.973970 -0.218952
+-0.113338 0.973970 -0.196307
+-0.160284 0.973970 -0.160284
+-0.196307 0.973970 -0.113338
+-0.218952 0.973970 -0.058668
+-0.226676 0.973970 -0.000000
+-0.218952 0.973970 0.058668
+-0.196307 0.973970 0.113338
+-0.160284 0.973970 0.160284
+-0.113338 0.973970 0.196307
+-0.058668 0.973970 0.218952
+-0.000000 0.973970 0.226676
+0.058668 0.973970 0.218952
+0.113338 0.973970 0.196307
+0.160284 0.973970 0.160284
+0.196307 0.973970 0.113338
+0.218952 0.973970 0.058668
+0.226676 0.973970 -0.000000
+0.118137 0.992493 -0.031655
+0.105919 0.992493 -0.061152
+0.086482 0.992493 -0.086482
+0.061152 0.992493 -0.105919
+0.031655 0.992493 -0.118137
+0.000000 0.992493 -0.122304
+-0.031655 0.992493 -0.118137
+-0.061152 0.992493 -0.105919
+-0.086482 0.992493 -0.086482
+-0.105918 0.992493 -0.061152
+-0.118137 0.992493 -0.031655
+-0.122304 0.992493 -0.000000
+-0.118137 0.992493 0.031655
+-0.105918 0.992493 0.061152
+-0.086482 0.992493 0.086482
+-0.061152 0.992493 0.105918
+-0.031655 0.992493 0.118137
+-0.000000 0.992493 0.122304
+0.031655 0.992493 0.118137
+0.061152 0.992493 0.105918
+0.086482 0.992493 0.086482
+0.105918 0.992493 0.061152
+0.118137 0.992493 0.031655
+0.122304 0.992493 -0.000000
+0.000000 1.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopper-Normal0-array" count="97" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TankTopper-UV0">
+          <float_array id="TankTopper-UV0-array" count="232">
+0.538973 0.531141
+0.604235 0.558173
+0.584029 0.593172
+0.528513 0.570177
+0.660278 0.601176
+0.306173 0.629753
+0.552556 0.647685
+0.512221 0.630978
+0.468937 0.521920
+0.468937 0.562334
+0.333639 0.558173
+0.353846 0.593172
+0.350682 0.674262
+0.512898 0.716374
+0.491693 0.707591
+0.468937 0.625279
+0.398902 0.531141
+0.409361 0.570177
+0.398902 0.531141
+0.409361 0.570177
+0.385318 0.647685
+0.406767 0.730347
+0.468937 0.792517
+0.468937 0.704595
+0.425653 0.630977
+0.333639 0.558173
+0.353846 0.593172
+0.468937 0.521921
+0.468937 0.562334
+0.425653 0.630977
+0.424976 0.716374
+0.446181 0.707591
+0.385318 0.647685
+0.660278 0.601176
+0.306173 0.629753
+0.538972 0.531141
+0.528513 0.570177
+0.468937 0.625279
+0.446181 0.707590
+0.424976 0.716374
+0.350682 0.674262
+0.604235 0.558173
+0.584029 0.593172
+0.604235 0.558173
+0.584029 0.593172
+0.512221 0.630977
+0.468937 0.704595
+0.406767 0.730347
+0.552556 0.647685
+0.538973 0.531141
+0.528513 0.570177
+0.660278 0.601176
+0.306173 0.629753
+0.552556 0.647685
+0.491693 0.707590
+0.512898 0.716374
+0.512221 0.630978
+0.468937 0.521920
+0.468937 0.562334
+0.333639 0.558173
+0.353846 0.593172
+0.350682 0.674262
+0.512898 0.716374
+0.491693 0.707590
+0.468937 0.625279
+0.398902 0.531141
+0.409361 0.570177
+0.398901 0.531141
+0.409361 0.570177
+0.385318 0.647685
+0.406767 0.730347
+0.468937 0.704595
+0.425653 0.630977
+0.333639 0.558173
+0.353845 0.593172
+0.468937 0.521920
+0.468937 0.562334
+0.425653 0.630977
+0.424976 0.716374
+0.446181 0.707591
+0.385318 0.647685
+0.660278 0.601176
+0.306173 0.629753
+0.538973 0.531141
+0.528513 0.570177
+0.468937 0.625279
+0.446181 0.707591
+0.424976 0.716374
+0.350682 0.674262
+0.604235 0.558173
+0.584029 0.593172
+0.512221 0.630977
+0.468937 0.704595
+0.406767 0.730347
+0.552556 0.647685
+0.491693 0.707591
+0.512898 0.716374
+0.531108 0.730347
+0.468937 0.792517
+0.468937 0.792517
+0.468937 0.792517
+0.531108 0.730346
+0.531107 0.730346
+0.531108 0.730347
+0.587192 0.674262
+0.587192 0.674262
+0.587192 0.674262
+0.587192 0.674262
+0.631701 0.629753
+0.631701 0.629753
+0.631701 0.629753
+0.631701 0.629753
+0.277597 0.601176
+0.277597 0.601176
+0.277597 0.601176
+0.277597 0.601176
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopper-UV0-array" count="116" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TankTopper-VERTEX">
+          <input semantic="POSITION" source="#TankTopper-POSITION"/>
+          <input semantic="NORMAL" source="#TankTopper-Normal0"/>
+        </vertices>
+        <triangles count="168" material="AtlasTanks"><input semantic="VERTEX" offset="0" source="#TankTopper-VERTEX"/><input semantic="TEXCOORD" offset="1" set="0" source="#TankTopper-UV0"/><p> 1 1 24 3 0 0 24 3 1 1 25 2 2 4 25 2 1 1 25 2 2 4 26 111 3 10 26 5 2 115 26 5 3 10 27 11 27 11 4 18 28 19 4 18 27 11 3 10 4 18 29 28 28 19 29 28 4 18 5 27 30 36 29 28 5 27 5 27 6 35 30 36 31 44 30 36 6 35 6 35 7 43 31 44 7 43 8 51 32 110 7 43 32 110 31 44 8 114 9 59 33 60 8 114 33 60 32 52 34 68 9 59 10 67 9 59 34 68 33 60 35 76 10 67 11 75 10 67 35 76 34 68 11 75 36 84 35 76 36 84 11 75 12 83 12 83 37 90 36 84 37 90 12 83 13 89 38 109 37 90 13 89 13 89 14 81 38 109 39 74 38 82 14 113 14 113 15 73 39 74 16 65 39 74 15 73 39 74 16 65 40 66 16 65 17 57 41 58 16 65 41 58 40 66 42 50 17 57 18 49 17 57 42 50 41 58 43 42 18 49 19 41 18 49 43 42 42 50 19 41 44 108 43 42 44 108 19 41 20 33 20 112 45 26 44 34 45 26 20 112 21 25 46 17 45 26 21 25 21 25 22 16 46 17 46 17 23 8 47 9 23 8 46 17 22 16 0 0 47 9 23 8 47 9 0 0 24 3 25 2 48 7 24 3 48 7 25 2 49 6 26 111 49 6 25 2 49 6 26 111 50 107 27 11 50 12 26 5 50 12 27 11 51 20 28 19 51 20 27 11 51 20 28 19 52 29 52 29 29 28 53 37 29 28 52 29 28 19 54 45 53 37 29 28 29 28 30 36 54 45 54 45 30 36 55 53 30 36 31 44 55 53 55 53 31 44 56 106 31 44 32 110 56 106 33 60 57 69 32 52 32 52 57 69 56 61 34 68 57 69 33 60 57 69 34 68 58 77 35 76 58 77 34 68 58 77 35 76 59 85 60 91 35 76 36 84 35 76 60 91 59 85 60 91 37 90 61 94 37 90 60 91 36 84 61 94 38 109 62 105 38 109 61 94 37 90 62 88 38 82 63 80 38 82 39 74 63 80 63 80 40 66 64 72 40 66 63 80 39 74 41 58 64 72 40 66 64 72 41 58 65 64 66 56 41 58 42 50 41 58 66 56 65 64 67 48 42 50 43 42 42 50 67 48 66 56 43 42 68 104 67 48 68 104 43 42 44 108 44 34 69 32 68 40 69 32 44 34 45 26 69 32 46 17 70 24 46 17 69 32 45 26 70 24 47 9 71 15 47 9 70 24 46 17 71 15 24 3 48 7 24 3 71 15 47 9 49 6 72 14 48 7 72 14 49 6 73 13 50 107 73 13 49 6 73 13 50 107 74 103 75 30 50 12 51 20 50 12 75 30 74 21 76 38 51 20 52 29 51 20 76 38 75 30 76 38 53 37 77 46 53 37 76 38 52 29 77 46 53 37 78 54 53 37 54 45 78 54 55 53 78 54 54 45 78 54 55 53 79 62 56 106 80 102 55 53 79 62 55 53 80 102 57 69 81 78 56 61 56 61 81 78 80 70 82 86 57 69 58 77 57 69 82 86 81 78 59 85 82 86 58 77 82 86 59 85 83 92 84 95 59 85 60 91 59 85 84 95 83 92 84 95 61 94 85 96 61 94 84 95 60 91 85 96 61 94 86 101 61 94 62 105 86 101 63 80 87 87 62 88 86 93 62 88 87 87 64 72 87 87 63 80 87 87 64 72 88 79 65 64 88 79 64 72 88 79 65 64 89 71 90 63 65 64 66 56 65 64 90 63 89 71 67 48 90 63 66 56 90 63 67 48 91 55 92 97 67 48 68 104 67 48 92 97 91 55 68 40 93 39 92 47 93 39 68 40 69 32 93 39 69 32 94 31 69 32 70 24 94 31 94 31 71 15 95 23 71 15 94 31 70 24 48 7 95 23 71 15 95 23 48 7 72 14 72 14 73 13 96 22 73 13 74 103 96 22 74 21 75 30 96 100 75 30 76 38 96 100 76 38 77 46 96 100 77 46 78 54 96 100 78 54 79 62 96 100 79 62 80 102 96 100 80 70 81 78 96 99 81 78 82 86 96 99 82 86 83 92 96 99 83 92 84 95 96 99 84 95 85 96 96 99 85 96 86 101 96 99 86 93 87 87 96 98 87 87 88 79 96 98 88 79 89 71 96 98 89 71 90 63 96 98 90 63 91 55 96 98 91 55 92 97 96 98 92 47 93 39 96 22 93 39 94 31 96 22 94 31 95 23 96 22 95 23 72 14 96 22</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="TankTopperBlock-lib" name="TankTopperBlockMesh">
+      <mesh>
+        <source id="TankTopperBlock-POSITION">
+          <float_array id="TankTopperBlock-POSITION-array" count="24">
+-0.052219 -0.087153 0.911612
+0.052219 -0.087153 0.911612
+-0.052219 0.161648 0.911612
+0.052219 0.161648 0.911612
+-0.052219 0.161648 0.624762
+0.052219 0.161648 0.624762
+-0.052219 -0.087153 0.183468
+0.052219 -0.087153 0.183468
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopperBlock-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TankTopperBlock-Normal0">
+          <float_array id="TankTopperBlock-Normal0-array" count="72">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopperBlock-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TankTopperBlock-UV0">
+          <float_array id="TankTopperBlock-UV0-array" count="28">
+0.043054 0.620182
+0.043054 0.518368
+0.077843 0.580073
+0.077843 0.620182
+0.043054 0.518368
+0.043054 0.620182
+0.077843 0.620182
+0.077843 0.580073
+0.009565 0.519485
+0.031464 0.519485
+0.031464 0.579632
+0.009565 0.579632
+0.031464 0.672163
+0.009565 0.672163
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopperBlock-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TankTopperBlock-VERTEX">
+          <input semantic="POSITION" source="#TankTopperBlock-POSITION"/>
+        </vertices>
+        <triangles count="8" material="AtlasTanks"><input semantic="VERTEX" offset="0" source="#TankTopperBlock-VERTEX"/><input semantic="NORMAL" offset="1" source="#TankTopperBlock-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#TankTopperBlock-UV0"/><p> 3 0 9 5 1 10 2 2 8 2 3 8 5 4 10 4 5 11 7 6 12 4 7 11 5 8 10 4 9 11 7 10 12 6 11 13 3 12 3 1 13 0 5 14 2 1 15 0 7 16 1 5 17 2 0 18 5 4 19 7 6 20 4 4 21 7 0 22 5 2 23 6</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="TankTopperBlock1-lib" name="TankTopperBlock1Mesh">
+      <mesh>
+        <source id="TankTopperBlock1-POSITION">
+          <float_array id="TankTopperBlock1-POSITION-array" count="24">
+-0.052219 -0.087153 0.911612
+0.052219 -0.087153 0.911612
+-0.052219 0.161648 0.911612
+0.052219 0.161648 0.911612
+-0.052219 0.161648 0.624762
+0.052219 0.161648 0.624762
+-0.052219 -0.087153 0.183468
+0.052219 -0.087153 0.183468
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopperBlock1-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TankTopperBlock1-Normal0">
+          <float_array id="TankTopperBlock1-Normal0-array" count="72">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopperBlock1-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TankTopperBlock1-UV0">
+          <float_array id="TankTopperBlock1-UV0-array" count="28">
+0.043054 0.620182
+0.043054 0.518368
+0.077843 0.580073
+0.077843 0.620182
+0.043054 0.518368
+0.043054 0.620182
+0.077843 0.620182
+0.077843 0.580073
+0.009565 0.519485
+0.031464 0.519485
+0.031464 0.579632
+0.009565 0.579632
+0.031464 0.672163
+0.009565 0.672163
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopperBlock1-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TankTopperBlock1-VERTEX">
+          <input semantic="POSITION" source="#TankTopperBlock1-POSITION"/>
+        </vertices>
+        <triangles count="8" material="AtlasTanks"><input semantic="VERTEX" offset="0" source="#TankTopperBlock1-VERTEX"/><input semantic="NORMAL" offset="1" source="#TankTopperBlock1-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#TankTopperBlock1-UV0"/><p> 3 0 9 5 1 10 2 2 8 2 3 8 5 4 10 4 5 11 7 6 12 4 7 11 5 8 10 4 9 11 7 10 12 6 11 13 3 12 3 1 13 0 5 14 2 1 15 0 7 16 1 5 17 2 0 18 5 4 19 7 6 20 4 4 21 7 0 22 5 2 23 6</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="TankTopperBlock2-lib" name="TankTopperBlock2Mesh">
+      <mesh>
+        <source id="TankTopperBlock2-POSITION">
+          <float_array id="TankTopperBlock2-POSITION-array" count="24">
+-0.052219 -0.087153 0.911612
+0.052219 -0.087153 0.911612
+-0.052219 0.161648 0.911612
+0.052219 0.161648 0.911612
+-0.052219 0.161648 0.624762
+0.052219 0.161648 0.624762
+-0.052219 -0.087153 0.183468
+0.052219 -0.087153 0.183468
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopperBlock2-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TankTopperBlock2-Normal0">
+          <float_array id="TankTopperBlock2-Normal0-array" count="72">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopperBlock2-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TankTopperBlock2-UV0">
+          <float_array id="TankTopperBlock2-UV0-array" count="28">
+0.043054 0.620182
+0.043054 0.518368
+0.077843 0.580073
+0.077843 0.620182
+0.043054 0.518368
+0.043054 0.620182
+0.077843 0.620182
+0.077843 0.580073
+0.009565 0.519485
+0.031464 0.519485
+0.031464 0.579632
+0.009565 0.579632
+0.031464 0.672163
+0.009565 0.672163
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopperBlock2-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TankTopperBlock2-VERTEX">
+          <input semantic="POSITION" source="#TankTopperBlock2-POSITION"/>
+        </vertices>
+        <triangles count="8" material="AtlasTanks"><input semantic="VERTEX" offset="0" source="#TankTopperBlock2-VERTEX"/><input semantic="NORMAL" offset="1" source="#TankTopperBlock2-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#TankTopperBlock2-UV0"/><p> 3 0 9 5 1 10 2 2 8 2 3 8 5 4 10 4 5 11 7 6 12 4 7 11 5 8 10 4 9 11 7 10 12 6 11 13 3 12 3 1 13 0 5 14 2 1 15 0 7 16 1 5 17 2 0 18 5 4 19 7 6 20 4 4 21 7 0 22 5 2 23 6</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="TankTopperBlock3-lib" name="TankTopperBlock3Mesh">
+      <mesh>
+        <source id="TankTopperBlock3-POSITION">
+          <float_array id="TankTopperBlock3-POSITION-array" count="24">
+-0.052219 -0.087153 0.911612
+0.052219 -0.087153 0.911612
+-0.052219 0.161648 0.911612
+0.052219 0.161648 0.911612
+-0.052219 0.161648 0.624762
+0.052219 0.161648 0.624762
+-0.052219 -0.087153 0.183468
+0.052219 -0.087153 0.183468
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopperBlock3-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TankTopperBlock3-Normal0">
+          <float_array id="TankTopperBlock3-Normal0-array" count="72">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+0.000000 0.871092 -0.491120
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopperBlock3-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TankTopperBlock3-UV0">
+          <float_array id="TankTopperBlock3-UV0-array" count="28">
+0.043054 0.620182
+0.043054 0.518368
+0.077843 0.580073
+0.077843 0.620182
+0.043054 0.518368
+0.043054 0.620182
+0.077843 0.620182
+0.077843 0.580073
+0.009565 0.519485
+0.031464 0.519485
+0.031464 0.579632
+0.009565 0.579632
+0.031464 0.672163
+0.009565 0.672163
+</float_array>
+          <technique_common>
+            <accessor source="#TankTopperBlock3-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TankTopperBlock3-VERTEX">
+          <input semantic="POSITION" source="#TankTopperBlock3-POSITION"/>
+        </vertices>
+        <triangles count="8" material="AtlasTanks"><input semantic="VERTEX" offset="0" source="#TankTopperBlock3-VERTEX"/><input semantic="NORMAL" offset="1" source="#TankTopperBlock3-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#TankTopperBlock3-UV0"/><p> 3 0 9 5 1 10 2 2 8 2 3 8 5 4 10 4 5 11 7 6 12 4 7 11 5 8 10 4 9 11 7 10 12 6 11 13 3 12 3 1 13 0 5 14 2 1 15 0 7 16 1 5 17 2 0 18 5 4 19 7 6 20 4 4 21 7 0 22 5 2 23 6</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TankTopper" name="TankTopper">
+      <node name="TankTopper" id="TankTopper" sid="TankTopper"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.321026 0.000000 2.744429 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#TankTopper-lib"><bind_material><technique_common><instance_material symbol="AtlasTanks" target="#AtlasTanks"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="TankTopperBlock" id="TankTopperBlock" sid="TankTopperBlock"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -0.116757 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#TankTopperBlock-lib"><bind_material><technique_common><instance_material symbol="AtlasTanks" target="#AtlasTanks"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="TankTopperBlock1" id="TankTopperBlock1" sid="TankTopperBlock1"><matrix sid="matrix">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -0.116757 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#TankTopperBlock1-lib"><bind_material><technique_common><instance_material symbol="AtlasTanks" target="#AtlasTanks"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="TankTopperBlock2" id="TankTopperBlock2" sid="TankTopperBlock2"><matrix sid="matrix">-1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -0.116757 -0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#TankTopperBlock2-lib"><bind_material><technique_common><instance_material symbol="AtlasTanks" target="#AtlasTanks"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="TankTopperBlock3" id="TankTopperBlock3" sid="TankTopperBlock3"><matrix sid="matrix">0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 -0.116757 1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#TankTopperBlock3-lib"><bind_material><technique_common><instance_material symbol="AtlasTanks" target="#AtlasTanks"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TankTopper"></instance_visual_scene>
+  </scene>
+</COLLADA>

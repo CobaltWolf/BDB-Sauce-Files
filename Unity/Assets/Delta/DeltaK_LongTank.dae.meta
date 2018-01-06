@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: f5865906f023d154fa5d97da21a30a1e
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Erib1
+    100004: Erib3
+    100006: group12
+    100008: group13
+    100010: group14
+    100012: group15
+    100014: group16
+    100016: group17
+    100018: locator7
+    100020: locator8
+    100022: pCylinder18
+    100024: pCylinder18_ncl1_1
+    100026: pCylinder18_ncl1_2
+    100028: pCylinder18_ncl1_3
+    100030: SquareRib
+    100032: SquareRib2
+    100034: group24
+    400000: //RootNode
+    400002: Erib1
+    400004: Erib3
+    400006: group12
+    400008: group13
+    400010: group14
+    400012: group15
+    400014: group16
+    400016: group17
+    400018: locator7
+    400020: locator8
+    400022: pCylinder18
+    400024: pCylinder18_ncl1_1
+    400026: pCylinder18_ncl1_2
+    400028: pCylinder18_ncl1_3
+    400030: SquareRib
+    400032: SquareRib2
+    400034: group24
+    2300000: //RootNode
+    2300002: Erib1
+    2300004: Erib3
+    2300006: pCylinder18
+    2300008: pCylinder18_ncl1_1
+    2300010: pCylinder18_ncl1_2
+    2300012: pCylinder18_ncl1_3
+    2300014: SquareRib
+    2300016: SquareRib2
+    3300000: //RootNode
+    3300002: Erib1
+    3300004: Erib3
+    3300006: pCylinder18
+    3300008: pCylinder18_ncl1_1
+    3300010: pCylinder18_ncl1_2
+    3300012: pCylinder18_ncl1_3
+    3300014: SquareRib
+    3300016: SquareRib2
+    4300000: DeltaK_LongTank
+    4300002: SquareRib2
+    4300004: SquareRib
+    4300006: Erib1
+    4300008: Erib3
+    4300010: pCylinder18
+    4300012: pCylinder18_ncl1_1
+    4300014: pCylinder18_ncl1_2
+    4300016: pCylinder18_ncl1_3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

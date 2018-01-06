@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2017-07-12T17:53:15Z</created><keywords></keywords><modified>2017-07-12T17:53:15Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="file2-image" name="file2"><init_from>file://C:/Users/Matthew/OneDrive/Personal/Kerbal/Unity/Assets/ProbesExpansion/bluedog_probeSolar1.psd</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="probeSolar" name="probeSolar">
+      <instance_effect url="#probeSolar-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="probeSolar-fx" name="probeSolar">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="PanelHinge-lib" name="PanelHingeMesh">
+      <mesh>
+        <source id="PanelHinge-POSITION">
+          <float_array id="PanelHinge-POSITION-array" count="42">
+0.004913 -0.143826 -0.008510
+-0.004913 -0.143826 -0.008510
+-0.009826 -0.143826 -0.000000
+-0.004913 -0.143826 0.008510
+0.004913 -0.143826 0.008510
+0.009826 -0.143826 -0.000000
+0.004913 0.143826 -0.008510
+-0.004913 0.143826 -0.008510
+-0.009826 0.143826 -0.000000
+-0.004913 0.143826 0.008510
+0.004913 0.143826 0.008510
+0.009826 0.143826 -0.000000
+0.000000 -0.143826 -0.000000
+0.000000 0.143826 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#PanelHinge-POSITION-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="PanelHinge-Normal0">
+          <float_array id="PanelHinge-Normal0-array" count="198">
+-0.500000 0.000000 -0.866025
+-0.500000 0.000000 -0.866025
+0.500000 0.000000 -0.866025
+0.500000 0.000000 -0.866025
+-0.500000 0.000000 -0.866025
+0.500000 0.000000 -0.866025
+-1.000000 0.000000 -0.000000
+-0.500000 0.000000 -0.866025
+-1.000000 0.000000 -0.000000
+-0.500000 0.000000 -0.866025
+-1.000000 0.000000 -0.000000
+-0.500000 0.000000 -0.866025
+-0.866025 0.000000 0.500000
+-1.000000 0.000000 -0.000000
+-0.866025 0.000000 0.500000
+-1.000000 0.000000 -0.000000
+-0.866025 0.000000 0.500000
+-1.000000 0.000000 -0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.866026 0.000000 0.499999
+0.866026 0.000000 0.499999
+0.866026 0.000000 0.499999
+1.000000 0.000000 0.000000
+0.500000 0.000000 -0.866025
+0.500000 0.000000 -0.866025
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.500000 0.000000 -0.866025
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000001
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000001
+0.000000 -1.000000 0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000001
+0.000000 1.000000 -0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 -0.000001
+0.000000 1.000000 -0.000001
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#PanelHinge-Normal0-array" count="66" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="PanelHinge-UV0">
+          <float_array id="PanelHinge-UV0-array" count="60">
+0.008266 0.232189
+0.008266 0.221587
+0.447825 0.221587
+0.447825 0.232189
+0.008266 0.210985
+0.447825 0.210985
+0.447825 0.210985
+0.447825 0.221587
+0.008266 0.221587
+0.008266 0.210985
+0.447825 0.232189
+0.008266 0.232189
+0.904096 0.142857
+0.904096 0.123883
+0.920528 0.133370
+0.920528 0.114396
+0.920528 0.152344
+0.936960 0.123883
+0.936960 0.142857
+0.936960 0.123883
+0.936960 0.142857
+0.920528 0.133370
+0.920528 0.152344
+0.920528 0.114396
+0.904096 0.142857
+0.904096 0.123883
+0.448052 0.232225
+0.448052 0.244467
+0.008493 0.244467
+0.008493 0.232225
+</float_array>
+          <technique_common>
+            <accessor source="#PanelHinge-UV0-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="PanelHinge-VERTEX">
+          <input semantic="POSITION" source="#PanelHinge-POSITION"/>
+        </vertices>
+        <triangles count="22" material="probeSolar"><input semantic="VERTEX" offset="0" source="#PanelHinge-VERTEX"/><input semantic="NORMAL" offset="1" source="#PanelHinge-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#PanelHinge-UV0"/><p> 1 0 27 7 1 28 0 2 26 0 3 26 7 4 28 6 5 29 8 6 2 1 7 0 2 8 1 1 9 0 8 10 2 7 11 3 9 12 5 2 13 1 3 14 4 2 15 1 9 16 5 8 17 2 5 18 7 11 19 8 4 20 6 10 21 9 4 22 6 11 23 8 0 24 10 6 25 11 5 26 7 11 27 8 5 28 7 6 29 11 1 30 12 0 31 13 12 32 14 2 33 16 1 34 12 12 35 14 3 36 18 2 37 16 12 38 14 4 39 17 3 40 18 12 41 14 5 42 15 4 43 17 12 44 14 0 45 13 5 46 15 12 47 14 6 48 19 7 49 20 13 50 21 7 51 20 8 52 22 13 53 21 8 54 22 9 55 24 13 56 21 9 57 24 10 58 25 13 59 21 10 60 25 11 61 23 13 62 21 11 63 23 6 64 19 13 65 21</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="SolarPanel-lib" name="SolarPanelMesh">
+      <mesh>
+        <source id="SolarPanel-POSITION">
+          <float_array id="SolarPanel-POSITION-array" count="96">
+0.006598 0.140040 0.022578
+0.006598 -0.140040 0.022578
+0.006598 0.140040 0.000017
+0.006598 -0.140040 0.000017
+-0.007476 0.140040 0.022578
+-0.007476 -0.140040 0.022578
+0.006598 0.140040 0.022578
+0.006598 -0.140040 0.022578
+0.006598 0.140040 0.000017
+0.006598 -0.140040 0.000017
+-0.007476 0.140040 0.000017
+-0.007476 -0.140040 0.000017
+-0.007476 0.140040 0.147966
+-0.007476 -0.140040 0.147966
+0.006598 -0.140040 0.147966
+0.006598 0.140040 0.147966
+-0.007476 -0.162134 0.022578
+0.006598 -0.162134 0.022578
+0.006598 -0.162134 0.147966
+-0.007476 -0.162134 0.147966
+-0.007476 0.162134 0.022578
+0.006598 0.162134 0.022578
+-0.007476 0.162134 0.147966
+0.006598 0.162134 0.147966
+-0.007476 0.082410 0.953969
+-0.007476 -0.082410 0.953969
+0.006598 -0.082410 0.953969
+0.006598 0.082410 0.953969
+-0.007476 -0.082410 0.953969
+0.006598 -0.082410 0.953969
+0.006598 0.082410 0.953969
+-0.007476 0.082410 0.953969
+</float_array>
+          <technique_common>
+            <accessor source="#SolarPanel-POSITION-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SolarPanel-Normal0">
+          <float_array id="SolarPanel-Normal0-array" count="378">
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-1.000000 -0.000001 0.000000
+-1.000000 -0.000001 0.000000
+-1.000000 -0.000001 0.000000
+-1.000000 -0.000001 0.000000
+-1.000000 -0.000001 0.000000
+-1.000000 -0.000001 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-0.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 -0.995144 0.098433
+0.000000 -0.995144 0.098433
+0.000000 -0.995144 0.098433
+0.000000 -0.995144 0.098433
+0.000000 -0.995144 0.098433
+0.000000 -0.995144 0.098433
+0.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.995144 0.098433
+0.000000 0.995144 0.098433
+0.000000 0.995144 0.098433
+0.000000 0.995144 0.098433
+0.000000 0.995144 0.098433
+0.000000 0.995144 0.098433
+-0.000000 -0.000000 -0.000000
+-1.000000 -0.000003 -0.000000
+-1.000000 -0.000003 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#SolarPanel-Normal0-array" count="126" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SolarPanel-UV0">
+          <float_array id="SolarPanel-UV0-array" count="140">
+0.023783 0.664739
+0.012425 0.664739
+0.012425 0.434515
+0.023783 0.434515
+0.961131 0.278271
+0.961131 0.121070
+0.974279 0.121070
+0.974279 0.278271
+0.815904 0.665475
+0.815904 0.851612
+0.800910 0.851612
+0.800910 0.665475
+0.907594 0.096048
+0.907594 0.054898
+0.932029 0.054898
+0.932029 0.096048
+0.907594 0.096048
+0.907594 0.054898
+0.932029 0.054898
+0.932029 0.096048
+0.717580 0.851612
+0.717580 0.665475
+0.961131 0.139875
+0.974279 0.139875
+0.974279 0.259466
+0.961131 0.259466
+0.013287 0.674548
+0.013287 0.413830
+0.130006 0.413830
+0.130006 0.674548
+0.974279 0.259466
+0.961131 0.259466
+0.961131 0.139875
+0.974279 0.139875
+0.932029 0.095622
+0.907594 0.095622
+0.907594 0.055324
+0.932029 0.055324
+0.130006 0.695114
+0.013287 0.695114
+0.961131 0.121070
+0.974279 0.121070
+0.800910 0.866295
+0.717580 0.866295
+0.907594 0.055324
+0.932029 0.055324
+0.932029 0.095622
+0.907594 0.095622
+0.717580 0.650792
+0.800910 0.650792
+0.974279 0.278271
+0.961131 0.278271
+0.013287 0.393264
+0.130006 0.393264
+0.181925 0.813312
+0.181924 0.703776
+0.880287 0.467476
+0.880287 0.620901
+0.181925 0.813312
+0.961131 0.020654
+0.974279 0.020654
+0.974279 0.378686
+0.961131 0.378686
+0.880287 0.620901
+0.880287 0.467476
+0.974279 0.378686
+0.961131 0.378686
+0.961131 0.020654
+0.974279 0.020654
+0.181924 0.703776
+</float_array>
+          <technique_common>
+            <accessor source="#SolarPanel-UV0-array" count="70" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="SolarPanel-VERTEX">
+          <input semantic="POSITION" source="#SolarPanel-POSITION"/>
+        </vertices>
+        <triangles count="42" material="probeSolar"><input semantic="VERTEX" offset="0" source="#SolarPanel-VERTEX"/><input semantic="NORMAL" offset="1" source="#SolarPanel-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#SolarPanel-UV0"/><p> 1 0 2 2 1 0 0 2 1 2 3 0 1 4 2 3 5 3 26 6 6 27 7 7 24 8 4 24 9 4 25 10 5 26 11 6 5 12 10 4 13 11 10 14 8 5 15 10 10 16 8 11 17 9 7 18 15 5 19 12 9 20 14 5 21 12 11 22 13 9 23 14 6 24 18 10 25 16 4 26 17 10 27 16 6 28 18 8 29 19 13 30 20 12 31 21 4 32 11 13 33 20 4 34 11 5 35 10 19 36 25 16 37 22 18 38 24 18 39 24 16 40 22 17 41 23 15 42 28 14 43 29 7 44 26 15 45 28 7 46 26 6 47 27 23 48 33 21 49 30 22 50 32 22 51 32 21 52 30 20 53 31 17 54 36 16 55 37 5 56 34 17 57 36 5 58 34 7 59 35 18 60 38 7 61 26 14 62 29 7 63 26 18 64 38 17 65 39 16 66 42 19 67 43 13 68 20 13 69 20 5 70 10 16 71 42 20 72 46 6 73 44 4 74 45 6 75 44 20 76 46 21 77 47 22 78 48 4 79 11 12 80 21 4 81 11 22 82 48 20 83 49 21 84 52 23 85 53 15 86 28 15 87 28 6 88 27 21 89 52 24 90 55 12 91 21 25 92 54 12 93 21 13 94 20 25 95 54 26 96 57 15 97 28 27 98 56 15 99 28 26 100 57 14 101 29 19 102 43 28 103 58 13 104 20 28 105 62 19 106 59 29 107 61 29 108 61 19 109 59 18 110 60 26 111 57 18 112 38 14 113 29 23 114 53 30 115 64 15 116 28 30 117 68 23 118 65 31 119 67 31 120 67 23 121 65 22 122 66 24 123 55 22 124 48 12 125 21</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="HingeRod-lib" name="HingeRodMesh">
+      <mesh>
+        <source id="HingeRod-POSITION">
+          <float_array id="HingeRod-POSITION-array" count="24">
+-0.190074 -0.003209 0.003209
+0.190074 -0.003209 0.003209
+-0.190074 0.003209 0.003209
+0.190074 0.003209 0.003209
+-0.190074 0.003209 -0.003209
+0.190074 0.003209 -0.003209
+-0.190074 -0.003209 -0.003209
+0.190074 -0.003209 -0.003209
+</float_array>
+          <technique_common>
+            <accessor source="#HingeRod-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HingeRod-Normal0">
+          <float_array id="HingeRod-Normal0-array" count="72">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#HingeRod-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HingeRod-UV0">
+          <float_array id="HingeRod-UV0-array" count="32">
+0.900984 0.096575
+0.900984 0.051662
+0.934644 0.051662
+0.934644 0.096575
+0.900983 0.096575
+0.900983 0.051662
+0.934644 0.051662
+0.934644 0.096575
+0.900983 0.096575
+0.900983 0.051662
+0.934644 0.051662
+0.934644 0.096575
+0.900983 0.096575
+0.900983 0.051662
+0.934644 0.051662
+0.934644 0.096575
+</float_array>
+          <technique_common>
+            <accessor source="#HingeRod-UV0-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="HingeRod-VERTEX">
+          <input semantic="POSITION" source="#HingeRod-POSITION"/>
+        </vertices>
+        <triangles count="8" material="probeSolar"><input semantic="VERTEX" offset="0" source="#HingeRod-VERTEX"/><input semantic="NORMAL" offset="1" source="#HingeRod-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#HingeRod-UV0"/><p> 3 0 10 2 1 11 0 2 8 3 3 10 0 4 8 1 5 9 2 6 0 3 7 1 5 8 2 2 9 0 5 10 2 4 11 3 7 12 14 6 13 15 4 14 12 7 15 14 4 16 12 5 17 13 1 18 6 0 19 7 6 20 4 1 21 6 6 22 4 7 23 5</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="HingeRod1-lib" name="HingeRod1Mesh">
+      <mesh>
+        <source id="HingeRod1-POSITION">
+          <float_array id="HingeRod1-POSITION-array" count="24">
+-0.190074 -0.003209 0.003209
+0.190074 -0.003209 0.003209
+-0.190074 0.003209 0.003209
+0.190074 0.003209 0.003209
+-0.190074 0.003209 -0.003209
+0.190074 0.003209 -0.003209
+-0.190074 -0.003209 -0.003209
+0.190074 -0.003209 -0.003209
+</float_array>
+          <technique_common>
+            <accessor source="#HingeRod1-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HingeRod1-Normal0">
+          <float_array id="HingeRod1-Normal0-array" count="72">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#HingeRod1-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="HingeRod1-UV0">
+          <float_array id="HingeRod1-UV0-array" count="32">
+0.900984 0.096575
+0.900984 0.051662
+0.934644 0.051662
+0.934644 0.096575
+0.900983 0.096575
+0.900983 0.051662
+0.934644 0.051662
+0.934644 0.096575
+0.900983 0.096575
+0.900983 0.051662
+0.934644 0.051662
+0.934644 0.096575
+0.900983 0.096575
+0.900983 0.051662
+0.934644 0.051662
+0.934644 0.096575
+</float_array>
+          <technique_common>
+            <accessor source="#HingeRod1-UV0-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="HingeRod1-VERTEX">
+          <input semantic="POSITION" source="#HingeRod1-POSITION"/>
+        </vertices>
+        <triangles count="8" material="probeSolar"><input semantic="VERTEX" offset="0" source="#HingeRod1-VERTEX"/><input semantic="NORMAL" offset="1" source="#HingeRod1-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#HingeRod1-UV0"/><p> 3 0 10 2 1 11 0 2 8 3 3 10 0 4 8 1 5 9 2 6 0 3 7 1 5 8 2 2 9 0 5 10 2 4 11 3 7 12 14 6 13 15 4 14 12 7 15 14 4 16 12 5 17 13 1 18 6 0 19 7 6 20 4 1 21 6 6 22 4 7 23 5</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Attach-lib" name="AttachMesh">
+      <mesh>
+        <source id="Attach-POSITION">
+          <float_array id="Attach-POSITION-array" count="48">
+0.884050 0.626924 0.477713
+0.856864 0.626924 0.477713
+0.884050 0.654110 0.477713
+0.856864 0.654110 0.477713
+0.884050 0.654110 0.306613
+0.856864 0.654110 0.306613
+0.884050 0.626924 0.306613
+0.856864 0.626924 0.306613
+0.448864 0.626924 0.477713
+0.476050 0.626924 0.477713
+0.448864 0.654110 0.477713
+0.476050 0.654110 0.477713
+0.448864 0.654110 0.306613
+0.476050 0.654110 0.306613
+0.448864 0.626924 0.306613
+0.476050 0.626924 0.306613
+</float_array>
+          <technique_common>
+            <accessor source="#Attach-POSITION-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Attach-Normal0">
+          <float_array id="Attach-Normal0-array" count="216">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Attach-Normal0-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Attach-UV0">
+          <float_array id="Attach-UV0-array" count="96">
+0.936230 0.830345
+0.936230 0.762496
+0.991873 0.762496
+0.991873 0.830345
+0.936230 0.830345
+0.936230 0.762496
+0.991873 0.762496
+0.991873 0.830345
+0.936230 0.762496
+0.991873 0.762496
+0.991873 0.830345
+0.936230 0.830345
+0.936230 0.762496
+0.991873 0.762496
+0.991873 0.830345
+0.936230 0.830345
+0.934513 0.761930
+0.993489 0.761930
+0.993489 0.830822
+0.934513 0.830822
+0.934513 0.830823
+0.934513 0.761930
+0.993489 0.761930
+0.993489 0.830823
+0.934513 0.761930
+0.993489 0.761930
+0.993489 0.830822
+0.934513 0.830822
+0.936230 0.762496
+0.991873 0.762496
+0.991873 0.830345
+0.936230 0.830345
+0.934513 0.830823
+0.934513 0.761930
+0.993489 0.761930
+0.993489 0.830823
+0.936230 0.762496
+0.991873 0.762496
+0.991873 0.830345
+0.936230 0.830345
+0.936230 0.830345
+0.936230 0.762496
+0.991873 0.762496
+0.991873 0.830345
+0.936230 0.830345
+0.936230 0.762496
+0.991873 0.762496
+0.991873 0.830345
+</float_array>
+          <technique_common>
+            <accessor source="#Attach-UV0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Attach-VERTEX">
+          <input semantic="POSITION" source="#Attach-POSITION"/>
+        </vertices>
+        <triangles count="24" material="probeSolar"><input semantic="VERTEX" offset="0" source="#Attach-VERTEX"/><input semantic="NORMAL" offset="1" source="#Attach-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Attach-UV0"/><p> 3 0 18 0 1 16 2 2 19 0 3 16 3 4 18 1 5 17 5 6 10 3 7 9 2 8 8 2 9 8 4 10 11 5 11 10 7 12 22 4 13 20 6 14 23 4 15 20 7 16 22 5 17 21 1 18 14 6 19 12 0 20 15 6 21 12 1 22 14 7 23 13 3 24 3 5 25 2 1 26 0 1 27 0 5 28 2 7 29 1 0 30 5 6 31 4 2 32 6 2 33 6 6 34 4 4 35 7 11 36 26 10 37 27 8 38 24 11 39 26 8 40 24 9 41 25 11 42 29 13 43 30 10 44 28 10 45 28 13 46 30 12 47 31 15 48 34 14 49 35 12 50 32 15 51 34 12 52 32 13 53 33 8 54 39 14 55 36 9 56 38 9 57 38 14 58 36 15 59 37 13 60 42 11 61 43 9 62 40 9 63 40 15 64 41 13 65 42 10 66 46 14 67 44 8 68 45 14 69 44 10 70 46 12 71 47</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_animations>
+    <animation id="PanelHinge-anim" name="PanelHinge"><animation><source id="PanelHinge-Matrix-animation-input"><float_array id="PanelHinge-Matrix-animation-input-array" count="30">
+
+0.041667 0.083333 0.125000 0.166667 0.208333 0.250000 0.291667 0.333333 0.375000 0.416667 0.458333 0.500000 0.541667 0.583333 0.625000 0.666667
+0.708333 0.750000 0.791667 0.833333 0.875000 0.916667 0.958333 1.000000 1.041667 1.083333 1.125000 1.166667 1.208333 1.250000</float_array><technique_common><accessor source="#PanelHinge-Matrix-animation-input-array" count="30"><param name="TIME" type="float"/></accessor></technique_common></source><source id="PanelHinge-Matrix-animation-output-transform"><float_array id="PanelHinge-Matrix-animation-output-transform-array" count="480">
+
+0.000000 -1.288234 0.000000 0.000000 0.000000 0.000000 1.288234 -0.098774 -1.288234 0.000000 0.000000 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.025156 0.000000 1.287988 -0.098774 -1.287988 0.000000 0.025156 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.075456 0.000000 1.286022 -0.098774 -1.286022 0.000000 0.075456 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.113182 0.000000 1.283252 -0.098774 -1.283252 0.000000 0.113182 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.126590 0.000000 1.281999 -0.098774 -1.281999 0.000000 0.126590 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.132128 0.000000 1.281440 -0.098774 -1.281440 0.000000 0.132128 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.134554 0.000000 1.281188 -0.098774 -1.281188 0.000000 0.134554 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.138613 0.000000 1.280755 -0.098774 -1.280755 0.000000 0.138613 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.149044 0.000000 1.279583 -0.098774 -1.279583 0.000000 0.149044 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.170559 0.000000 1.276893 -0.098774 -1.276893 0.000000 0.170559 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.224006 0.000000 1.268609 -0.098774 -1.268609 0.000000 0.224006 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.321012 0.000000 1.247597 -0.098774 -1.247597 0.000000 0.321012 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.451250 0.000000 1.206615 -0.098774 -1.206615 0.000000 0.451250 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.602595 0.000000 1.138607 -0.098774 -1.138607 0.000000 0.602595 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.761444 0.000000 1.039110 -0.098774 -1.039110 0.000000 0.761444 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 0.913874 0.000000 0.907954 -0.098774 -0.907954 0.000000 0.913874 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 1.047431 0.000000 0.749956 -0.098774 -0.749956 0.000000 1.047431 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 1.153056 0.000000 0.574463 -0.098774 -0.574463 0.000000 1.153056 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 1.226529 0.000000 0.393920 -0.098774 -0.393920 0.000000 1.226529 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 1.268974 0.000000 0.221926 -0.098774 -0.221926 0.000000 1.268974 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 1.286254 0.000000 0.071397 -0.098774 -0.071397 0.000000 1.286254 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 -0.000000 0.000000 1.287391 0.000000 -0.046596 -0.098774 0.046596 0.000000 1.287391 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 -0.000000 0.000000 1.282347 0.000000 -0.123018 -0.098774 0.123018 -0.000000 1.282347 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 -0.000000 0.000000 1.279454 0.000000 -0.150147 -0.098774 0.150147 0.000000 1.279454 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 -0.000000 0.000000 1.280705 0.000000 -0.139070 -0.098774 0.139070 0.000000 1.280705 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 -0.000000 0.000000 1.283414 0.000000 -0.111334 -0.098774 0.111334 0.000000 1.283414 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 -0.000000 0.000000 1.286037 0.000000 -0.075202 -0.098774 0.075202 0.000000 1.286037 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 -0.000000 0.000000 1.287643 0.000000 -0.039010 -0.098774 0.039010 0.000000 1.287643 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 -0.000000 0.000000 1.288186 0.000000 -0.011147 -0.098774 0.011147 0.000000 1.288186 0.028000 0.000000 0.000000 0.000000 1.000000
+0.000000 -1.288234 0.000000 0.000000 1.288234 0.000000 0.000000 -0.098774 0.000000 0.000000 1.288234 0.028000 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#PanelHinge-Matrix-animation-output-transform-array" count="30" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="PanelHinge-Interpolations"><Name_array id="PanelHinge-Interpolations-array" count="30">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#PanelHinge-Interpolations-array" count="30"><param type="name"/></accessor></technique_common></source><sampler id="PanelHinge-Matrix-animation-transform"><input semantic="INPUT" source="#PanelHinge-Matrix-animation-input"/><input semantic="OUTPUT" source="#PanelHinge-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#PanelHinge-Interpolations"/></sampler><channel source="#PanelHinge-Matrix-animation-transform" target="PanelHinge/matrix"/></animation><animation><source id="PanelHinge-visibility-animation-input"><float_array id="PanelHinge-visibility-animation-input-array" count="5">
+
+0.041667 0.166667 0.416667 1.000000 1.250000</float_array><technique_common><accessor source="#PanelHinge-visibility-animation-input-array" count="5"><param name="TIME" type="float"/></accessor></technique_common></source><source id="PanelHinge-visibility-animation-output"><float_array id="PanelHinge-visibility-animation-output-array" count="5">
+
+1.000000 1.000000 1.000000 1.000000 1.000000</float_array><technique_common><accessor source="#PanelHinge-visibility-animation-output-array" count="5"><param type="float"/></accessor></technique_common></source><source id="PanelHinge-visibility-animation-intan"><float_array id="PanelHinge-visibility-animation-intan-array" count="5">
+
+0.000000 0.000000 0.000000 0.000000 0.000000</float_array><technique_common><accessor source="#PanelHinge-visibility-animation-intan-array" count="5"><param type="float"/></accessor></technique_common></source><source id="PanelHinge-visibility-animation-outtan"><float_array id="PanelHinge-visibility-animation-outtan-array" count="5">
+
+0.000000 0.000000 0.000000 0.000000 0.000000</float_array><technique_common><accessor source="#PanelHinge-visibility-animation-outtan-array" count="5"><param type="float"/></accessor></technique_common></source><source id="PanelHinge-visibility-animation-interpolation"><Name_array id="PanelHinge-visibility-animation-interpolation-array" count="5">
+ STEP STEP STEP STEP STEP</Name_array><technique_common><accessor source="#PanelHinge-visibility-animation-interpolation-array" count="5"><param type="name"/></accessor></technique_common></source><sampler id="PanelHinge-visibility-animation"><input semantic="INPUT" source="#PanelHinge-visibility-animation-input"/><input semantic="OUTPUT" source="#PanelHinge-visibility-animation-output"/><input semantic="IN_TANGENT" source="#PanelHinge-visibility-animation-intan"/><input semantic="OUT_TANGENT" source="#PanelHinge-visibility-animation-outtan"/><input semantic="INTERPOLATION" source="#PanelHinge-visibility-animation-interpolation"/></sampler><channel source="#PanelHinge-visibility-animation" target="PanelHinge/visibility"/></animation></animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="bluedog_rangerSolar" name="bluedog_rangerSolar">
+      <node name="Ranger_Mariner" id="Ranger_Mariner" sid="Ranger_Mariner"><matrix sid="matrix">1.000000 0.000000 0.000000 0.666457 0.000000 1.000000 0.000000 0.806147 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="RangerSolarPanel" id="RangerSolarPanel" sid="RangerSolarPanel"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -0.066319 0.000000 0.000000 1.000000 0.439593 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="PanelHinge" id="PanelHinge" sid="PanelHinge"><matrix sid="matrix">0.000000 -1.288234 0.000000 0.000000 0.000000 0.000000 1.288234 -0.098774 -1.288234 0.000000 0.000000 0.028000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#PanelHinge-lib"><bind_material><technique_common><instance_material symbol="probeSolar" target="#probeSolar"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="SolarPanel" id="SolarPanel" sid="SolarPanel"><matrix sid="matrix">1.000000 -0.000000 0.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#SolarPanel-lib"><bind_material><technique_common><instance_material symbol="probeSolar" target="#probeSolar"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node><node name="HingeRod" id="HingeRod" sid="HingeRod"><matrix sid="matrix">0.042455 0.000000 0.000000 -0.186628 0.000000 1.334451 0.000000 -0.099000 0.000000 0.000000 1.334451 0.027063 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#HingeRod-lib"><bind_material><technique_common><instance_material symbol="probeSolar" target="#probeSolar"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="HingeRod1" id="HingeRod1" sid="HingeRod1"><matrix sid="matrix">-0.042455 0.000000 -0.000000 0.186628 0.000000 1.334451 0.000000 -0.099000 -0.000000 0.000000 1.334451 0.027063 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#HingeRod1-lib"><bind_material><technique_common><instance_material symbol="probeSolar" target="#probeSolar"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="Attach" id="Attach" sid="Attach"><matrix sid="matrix">1.000000 0.000000 0.000000 -0.666457 0.000000 1.000000 0.000000 -0.739828 0.000000 0.000000 1.000000 -0.439593 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Attach-lib"><bind_material><technique_common><instance_material symbol="probeSolar" target="#probeSolar"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>2.500000</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#bluedog_rangerSolar"></instance_visual_scene>
+  </scene>
+</COLLADA>

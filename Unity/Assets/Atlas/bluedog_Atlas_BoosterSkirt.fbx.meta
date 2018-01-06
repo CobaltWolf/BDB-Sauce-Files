@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 4ce5a12bc8e82a1419cd662bda3fe963
+timeCreated: 1500858097
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group110
+    100004: group111
+    100006: group112
+    100008: pCube73
+    100010: pCube89
+    100012: pCube90
+    100014: pCylinder168
+    100016: pCylinder169
+    100018: pCylinder170
+    100020: pCylinder171
+    100022: pCylinder212
+    100024: pCylinder212 1
+    100026: pCylinder212 2
+    100028: pCylinder213
+    100030: pCylinder214
+    100032: pCylinder215
+    100034: polySurface24
+    100036: polySurface25
+    100038: polySurface26
+    100040: group113
+    100042: group113 1
+    100044: group114
+    100046: group114 1
+    100048: group115
+    100050: group115 1
+    100052: group116
+    100054: group116 1
+    100056: group117
+    100058: group118
+    100060: pCylinder220
+    100062: pCylinder220 1
+    100064: pCylinder220 2
+    100066: pCylinder220 3
+    100068: pCylinder220 4
+    100070: pCylinder220 5
+    100072: pCylinder220 6
+    100074: pCylinder220 7
+    100076: Atlas_BoosterFairing1_group117
+    100078: Colliders
+    100080: group141
+    100082: group142
+    100084: pCube110
+    100086: pCube111
+    100088: pCylinder245
+    100090: pCylinder245 1
+    100092: pCylinder246
+    100094: pCylinder246 1
+    100096: pCylinder247
+    100098: pCylinder247 1
+    100100: pCylinder248
+    100102: pCylinder248 1
+    100104: pCylinder249
+    100106: pCylinder249 1
+    100108: pCylinder250
+    100110: pCylinder250 1
+    100112: pCylinder251
+    100114: pCylinder251 1
+    100116: SkirtAttach
+    100118: group143
+    100120: thrustTransform
+    100122: thrustTransform1
+    100124: thrustTransform2
+    100126: thrustTransform3
+    100128: thrustTransform4
+    100130: thrustTransform5
+    100132: thrustTransform6
+    100134: thrustTransform7
+    400000: //RootNode
+    400002: group110
+    400004: group111
+    400006: group112
+    400008: pCube73
+    400010: pCube89
+    400012: pCube90
+    400014: pCylinder168
+    400016: pCylinder169
+    400018: pCylinder170
+    400020: pCylinder171
+    400022: pCylinder212
+    400024: pCylinder212 1
+    400026: pCylinder212 2
+    400028: pCylinder213
+    400030: pCylinder214
+    400032: pCylinder215
+    400034: polySurface24
+    400036: polySurface25
+    400038: polySurface26
+    400040: group113
+    400042: group113 1
+    400044: group114
+    400046: group114 1
+    400048: group115
+    400050: group115 1
+    400052: group116
+    400054: group116 1
+    400056: group117
+    400058: group118
+    400060: pCylinder220
+    400062: pCylinder220 1
+    400064: pCylinder220 2
+    400066: pCylinder220 3
+    400068: pCylinder220 4
+    400070: pCylinder220 5
+    400072: pCylinder220 6
+    400074: pCylinder220 7
+    400076: Atlas_BoosterFairing1_group117
+    400078: Colliders
+    400080: group141
+    400082: group142
+    400084: pCube110
+    400086: pCube111
+    400088: pCylinder245
+    400090: pCylinder245 1
+    400092: pCylinder246
+    400094: pCylinder246 1
+    400096: pCylinder247
+    400098: pCylinder247 1
+    400100: pCylinder248
+    400102: pCylinder248 1
+    400104: pCylinder249
+    400106: pCylinder249 1
+    400108: pCylinder250
+    400110: pCylinder250 1
+    400112: pCylinder251
+    400114: pCylinder251 1
+    400116: SkirtAttach
+    400118: group143
+    400120: thrustTransform
+    400122: thrustTransform1
+    400124: thrustTransform2
+    400126: thrustTransform3
+    400128: thrustTransform4
+    400130: thrustTransform5
+    400132: thrustTransform6
+    400134: thrustTransform7
+    2300000: pCube73
+    2300002: pCube89
+    2300004: pCube90
+    2300006: pCylinder169
+    2300008: pCylinder170
+    2300010: pCylinder171
+    2300012: pCylinder212
+    2300014: pCylinder212 1
+    2300016: pCylinder212 2
+    2300018: pCylinder213
+    2300020: pCylinder214
+    2300022: pCylinder215
+    2300024: polySurface24
+    2300026: polySurface25
+    2300028: polySurface26
+    2300030: pCylinder220
+    2300032: pCylinder220 1
+    2300034: pCylinder220 2
+    2300036: pCylinder220 3
+    2300038: pCylinder220 4
+    2300040: pCylinder220 5
+    2300042: pCylinder220 6
+    2300044: pCylinder220 7
+    2300046: Atlas_BoosterFairing1_group117
+    2300048: pCube110
+    2300050: pCube111
+    2300052: pCylinder245
+    2300054: pCylinder245 1
+    2300056: pCylinder246
+    2300058: pCylinder246 1
+    2300060: pCylinder247
+    2300062: pCylinder247 1
+    2300064: pCylinder248
+    2300066: pCylinder248 1
+    2300068: pCylinder249
+    2300070: pCylinder249 1
+    2300072: pCylinder250
+    2300074: pCylinder250 1
+    2300076: pCylinder251
+    2300078: pCylinder251 1
+    3300000: pCube73
+    3300002: pCube89
+    3300004: pCube90
+    3300006: pCylinder169
+    3300008: pCylinder170
+    3300010: pCylinder171
+    3300012: pCylinder212
+    3300014: pCylinder212 1
+    3300016: pCylinder212 2
+    3300018: pCylinder213
+    3300020: pCylinder214
+    3300022: pCylinder215
+    3300024: polySurface24
+    3300026: polySurface25
+    3300028: polySurface26
+    3300030: pCylinder220
+    3300032: pCylinder220 1
+    3300034: pCylinder220 2
+    3300036: pCylinder220 3
+    3300038: pCylinder220 4
+    3300040: pCylinder220 5
+    3300042: pCylinder220 6
+    3300044: pCylinder220 7
+    3300046: Atlas_BoosterFairing1_group117
+    3300048: pCube110
+    3300050: pCube111
+    3300052: pCylinder245
+    3300054: pCylinder245 1
+    3300056: pCylinder246
+    3300058: pCylinder246 1
+    3300060: pCylinder247
+    3300062: pCylinder247 1
+    3300064: pCylinder248
+    3300066: pCylinder248 1
+    3300068: pCylinder249
+    3300070: pCylinder249 1
+    3300072: pCylinder250
+    3300074: pCylinder250 1
+    3300076: pCylinder251
+    3300078: pCylinder251 1
+    4300000: polySurface24
+    4300002: polySurface25
+    4300004: polySurface26
+    4300006: pCylinder169
+    4300008: pCylinder170
+    4300010: pCylinder171
+    4300012: pCube73
+    4300014: pCylinder213
+    4300016: pCylinder214
+    4300018: pCylinder212
+    4300020: pCylinder212
+    4300022: pCylinder215
+    4300024: pCylinder212
+    4300026: pCube89
+    4300028: pCube90
+    4300030: pCylinder220
+    4300032: pCylinder220
+    4300034: pCylinder220
+    4300036: pCylinder220
+    4300038: pCylinder220
+    4300040: pCylinder220
+    4300042: pCylinder220
+    4300044: pCylinder220
+    4300046: Atlas_BoosterFairing1_group117
+    4300048: pCylinder245
+    4300050: pCylinder246
+    4300052: pCylinder247
+    4300054: pCylinder248
+    4300056: pCylinder249
+    4300058: pCylinder250
+    4300060: pCylinder251
+    4300062: pCylinder245
+    4300064: pCylinder246
+    4300066: pCylinder247
+    4300068: pCylinder248
+    4300070: pCylinder249
+    4300072: pCylinder250
+    4300074: pCylinder251
+    4300076: pCube111
+    4300078: pCube110
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

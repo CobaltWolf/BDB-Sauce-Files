@@ -1,0 +1,3093 @@
+fileFormatVersion: 2
+guid: 5de78b6a349dce642b2c6abfb7bedf2f
+timeCreated: 1500578899
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Atlas_LongTank1
+    100004: Atlas_LongTank2
+    100006: Atlas_LongTank_Mesh
+    100008: pCube70
+    100010: pCube71
+    100012: pCube76
+    100014: pCube91
+    100016: pCube91 1
+    100018: pCube92
+    100020: pCube92 1
+    100022: pCube93
+    100024: pCube93 1
+    100026: pCube94
+    100028: pCube94 1
+    100030: pCube95
+    100032: pCube95 1
+    100034: pCube96
+    100036: pCube96 1
+    100038: pCube97
+    100040: pCube97 1
+    100042: pCube98
+    100044: pCylinder164
+    100046: pCylinder185
+    100048: pCylinder186
+    100050: pCylinder187
+    100052: pCylinder188
+    100054: polySurface27
+    100056: polySurface28
+    100058: transform1
+    100060: transform10
+    100062: transform11
+    100064: transform12
+    100066: transform13
+    100068: transform14
+    100070: transform15
+    100072: transform16
+    100074: transform17
+    100076: transform18
+    100078: transform19
+    100080: transform2
+    100082: transform20
+    100084: transform21
+    100086: transform22
+    100088: transform23
+    100090: transform24
+    100092: transform25
+    100094: transform3
+    100096: transform4
+    100098: transform5
+    100100: transform6
+    100102: transform7
+    100104: transform8
+    100106: transform9
+    100108: pCylinder222
+    100110: pCylinder223
+    100112: transform26
+    100114: transform27
+    100116: Atlas_FairingAdapterTank
+    100118: AtlasFairingAdapterTank1
+    100120: AtlasFairingAdapterTank2
+    100122: extrudedSurface10
+    100124: extrudedSurface10 1
+    100126: extrudedSurface9
+    100128: extrudedSurface9 1
+    100130: group120
+    100132: group120 1
+    100134: group121
+    100136: group121 1
+    100138: group122
+    100140: group124
+    100142: group125
+    100144: group126
+    100146: group127
+    100148: group128
+    100150: group129
+    100152: group130
+    100154: group131
+    100156: group97
+    100158: pCube100
+    100160: pCube100 1
+    100162: pCube69
+    100164: pCube69 1
+    100166: pCube69 2
+    100168: pCube69 3
+    100170: pCube99
+    100172: pCylinder162
+    100174: pCylinder184
+    100176: pCylinder184 1
+    100178: pCylinder184 2
+    100180: pCylinder184 3
+    100182: pCylinder211
+    100184: pCylinder211 1
+    100186: pCylinder224
+    100188: pTorus7
+    100190: AtlasFairingAdapterTank
+    100192: curve10
+    100194: curve9
+    100196: group132
+    100198: nurbsCircle4
+    100200: Gimbal1_Lower
+    100202: Gimbal1_Upper
+    100204: Gimbal2_Lower
+    100206: Gimbal2_Upper
+    100208: Gimbal3_Lower
+    100210: Gimbal3_Upper
+    100212: Gimbal4_Lower
+    100214: Gimbal4_Upper
+    100216: GimbalArm
+    100218: GimbalArm1
+    100220: GimbalArm2
+    100222: GimbalArm3
+    100224: gimbalTransform
+    100226: group104
+    100228: LR109
+    100230: LR110
+    100232: pCube101
+    100234: pCube101 1
+    100236: pCube102
+    100238: pCube102 1
+    100240: pCube77
+    100242: pCube78
+    100244: pCube78 1
+    100246: pCube78 2
+    100248: pCube78 3
+    100250: pCube79
+    100252: pCube80
+    100254: pCube81
+    100256: pCube82
+    100258: pCylinder191
+    100260: pCylinder192
+    100262: pCylinder194
+    100264: pCylinder195
+    100266: pCylinder196
+    100268: pCylinder197
+    100270: pCylinder219
+    100272: pCylinder225
+    100274: pCylinder226
+    100276: polySurface29
+    100278: polySurface30
+    100280: pSphere23
+    100282: pSphere24
+    100284: pTorus4
+    100286: pTorus5
+    100288: pTorus6
+    100290: transform28
+    100292: transform29
+    100294: transform30
+    100296: transform31
+    100298: transform32
+    100300: transform33
+    100302: transform34
+    100304: transform35
+    100306: transform36
+    100308: transform37
+    100310: transform38
+    100312: transform39
+    100314: transform40
+    100316: transform41
+    100318: transform42
+    100320: transform43
+    100322: transform44
+    100324: transform45
+    100326: transform46
+    100328: transform47
+    100330: transform48
+    100332: transform49
+    100334: transform50
+    100336: transform51
+    100338: transform52
+    100340: Gimbal1_Lower 1
+    100342: Gimbal1_Upper 1
+    100344: GimbalArm4
+    100346: group133
+    100348: group134
+    100350: LR111
+    100352: pCube77 1
+    100354: pSphere25
+    100356: pTorus8
+    100358: pTorus9
+    100360: transform53
+    100362: transform54
+    100364: transform55
+    100366: transform56
+    100368: transform57
+    100370: transform58
+    100372: transform59
+    100374: transform60
+    100376: transform61
+    100378: transform62
+    100380: transform63
+    100382: transform64
+    100384: transform65
+    100386: transform66
+    100388: transform67
+    100390: transform68
+    100392: transform69
+    100394: transform70
+    100396: transform71
+    100398: transform72
+    100400: transform73
+    100402: transform74
+    100404: transform75
+    100406: transform76
+    100408: transform77
+    100410: transform78
+    100412: transform79
+    100414: transform80
+    100416: transform81
+    100418: transform82
+    100420: LR112
+    100422: transform100
+    100424: transform101
+    100426: transform102
+    100428: transform103
+    100430: transform104
+    100432: transform105
+    100434: transform106
+    100436: transform107
+    100438: transform108
+    100440: transform109
+    100442: transform110
+    100444: transform111
+    100446: transform112
+    100448: transform83
+    100450: transform84
+    100452: transform85
+    100454: transform86
+    100456: transform87
+    100458: transform88
+    100460: transform89
+    100462: transform90
+    100464: transform91
+    100466: transform92
+    100468: transform93
+    100470: transform94
+    100472: transform95
+    100474: transform96
+    100476: transform97
+    100478: transform98
+    100480: transform99
+    100482: pCube103
+    100484: pCylinder178
+    100486: pCylinder179
+    100488: pCylinder180
+    100490: pCylinder181
+    100492: pCylinder182
+    100494: pCylinder183
+    100496: pCylinder229
+    100498: pCylinder231
+    100500: pCylinder232
+    100502: pCylinder233
+    100504: pCylinder234
+    100506: pCylinder235
+    100508: PitchGimbal
+    100510: pSphere26
+    100512: pTorus10
+    100514: Vernier5
+    100516: Vernier6
+    100518: YawGimbal
+    100520: LR107
+    100522: LR108
+    100524: pCylinder236
+    100526: pCylinder237
+    100528: pCylinder238
+    100530: Collider
+    100532: F1_Engine_Merged5
+    100534: F1_Engine_Merged6
+    100536: F1_Engine_Merged_gimbalTransform_transform13_group215_pTorus24
+    100538: lowerGimbal1
+    100540: lowerGimbal2
+    100542: pCube137
+    100544: polySurface55
+    100546: polySurface56
+    100548: upperGimbal1
+    100550: upperGimbal2
+    100552: AtlasFairingBase1
+    100554: AtlasFairingBase2
+    100556: extrudedSurface12
+    100558: extrudedSurface12 1
+    100560: group135
+    100562: group136
+    100564: group137
+    100566: group138
+    100568: group139
+    100570: group140
+    100572: null113
+    100574: null114
+    100576: pCube104
+    100578: pCube104 1
+    100580: pCube104 2
+    100582: pCube104 3
+    100584: pCube104 4
+    100586: pCube104 5
+    100588: pCube105
+    100590: pCube105 1
+    100592: pCube106
+    100594: pCube106 1
+    100596: pCube108
+    100598: pCube108 1
+    100600: pCube109
+    100602: pCube109 1
+    100604: pCylinder244
+    100606: GimbalTransform
+    100608: group24
+    100610: group60
+    100612: group61
+    100614: group61 1
+    100616: group62
+    100618: group63
+    100620: group64
+    100622: group65
+    100624: group66
+    100626: group67
+    100628: pCube25
+    100630: pCylinder100
+    100632: pCylinder101
+    100634: pCylinder102
+    100636: pCylinder103
+    100638: pCylinder104
+    100640: pCylinder105
+    100642: pCylinder106
+    100644: pCylinder107
+    100646: pCylinder108
+    100648: pCylinder109
+    100650: pCylinder147
+    100652: pCylinder147 1
+    100654: pCylinder147 2
+    100656: pCylinder147 3
+    100658: pCylinder148
+    100660: pCylinder149
+    100662: polySurface7
+    100664: polySurface8
+    100666: pTorus2
+    100668: pTorus3
+    100670: pTorus3 1
+    100672: VegaEngine2
+    100674: VegaEngine3
+    100676: vernierGimbal
+    100678: VernierWrapper
+    100680: pCylinder157
+    100682: Vega
+    100684: Vega_Avionics1
+    100686: Vega_Avionics2
+    100688: Vega_Avionics_Merged1
+    100690: Vega_Avionics_Merged1 1
+    100692: pCylinder155
+    100694: Vega_Tankage_Merged1
+    100696: Vega_Tankage_Merged1 1
+    100698: Vega_Tankage_Merged_Vega_Tank
+    100700: pCylinder156
+    100702: Vega_Engine_Mount2
+    100704: Vega_EngineMount_Merged1
+    100706: Vega_EngineMount_Merged1 1
+    100708: group144
+    100710: group144 1
+    100712: group144 2
+    100714: group144 3
+    100716: group145
+    100718: group145 1
+    100720: group145 2
+    100722: group145 3
+    100724: group146
+    100726: group147
+    100728: group148
+    100730: group74
+    100732: group74 1
+    100734: group74 2
+    100736: group74 3
+    100738: group75
+    100740: group75 1
+    100742: group75 2
+    100744: group75 3
+    100746: group79
+    100748: null67
+    100750: null67 1
+    100752: null67 2
+    100754: null67 3
+    100756: null67 4
+    100758: null67 5
+    100760: null67 6
+    100762: null67 7
+    100764: null69
+    100766: null69 1
+    100768: null69 2
+    100770: null69 3
+    100772: pCube26
+    100774: pCube26 1
+    100776: pCube26 2
+    100778: pCube26 3
+    100780: pCube26 4
+    100782: pCube26 5
+    100784: pCube26 6
+    100786: pCube26 7
+    100788: pCube51
+    100790: pCube51 1
+    100792: pCube51 2
+    100794: pCube51 3
+    100796: pCylinder112
+    100798: pCylinder112 1
+    100800: pCylinder112 2
+    100802: pCylinder112 3
+    100804: pCylinder112 4
+    100806: pCylinder112 5
+    100808: pCylinder112 6
+    100810: pCylinder112 7
+    100812: pCylinder150
+    100814: pCylinder150 1
+    100816: pCylinder150 2
+    100818: pCylinder150 3
+    100820: pCylinder151
+    100822: pCylinder151 1
+    100824: pCylinder151 2
+    100826: pCylinder151 3
+    100828: pCylinder152
+    100830: pCylinder152 1
+    100832: pCylinder152 2
+    100834: pCylinder152 3
+    100836: pCylinder158
+    100838: polySurface13
+    100840: pSphere11
+    100842: pSphere11 1
+    100844: pSphere11 2
+    100846: pSphere11 3
+    100848: RCS
+    100850: RCS1
+    100852: RCS2
+    100854: RCS3
+    100856: transform113
+    100858: transform114
+    100860: transform115
+    100862: transform116
+    100864: Vega_Engine_Mount3
+    100866: Vega_Engine_Mount3 1
+    100868: Vega_EngineMount
+    100870: Centaur_EngineMountA_Combined1
+    100872: Centaur_EngineMountA_Combined1 1
+    100874: CentaurD
+    100876: centerMount2
+    100878: polySurface2
+    100880: Centaur_EngineMountA3
+    100882: Centaur_EngineMountA3 1
+    100884: centerMount1
+    100886: extrudedSurface4
+    100888: extrudedSurface5
+    100890: extrudedSurface6
+    100892: group149
+    100894: group150
+    100896: group151
+    100898: group152
+    100900: group40
+    100902: group41
+    100904: group80
+    100906: pCube16
+    100908: pCube17
+    100910: pCube21
+    100912: pCube43
+    100914: pCube44
+    100916: pCube45
+    100918: pCube46
+    100920: pCube46 1
+    100922: pCylinder133
+    100924: pCylinder134
+    100926: pCylinder135
+    100928: pCylinder136
+    100930: pCylinder160
+    100932: pCylinder261
+    100934: pCylinder261 1
+    100936: pCylinder262
+    100938: pCylinder262 1
+    100940: pCylinder78
+    100942: pCylinder94
+    100944: pCylinder97
+    100946: pCylinder97 1
+    100948: polySurface1
+    100950: pSphere17
+    100952: pSphere18
+    100954: pSphere19
+    100956: pSphere20
+    100958: pSphere27
+    100960: pSphere27 1
+    100962: Centaur_EngineMountA4
+    100964: Centaur_EngineMountA4 1
+    100966: Centaur_Avionics1
+    100968: Centaur_Avionics1 1
+    100970: extrudedSurface1
+    100972: extrudedSurface1 1
+    100974: extrudedSurface2
+    100976: extrudedSurface2 1
+    100978: extrudedSurface3
+    100980: extrudedSurface3 1
+    100982: group83
+    100984: null108
+    100986: null4
+    100988: pCube2
+    100990: pCube22
+    100992: pCube53
+    100994: pCube54
+    100996: pCube55
+    100998: pCube56
+    101000: pCube57
+    101002: pCube58
+    101004: pCube59
+    101006: pCube60
+    101008: pCube61
+    101010: pCube62
+    101012: pCube63
+    101014: pCube64
+    101016: pCube65
+    101018: pCube66
+    101020: pCylinder81
+    101022: pCylinder81 1
+    101024: polySurface3
+    101026: polySurface4
+    101028: group29
+    101030: null102
+    101032: pCube1
+    101034: pCube3
+    101036: pCube32
+    101038: pCube33
+    101040: pCube34
+    101042: pCube35
+    101044: pCube36
+    101046: pCube37
+    101048: pCube38
+    101050: pCylinder1
+    101052: pCylinder113
+    101054: pCylinder114
+    101056: pCylinder115
+    101058: pCylinder117
+    101060: pCylinder118
+    101062: pCylinder119
+    101064: pCylinder120
+    101066: pCylinder121
+    101068: pCylinder3
+    101070: pCylinder5
+    101072: pCylinder64
+    101074: pCylinder65
+    101076: pCylinder68
+    101078: pCylinder8
+    101080: pCylinder9
+    101082: RL27
+    101084: RL27 1
+    101086: transform135
+    101088: transform136
+    101090: transform137
+    101092: transform138
+    101094: transform139
+    101096: transform140
+    101098: transform141
+    101100: transform142
+    101102: transform143
+    101104: transform144
+    101106: transform145
+    101108: transform146
+    101110: transform147
+    101112: transform148
+    101114: transform149
+    101116: transform150
+    101118: transform151
+    101120: transform152
+    101122: transform153
+    101124: transform154
+    101126: transform155
+    101128: transform156
+    101130: transform157
+    101132: transform158
+    101134: transform159
+    101136: transform160
+    101138: RL24
+    101140: RL28
+    101142: RL28 1
+    101144: transform161
+    101146: transform162
+    101148: transform163
+    101150: transform164
+    101152: transform165
+    101154: transform166
+    101156: transform167
+    101158: transform168
+    101160: transform169
+    101162: transform170
+    101164: transform171
+    101166: transform172
+    101168: transform173
+    101170: transform174
+    101172: transform175
+    101174: transform176
+    101176: transform177
+    101178: transform178
+    101180: transform179
+    101182: transform180
+    101184: transform181
+    101186: transform182
+    101188: transform183
+    101190: transform184
+    101192: transform185
+    101194: transform186
+    101196: Centaur_EngineMountA7
+    101198: group42
+    101200: group43
+    101202: pCylinder263
+    101204: Centaur_EngineMountA7 1
+    101206: transform188
+    101208: transform189
+    101210: transform190
+    101212: transform191
+    101214: transform192
+    101216: transform193
+    101218: transform194
+    101220: transform195
+    101222: transform196
+    101224: transform197
+    101226: transform198
+    101228: transform199
+    101230: transform200
+    101232: transform201
+    101234: transform202
+    101236: transform203
+    101238: transform204
+    101240: transform205
+    101242: transform206
+    101244: transform207
+    101246: transform208
+    101248: transform209
+    101250: transform210
+    101252: transform211
+    101254: transform212
+    101256: transform213
+    101258: transform214
+    101260: transform215
+    101262: pCube12
+    101264: pCube13
+    101266: pCube14
+    101268: pCube15
+    101270: pCylinder137
+    101272: pCylinder138
+    101274: pCylinder73
+    101276: pCylinder74
+    101278: pCylinder74 1
+    101280: pCylinder74 2
+    101282: RCS_Small1
+    101284: RCS_Small1 1
+    101286: transform216
+    101288: transform217
+    101290: transform218
+    101292: transform219
+    101294: transform220
+    101296: transform221
+    101298: transform222
+    101300: transform223
+    101302: transform224
+    101304: transform225
+    101306: transform226
+    101308: AARDV_ControlBlock2
+    101310: AARDV_ControlBlock2 1
+    101312: AARDVK_ControlBlockMesh
+    101314: APOLLO_EXTRAS
+    101316: extrudedSurface7
+    101318: group119
+    101320: group127 1
+    101322: group127 2
+    101324: group127 3
+    101326: group129 1
+    101328: group129 2
+    101330: group129 3
+    101332: group130 1
+    101334: group130 2
+    101336: group130 3
+    101338: pCube49
+    101340: pCube50
+    101342: pCube51 4
+    101344: pCube51 5
+    101346: pCube51 6
+    101348: pCube51 7
+    101350: pCube52
+    101352: pCylinder111
+    101354: pCylinder111 1
+    101356: pCylinder111 2
+    101358: pCylinder111 3
+    101360: pCylinder122
+    101362: polySurface75
+    101364: polySurface77
+    101366: Block3_MissionModule4
+    101368: Block3_MissionModule4 1
+    101370: DockingTarget
+    101372: group101
+    101374: group102
+    101376: group103
+    101378: group105
+    101380: group106
+    101382: group117
+    101384: group93
+    101386: pCube24
+    101388: pCube47
+    101390: pCube48
+    101392: pCylinder140
+    101394: pCylinder60
+    101396: pCylinder60 1
+    101398: pCylinder60 2
+    101400: pCylinder60 3
+    101402: pCylinder60 4
+    101404: pCylinder60 5
+    101406: pCylinder86
+    101408: pCylinder87
+    101410: pCylinder88
+    101412: pCylinder89
+    101414: pCylinder90
+    101416: pCylinder91
+    101418: pCylinder92
+    101420: pCylinder92 1
+    101422: pCylinder92 2
+    101424: pCylinder92 3
+    101426: pCylinder92 4
+    101428: pCylinder92 5
+    101430: pCylinder99
+    101432: polySurface64
+    101434: polySurface68
+    101436: polySurface69
+    101438: polySurface70
+    101440: polySurface72
+    101442: pSphere5
+    101444: Spotlight1
+    101446: AARDVK_Cargo1
+    101448: AARDVK_Cargo1 1
+    101450: group25
+    101452: group26
+    101454: group27
+    101456: group28
+    101458: pCube10
+    101460: pCube11
+    101462: pCube9
+    101464: pCylinder46
+    101466: pCylinder46 1
+    101468: pCylinder46 2
+    101470: pCylinder46 3
+    101472: pCylinder47
+    101474: pCylinder47 1
+    101476: pCylinder47 2
+    101478: pCylinder47 3
+    101480: pCylinder48
+    101482: pCylinder49
+    101484: pCylinder50
+    101486: polySurface73
+    101488: polySurface74
+    101490: polySurface78
+    101492: polySurface82
+    101494: polySurface83
+    101496: pSphere4
+    101498: Spotlight
+    101500: group72
+    101502: group73
+    101504: pCube45 1
+    101506: pCube45 2
+    101508: pCube45 3
+    101510: ProbeDecoupler1
+    101512: ProbeDecoupler2
+    101514: AARDV_ControlBlock3
+    101516: AARDV_ControlBlock3 1
+    101518: ArmRotate
+    101520: base
+    101522: BlockV_HighGainAntenna_Merged1
+    101524: BlockV_HighGainAntenna_Merged1 1
+    101526: BlockV_HighGainAntenna_Merged_base_ArmRotate_DishHinge_pCylinder133
+    101528: DishHinge
+    101530: pCylinder132
+    101532: EngineAssembly
+    101534: EngineAssembly1
+    101536: EngineAssembly2
+    101538: EngineAssembly3
+    101540: EngineAssembly4
+    101542: EngineAssembly5
+    101544: extrudedSurface33
+    101546: extrudedSurface33 1
+    101548: extrudedSurface34
+    101550: extrudedSurface34 1
+    101552: extrudedSurface35
+    101554: extrudedSurface35 1
+    101556: null10
+    101558: null10 1
+    101560: null11
+    101562: null11 1
+    101564: null12
+    101566: null13
+    101568: null14
+    101570: null5
+    101572: null5 1
+    101574: null50
+    101576: null6
+    101578: null6 1
+    101580: null7
+    101582: null8
+    101584: null9
+    101586: null9 1
+    101588: pCube40
+    101590: pCube41
+    101592: pCube41 1
+    101594: pCube41 2
+    101596: pCube41 3
+    101598: pCube41 4
+    101600: pCube41 5
+    101602: pCube42
+    101604: pCube42 1
+    101606: pCube43 1
+    101608: pCube44 1
+    101610: pCube46 2
+    101612: pCube46 3
+    101614: pCube47 1
+    101616: pCube52 1
+    101618: pCube52 2
+    101620: pCube52 3
+    101622: pCube52 4
+    101624: pCube52 5
+    101626: pCylinder82
+    101628: pCylinder83
+    101630: pCylinder83 1
+    101632: pCylinder83 2
+    101634: pCylinder83 3
+    101636: pCylinder83 4
+    101638: pCylinder83 5
+    101640: pCylinder84
+    101642: pCylinder84 1
+    101644: pCylinder84 2
+    101646: pCylinder84 3
+    101648: pCylinder85
+    101650: pCylinder85 1
+    101652: pCylinder86 1
+    101654: pCylinder87 1
+    101656: pCylinder88 1
+    101658: pCylinder88 2
+    101660: pCylinder88 3
+    101662: pCylinder88 4
+    101664: pCylinder88 5
+    101666: pCylinder89 1
+    101668: pCylinder90 1
+    101670: pCylinder91 1
+    101672: pCylinder93
+    101674: pCylinder95
+    101676: Shields
+    101678: Shields1
+    101680: Tempel2_Ion1
+    101682: Tempel2_Ion2
+    101684: ECRS
+    101686: Tempel2_Ion2 1
+    101688: transform117
+    101690: transform118
+    101692: transform119
+    101694: transform120
+    101696: transform121
+    101698: transform122
+    101700: transform123
+    101702: transform124
+    101704: transform125
+    101706: transform126
+    101708: transform127
+    101710: transform128
+    101712: transform129
+    101714: transform130
+    101716: transform131
+    101718: transform132
+    101720: transform133
+    101722: transform134
+    101724: altimeterAntenna1
+    101726: altimeterAntenna2
+    101728: altimeterAntenna3
+    101730: altimeterAntenna4
+    101732: Antenna1
+    101734: Antenna2
+    101736: bracket1
+    101738: bracket2
+    101740: bracket3
+    101742: chute
+    101744: core
+    101746: DISR
+    101748: fin
+    101750: fin25
+    101752: fin26
+    101754: fin27
+    101756: fin28
+    101758: fin29
+    101760: fin30
+    101762: fin31
+    101764: fin32
+    101766: fin33
+    101768: fin34
+    101770: fin35
+    101772: fin36
+    101774: fin37
+    101776: fin38
+    101778: fin39
+    101780: fin40
+    101782: fin41
+    101784: fin42
+    101786: fin43
+    101788: fin44
+    101790: fin45
+    101792: fin46
+    101794: fin47
+    101796: fin48
+    101798: fin49
+    101800: fin50
+    101802: fin51
+    101804: fin52
+    101806: fin53
+    101808: fin54
+    101810: fin55
+    101812: fins
+    101814: housing
+    101816: HuygensProbe
+    101818: mortar
+    101820: parachute
+    101822: sensorHead
+    101824: HUYGENS
+    101826: HuygensProbe1
+    101828: HuygensProbe1 1
+    101830: altimeterAntenna5
+    101832: altimeterAntenna6
+    101834: altimeterAntenna7
+    101836: bracket4
+    101838: bracket5
+    101840: fin58
+    101842: fin59
+    101844: fin60
+    101846: fin61
+    101848: fin62
+    101850: fin63
+    101852: fin64
+    101854: fin65
+    101856: fin66
+    101858: fin67
+    101860: fin68
+    101862: fin69
+    101864: fin70
+    101866: fin71
+    101868: fin72
+    101870: fin73
+    101872: fin74
+    101874: fin75
+    101876: fin76
+    101878: fin77
+    101880: fin78
+    101882: fin79
+    101884: fin80
+    101886: fin81
+    101888: fin82
+    101890: fin83
+    101892: fin84
+    101894: fin85
+    101896: fin86
+    101898: fin87
+    101900: fin88
+    101902: HuygensProbe2
+    101904: HuygensProbe2 1
+    101906: pCube129
+    101908: pCylinder143
+    101910: pCylinder216
+    101912: pCylinder217
+    101914: RCS3 1
+    101916: ERCS_2way1
+    101918: pCube129 1
+    101920: pCylinder143 1
+    101922: pCylinder216 1
+    101924: pCylinder217 1
+    101926: RCS4
+    101928: RCS5
+    101930: ERCS_2way1 1
+    101932: ERCS_3way1
+    101934: ERCS_3way1 1
+    101936: pCube129 2
+    101938: pCylinder143 2
+    101940: pCylinder216 2
+    101942: pCylinder217 2
+    101944: RCS6
+    101946: RCS7
+    101948: RCS8
+    101950: Cube
+    101952: Cylinder
+    101954: Cylinder.001
+    101956: Cylinder.002
+    101958: Cylinder.003
+    101960: Cylinder.004
+    101962: Cylinder.005
+    101964: Cylinder.006
+    101966: Cylinder.007
+    101968: Cylinder.009
+    101970: extrudedSurface23
+    101972: extrudedSurface24
+    101974: extrudedSurface36
+    101976: transform187
+    101978: Xenon_TripleTank2
+    101980: Xenon_TripleTank2_pCylinder145
+    101982: Xenon_TripleTank2_pCylinder146
+    101984: Xenon_TripleTank3
+    101986: Xenon_TripleTank4
+    101988: Xenon_TripleTank4 1
+    101990: pSphere10
+    101992: pSphere12
+    101994: XenonTripleTank1
+    101996: XenonTripleTank1 1
+    101998: pCylinder218
+    102000: XenonSingleTankNew1
+    102002: XenonSingleTankNew1 1
+    102004: extrudedSurface37
+    102006: extrudedSurface37 1
+    102008: extrudedSurface37 10
+    102010: extrudedSurface37 11
+    102012: extrudedSurface37 2
+    102014: extrudedSurface37 3
+    102016: extrudedSurface37 4
+    102018: extrudedSurface37 5
+    102020: extrudedSurface37 6
+    102022: extrudedSurface37 7
+    102024: extrudedSurface37 8
+    102026: extrudedSurface37 9
+    102028: group137 1
+    102030: group137 2
+    102032: group137 3
+    102034: group137 4
+    102036: group137 5
+    102038: group149 1
+    102040: group149 2
+    102042: group149 3
+    102044: group149 4
+    102046: group149 5
+    102048: group150 1
+    102050: group150 2
+    102052: group150 3
+    102054: group150 4
+    102056: group150 5
+    102058: null51
+    102060: null51 1
+    102062: null51 2
+    102064: null51 3
+    102066: null51 4
+    102068: null51 5
+    102070: null52
+    102072: null52 1
+    102074: null52 2
+    102076: null52 3
+    102078: null52 4
+    102080: null52 5
+    102082: pCube130
+    102084: pCube131
+    102086: pCube132
+    102088: pCube133
+    102090: pCube134
+    102092: pCube135
+    102094: pCylinder229 1
+    102096: pCylinder229 2
+    102098: pCylinder229 3
+    102100: pCylinder229 4
+    102102: pCylinder229 5
+    102104: pSphere10 1
+    102106: pSphere10 10
+    102108: pSphere10 11
+    102110: pSphere10 2
+    102112: pSphere10 3
+    102114: pSphere10 4
+    102116: pSphere10 5
+    102118: pSphere10 6
+    102120: pSphere10 7
+    102122: pSphere10 8
+    102124: pSphere10 9
+    102126: Xenon_StackMedium1
+    102128: Xenon_StackSmall1
+    102130: Xenon_StackSmall2
+    102132: Delta_Fenris1_ThorExhaust
+    102134: EngineBell
+    102136: thrustTransform
+    102138: UpperNode
+    102140: Vernier
+    102142: Vernier 1
+    102144: vernierTransform
+    102146: vernierTransform 1
+    102148: AttachRib
+    102150: Attachstuff
+    102152: GEM61
+    102154: GEM62
+    102156: LowerAttach
+    102158: UpperAttach
+    102160: AstrisStage1
+    102162: AstrisStage2
+    102164: extrudedSurface4 1
+    102166: extrudedSurface5 1
+    102168: group109
+    102170: group110
+    102172: group111
+    102174: group111 1
+    102176: group112
+    102178: group112 1
+    102180: group113
+    102182: group114
+    102184: group115
+    102186: group116
+    102188: group118
+    102190: group92
+    102192: group92 1
+    102194: group92 2
+    102196: group92 3
+    102198: group98
+    102200: pCube54 1
+    102202: pCube55 1
+    102204: pCylinder100 1
+    102206: pCylinder100 2
+    102208: pCylinder100 3
+    102210: pCylinder108 1
+    102212: pCylinder116
+    102214: pCylinder117 1
+    102216: pCylinder117 2
+    102218: pCylinder117 3
+    102220: pCylinder119 1
+    102222: pCylinder120 1
+    102224: pCylinder122 1
+    102226: pCylinder123
+    102228: pCylinder123 1
+    102230: pCylinder124
+    102232: pCylinder124 1
+    102234: pCylinder125
+    102236: pCylinder125 1
+    102238: pCylinder126
+    102240: pCylinder126 1
+    102242: pCylinder127
+    102244: pCylinder127 1
+    102246: pCylinder56
+    102248: pCylinder57
+    102250: pCylinder58
+    102252: pCylinder59
+    102254: pCylinder59 1
+    102256: pCylinder99 1
+    102258: pCylinder99 2
+    102260: pCylinder99 3
+    102262: pCylinder99 4
+    102264: pCylinder99 5
+    102266: pCylinder99 6
+    102268: pCylinder99 7
+    102270: PitchGimbal 1
+    102272: pSphere8
+    102274: pTorus13
+    102276: pTorus13 1
+    102278: Vernier1
+    102280: Vernier2
+    102282: YawGimbal 1
+    102284: pSphere9
+    102286: pCylinder131
+    102288: Fairing
+    102290: pCylinder128
+    102292: pCylinder129
+    102294: pCylinder130
+    102296: Astris_Engine
+    102298: Pioneer6_Engine1
+    102300: Pioneer6_Engine2
+    102302: pTorus1
+    102304: Boom2
+    102306: Boom3
+    102308: Boom4
+    102310: Boom5
+    102312: group12
+    102314: group13
+    102316: group14
+    102318: group3
+    102320: group4
+    102322: group5
+    102324: group6
+    102326: group7
+    102328: group8
+    102330: null3
+    102332: pCube1 1
+    102334: pCube1 2
+    102336: pCylinder14
+    102338: pCylinder15
+    102340: pCylinder16
+    102342: pCylinder17
+    102344: pCylinder18
+    102346: pCylinder21
+    102348: pCylinder22
+    102350: pCylinder23
+    102352: pCylinder4
+    102354: pCylinder4 1
+    102356: pCylinder4 2
+    102358: pCylinder6
+    102360: pCylinder7
+    102362: pCylinder7 1
+    102364: pCylinder7 2
+    102366: pCylinder8 1
+    102368: Pioneer6_SM1
+    102370: Block4_MissionModule1
+    102372: Block4_MissionModule2
+    102374: group166
+    102376: group167
+    102378: group168
+    102380: group170
+    102382: pCylinder189
+    102384: pCylinder190
+    102386: polySurface146
+    102388: polySurface147
+    102390: polySurface169
+    102392: polySurface170
+    102394: polySurface171
+    102396: polySurface174
+    102398: polySurface174 1
+    102400: polySurface175
+    102402: polySurface176
+    102404: polySurface178
+    102406: polySurface93
+    102408: BlockV_ServiceEngine_Descent1
+    102410: BlockV_ServiceEngine_Descent1 1
+    102412: LEM_Descent_Engine
+    102414: LEM_Descent_Engine_pCylinder71
+    102416: pCylinder139
+    102418: pCylinder139 1
+    102420: pCylinder70
+    102422: DockingTarget2
+    102424: Spotlight2
+    102426: AARDVK_Cargo2
+    102428: AARDVK_Cargo2 1
+    102430: AARDVK_Cargo3
+    102432: AARDVK_Cargo3 1
+    400000: //RootNode
+    400002: Atlas_LongTank1
+    400004: Atlas_LongTank2
+    400006: Atlas_LongTank_Mesh
+    400008: pCube70
+    400010: pCube71
+    400012: pCube76
+    400014: pCube91
+    400016: pCube91 1
+    400018: pCube92
+    400020: pCube92 1
+    400022: pCube93
+    400024: pCube93 1
+    400026: pCube94
+    400028: pCube94 1
+    400030: pCube95
+    400032: pCube95 1
+    400034: pCube96
+    400036: pCube96 1
+    400038: pCube97
+    400040: pCube97 1
+    400042: pCube98
+    400044: pCylinder164
+    400046: pCylinder185
+    400048: pCylinder186
+    400050: pCylinder187
+    400052: pCylinder188
+    400054: polySurface27
+    400056: polySurface28
+    400058: transform1
+    400060: transform10
+    400062: transform11
+    400064: transform12
+    400066: transform13
+    400068: transform14
+    400070: transform15
+    400072: transform16
+    400074: transform17
+    400076: transform18
+    400078: transform19
+    400080: transform2
+    400082: transform20
+    400084: transform21
+    400086: transform22
+    400088: transform23
+    400090: transform24
+    400092: transform25
+    400094: transform3
+    400096: transform4
+    400098: transform5
+    400100: transform6
+    400102: transform7
+    400104: transform8
+    400106: transform9
+    400108: pCylinder222
+    400110: pCylinder223
+    400112: transform26
+    400114: transform27
+    400116: Atlas_FairingAdapterTank
+    400118: AtlasFairingAdapterTank1
+    400120: AtlasFairingAdapterTank2
+    400122: extrudedSurface10
+    400124: extrudedSurface10 1
+    400126: extrudedSurface9
+    400128: extrudedSurface9 1
+    400130: group120
+    400132: group120 1
+    400134: group121
+    400136: group121 1
+    400138: group122
+    400140: group124
+    400142: group125
+    400144: group126
+    400146: group127
+    400148: group128
+    400150: group129
+    400152: group130
+    400154: group131
+    400156: group97
+    400158: pCube100
+    400160: pCube100 1
+    400162: pCube69
+    400164: pCube69 1
+    400166: pCube69 2
+    400168: pCube69 3
+    400170: pCube99
+    400172: pCylinder162
+    400174: pCylinder184
+    400176: pCylinder184 1
+    400178: pCylinder184 2
+    400180: pCylinder184 3
+    400182: pCylinder211
+    400184: pCylinder211 1
+    400186: pCylinder224
+    400188: pTorus7
+    400190: AtlasFairingAdapterTank
+    400192: curve10
+    400194: curve9
+    400196: group132
+    400198: nurbsCircle4
+    400200: Gimbal1_Lower
+    400202: Gimbal1_Upper
+    400204: Gimbal2_Lower
+    400206: Gimbal2_Upper
+    400208: Gimbal3_Lower
+    400210: Gimbal3_Upper
+    400212: Gimbal4_Lower
+    400214: Gimbal4_Upper
+    400216: GimbalArm
+    400218: GimbalArm1
+    400220: GimbalArm2
+    400222: GimbalArm3
+    400224: gimbalTransform
+    400226: group104
+    400228: LR109
+    400230: LR110
+    400232: pCube101
+    400234: pCube101 1
+    400236: pCube102
+    400238: pCube102 1
+    400240: pCube77
+    400242: pCube78
+    400244: pCube78 1
+    400246: pCube78 2
+    400248: pCube78 3
+    400250: pCube79
+    400252: pCube80
+    400254: pCube81
+    400256: pCube82
+    400258: pCylinder191
+    400260: pCylinder192
+    400262: pCylinder194
+    400264: pCylinder195
+    400266: pCylinder196
+    400268: pCylinder197
+    400270: pCylinder219
+    400272: pCylinder225
+    400274: pCylinder226
+    400276: polySurface29
+    400278: polySurface30
+    400280: pSphere23
+    400282: pSphere24
+    400284: pTorus4
+    400286: pTorus5
+    400288: pTorus6
+    400290: transform28
+    400292: transform29
+    400294: transform30
+    400296: transform31
+    400298: transform32
+    400300: transform33
+    400302: transform34
+    400304: transform35
+    400306: transform36
+    400308: transform37
+    400310: transform38
+    400312: transform39
+    400314: transform40
+    400316: transform41
+    400318: transform42
+    400320: transform43
+    400322: transform44
+    400324: transform45
+    400326: transform46
+    400328: transform47
+    400330: transform48
+    400332: transform49
+    400334: transform50
+    400336: transform51
+    400338: transform52
+    400340: Gimbal1_Lower 1
+    400342: Gimbal1_Upper 1
+    400344: GimbalArm4
+    400346: group133
+    400348: group134
+    400350: LR111
+    400352: pCube77 1
+    400354: pSphere25
+    400356: pTorus8
+    400358: pTorus9
+    400360: transform53
+    400362: transform54
+    400364: transform55
+    400366: transform56
+    400368: transform57
+    400370: transform58
+    400372: transform59
+    400374: transform60
+    400376: transform61
+    400378: transform62
+    400380: transform63
+    400382: transform64
+    400384: transform65
+    400386: transform66
+    400388: transform67
+    400390: transform68
+    400392: transform69
+    400394: transform70
+    400396: transform71
+    400398: transform72
+    400400: transform73
+    400402: transform74
+    400404: transform75
+    400406: transform76
+    400408: transform77
+    400410: transform78
+    400412: transform79
+    400414: transform80
+    400416: transform81
+    400418: transform82
+    400420: LR112
+    400422: transform100
+    400424: transform101
+    400426: transform102
+    400428: transform103
+    400430: transform104
+    400432: transform105
+    400434: transform106
+    400436: transform107
+    400438: transform108
+    400440: transform109
+    400442: transform110
+    400444: transform111
+    400446: transform112
+    400448: transform83
+    400450: transform84
+    400452: transform85
+    400454: transform86
+    400456: transform87
+    400458: transform88
+    400460: transform89
+    400462: transform90
+    400464: transform91
+    400466: transform92
+    400468: transform93
+    400470: transform94
+    400472: transform95
+    400474: transform96
+    400476: transform97
+    400478: transform98
+    400480: transform99
+    400482: pCube103
+    400484: pCylinder178
+    400486: pCylinder179
+    400488: pCylinder180
+    400490: pCylinder181
+    400492: pCylinder182
+    400494: pCylinder183
+    400496: pCylinder229
+    400498: pCylinder231
+    400500: pCylinder232
+    400502: pCylinder233
+    400504: pCylinder234
+    400506: pCylinder235
+    400508: PitchGimbal
+    400510: pSphere26
+    400512: pTorus10
+    400514: Vernier5
+    400516: Vernier6
+    400518: YawGimbal
+    400520: LR107
+    400522: LR108
+    400524: pCylinder236
+    400526: pCylinder237
+    400528: pCylinder238
+    400530: Collider
+    400532: F1_Engine_Merged5
+    400534: F1_Engine_Merged6
+    400536: F1_Engine_Merged_gimbalTransform_transform13_group215_pTorus24
+    400538: lowerGimbal1
+    400540: lowerGimbal2
+    400542: pCube137
+    400544: polySurface55
+    400546: polySurface56
+    400548: upperGimbal1
+    400550: upperGimbal2
+    400552: AtlasFairingBase1
+    400554: AtlasFairingBase2
+    400556: extrudedSurface12
+    400558: extrudedSurface12 1
+    400560: group135
+    400562: group136
+    400564: group137
+    400566: group138
+    400568: group139
+    400570: group140
+    400572: null113
+    400574: null114
+    400576: pCube104
+    400578: pCube104 1
+    400580: pCube104 2
+    400582: pCube104 3
+    400584: pCube104 4
+    400586: pCube104 5
+    400588: pCube105
+    400590: pCube105 1
+    400592: pCube106
+    400594: pCube106 1
+    400596: pCube108
+    400598: pCube108 1
+    400600: pCube109
+    400602: pCube109 1
+    400604: pCylinder244
+    400606: GimbalTransform
+    400608: group24
+    400610: group60
+    400612: group61
+    400614: group61 1
+    400616: group62
+    400618: group63
+    400620: group64
+    400622: group65
+    400624: group66
+    400626: group67
+    400628: pCube25
+    400630: pCylinder100
+    400632: pCylinder101
+    400634: pCylinder102
+    400636: pCylinder103
+    400638: pCylinder104
+    400640: pCylinder105
+    400642: pCylinder106
+    400644: pCylinder107
+    400646: pCylinder108
+    400648: pCylinder109
+    400650: pCylinder147
+    400652: pCylinder147 1
+    400654: pCylinder147 2
+    400656: pCylinder147 3
+    400658: pCylinder148
+    400660: pCylinder149
+    400662: polySurface7
+    400664: polySurface8
+    400666: pTorus2
+    400668: pTorus3
+    400670: pTorus3 1
+    400672: VegaEngine2
+    400674: VegaEngine3
+    400676: vernierGimbal
+    400678: VernierWrapper
+    400680: pCylinder157
+    400682: Vega
+    400684: Vega_Avionics1
+    400686: Vega_Avionics2
+    400688: Vega_Avionics_Merged1
+    400690: Vega_Avionics_Merged1 1
+    400692: pCylinder155
+    400694: Vega_Tankage_Merged1
+    400696: Vega_Tankage_Merged1 1
+    400698: Vega_Tankage_Merged_Vega_Tank
+    400700: pCylinder156
+    400702: Vega_Engine_Mount2
+    400704: Vega_EngineMount_Merged1
+    400706: Vega_EngineMount_Merged1 1
+    400708: group144
+    400710: group144 1
+    400712: group144 2
+    400714: group144 3
+    400716: group145
+    400718: group145 1
+    400720: group145 2
+    400722: group145 3
+    400724: group146
+    400726: group147
+    400728: group148
+    400730: group74
+    400732: group74 1
+    400734: group74 2
+    400736: group74 3
+    400738: group75
+    400740: group75 1
+    400742: group75 2
+    400744: group75 3
+    400746: group79
+    400748: null67
+    400750: null67 1
+    400752: null67 2
+    400754: null67 3
+    400756: null67 4
+    400758: null67 5
+    400760: null67 6
+    400762: null67 7
+    400764: null69
+    400766: null69 1
+    400768: null69 2
+    400770: null69 3
+    400772: pCube26
+    400774: pCube26 1
+    400776: pCube26 2
+    400778: pCube26 3
+    400780: pCube26 4
+    400782: pCube26 5
+    400784: pCube26 6
+    400786: pCube26 7
+    400788: pCube51
+    400790: pCube51 1
+    400792: pCube51 2
+    400794: pCube51 3
+    400796: pCylinder112
+    400798: pCylinder112 1
+    400800: pCylinder112 2
+    400802: pCylinder112 3
+    400804: pCylinder112 4
+    400806: pCylinder112 5
+    400808: pCylinder112 6
+    400810: pCylinder112 7
+    400812: pCylinder150
+    400814: pCylinder150 1
+    400816: pCylinder150 2
+    400818: pCylinder150 3
+    400820: pCylinder151
+    400822: pCylinder151 1
+    400824: pCylinder151 2
+    400826: pCylinder151 3
+    400828: pCylinder152
+    400830: pCylinder152 1
+    400832: pCylinder152 2
+    400834: pCylinder152 3
+    400836: pCylinder158
+    400838: polySurface13
+    400840: pSphere11
+    400842: pSphere11 1
+    400844: pSphere11 2
+    400846: pSphere11 3
+    400848: RCS
+    400850: RCS1
+    400852: RCS2
+    400854: RCS3
+    400856: transform113
+    400858: transform114
+    400860: transform115
+    400862: transform116
+    400864: Vega_Engine_Mount3
+    400866: Vega_Engine_Mount3 1
+    400868: Vega_EngineMount
+    400870: Centaur_EngineMountA_Combined1
+    400872: Centaur_EngineMountA_Combined1 1
+    400874: CentaurD
+    400876: centerMount2
+    400878: polySurface2
+    400880: Centaur_EngineMountA3
+    400882: Centaur_EngineMountA3 1
+    400884: centerMount1
+    400886: extrudedSurface4
+    400888: extrudedSurface5
+    400890: extrudedSurface6
+    400892: group149
+    400894: group150
+    400896: group151
+    400898: group152
+    400900: group40
+    400902: group41
+    400904: group80
+    400906: pCube16
+    400908: pCube17
+    400910: pCube21
+    400912: pCube43
+    400914: pCube44
+    400916: pCube45
+    400918: pCube46
+    400920: pCube46 1
+    400922: pCylinder133
+    400924: pCylinder134
+    400926: pCylinder135
+    400928: pCylinder136
+    400930: pCylinder160
+    400932: pCylinder261
+    400934: pCylinder261 1
+    400936: pCylinder262
+    400938: pCylinder262 1
+    400940: pCylinder78
+    400942: pCylinder94
+    400944: pCylinder97
+    400946: pCylinder97 1
+    400948: polySurface1
+    400950: pSphere17
+    400952: pSphere18
+    400954: pSphere19
+    400956: pSphere20
+    400958: pSphere27
+    400960: pSphere27 1
+    400962: Centaur_EngineMountA4
+    400964: Centaur_EngineMountA4 1
+    400966: Centaur_Avionics1
+    400968: Centaur_Avionics1 1
+    400970: extrudedSurface1
+    400972: extrudedSurface1 1
+    400974: extrudedSurface2
+    400976: extrudedSurface2 1
+    400978: extrudedSurface3
+    400980: extrudedSurface3 1
+    400982: group83
+    400984: null108
+    400986: null4
+    400988: pCube2
+    400990: pCube22
+    400992: pCube53
+    400994: pCube54
+    400996: pCube55
+    400998: pCube56
+    401000: pCube57
+    401002: pCube58
+    401004: pCube59
+    401006: pCube60
+    401008: pCube61
+    401010: pCube62
+    401012: pCube63
+    401014: pCube64
+    401016: pCube65
+    401018: pCube66
+    401020: pCylinder81
+    401022: pCylinder81 1
+    401024: polySurface3
+    401026: polySurface4
+    401028: group29
+    401030: null102
+    401032: pCube1
+    401034: pCube3
+    401036: pCube32
+    401038: pCube33
+    401040: pCube34
+    401042: pCube35
+    401044: pCube36
+    401046: pCube37
+    401048: pCube38
+    401050: pCylinder1
+    401052: pCylinder113
+    401054: pCylinder114
+    401056: pCylinder115
+    401058: pCylinder117
+    401060: pCylinder118
+    401062: pCylinder119
+    401064: pCylinder120
+    401066: pCylinder121
+    401068: pCylinder3
+    401070: pCylinder5
+    401072: pCylinder64
+    401074: pCylinder65
+    401076: pCylinder68
+    401078: pCylinder8
+    401080: pCylinder9
+    401082: RL27
+    401084: RL27 1
+    401086: transform135
+    401088: transform136
+    401090: transform137
+    401092: transform138
+    401094: transform139
+    401096: transform140
+    401098: transform141
+    401100: transform142
+    401102: transform143
+    401104: transform144
+    401106: transform145
+    401108: transform146
+    401110: transform147
+    401112: transform148
+    401114: transform149
+    401116: transform150
+    401118: transform151
+    401120: transform152
+    401122: transform153
+    401124: transform154
+    401126: transform155
+    401128: transform156
+    401130: transform157
+    401132: transform158
+    401134: transform159
+    401136: transform160
+    401138: RL24
+    401140: RL28
+    401142: RL28 1
+    401144: transform161
+    401146: transform162
+    401148: transform163
+    401150: transform164
+    401152: transform165
+    401154: transform166
+    401156: transform167
+    401158: transform168
+    401160: transform169
+    401162: transform170
+    401164: transform171
+    401166: transform172
+    401168: transform173
+    401170: transform174
+    401172: transform175
+    401174: transform176
+    401176: transform177
+    401178: transform178
+    401180: transform179
+    401182: transform180
+    401184: transform181
+    401186: transform182
+    401188: transform183
+    401190: transform184
+    401192: transform185
+    401194: transform186
+    401196: Centaur_EngineMountA7
+    401198: group42
+    401200: group43
+    401202: pCylinder263
+    401204: Centaur_EngineMountA7 1
+    401206: transform188
+    401208: transform189
+    401210: transform190
+    401212: transform191
+    401214: transform192
+    401216: transform193
+    401218: transform194
+    401220: transform195
+    401222: transform196
+    401224: transform197
+    401226: transform198
+    401228: transform199
+    401230: transform200
+    401232: transform201
+    401234: transform202
+    401236: transform203
+    401238: transform204
+    401240: transform205
+    401242: transform206
+    401244: transform207
+    401246: transform208
+    401248: transform209
+    401250: transform210
+    401252: transform211
+    401254: transform212
+    401256: transform213
+    401258: transform214
+    401260: transform215
+    401262: pCube12
+    401264: pCube13
+    401266: pCube14
+    401268: pCube15
+    401270: pCylinder137
+    401272: pCylinder138
+    401274: pCylinder73
+    401276: pCylinder74
+    401278: pCylinder74 1
+    401280: pCylinder74 2
+    401282: RCS_Small1
+    401284: RCS_Small1 1
+    401286: transform216
+    401288: transform217
+    401290: transform218
+    401292: transform219
+    401294: transform220
+    401296: transform221
+    401298: transform222
+    401300: transform223
+    401302: transform224
+    401304: transform225
+    401306: transform226
+    401308: AARDV_ControlBlock2
+    401310: AARDV_ControlBlock2 1
+    401312: AARDVK_ControlBlockMesh
+    401314: APOLLO_EXTRAS
+    401316: extrudedSurface7
+    401318: group119
+    401320: group127 1
+    401322: group127 2
+    401324: group127 3
+    401326: group129 1
+    401328: group129 2
+    401330: group129 3
+    401332: group130 1
+    401334: group130 2
+    401336: group130 3
+    401338: pCube49
+    401340: pCube50
+    401342: pCube51 4
+    401344: pCube51 5
+    401346: pCube51 6
+    401348: pCube51 7
+    401350: pCube52
+    401352: pCylinder111
+    401354: pCylinder111 1
+    401356: pCylinder111 2
+    401358: pCylinder111 3
+    401360: pCylinder122
+    401362: polySurface75
+    401364: polySurface77
+    401366: Block3_MissionModule4
+    401368: Block3_MissionModule4 1
+    401370: DockingTarget
+    401372: group101
+    401374: group102
+    401376: group103
+    401378: group105
+    401380: group106
+    401382: group117
+    401384: group93
+    401386: pCube24
+    401388: pCube47
+    401390: pCube48
+    401392: pCylinder140
+    401394: pCylinder60
+    401396: pCylinder60 1
+    401398: pCylinder60 2
+    401400: pCylinder60 3
+    401402: pCylinder60 4
+    401404: pCylinder60 5
+    401406: pCylinder86
+    401408: pCylinder87
+    401410: pCylinder88
+    401412: pCylinder89
+    401414: pCylinder90
+    401416: pCylinder91
+    401418: pCylinder92
+    401420: pCylinder92 1
+    401422: pCylinder92 2
+    401424: pCylinder92 3
+    401426: pCylinder92 4
+    401428: pCylinder92 5
+    401430: pCylinder99
+    401432: polySurface64
+    401434: polySurface68
+    401436: polySurface69
+    401438: polySurface70
+    401440: polySurface72
+    401442: pSphere5
+    401444: Spotlight1
+    401446: AARDVK_Cargo1
+    401448: AARDVK_Cargo1 1
+    401450: group25
+    401452: group26
+    401454: group27
+    401456: group28
+    401458: pCube10
+    401460: pCube11
+    401462: pCube9
+    401464: pCylinder46
+    401466: pCylinder46 1
+    401468: pCylinder46 2
+    401470: pCylinder46 3
+    401472: pCylinder47
+    401474: pCylinder47 1
+    401476: pCylinder47 2
+    401478: pCylinder47 3
+    401480: pCylinder48
+    401482: pCylinder49
+    401484: pCylinder50
+    401486: polySurface73
+    401488: polySurface74
+    401490: polySurface78
+    401492: polySurface82
+    401494: polySurface83
+    401496: pSphere4
+    401498: Spotlight
+    401500: group72
+    401502: group73
+    401504: pCube45 1
+    401506: pCube45 2
+    401508: pCube45 3
+    401510: ProbeDecoupler1
+    401512: ProbeDecoupler2
+    401514: AARDV_ControlBlock3
+    401516: AARDV_ControlBlock3 1
+    401518: ArmRotate
+    401520: base
+    401522: BlockV_HighGainAntenna_Merged1
+    401524: BlockV_HighGainAntenna_Merged1 1
+    401526: BlockV_HighGainAntenna_Merged_base_ArmRotate_DishHinge_pCylinder133
+    401528: DishHinge
+    401530: pCylinder132
+    401532: EngineAssembly
+    401534: EngineAssembly1
+    401536: EngineAssembly2
+    401538: EngineAssembly3
+    401540: EngineAssembly4
+    401542: EngineAssembly5
+    401544: extrudedSurface33
+    401546: extrudedSurface33 1
+    401548: extrudedSurface34
+    401550: extrudedSurface34 1
+    401552: extrudedSurface35
+    401554: extrudedSurface35 1
+    401556: null10
+    401558: null10 1
+    401560: null11
+    401562: null11 1
+    401564: null12
+    401566: null13
+    401568: null14
+    401570: null5
+    401572: null5 1
+    401574: null50
+    401576: null6
+    401578: null6 1
+    401580: null7
+    401582: null8
+    401584: null9
+    401586: null9 1
+    401588: pCube40
+    401590: pCube41
+    401592: pCube41 1
+    401594: pCube41 2
+    401596: pCube41 3
+    401598: pCube41 4
+    401600: pCube41 5
+    401602: pCube42
+    401604: pCube42 1
+    401606: pCube43 1
+    401608: pCube44 1
+    401610: pCube46 2
+    401612: pCube46 3
+    401614: pCube47 1
+    401616: pCube52 1
+    401618: pCube52 2
+    401620: pCube52 3
+    401622: pCube52 4
+    401624: pCube52 5
+    401626: pCylinder82
+    401628: pCylinder83
+    401630: pCylinder83 1
+    401632: pCylinder83 2
+    401634: pCylinder83 3
+    401636: pCylinder83 4
+    401638: pCylinder83 5
+    401640: pCylinder84
+    401642: pCylinder84 1
+    401644: pCylinder84 2
+    401646: pCylinder84 3
+    401648: pCylinder85
+    401650: pCylinder85 1
+    401652: pCylinder86 1
+    401654: pCylinder87 1
+    401656: pCylinder88 1
+    401658: pCylinder88 2
+    401660: pCylinder88 3
+    401662: pCylinder88 4
+    401664: pCylinder88 5
+    401666: pCylinder89 1
+    401668: pCylinder90 1
+    401670: pCylinder91 1
+    401672: pCylinder93
+    401674: pCylinder95
+    401676: Shields
+    401678: Shields1
+    401680: Tempel2_Ion1
+    401682: Tempel2_Ion2
+    401684: ECRS
+    401686: Tempel2_Ion2 1
+    401688: transform117
+    401690: transform118
+    401692: transform119
+    401694: transform120
+    401696: transform121
+    401698: transform122
+    401700: transform123
+    401702: transform124
+    401704: transform125
+    401706: transform126
+    401708: transform127
+    401710: transform128
+    401712: transform129
+    401714: transform130
+    401716: transform131
+    401718: transform132
+    401720: transform133
+    401722: transform134
+    401724: altimeterAntenna1
+    401726: altimeterAntenna2
+    401728: altimeterAntenna3
+    401730: altimeterAntenna4
+    401732: Antenna1
+    401734: Antenna2
+    401736: bracket1
+    401738: bracket2
+    401740: bracket3
+    401742: chute
+    401744: core
+    401746: DISR
+    401748: fin
+    401750: fin25
+    401752: fin26
+    401754: fin27
+    401756: fin28
+    401758: fin29
+    401760: fin30
+    401762: fin31
+    401764: fin32
+    401766: fin33
+    401768: fin34
+    401770: fin35
+    401772: fin36
+    401774: fin37
+    401776: fin38
+    401778: fin39
+    401780: fin40
+    401782: fin41
+    401784: fin42
+    401786: fin43
+    401788: fin44
+    401790: fin45
+    401792: fin46
+    401794: fin47
+    401796: fin48
+    401798: fin49
+    401800: fin50
+    401802: fin51
+    401804: fin52
+    401806: fin53
+    401808: fin54
+    401810: fin55
+    401812: fins
+    401814: housing
+    401816: HuygensProbe
+    401818: mortar
+    401820: parachute
+    401822: sensorHead
+    401824: HUYGENS
+    401826: HuygensProbe1
+    401828: HuygensProbe1 1
+    401830: altimeterAntenna5
+    401832: altimeterAntenna6
+    401834: altimeterAntenna7
+    401836: bracket4
+    401838: bracket5
+    401840: fin58
+    401842: fin59
+    401844: fin60
+    401846: fin61
+    401848: fin62
+    401850: fin63
+    401852: fin64
+    401854: fin65
+    401856: fin66
+    401858: fin67
+    401860: fin68
+    401862: fin69
+    401864: fin70
+    401866: fin71
+    401868: fin72
+    401870: fin73
+    401872: fin74
+    401874: fin75
+    401876: fin76
+    401878: fin77
+    401880: fin78
+    401882: fin79
+    401884: fin80
+    401886: fin81
+    401888: fin82
+    401890: fin83
+    401892: fin84
+    401894: fin85
+    401896: fin86
+    401898: fin87
+    401900: fin88
+    401902: HuygensProbe2
+    401904: HuygensProbe2 1
+    401906: pCube129
+    401908: pCylinder143
+    401910: pCylinder216
+    401912: pCylinder217
+    401914: RCS3 1
+    401916: ERCS_2way1
+    401918: pCube129 1
+    401920: pCylinder143 1
+    401922: pCylinder216 1
+    401924: pCylinder217 1
+    401926: RCS4
+    401928: RCS5
+    401930: ERCS_2way1 1
+    401932: ERCS_3way1
+    401934: ERCS_3way1 1
+    401936: pCube129 2
+    401938: pCylinder143 2
+    401940: pCylinder216 2
+    401942: pCylinder217 2
+    401944: RCS6
+    401946: RCS7
+    401948: RCS8
+    401950: Cube
+    401952: Cylinder
+    401954: Cylinder.001
+    401956: Cylinder.002
+    401958: Cylinder.003
+    401960: Cylinder.004
+    401962: Cylinder.005
+    401964: Cylinder.006
+    401966: Cylinder.007
+    401968: Cylinder.009
+    401970: extrudedSurface23
+    401972: extrudedSurface24
+    401974: extrudedSurface36
+    401976: transform187
+    401978: Xenon_TripleTank2
+    401980: Xenon_TripleTank2_pCylinder145
+    401982: Xenon_TripleTank2_pCylinder146
+    401984: Xenon_TripleTank3
+    401986: Xenon_TripleTank4
+    401988: Xenon_TripleTank4 1
+    401990: pSphere10
+    401992: pSphere12
+    401994: XenonTripleTank1
+    401996: XenonTripleTank1 1
+    401998: pCylinder218
+    402000: XenonSingleTankNew1
+    402002: XenonSingleTankNew1 1
+    402004: extrudedSurface37
+    402006: extrudedSurface37 1
+    402008: extrudedSurface37 10
+    402010: extrudedSurface37 11
+    402012: extrudedSurface37 2
+    402014: extrudedSurface37 3
+    402016: extrudedSurface37 4
+    402018: extrudedSurface37 5
+    402020: extrudedSurface37 6
+    402022: extrudedSurface37 7
+    402024: extrudedSurface37 8
+    402026: extrudedSurface37 9
+    402028: group137 1
+    402030: group137 2
+    402032: group137 3
+    402034: group137 4
+    402036: group137 5
+    402038: group149 1
+    402040: group149 2
+    402042: group149 3
+    402044: group149 4
+    402046: group149 5
+    402048: group150 1
+    402050: group150 2
+    402052: group150 3
+    402054: group150 4
+    402056: group150 5
+    402058: null51
+    402060: null51 1
+    402062: null51 2
+    402064: null51 3
+    402066: null51 4
+    402068: null51 5
+    402070: null52
+    402072: null52 1
+    402074: null52 2
+    402076: null52 3
+    402078: null52 4
+    402080: null52 5
+    402082: pCube130
+    402084: pCube131
+    402086: pCube132
+    402088: pCube133
+    402090: pCube134
+    402092: pCube135
+    402094: pCylinder229 1
+    402096: pCylinder229 2
+    402098: pCylinder229 3
+    402100: pCylinder229 4
+    402102: pCylinder229 5
+    402104: pSphere10 1
+    402106: pSphere10 10
+    402108: pSphere10 11
+    402110: pSphere10 2
+    402112: pSphere10 3
+    402114: pSphere10 4
+    402116: pSphere10 5
+    402118: pSphere10 6
+    402120: pSphere10 7
+    402122: pSphere10 8
+    402124: pSphere10 9
+    402126: Xenon_StackMedium1
+    402128: Xenon_StackSmall1
+    402130: Xenon_StackSmall2
+    402132: Delta_Fenris1_ThorExhaust
+    402134: EngineBell
+    402136: thrustTransform
+    402138: UpperNode
+    402140: Vernier
+    402142: Vernier 1
+    402144: vernierTransform
+    402146: vernierTransform 1
+    402148: AttachRib
+    402150: Attachstuff
+    402152: GEM61
+    402154: GEM62
+    402156: LowerAttach
+    402158: UpperAttach
+    402160: AstrisStage1
+    402162: AstrisStage2
+    402164: extrudedSurface4 1
+    402166: extrudedSurface5 1
+    402168: group109
+    402170: group110
+    402172: group111
+    402174: group111 1
+    402176: group112
+    402178: group112 1
+    402180: group113
+    402182: group114
+    402184: group115
+    402186: group116
+    402188: group118
+    402190: group92
+    402192: group92 1
+    402194: group92 2
+    402196: group92 3
+    402198: group98
+    402200: pCube54 1
+    402202: pCube55 1
+    402204: pCylinder100 1
+    402206: pCylinder100 2
+    402208: pCylinder100 3
+    402210: pCylinder108 1
+    402212: pCylinder116
+    402214: pCylinder117 1
+    402216: pCylinder117 2
+    402218: pCylinder117 3
+    402220: pCylinder119 1
+    402222: pCylinder120 1
+    402224: pCylinder122 1
+    402226: pCylinder123
+    402228: pCylinder123 1
+    402230: pCylinder124
+    402232: pCylinder124 1
+    402234: pCylinder125
+    402236: pCylinder125 1
+    402238: pCylinder126
+    402240: pCylinder126 1
+    402242: pCylinder127
+    402244: pCylinder127 1
+    402246: pCylinder56
+    402248: pCylinder57
+    402250: pCylinder58
+    402252: pCylinder59
+    402254: pCylinder59 1
+    402256: pCylinder99 1
+    402258: pCylinder99 2
+    402260: pCylinder99 3
+    402262: pCylinder99 4
+    402264: pCylinder99 5
+    402266: pCylinder99 6
+    402268: pCylinder99 7
+    402270: PitchGimbal 1
+    402272: pSphere8
+    402274: pTorus13
+    402276: pTorus13 1
+    402278: Vernier1
+    402280: Vernier2
+    402282: YawGimbal 1
+    402284: pSphere9
+    402286: pCylinder131
+    402288: Fairing
+    402290: pCylinder128
+    402292: pCylinder129
+    402294: pCylinder130
+    402296: Astris_Engine
+    402298: Pioneer6_Engine1
+    402300: Pioneer6_Engine2
+    402302: pTorus1
+    402304: Boom2
+    402306: Boom3
+    402308: Boom4
+    402310: Boom5
+    402312: group12
+    402314: group13
+    402316: group14
+    402318: group3
+    402320: group4
+    402322: group5
+    402324: group6
+    402326: group7
+    402328: group8
+    402330: null3
+    402332: pCube1 1
+    402334: pCube1 2
+    402336: pCylinder14
+    402338: pCylinder15
+    402340: pCylinder16
+    402342: pCylinder17
+    402344: pCylinder18
+    402346: pCylinder21
+    402348: pCylinder22
+    402350: pCylinder23
+    402352: pCylinder4
+    402354: pCylinder4 1
+    402356: pCylinder4 2
+    402358: pCylinder6
+    402360: pCylinder7
+    402362: pCylinder7 1
+    402364: pCylinder7 2
+    402366: pCylinder8 1
+    402368: Pioneer6_SM1
+    402370: Block4_MissionModule1
+    402372: Block4_MissionModule2
+    402374: group166
+    402376: group167
+    402378: group168
+    402380: group170
+    402382: pCylinder189
+    402384: pCylinder190
+    402386: polySurface146
+    402388: polySurface147
+    402390: polySurface169
+    402392: polySurface170
+    402394: polySurface171
+    402396: polySurface174
+    402398: polySurface174 1
+    402400: polySurface175
+    402402: polySurface176
+    402404: polySurface178
+    402406: polySurface93
+    402408: BlockV_ServiceEngine_Descent1
+    402410: BlockV_ServiceEngine_Descent1 1
+    402412: LEM_Descent_Engine
+    402414: LEM_Descent_Engine_pCylinder71
+    402416: pCylinder139
+    402418: pCylinder139 1
+    402420: pCylinder70
+    402422: DockingTarget2
+    402424: Spotlight2
+    402426: AARDVK_Cargo2
+    402428: AARDVK_Cargo2 1
+    402430: AARDVK_Cargo3
+    402432: AARDVK_Cargo3 1
+    2300000: //RootNode
+    2300002: Atlas_LongTank2
+    2300004: AtlasFairingAdapterTank2
+    2300006: Atlas_FairingAdapterTank
+    2300008: extrudedSurface10
+    2300010: extrudedSurface10 1
+    2300012: extrudedSurface9
+    2300014: extrudedSurface9 1
+    2300016: pCube100
+    2300018: pCube100 1
+    2300020: pCube69
+    2300022: pCube69 1
+    2300024: pCube69 2
+    2300026: pCube69 3
+    2300028: pCube99
+    2300030: pCylinder162
+    2300032: pCylinder184
+    2300034: pCylinder184 1
+    2300036: pCylinder184 2
+    2300038: pCylinder184 3
+    2300040: pCylinder211
+    2300042: pCylinder211 1
+    2300044: pCylinder224
+    2300046: pTorus7
+    2300048: LR110
+    2300050: LR111
+    2300052: LR112
+    2300054: Vernier6
+    2300056: LR108
+    2300058: F1_Engine_Merged6
+    2300060: AtlasFairingBase2
+    2300062: VegaEngine3
+    2300064: Vega_Avionics_Merged1
+    2300066: Vega_Tankage_Merged1
+    2300068: Vega_EngineMount_Merged1
+    2300070: Vega_Engine_Mount3
+    2300072: Centaur_EngineMountA_Combined1
+    2300074: Centaur_EngineMountA3
+    2300076: Centaur_EngineMountA4
+    2300078: Centaur_Avionics1
+    2300080: RL27
+    2300082: pCube1
+    2300084: pCube2
+    2300086: pCube3
+    2300088: pCube32
+    2300090: pCube33
+    2300092: pCube34
+    2300094: pCube35
+    2300096: pCube36
+    2300098: pCube37
+    2300100: pCube38
+    2300102: pCylinder1
+    2300104: pCylinder113
+    2300106: pCylinder114
+    2300108: pCylinder115
+    2300110: pCylinder117
+    2300112: pCylinder118
+    2300114: pCylinder119
+    2300116: pCylinder120
+    2300118: pCylinder121
+    2300120: pCylinder3
+    2300122: pCylinder5
+    2300124: pCylinder64
+    2300126: pCylinder65
+    2300128: pCylinder68
+    2300130: pCylinder8
+    2300132: pCylinder9
+    2300134: RL28
+    2300136: centerMount1
+    2300138: extrudedSurface4
+    2300140: extrudedSurface5
+    2300142: extrudedSurface6
+    2300144: pCube16
+    2300146: pCube17
+    2300148: pCube21
+    2300150: pCube43
+    2300152: pCube44
+    2300154: pCube45
+    2300156: pCube46
+    2300158: pCube46 1
+    2300160: pCylinder133
+    2300162: pCylinder134
+    2300164: pCylinder135
+    2300166: pCylinder136
+    2300168: pCylinder261
+    2300170: pCylinder261 1
+    2300172: pCylinder262
+    2300174: pCylinder262 1
+    2300176: pCylinder263
+    2300178: pCylinder78
+    2300180: pCylinder94
+    2300182: pCylinder97
+    2300184: pCylinder97 1
+    2300186: polySurface1
+    2300188: pSphere27
+    2300190: pSphere27 1
+    2300192: Centaur_EngineMountA7
+    2300194: RCS_Small1
+    2300196: AARDV_ControlBlock2
+    2300198: Block3_MissionModule4
+    2300200: AARDVK_Cargo1
+    2300202: ProbeDecoupler2
+    2300204: AARDV_ControlBlock3
+    2300206: BlockV_HighGainAntenna_Merged1
+    2300208: Tempel2_Ion2
+    2300210: altimeterAntenna1
+    2300212: altimeterAntenna2
+    2300214: altimeterAntenna3
+    2300216: altimeterAntenna4
+    2300218: Antenna1
+    2300220: Antenna2
+    2300222: bracket1
+    2300224: bracket2
+    2300226: bracket3
+    2300228: chute
+    2300230: core
+    2300232: fin
+    2300234: fin25
+    2300236: fin26
+    2300238: fin27
+    2300240: fin28
+    2300242: fin29
+    2300244: fin30
+    2300246: fin31
+    2300248: fin32
+    2300250: fin33
+    2300252: fin34
+    2300254: fin35
+    2300256: fin36
+    2300258: fin37
+    2300260: fin38
+    2300262: fin39
+    2300264: fin40
+    2300266: fin41
+    2300268: fin42
+    2300270: fin43
+    2300272: fin44
+    2300274: fin45
+    2300276: fin46
+    2300278: fin47
+    2300280: fin48
+    2300282: fin49
+    2300284: fin50
+    2300286: fin51
+    2300288: fin52
+    2300290: fin53
+    2300292: fin54
+    2300294: fin55
+    2300296: housing
+    2300298: mortar
+    2300300: sensorHead
+    2300302: HuygensProbe1
+    2300304: HuygensProbe2
+    2300306: RCS3
+    2300308: ERCS_2way1
+    2300310: pCube129
+    2300312: pCube129 1
+    2300314: pCylinder143
+    2300316: pCylinder143 1
+    2300318: pCylinder216
+    2300320: pCylinder216 1
+    2300322: pCylinder217
+    2300324: pCylinder217 1
+    2300326: ERCS_3way1
+    2300328: Cube
+    2300330: Cylinder
+    2300332: Cylinder.001
+    2300334: Cylinder.002
+    2300336: Cylinder.003
+    2300338: Cylinder.004
+    2300340: Cylinder.005
+    2300342: Cylinder.006
+    2300344: Cylinder.007
+    2300346: Cylinder.009
+    2300348: null5
+    2300350: Xenon_TripleTank4
+    2300352: XenonTripleTank1
+    2300354: XenonSingleTankNew1
+    2300356: Xenon_StackSmall2
+    2300358: Delta_Fenris1_ThorExhaust
+    2300360: EngineBell
+    2300362: vernierTransform
+    2300364: vernierTransform 1
+    2300366: GEM62
+    2300368: AstrisStage2
+    2300370: pCylinder112
+    2300372: Pioneer6_Engine2
+    2300374: pCylinder23
+    2300376: Block4_MissionModule2
+    2300378: BlockV_ServiceEngine_Descent1
+    2300380: AARDVK_Cargo2
+    2300382: AARDVK_Cargo3
+    3300000: //RootNode
+    3300002: Atlas_LongTank2
+    3300004: AtlasFairingAdapterTank2
+    3300006: Atlas_FairingAdapterTank
+    3300008: extrudedSurface10
+    3300010: extrudedSurface10 1
+    3300012: extrudedSurface9
+    3300014: extrudedSurface9 1
+    3300016: pCube100
+    3300018: pCube100 1
+    3300020: pCube69
+    3300022: pCube69 1
+    3300024: pCube69 2
+    3300026: pCube69 3
+    3300028: pCube99
+    3300030: pCylinder162
+    3300032: pCylinder184
+    3300034: pCylinder184 1
+    3300036: pCylinder184 2
+    3300038: pCylinder184 3
+    3300040: pCylinder211
+    3300042: pCylinder211 1
+    3300044: pCylinder224
+    3300046: pTorus7
+    3300048: LR110
+    3300050: LR111
+    3300052: LR112
+    3300054: Vernier6
+    3300056: LR108
+    3300058: F1_Engine_Merged6
+    3300060: AtlasFairingBase2
+    3300062: VegaEngine3
+    3300064: Vega_Avionics_Merged1
+    3300066: Vega_Tankage_Merged1
+    3300068: Vega_EngineMount_Merged1
+    3300070: Vega_Engine_Mount3
+    3300072: Centaur_EngineMountA_Combined1
+    3300074: Centaur_EngineMountA3
+    3300076: Centaur_EngineMountA4
+    3300078: Centaur_Avionics1
+    3300080: RL27
+    3300082: pCube1
+    3300084: pCube2
+    3300086: pCube3
+    3300088: pCube32
+    3300090: pCube33
+    3300092: pCube34
+    3300094: pCube35
+    3300096: pCube36
+    3300098: pCube37
+    3300100: pCube38
+    3300102: pCylinder1
+    3300104: pCylinder113
+    3300106: pCylinder114
+    3300108: pCylinder115
+    3300110: pCylinder117
+    3300112: pCylinder118
+    3300114: pCylinder119
+    3300116: pCylinder120
+    3300118: pCylinder121
+    3300120: pCylinder3
+    3300122: pCylinder5
+    3300124: pCylinder64
+    3300126: pCylinder65
+    3300128: pCylinder68
+    3300130: pCylinder8
+    3300132: pCylinder9
+    3300134: RL28
+    3300136: centerMount1
+    3300138: extrudedSurface4
+    3300140: extrudedSurface5
+    3300142: extrudedSurface6
+    3300144: pCube16
+    3300146: pCube17
+    3300148: pCube21
+    3300150: pCube43
+    3300152: pCube44
+    3300154: pCube45
+    3300156: pCube46
+    3300158: pCube46 1
+    3300160: pCylinder133
+    3300162: pCylinder134
+    3300164: pCylinder135
+    3300166: pCylinder136
+    3300168: pCylinder261
+    3300170: pCylinder261 1
+    3300172: pCylinder262
+    3300174: pCylinder262 1
+    3300176: pCylinder263
+    3300178: pCylinder78
+    3300180: pCylinder94
+    3300182: pCylinder97
+    3300184: pCylinder97 1
+    3300186: polySurface1
+    3300188: pSphere27
+    3300190: pSphere27 1
+    3300192: Centaur_EngineMountA7
+    3300194: RCS_Small1
+    3300196: AARDV_ControlBlock2
+    3300198: Block3_MissionModule4
+    3300200: AARDVK_Cargo1
+    3300202: ProbeDecoupler2
+    3300204: AARDV_ControlBlock3
+    3300206: BlockV_HighGainAntenna_Merged1
+    3300208: Tempel2_Ion2
+    3300210: altimeterAntenna1
+    3300212: altimeterAntenna2
+    3300214: altimeterAntenna3
+    3300216: altimeterAntenna4
+    3300218: Antenna1
+    3300220: Antenna2
+    3300222: bracket1
+    3300224: bracket2
+    3300226: bracket3
+    3300228: chute
+    3300230: core
+    3300232: fin
+    3300234: fin25
+    3300236: fin26
+    3300238: fin27
+    3300240: fin28
+    3300242: fin29
+    3300244: fin30
+    3300246: fin31
+    3300248: fin32
+    3300250: fin33
+    3300252: fin34
+    3300254: fin35
+    3300256: fin36
+    3300258: fin37
+    3300260: fin38
+    3300262: fin39
+    3300264: fin40
+    3300266: fin41
+    3300268: fin42
+    3300270: fin43
+    3300272: fin44
+    3300274: fin45
+    3300276: fin46
+    3300278: fin47
+    3300280: fin48
+    3300282: fin49
+    3300284: fin50
+    3300286: fin51
+    3300288: fin52
+    3300290: fin53
+    3300292: fin54
+    3300294: fin55
+    3300296: housing
+    3300298: mortar
+    3300300: sensorHead
+    3300302: HuygensProbe1
+    3300304: HuygensProbe2
+    3300306: RCS3
+    3300308: ERCS_2way1
+    3300310: pCube129
+    3300312: pCube129 1
+    3300314: pCylinder143
+    3300316: pCylinder143 1
+    3300318: pCylinder216
+    3300320: pCylinder216 1
+    3300322: pCylinder217
+    3300324: pCylinder217 1
+    3300326: ERCS_3way1
+    3300328: Cube
+    3300330: Cylinder
+    3300332: Cylinder.001
+    3300334: Cylinder.002
+    3300336: Cylinder.003
+    3300338: Cylinder.004
+    3300340: Cylinder.005
+    3300342: Cylinder.006
+    3300344: Cylinder.007
+    3300346: Cylinder.009
+    3300348: null5
+    3300350: Xenon_TripleTank4
+    3300352: XenonTripleTank1
+    3300354: XenonSingleTankNew1
+    3300356: Xenon_StackSmall2
+    3300358: Delta_Fenris1_ThorExhaust
+    3300360: EngineBell
+    3300362: vernierTransform
+    3300364: vernierTransform 1
+    3300366: GEM62
+    3300368: AstrisStage2
+    3300370: pCylinder112
+    3300372: Pioneer6_Engine2
+    3300374: pCylinder23
+    3300376: Block4_MissionModule2
+    3300378: BlockV_ServiceEngine_Descent1
+    3300380: AARDVK_Cargo2
+    3300382: AARDVK_Cargo3
+    4300000: Atlas_BoosterFairing3
+    4300002: Atlas_LongTank2
+    4300004: Atlas_BoosterFairing2
+    4300006: AtlasFairingAdapterTank2
+    4300008: Atlas_FairingAdapterTank
+    4300010: pCylinder162
+    4300012: pCube69
+    4300014: pCylinder184
+    4300016: pTorus7
+    4300018: pCylinder224
+    4300020: pCylinder211
+    4300022: pCylinder211
+    4300024: pCube69
+    4300026: pCylinder184
+    4300028: pCube69
+    4300030: pCylinder184
+    4300032: pCube69
+    4300034: pCylinder184
+    4300036: pCube99
+    4300038: pCube100
+    4300040: extrudedSurface9
+    4300042: extrudedSurface10
+    4300044: pCube100
+    4300046: extrudedSurface9
+    4300048: extrudedSurface10
+    4300050: AtlasFairingAdapterTank4
+    4300052: LR110
+    4300054: LR111
+    4300056: LR112
+    4300058: Vernier4
+    4300060: Vernier6
+    4300062: LR108
+    4300064: F1_Engine_Merged6
+    4300066: Atlas_Decoupler1
+    4300068: AtlasFairingBase2
+    4300070: VegaEngine3
+    4300072: Vega_Avionics_Merged1
+    4300074: Vega_Tankage_Merged1
+    4300076: Vega_EngineMount_Merged1
+    4300078: Vega_Engine_Mount3
+    4300080: Centaur_EngineMountA_Combined1
+    4300082: Centaur_EngineMountA2
+    4300084: Centaur_EngineMountA3
+    4300086: Centaur_EngineMountA4
+    4300088: Centaur_Avionics1
+    4300090: RL27
+    4300092: pCylinder121
+    4300094: pCylinder3
+    4300096: pCylinder5
+    4300098: pCylinder8
+    4300100: pCube1
+    4300102: pCylinder9
+    4300104: pCube2
+    4300106: pCylinder64
+    4300108: pCylinder65
+    4300110: pCylinder68
+    4300112: pCube35
+    4300114: pCube3
+    4300116: pCylinder113
+    4300118: pCube32
+    4300120: pCylinder115
+    4300122: pCylinder117
+    4300124: pCube34
+    4300126: pCylinder118
+    4300128: pCylinder119
+    4300130: pCylinder120
+    4300132: pCube36
+    4300134: pCube37
+    4300136: pCube38
+    4300138: pCylinder1
+    4300140: pCylinder114
+    4300142: pCube33
+    4300144: RL28
+    4300146: pCube17
+    4300148: polySurface1
+    4300150: pCube45
+    4300152: pCube46
+    4300154: pCube46
+    4300156: extrudedSurface4
+    4300158: extrudedSurface5
+    4300160: extrudedSurface6
+    4300162: pCube43
+    4300164: pCube44
+    4300166: centerMount1
+    4300168: pCylinder135
+    4300170: pCylinder136
+    4300172: pCylinder133
+    4300174: pCube21
+    4300176: pCylinder94
+    4300178: pCylinder134
+    4300180: pCube16
+    4300182: pCylinder78
+    4300184: pCylinder263
+    4300186: pCylinder97
+    4300188: pCylinder97
+    4300190: pSphere27
+    4300192: pCylinder261
+    4300194: pCylinder262
+    4300196: pSphere27
+    4300198: pCylinder261
+    4300200: pCylinder262
+    4300202: Centaur_EngineMountA7
+    4300204: RCS_Small1
+    4300206: AARDV_ControlBlock2
+    4300208: Block3_MissionModule4
+    4300210: AARDVK_Cargo1
+    4300212: AARDVK_ControlBlockMesh1
+    4300214: ProbeDecoupler2
+    4300216: AARDV_ControlBlock3
+    4300218: BlockV_HighGainAntenna_Merged1
+    4300220: Tempel2_Ion2
+    4300222: core
+    4300224: Antenna1
+    4300226: Antenna2
+    4300228: bracket1
+    4300230: bracket2
+    4300232: bracket3
+    4300234: fin
+    4300236: fin55
+    4300238: fin54
+    4300240: fin53
+    4300242: fin52
+    4300244: fin51
+    4300246: fin50
+    4300248: fin49
+    4300250: fin48
+    4300252: fin47
+    4300254: fin46
+    4300256: fin45
+    4300258: fin44
+    4300260: fin43
+    4300262: fin42
+    4300264: fin41
+    4300266: fin40
+    4300268: fin39
+    4300270: fin38
+    4300272: fin37
+    4300274: fin36
+    4300276: fin35
+    4300278: fin34
+    4300280: fin33
+    4300282: fin32
+    4300284: fin31
+    4300286: fin30
+    4300288: fin29
+    4300290: fin28
+    4300292: fin27
+    4300294: fin26
+    4300296: fin25
+    4300298: altimeterAntenna1
+    4300300: altimeterAntenna4
+    4300302: altimeterAntenna3
+    4300304: altimeterAntenna2
+    4300306: housing
+    4300308: sensorHead
+    4300310: chute
+    4300312: mortar
+    4300314: HuygensProbe1
+    4300316: HuygensProbe2
+    4300318: RCS3
+    4300320: ERCS_2way1
+    4300322: pCylinder143
+    4300324: pCylinder216
+    4300326: pCylinder217
+    4300328: pCube129
+    4300330: pCylinder143
+    4300332: pCylinder216
+    4300334: pCylinder217
+    4300336: pCube129
+    4300338: ERCS_3way1
+    4300340: Cube
+    4300342: Cylinder
+    4300344: Cylinder.003
+    4300346: Cylinder.009
+    4300348: Cylinder.004
+    4300350: Cylinder.001
+    4300352: Cylinder.002
+    4300354: Cylinder.005
+    4300356: Cylinder.006
+    4300358: Cylinder.007
+    4300360: null3
+    4300362: null5
+    4300364: Xenon_TripleTank4
+    4300366: XenonTripleTank1
+    4300368: XenonSingleTankNew1
+    4300370: pCylinder228
+    4300372: Xenon_StackSmall2
+    4300374: EngineBell
+    4300376: vernierTransform
+    4300378: vernierTransform
+    4300380: Delta_Fenris1_ThorExhaust
+    4300382: GEM62
+    4300384: AstrisStage2
+    4300386: Fairing1
+    4300388: pCylinder112
+    4300390: Pioneer6_Engine2
+    4300392: pCylinder23
+    4300394: Block4_MissionModule2
+    4300396: BlockV_ServiceEngine_Descent1
+    4300398: AARDVK_Cargo2
+    4300400: AARDVK_Cargo3
+    4300402: SLA4
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

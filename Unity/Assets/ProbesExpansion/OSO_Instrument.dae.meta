@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: b6c3124138f73224e96938e24a05317f
+timeCreated: 1483478002
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: base
+    100002: Collider4
+    100004: Collider5
+    100006: Frame
+    100008: //RootNode
+    100010: OSO_Instrument_merged
+    100012: OSO_Panel_merged_pivot_pCylinder184
+    100014: OSO_Panel_merged_pivot_pCylinder205
+    100016: pivot
+    100018: sunCatcher
+    100020: OSO_Instrument_merged1
+    100022: OSO_Instrument_merged1_pivot_OSO_Panel_merged_pivot_pCylinder184
+    400000: base
+    400002: Collider4
+    400004: Collider5
+    400006: Frame
+    400008: //RootNode
+    400010: OSO_Instrument_merged
+    400012: OSO_Panel_merged_pivot_pCylinder184
+    400014: OSO_Panel_merged_pivot_pCylinder205
+    400016: pivot
+    400018: sunCatcher
+    400020: OSO_Instrument_merged1
+    400022: OSO_Instrument_merged1_pivot_OSO_Panel_merged_pivot_pCylinder184
+    2300000: base
+    2300002: Collider4
+    2300004: Collider5
+    2300006: Frame
+    2300008: OSO_Panel_merged_pivot_pCylinder184
+    2300010: OSO_Panel_merged_pivot_pCylinder205
+    2300012: OSO_Instrument_merged1_pivot_OSO_Panel_merged_pivot_pCylinder184
+    3300000: base
+    3300002: Collider4
+    3300004: Collider5
+    3300006: Frame
+    3300008: OSO_Panel_merged_pivot_pCylinder184
+    3300010: OSO_Panel_merged_pivot_pCylinder205
+    3300012: OSO_Instrument_merged1_pivot_OSO_Panel_merged_pivot_pCylinder184
+    4300000: base
+    4300002: Frame
+    4300004: OSO_Panel_merged_pivot_pCylinder184
+    4300006: OSO_Panel_merged_pivot_pCylinder205
+    4300008: Collider4
+    4300010: Collider5
+    4300012: OSO_Instrument_merged1_pivot_OSO_Panel_merged_pivot_pCylinder184
+    7400000: deploy
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: deploy
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: OSO_Instrument_merged
+        weight: 1
+      - path: OSO_Instrument_merged/base
+        weight: 1
+      - path: OSO_Instrument_merged/Collider5
+        weight: 1
+      - path: OSO_Instrument_merged/pivot
+        weight: 1
+      - path: OSO_Instrument_merged/pivot/Collider4
+        weight: 1
+      - path: OSO_Instrument_merged/pivot/OSO_Instrument_merged1_pivot_OSO_Panel_merged_pivot_pCylinder184
+        weight: 1
+      - path: OSO_Instrument_merged/pivot/sunCatcher
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

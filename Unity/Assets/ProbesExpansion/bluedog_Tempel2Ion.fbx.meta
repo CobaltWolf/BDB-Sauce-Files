@@ -1,0 +1,687 @@
+fileFormatVersion: 2
+guid: 6be8514b6a0e5d74e84f5b5c1dbe96b4
+timeCreated: 1506457509
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: curve10
+    100004: curve8
+    100006: curve9
+    100008: EngineAssembly
+    100010: EngineAssembly1
+    100012: EngineAssembly2
+    100014: EngineAssembly3
+    100016: EngineAssembly4
+    100018: EngineAssembly5
+    100020: extrudedSurface33
+    100022: extrudedSurface33 1
+    100024: extrudedSurface34
+    100026: extrudedSurface34 1
+    100028: extrudedSurface35
+    100030: extrudedSurface35 1
+    100032: group136
+    100034: null10
+    100036: null10 1
+    100038: null11
+    100040: null11 1
+    100042: null12
+    100044: null13
+    100046: null14
+    100048: null5
+    100050: null5 1
+    100052: null50
+    100054: null6
+    100056: null6 1
+    100058: null7
+    100060: null8
+    100062: null9
+    100064: null9 1
+    100066: nurbsCircle4
+    100068: pCube41
+    100070: pCube41 1
+    100072: pCube41 2
+    100074: pCube41 3
+    100076: pCube41 4
+    100078: pCube41 5
+    100080: pCube42
+    100082: pCube42 1
+    100084: pCube43
+    100086: pCube43 1
+    100088: pCube44
+    100090: pCube44 1
+    100092: pCube45
+    100094: pCube46
+    100096: pCube46 1
+    100098: pCube46 2
+    100100: pCube46 3
+    100102: pCube47
+    100104: pCube47 1
+    100106: pCube48
+    100108: pCube49
+    100110: pCube50
+    100112: pCube51
+    100114: pCube51 1
+    100116: pCube51 2
+    100118: pCube51 3
+    100120: pCube51 4
+    100122: pCube51 5
+    100124: pCube52
+    100126: pCube52 1
+    100128: pCube52 2
+    100130: pCube52 3
+    100132: pCube52 4
+    100134: pCube52 5
+    100136: pCylinder82
+    100138: pCylinder83
+    100140: pCylinder83 1
+    100142: pCylinder83 2
+    100144: pCylinder83 3
+    100146: pCylinder83 4
+    100148: pCylinder83 5
+    100150: pCylinder84
+    100152: pCylinder84 1
+    100154: pCylinder84 2
+    100156: pCylinder84 3
+    100158: pCylinder85
+    100160: pCylinder85 1
+    100162: pCylinder86
+    100164: pCylinder86 1
+    100166: pCylinder87
+    100168: pCylinder87 1
+    100170: pCylinder88
+    100172: pCylinder88 1
+    100174: pCylinder88 2
+    100176: pCylinder88 3
+    100178: pCylinder88 4
+    100180: pCylinder88 5
+    100182: pCylinder89
+    100184: pCylinder89 1
+    100186: pCylinder90
+    100188: pCylinder90 1
+    100190: pCylinder91
+    100192: pCylinder91 1
+    100194: pCylinder92
+    100196: pCylinder92 1
+    100198: pCylinder93
+    100200: pCylinder94
+    100202: pCylinder95
+    100204: Shields
+    100206: Shields1
+    100208: Tempel2_Ion
+    100210: pCube40
+    100212: transform15
+    100214: transform16
+    100216: transform17
+    100218: transform18
+    100220: transform19
+    100222: transform20
+    100224: transform21
+    100226: transform22
+    100228: transform23
+    100230: transform24
+    100232: transform25
+    100234: transform26
+    100236: transform27
+    100238: transform28
+    100240: transform29
+    100242: transform30
+    100244: transform31
+    100246: transform32
+    100248: transform33
+    100250: transform34
+    100252: transform35
+    100254: transform36
+    100256: transform37
+    100258: transform38
+    100260: transform39
+    100262: transform40
+    100264: transform41
+    100266: transform42
+    100268: transform43
+    100270: transform44
+    100272: transform45
+    100274: transform46
+    100276: transform47
+    100278: transform48
+    100280: transform49
+    100282: transform50
+    100284: transform51
+    100286: transform52
+    100288: transform53
+    100290: transform54
+    100292: transform55
+    100294: transform56
+    100296: transform57
+    100298: transform58
+    100300: transform59
+    100302: transform60
+    100304: transform61
+    100306: transform62
+    100308: transform63
+    100310: transform64
+    100312: transform65
+    100314: transform66
+    100316: transform67
+    100318: transform68
+    100320: transform69
+    100322: transform70
+    100324: transform71
+    100326: transform72
+    100328: transform73
+    100330: transform74
+    100332: transform75
+    100334: transform76
+    100336: transform77
+    100338: transform78
+    100340: transform79
+    100342: transform80
+    100344: transform81
+    100346: transform82
+    100348: transform83
+    100350: transform84
+    100352: transform85
+    100354: transform86
+    100356: transform87
+    100358: transform88
+    100360: transform89
+    100362: Collider1
+    100364: Collider2
+    100366: engines
+    100368: Tempel2_Ion_Merged
+    100370: Tempel2_Ion_Merged 1
+    100372: thrustTransform
+    100374: thrustTransform1
+    100376: thrustTransform2
+    100378: thrustTransform3
+    100380: thrustTransform4
+    100382: thrustTransform5
+    400000: //RootNode
+    400002: curve10
+    400004: curve8
+    400006: curve9
+    400008: EngineAssembly
+    400010: EngineAssembly1
+    400012: EngineAssembly2
+    400014: EngineAssembly3
+    400016: EngineAssembly4
+    400018: EngineAssembly5
+    400020: extrudedSurface33
+    400022: extrudedSurface33 1
+    400024: extrudedSurface34
+    400026: extrudedSurface34 1
+    400028: extrudedSurface35
+    400030: extrudedSurface35 1
+    400032: group136
+    400034: null10
+    400036: null10 1
+    400038: null11
+    400040: null11 1
+    400042: null12
+    400044: null13
+    400046: null14
+    400048: null5
+    400050: null5 1
+    400052: null50
+    400054: null6
+    400056: null6 1
+    400058: null7
+    400060: null8
+    400062: null9
+    400064: null9 1
+    400066: nurbsCircle4
+    400068: pCube41
+    400070: pCube41 1
+    400072: pCube41 2
+    400074: pCube41 3
+    400076: pCube41 4
+    400078: pCube41 5
+    400080: pCube42
+    400082: pCube42 1
+    400084: pCube43
+    400086: pCube43 1
+    400088: pCube44
+    400090: pCube44 1
+    400092: pCube45
+    400094: pCube46
+    400096: pCube46 1
+    400098: pCube46 2
+    400100: pCube46 3
+    400102: pCube47
+    400104: pCube47 1
+    400106: pCube48
+    400108: pCube49
+    400110: pCube50
+    400112: pCube51
+    400114: pCube51 1
+    400116: pCube51 2
+    400118: pCube51 3
+    400120: pCube51 4
+    400122: pCube51 5
+    400124: pCube52
+    400126: pCube52 1
+    400128: pCube52 2
+    400130: pCube52 3
+    400132: pCube52 4
+    400134: pCube52 5
+    400136: pCylinder82
+    400138: pCylinder83
+    400140: pCylinder83 1
+    400142: pCylinder83 2
+    400144: pCylinder83 3
+    400146: pCylinder83 4
+    400148: pCylinder83 5
+    400150: pCylinder84
+    400152: pCylinder84 1
+    400154: pCylinder84 2
+    400156: pCylinder84 3
+    400158: pCylinder85
+    400160: pCylinder85 1
+    400162: pCylinder86
+    400164: pCylinder86 1
+    400166: pCylinder87
+    400168: pCylinder87 1
+    400170: pCylinder88
+    400172: pCylinder88 1
+    400174: pCylinder88 2
+    400176: pCylinder88 3
+    400178: pCylinder88 4
+    400180: pCylinder88 5
+    400182: pCylinder89
+    400184: pCylinder89 1
+    400186: pCylinder90
+    400188: pCylinder90 1
+    400190: pCylinder91
+    400192: pCylinder91 1
+    400194: pCylinder92
+    400196: pCylinder92 1
+    400198: pCylinder93
+    400200: pCylinder94
+    400202: pCylinder95
+    400204: Shields
+    400206: Shields1
+    400208: Tempel2_Ion
+    400210: pCube40
+    400212: transform15
+    400214: transform16
+    400216: transform17
+    400218: transform18
+    400220: transform19
+    400222: transform20
+    400224: transform21
+    400226: transform22
+    400228: transform23
+    400230: transform24
+    400232: transform25
+    400234: transform26
+    400236: transform27
+    400238: transform28
+    400240: transform29
+    400242: transform30
+    400244: transform31
+    400246: transform32
+    400248: transform33
+    400250: transform34
+    400252: transform35
+    400254: transform36
+    400256: transform37
+    400258: transform38
+    400260: transform39
+    400262: transform40
+    400264: transform41
+    400266: transform42
+    400268: transform43
+    400270: transform44
+    400272: transform45
+    400274: transform46
+    400276: transform47
+    400278: transform48
+    400280: transform49
+    400282: transform50
+    400284: transform51
+    400286: transform52
+    400288: transform53
+    400290: transform54
+    400292: transform55
+    400294: transform56
+    400296: transform57
+    400298: transform58
+    400300: transform59
+    400302: transform60
+    400304: transform61
+    400306: transform62
+    400308: transform63
+    400310: transform64
+    400312: transform65
+    400314: transform66
+    400316: transform67
+    400318: transform68
+    400320: transform69
+    400322: transform70
+    400324: transform71
+    400326: transform72
+    400328: transform73
+    400330: transform74
+    400332: transform75
+    400334: transform76
+    400336: transform77
+    400338: transform78
+    400340: transform79
+    400342: transform80
+    400344: transform81
+    400346: transform82
+    400348: transform83
+    400350: transform84
+    400352: transform85
+    400354: transform86
+    400356: transform87
+    400358: transform88
+    400360: transform89
+    400362: Collider1
+    400364: Collider2
+    400366: engines
+    400368: Tempel2_Ion_Merged
+    400370: Tempel2_Ion_Merged 1
+    400372: thrustTransform
+    400374: thrustTransform1
+    400376: thrustTransform2
+    400378: thrustTransform3
+    400380: thrustTransform4
+    400382: thrustTransform5
+    2300000: extrudedSurface33
+    2300002: extrudedSurface33 1
+    2300004: extrudedSurface34
+    2300006: extrudedSurface34 1
+    2300008: extrudedSurface35
+    2300010: extrudedSurface35 1
+    2300012: pCube41
+    2300014: pCube41 1
+    2300016: pCube41 2
+    2300018: pCube41 3
+    2300020: pCube41 4
+    2300022: pCube41 5
+    2300024: pCube42
+    2300026: pCube42 1
+    2300028: pCube43
+    2300030: pCube43 1
+    2300032: pCube44
+    2300034: pCube44 1
+    2300036: pCube45
+    2300038: pCube46
+    2300040: pCube46 1
+    2300042: pCube46 2
+    2300044: pCube46 3
+    2300046: pCube47
+    2300048: pCube47 1
+    2300050: pCube48
+    2300052: pCube49
+    2300054: pCube50
+    2300056: pCube51
+    2300058: pCube51 1
+    2300060: pCube51 2
+    2300062: pCube51 3
+    2300064: pCube51 4
+    2300066: pCube51 5
+    2300068: pCube52
+    2300070: pCube52 1
+    2300072: pCube52 2
+    2300074: pCube52 3
+    2300076: pCube52 4
+    2300078: pCube52 5
+    2300080: pCylinder82
+    2300082: pCylinder83
+    2300084: pCylinder83 1
+    2300086: pCylinder83 2
+    2300088: pCylinder83 3
+    2300090: pCylinder83 4
+    2300092: pCylinder83 5
+    2300094: pCylinder84
+    2300096: pCylinder84 1
+    2300098: pCylinder84 2
+    2300100: pCylinder84 3
+    2300102: pCylinder85
+    2300104: pCylinder85 1
+    2300106: pCylinder86
+    2300108: pCylinder86 1
+    2300110: pCylinder87
+    2300112: pCylinder87 1
+    2300114: pCylinder88
+    2300116: pCylinder88 1
+    2300118: pCylinder88 2
+    2300120: pCylinder88 3
+    2300122: pCylinder88 4
+    2300124: pCylinder88 5
+    2300126: pCylinder89
+    2300128: pCylinder89 1
+    2300130: pCylinder90
+    2300132: pCylinder90 1
+    2300134: pCylinder91
+    2300136: pCylinder91 1
+    2300138: pCylinder92
+    2300140: pCylinder92 1
+    2300142: pCylinder93
+    2300144: pCylinder94
+    2300146: pCylinder95
+    2300148: Collider1
+    2300150: Collider2
+    2300152: Tempel2_Ion_Merged 1
+    3300000: extrudedSurface33
+    3300002: extrudedSurface33 1
+    3300004: extrudedSurface34
+    3300006: extrudedSurface34 1
+    3300008: extrudedSurface35
+    3300010: extrudedSurface35 1
+    3300012: pCube41
+    3300014: pCube41 1
+    3300016: pCube41 2
+    3300018: pCube41 3
+    3300020: pCube41 4
+    3300022: pCube41 5
+    3300024: pCube42
+    3300026: pCube42 1
+    3300028: pCube43
+    3300030: pCube43 1
+    3300032: pCube44
+    3300034: pCube44 1
+    3300036: pCube45
+    3300038: pCube46
+    3300040: pCube46 1
+    3300042: pCube46 2
+    3300044: pCube46 3
+    3300046: pCube47
+    3300048: pCube47 1
+    3300050: pCube48
+    3300052: pCube49
+    3300054: pCube50
+    3300056: pCube51
+    3300058: pCube51 1
+    3300060: pCube51 2
+    3300062: pCube51 3
+    3300064: pCube51 4
+    3300066: pCube51 5
+    3300068: pCube52
+    3300070: pCube52 1
+    3300072: pCube52 2
+    3300074: pCube52 3
+    3300076: pCube52 4
+    3300078: pCube52 5
+    3300080: pCylinder82
+    3300082: pCylinder83
+    3300084: pCylinder83 1
+    3300086: pCylinder83 2
+    3300088: pCylinder83 3
+    3300090: pCylinder83 4
+    3300092: pCylinder83 5
+    3300094: pCylinder84
+    3300096: pCylinder84 1
+    3300098: pCylinder84 2
+    3300100: pCylinder84 3
+    3300102: pCylinder85
+    3300104: pCylinder85 1
+    3300106: pCylinder86
+    3300108: pCylinder86 1
+    3300110: pCylinder87
+    3300112: pCylinder87 1
+    3300114: pCylinder88
+    3300116: pCylinder88 1
+    3300118: pCylinder88 2
+    3300120: pCylinder88 3
+    3300122: pCylinder88 4
+    3300124: pCylinder88 5
+    3300126: pCylinder89
+    3300128: pCylinder89 1
+    3300130: pCylinder90
+    3300132: pCylinder90 1
+    3300134: pCylinder91
+    3300136: pCylinder91 1
+    3300138: pCylinder92
+    3300140: pCylinder92 1
+    3300142: pCylinder93
+    3300144: pCylinder94
+    3300146: pCylinder95
+    3300148: Collider1
+    3300150: Collider2
+    3300152: Tempel2_Ion_Merged 1
+    4300000: pCylinder82
+    4300002: pCylinder83
+    4300004: pCube41
+    4300006: pCube42
+    4300008: pCube43
+    4300010: pCube44
+    4300012: pCube45
+    4300014: pCube46
+    4300016: pCylinder84
+    4300018: pCube46
+    4300020: pCylinder84
+    4300022: pCylinder85
+    4300024: pCylinder86
+    4300026: pCylinder87
+    4300028: pCube47
+    4300030: pCube46
+    4300032: pCylinder84
+    4300034: pCube46
+    4300036: pCylinder84
+    4300038: pCylinder85
+    4300040: pCylinder86
+    4300042: pCylinder87
+    4300044: pCube47
+    4300046: pCube48
+    4300048: pCube49
+    4300050: pCube50
+    4300052: pCube51
+    4300054: pCube52
+    4300056: pCylinder88
+    4300058: pCube51
+    4300060: pCube52
+    4300062: pCylinder88
+    4300064: pCube51
+    4300066: pCube52
+    4300068: pCylinder88
+    4300070: pCube51
+    4300072: pCube52
+    4300074: pCylinder88
+    4300076: pCube51
+    4300078: pCube52
+    4300080: pCylinder88
+    4300082: pCube51
+    4300084: pCube52
+    4300086: pCylinder88
+    4300088: pCylinder89
+    4300090: pCylinder90
+    4300092: pCylinder91
+    4300094: pCylinder92
+    4300096: extrudedSurface33
+    4300098: extrudedSurface35
+    4300100: extrudedSurface34
+    4300102: pCylinder93
+    4300104: pCylinder94
+    4300106: pCylinder95
+    4300108: pCylinder83
+    4300110: pCube41
+    4300112: pCylinder83
+    4300114: pCube41
+    4300116: pCylinder83
+    4300118: pCube41
+    4300120: pCylinder83
+    4300122: pCube41
+    4300124: pCylinder83
+    4300126: pCube41
+    4300128: pCube42
+    4300130: pCube43
+    4300132: pCube44
+    4300134: pCylinder89
+    4300136: pCylinder90
+    4300138: pCylinder91
+    4300140: pCylinder92
+    4300142: extrudedSurface33
+    4300144: extrudedSurface35
+    4300146: extrudedSurface34
+    4300148: Tempel2_Ion_Merged
+    4300150: Collider1
+    4300152: Collider2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

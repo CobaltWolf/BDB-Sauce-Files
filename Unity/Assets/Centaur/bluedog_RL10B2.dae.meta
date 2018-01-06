@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: b8ab26c0557931242bed003ab6829221
+timeCreated: 1465864261
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: gimbalTransform
+    100004: Lower10
+    100006: Lower4
+    100008: Lower8
+    100010: Lower9
+    100012: lowerExtend1
+    100014: lowerExtend1_ncl1_1
+    100016: lowerExtend1_ncl1_2
+    100018: lowerExtend1_ncl1_3
+    100020: lowerExtend2
+    100022: lowerExtend2_ncl1_1
+    100024: lowerExtend2_ncl1_2
+    100026: lowerExtend2_ncl1_3
+    100028: lowerGimbal
+    100030: pCube39
+    100032: pCube39_ncl1_1
+    100034: pCube39_ncl1_2
+    100036: pCube39_ncl1_3
+    100038: pCube40
+    100040: pCube40_ncl1_1
+    100042: pCube40_ncl1_2
+    100044: pCube40_ncl1_3
+    100046: pCube41
+    100048: pCube41_ncl1_1
+    100050: pCube41_ncl1_2
+    100052: pCube41_ncl1_3
+    100054: RL16_gimbalTransform_pCylinder121
+    100056: RL16_pCylinder1
+    100058: SkirtExtension
+    100060: Upper4
+    100062: Upper5
+    100064: Upper6
+    100066: Upper7
+    100068: upperExtend1
+    100070: upperExtend1_ncl1_1
+    100072: upperExtend1_ncl1_2
+    100074: upperExtend1_ncl1_3
+    100076: upperGimbal
+    400000: //RootNode
+    400002: gimbalTransform
+    400004: Lower10
+    400006: Lower4
+    400008: Lower8
+    400010: Lower9
+    400012: lowerExtend1
+    400014: lowerExtend1_ncl1_1
+    400016: lowerExtend1_ncl1_2
+    400018: lowerExtend1_ncl1_3
+    400020: lowerExtend2
+    400022: lowerExtend2_ncl1_1
+    400024: lowerExtend2_ncl1_2
+    400026: lowerExtend2_ncl1_3
+    400028: lowerGimbal
+    400030: pCube39
+    400032: pCube39_ncl1_1
+    400034: pCube39_ncl1_2
+    400036: pCube39_ncl1_3
+    400038: pCube40
+    400040: pCube40_ncl1_1
+    400042: pCube40_ncl1_2
+    400044: pCube40_ncl1_3
+    400046: pCube41
+    400048: pCube41_ncl1_1
+    400050: pCube41_ncl1_2
+    400052: pCube41_ncl1_3
+    400054: RL16_gimbalTransform_pCylinder121
+    400056: RL16_pCylinder1
+    400058: SkirtExtension
+    400060: Upper4
+    400062: Upper5
+    400064: Upper6
+    400066: Upper7
+    400068: upperExtend1
+    400070: upperExtend1_ncl1_1
+    400072: upperExtend1_ncl1_2
+    400074: upperExtend1_ncl1_3
+    400076: upperGimbal
+    2300000: lowerExtend1
+    2300002: lowerExtend1_ncl1_1
+    2300004: lowerExtend1_ncl1_2
+    2300006: lowerExtend1_ncl1_3
+    2300008: lowerExtend2
+    2300010: lowerExtend2_ncl1_1
+    2300012: lowerExtend2_ncl1_2
+    2300014: lowerExtend2_ncl1_3
+    2300016: lowerGimbal
+    2300018: pCube39
+    2300020: pCube39_ncl1_1
+    2300022: pCube39_ncl1_2
+    2300024: pCube39_ncl1_3
+    2300026: pCube40
+    2300028: pCube40_ncl1_1
+    2300030: pCube40_ncl1_2
+    2300032: pCube40_ncl1_3
+    2300034: pCube41
+    2300036: pCube41_ncl1_1
+    2300038: pCube41_ncl1_2
+    2300040: pCube41_ncl1_3
+    2300042: RL16_gimbalTransform_pCylinder121
+    2300044: RL16_pCylinder1
+    2300046: SkirtExtension
+    2300048: upperExtend1
+    2300050: upperExtend1_ncl1_1
+    2300052: upperExtend1_ncl1_2
+    2300054: upperExtend1_ncl1_3
+    2300056: upperGimbal
+    3300000: lowerExtend1
+    3300002: lowerExtend1_ncl1_1
+    3300004: lowerExtend1_ncl1_2
+    3300006: lowerExtend1_ncl1_3
+    3300008: lowerExtend2
+    3300010: lowerExtend2_ncl1_1
+    3300012: lowerExtend2_ncl1_2
+    3300014: lowerExtend2_ncl1_3
+    3300016: lowerGimbal
+    3300018: pCube39
+    3300020: pCube39_ncl1_1
+    3300022: pCube39_ncl1_2
+    3300024: pCube39_ncl1_3
+    3300026: pCube40
+    3300028: pCube40_ncl1_1
+    3300030: pCube40_ncl1_2
+    3300032: pCube40_ncl1_3
+    3300034: pCube41
+    3300036: pCube41_ncl1_1
+    3300038: pCube41_ncl1_2
+    3300040: pCube41_ncl1_3
+    3300042: RL16_gimbalTransform_pCylinder121
+    3300044: RL16_pCylinder1
+    3300046: SkirtExtension
+    3300048: upperExtend1
+    3300050: upperExtend1_ncl1_1
+    3300052: upperExtend1_ncl1_2
+    3300054: upperExtend1_ncl1_3
+    3300056: upperGimbal
+    4300000: lowerGimbal
+    4300002: RL16_gimbalTransform_pCylinder121
+    4300004: upperExtend1
+    4300006: pCube40
+    4300008: pCube41
+    4300010: upperExtend1_ncl1_1
+    4300012: pCube40_ncl1_1
+    4300014: pCube41_ncl1_1
+    4300016: upperExtend1_ncl1_2
+    4300018: pCube40_ncl1_2
+    4300020: pCube41_ncl1_2
+    4300022: upperExtend1_ncl1_3
+    4300024: pCube40_ncl1_3
+    4300026: pCube41_ncl1_3
+    4300028: SkirtExtension
+    4300030: pCube39
+    4300032: lowerExtend1
+    4300034: lowerExtend2
+    4300036: pCube39_ncl1_1
+    4300038: lowerExtend1_ncl1_1
+    4300040: lowerExtend2_ncl1_1
+    4300042: pCube39_ncl1_2
+    4300044: lowerExtend1_ncl1_2
+    4300046: lowerExtend2_ncl1_2
+    4300048: pCube39_ncl1_3
+    4300050: lowerExtend1_ncl1_3
+    4300052: lowerExtend2_ncl1_3
+    4300054: upperGimbal
+    4300056: RL16_pCylinder1
+    7400000: extendNozzle
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: extendNozzle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gimbalTransform
+        weight: 1
+      - path: gimbalTransform/lowerGimbal
+        weight: 1
+      - path: gimbalTransform/RL16_gimbalTransform_pCylinder121
+        weight: 1
+      - path: gimbalTransform/SkirtExtension
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower4
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower4/lowerExtend1
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower4/lowerExtend1/lowerExtend2
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower4/pCube39
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower8
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower8/lowerExtend1_ncl1_1
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower8/lowerExtend1_ncl1_1/lowerExtend2_ncl1_1
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower8/pCube39_ncl1_1
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower9
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower9/lowerExtend1_ncl1_2
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower9/lowerExtend1_ncl1_2/lowerExtend2_ncl1_2
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower9/pCube39_ncl1_2
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower10
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower10/lowerExtend1_ncl1_3
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower10/lowerExtend1_ncl1_3/lowerExtend2_ncl1_3
+        weight: 1
+      - path: gimbalTransform/SkirtExtension/Lower10/pCube39_ncl1_3
+        weight: 1
+      - path: gimbalTransform/Upper4
+        weight: 1
+      - path: gimbalTransform/Upper4/pCube40
+        weight: 1
+      - path: gimbalTransform/Upper4/pCube41
+        weight: 1
+      - path: gimbalTransform/Upper4/upperExtend1
+        weight: 1
+      - path: gimbalTransform/Upper5
+        weight: 1
+      - path: gimbalTransform/Upper5/pCube40_ncl1_1
+        weight: 1
+      - path: gimbalTransform/Upper5/pCube41_ncl1_1
+        weight: 1
+      - path: gimbalTransform/Upper5/upperExtend1_ncl1_1
+        weight: 1
+      - path: gimbalTransform/Upper6
+        weight: 1
+      - path: gimbalTransform/Upper6/pCube40_ncl1_2
+        weight: 1
+      - path: gimbalTransform/Upper6/pCube41_ncl1_2
+        weight: 1
+      - path: gimbalTransform/Upper6/upperExtend1_ncl1_2
+        weight: 1
+      - path: gimbalTransform/Upper7
+        weight: 1
+      - path: gimbalTransform/Upper7/pCube40_ncl1_3
+        weight: 1
+      - path: gimbalTransform/Upper7/pCube41_ncl1_3
+        weight: 1
+      - path: gimbalTransform/Upper7/upperExtend1_ncl1_3
+        weight: 1
+      - path: RL16_pCylinder1
+        weight: 1
+      - path: upperGimbal
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

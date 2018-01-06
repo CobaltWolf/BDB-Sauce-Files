@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: 3a2ca0536268ae24eaa020581bffb150
+timeCreated: 1501602773
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Gimbal1_Lower
+    100004: Gimbal1_Upper
+    100006: Gimbal2_Lower
+    100008: Gimbal2_Upper
+    100010: Gimbal3_Lower
+    100012: Gimbal3_Upper
+    100014: Gimbal4_Lower
+    100016: Gimbal4_Upper
+    100018: GimbalArm
+    100020: GimbalArm1
+    100022: GimbalArm2
+    100024: GimbalArm3
+    100026: gimbalTransform
+    100028: group104
+    100030: joint2
+    100032: joint5
+    100034: joint6
+    100036: JointAim
+    100038: pCube77
+    100040: pCube78
+    100042: pCube78 1
+    100044: pCube78 2
+    100046: pCube78 3
+    100048: pCube79
+    100050: pCube80
+    100052: pCube81
+    100054: pCube82
+    100056: pCylinder191
+    100058: pCylinder192
+    100060: pCylinder194
+    100062: pCylinder195
+    100064: pCylinder196
+    100066: pCylinder197
+    100068: pCylinder219
+    100070: pSphere22
+    100072: pTorus4
+    100074: pTorus5
+    100076: pTorus6
+    100078: joint7
+    100080: joint8
+    100082: pCube101
+    100084: pCube101 1
+    100086: pCube102
+    100088: pCube102 1
+    100090: pCylinder225
+    100092: pCylinder226
+    100094: polySurface29
+    100096: polySurface30
+    100098: pSphere23
+    100100: pSphere24
+    100102: transform16
+    100104: pTorus8
+    100106: pTorus9
+    100108: pSphere25
+    100110: Gimbal1_Lower 1
+    100112: Gimbal1_Upper 1
+    100114: GimbalArm4
+    100116: group133
+    100118: group134
+    100120: pCube77 1
+    100122: pCylinder227
+    100124: pCylinder236
+    100126: pCylinder237
+    100128: pCylinder238
+    100130: Gimbal1
+    100132: Gimbal2
+    100134: Gimbal_Lower
+    100136: Gimbal_Upper
+    100138: LongPipe_Lower
+    100140: LongPipe_Upper
+    100142: LR105_Lower_Merged
+    100144: LR105_Upper_Merged
+    100146: ShortPipe_Lower
+    100148: ShortPipe_Upper
+    100150: SkinnedMeshes
+    100152: BellCollider
+    100154: MountCollider
+    400000: //RootNode
+    400002: Gimbal1_Lower
+    400004: Gimbal1_Upper
+    400006: Gimbal2_Lower
+    400008: Gimbal2_Upper
+    400010: Gimbal3_Lower
+    400012: Gimbal3_Upper
+    400014: Gimbal4_Lower
+    400016: Gimbal4_Upper
+    400018: GimbalArm
+    400020: GimbalArm1
+    400022: GimbalArm2
+    400024: GimbalArm3
+    400026: gimbalTransform
+    400028: group104
+    400030: joint2
+    400032: joint5
+    400034: joint6
+    400036: JointAim
+    400038: pCube77
+    400040: pCube78
+    400042: pCube78 1
+    400044: pCube78 2
+    400046: pCube78 3
+    400048: pCube79
+    400050: pCube80
+    400052: pCube81
+    400054: pCube82
+    400056: pCylinder191
+    400058: pCylinder192
+    400060: pCylinder194
+    400062: pCylinder195
+    400064: pCylinder196
+    400066: pCylinder197
+    400068: pCylinder219
+    400070: pSphere22
+    400072: pTorus4
+    400074: pTorus5
+    400076: pTorus6
+    400078: joint7
+    400080: joint8
+    400082: pCube101
+    400084: pCube101 1
+    400086: pCube102
+    400088: pCube102 1
+    400090: pCylinder225
+    400092: pCylinder226
+    400094: polySurface29
+    400096: polySurface30
+    400098: pSphere23
+    400100: pSphere24
+    400102: transform16
+    400104: pTorus8
+    400106: pTorus9
+    400108: pSphere25
+    400110: Gimbal1_Lower 1
+    400112: Gimbal1_Upper 1
+    400114: GimbalArm4
+    400116: group133
+    400118: group134
+    400120: pCube77 1
+    400122: pCylinder227
+    400124: pCylinder236
+    400126: pCylinder237
+    400128: pCylinder238
+    400130: Gimbal1
+    400132: Gimbal2
+    400134: Gimbal_Lower
+    400136: Gimbal_Upper
+    400138: LongPipe_Lower
+    400140: LongPipe_Upper
+    400142: LR105_Lower_Merged
+    400144: LR105_Upper_Merged
+    400146: ShortPipe_Lower
+    400148: ShortPipe_Upper
+    400150: SkinnedMeshes
+    400152: BellCollider
+    400154: MountCollider
+    2300000: Gimbal1_Lower
+    2300002: Gimbal1_Upper
+    2300004: Gimbal2_Lower
+    2300006: Gimbal2_Upper
+    2300008: Gimbal3_Lower
+    2300010: Gimbal3_Upper
+    2300012: Gimbal4_Lower
+    2300014: Gimbal4_Upper
+    2300016: pCube77
+    2300018: pCube78
+    2300020: pCube78 1
+    2300022: pCube78 2
+    2300024: pCube78 3
+    2300026: pCube79
+    2300028: pCube80
+    2300030: pCube81
+    2300032: pCube82
+    2300034: pCylinder191
+    2300036: pCylinder192
+    2300038: pCylinder194
+    2300040: pCylinder195
+    2300042: pCylinder197
+    2300044: pCylinder219
+    2300046: pSphere22
+    2300048: pTorus4
+    2300050: pTorus5
+    2300052: pTorus6
+    2300054: pCube101
+    2300056: pCube101 1
+    2300058: pCube102
+    2300060: pCube102 1
+    2300062: pCylinder226
+    2300064: polySurface29
+    2300066: polySurface30
+    2300068: pSphere23
+    2300070: pSphere24
+    2300072: pTorus8
+    2300074: pTorus9
+    2300076: pSphere25
+    2300078: Gimbal1_Lower 1
+    2300080: Gimbal1_Upper 1
+    2300082: pCube77 1
+    2300084: pCylinder225
+    2300086: pCylinder196
+    2300088: pCylinder227
+    2300090: pCylinder236
+    2300092: pCylinder237
+    2300094: pCylinder238
+    2300096: LR105_Lower_Merged
+    2300098: LR105_Upper_Merged
+    2300100: BellCollider
+    2300102: MountCollider
+    3300000: Gimbal1_Lower
+    3300002: Gimbal1_Upper
+    3300004: Gimbal2_Lower
+    3300006: Gimbal2_Upper
+    3300008: Gimbal3_Lower
+    3300010: Gimbal3_Upper
+    3300012: Gimbal4_Lower
+    3300014: Gimbal4_Upper
+    3300016: pCube77
+    3300018: pCube78
+    3300020: pCube78 1
+    3300022: pCube78 2
+    3300024: pCube78 3
+    3300026: pCube79
+    3300028: pCube80
+    3300030: pCube81
+    3300032: pCube82
+    3300034: pCylinder191
+    3300036: pCylinder192
+    3300038: pCylinder194
+    3300040: pCylinder195
+    3300042: pCylinder197
+    3300044: pCylinder219
+    3300046: pSphere22
+    3300048: pTorus4
+    3300050: pTorus5
+    3300052: pTorus6
+    3300054: pCube101
+    3300056: pCube101 1
+    3300058: pCube102
+    3300060: pCube102 1
+    3300062: pCylinder226
+    3300064: polySurface29
+    3300066: polySurface30
+    3300068: pSphere23
+    3300070: pSphere24
+    3300072: pTorus8
+    3300074: pTorus9
+    3300076: pSphere25
+    3300078: Gimbal1_Lower 1
+    3300080: Gimbal1_Upper 1
+    3300082: pCube77 1
+    3300084: pCylinder225
+    3300086: pCylinder196
+    3300088: pCylinder227
+    3300090: pCylinder236
+    3300092: pCylinder237
+    3300094: pCylinder238
+    3300096: LR105_Lower_Merged
+    3300098: LR105_Upper_Merged
+    3300100: BellCollider
+    3300102: MountCollider
+    4300000: pCylinder196
+    4300002: pCube78
+    4300004: Gimbal1_Upper
+    4300006: pCube78
+    4300008: Gimbal2_Upper
+    4300010: pCube78
+    4300012: Gimbal3_Upper
+    4300014: pCube78
+    4300016: Gimbal4_Upper
+    4300018: pCylinder191
+    4300020: pCylinder192
+    4300022: pTorus4
+    4300024: pTorus5
+    4300026: pCylinder194
+    4300028: pCylinder195
+    4300030: pSphere22
+    4300032: Gimbal1_Lower
+    4300034: Gimbal2_Lower
+    4300036: Gimbal3_Lower
+    4300038: Gimbal4_Lower
+    4300040: pCube77
+    4300042: pCube79
+    4300044: pCube80
+    4300046: pCube81
+    4300048: pTorus6
+    4300050: pCylinder197
+    4300052: pCube82
+    4300054: pCylinder219
+    4300056: pSphere23
+    4300058: pCube101
+    4300060: pCube102
+    4300062: pSphere24
+    4300064: pCube101
+    4300066: pCube102
+    4300068: polySurface29
+    4300070: polySurface30
+    4300072: pCylinder226
+    4300074: pTorus9
+    4300076: pTorus8
+    4300078: pSphere25
+    4300080: pCube77
+    4300082: Gimbal1_Lower
+    4300084: pCylinder225
+    4300086: Gimbal1_Upper
+    4300088: pCylinder227
+    4300090: pCylinder236
+    4300092: pCylinder238
+    4300094: pCylinder237
+    4300096: LR105_Lower_Merged
+    4300098: LR105_Upper_Merged
+    4300100: SkinnedMeshes
+    4300102: BellCollider
+    4300104: MountCollider
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: pCylinder196
+    13700002: SkinnedMeshes
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

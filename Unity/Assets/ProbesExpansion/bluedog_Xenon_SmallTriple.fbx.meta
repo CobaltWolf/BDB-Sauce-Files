@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 4b0897f2cd8be764394374411bf31fe8
+timeCreated: 1506818202
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: extrudedSurface23
+    100004: extrudedSurface24
+    100006: extrudedSurface36
+    100008: pCube71
+    100010: pCylinder144
+    100012: pCylinder145
+    100014: transform13
+    100016: transform14
+    100018: Xenon_TripleTank
+    100020: Xenon_TripleTank2
+    100022: Xenon_TripleTank2_pCylinder145
+    100024: Xenon_TripleTank2_pCylinder146
+    100026: Xenon_TripleTank3
+    100028: pSphere10
+    100030: pSphere11
+    100032: pSphere12
+    100034: XenonTripleTank
+    400000: //RootNode
+    400002: extrudedSurface23
+    400004: extrudedSurface24
+    400006: extrudedSurface36
+    400008: pCube71
+    400010: pCylinder144
+    400012: pCylinder145
+    400014: transform13
+    400016: transform14
+    400018: Xenon_TripleTank
+    400020: Xenon_TripleTank2
+    400022: Xenon_TripleTank2_pCylinder145
+    400024: Xenon_TripleTank2_pCylinder146
+    400026: Xenon_TripleTank3
+    400028: pSphere10
+    400030: pSphere11
+    400032: pSphere12
+    400034: XenonTripleTank
+    2300000: extrudedSurface23
+    2300002: extrudedSurface24
+    2300004: extrudedSurface36
+    2300006: pCube71
+    2300008: Xenon_TripleTank
+    2300010: Xenon_TripleTank2
+    2300012: Xenon_TripleTank2_pCylinder145
+    2300014: Xenon_TripleTank2_pCylinder146
+    2300016: Xenon_TripleTank3
+    2300018: pSphere10
+    2300020: pSphere11
+    2300022: pSphere12
+    3300000: extrudedSurface23
+    3300002: extrudedSurface24
+    3300004: extrudedSurface36
+    3300006: pCube71
+    3300008: Xenon_TripleTank
+    3300010: Xenon_TripleTank2
+    3300012: Xenon_TripleTank2_pCylinder145
+    3300014: Xenon_TripleTank2_pCylinder146
+    3300016: Xenon_TripleTank3
+    3300018: pSphere10
+    3300020: pSphere11
+    3300022: pSphere12
+    4300000: Xenon_TripleTank
+    4300002: pCube71
+    4300004: Xenon_TripleTank2
+    4300006: Xenon_TripleTank2_pCylinder145
+    4300008: extrudedSurface23
+    4300010: extrudedSurface24
+    4300012: Xenon_TripleTank2_pCylinder146
+    4300014: Xenon_TripleTank3
+    4300016: extrudedSurface36
+    4300018: pSphere10
+    4300020: pSphere11
+    4300022: pSphere12
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

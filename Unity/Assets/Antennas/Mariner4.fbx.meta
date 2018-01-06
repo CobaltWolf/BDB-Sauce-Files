@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 19d89580cb9f4bc4989ec4ef31e466cc
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mariner4AntennaRedux2:Antenna1
+    100004: Mariner4AntennaRedux2:Antenna2
+    100006: Mariner4AntennaRedux2:Antenna3
+    100008: Mariner4AntennaRedux2:BackMount
+    100010: Mariner4AntennaRedux2:curve1
+    100012: Mariner4AntennaRedux2:Foot1
+    100014: Mariner4AntennaRedux2:Foot2
+    100016: Mariner4AntennaRedux2:GeigerCounter
+    100018: Mariner4AntennaRedux2:GeigerElectronics
+    100020: Mariner4AntennaRedux2:GeigerMount
+    100022: Mariner4AntennaRedux2:GeigerTube
+    100024: Mariner4AntennaRedux2:GeigerWire
+    100026: Mariner4AntennaRedux2:Mag
+    100028: Mariner4AntennaRedux2:MagMount
+    100030: Mariner4AntennaRedux2:MagMount1
+    100032: Mariner4AntennaRedux2:pCube2
+    100034: Mariner4AntennaRedux2:pCube2 1
+    100036: Mariner4AntennaRedux2:pCube5
+    100038: Mariner4AntennaRedux2:pCube5 1
+    400000: //RootNode
+    400002: Mariner4AntennaRedux2:Antenna1
+    400004: Mariner4AntennaRedux2:Antenna2
+    400006: Mariner4AntennaRedux2:Antenna3
+    400008: Mariner4AntennaRedux2:BackMount
+    400010: Mariner4AntennaRedux2:curve1
+    400012: Mariner4AntennaRedux2:Foot1
+    400014: Mariner4AntennaRedux2:Foot2
+    400016: Mariner4AntennaRedux2:GeigerCounter
+    400018: Mariner4AntennaRedux2:GeigerElectronics
+    400020: Mariner4AntennaRedux2:GeigerMount
+    400022: Mariner4AntennaRedux2:GeigerTube
+    400024: Mariner4AntennaRedux2:GeigerWire
+    400026: Mariner4AntennaRedux2:Mag
+    400028: Mariner4AntennaRedux2:MagMount
+    400030: Mariner4AntennaRedux2:MagMount1
+    400032: Mariner4AntennaRedux2:pCube2
+    400034: Mariner4AntennaRedux2:pCube2 1
+    400036: Mariner4AntennaRedux2:pCube5
+    400038: Mariner4AntennaRedux2:pCube5 1
+    2300000: Mariner4AntennaRedux2:Antenna1
+    2300002: Mariner4AntennaRedux2:Antenna2
+    2300004: Mariner4AntennaRedux2:Antenna3
+    2300006: Mariner4AntennaRedux2:BackMount
+    2300008: Mariner4AntennaRedux2:GeigerElectronics
+    2300010: Mariner4AntennaRedux2:GeigerMount
+    2300012: Mariner4AntennaRedux2:GeigerTube
+    2300014: Mariner4AntennaRedux2:GeigerWire
+    2300016: Mariner4AntennaRedux2:Mag
+    2300018: Mariner4AntennaRedux2:MagMount
+    2300020: Mariner4AntennaRedux2:MagMount1
+    2300022: Mariner4AntennaRedux2:pCube2
+    2300024: Mariner4AntennaRedux2:pCube2 1
+    2300026: Mariner4AntennaRedux2:pCube5
+    2300028: Mariner4AntennaRedux2:pCube5 1
+    3300000: Mariner4AntennaRedux2:Antenna1
+    3300002: Mariner4AntennaRedux2:Antenna2
+    3300004: Mariner4AntennaRedux2:Antenna3
+    3300006: Mariner4AntennaRedux2:BackMount
+    3300008: Mariner4AntennaRedux2:GeigerElectronics
+    3300010: Mariner4AntennaRedux2:GeigerMount
+    3300012: Mariner4AntennaRedux2:GeigerTube
+    3300014: Mariner4AntennaRedux2:GeigerWire
+    3300016: Mariner4AntennaRedux2:Mag
+    3300018: Mariner4AntennaRedux2:MagMount
+    3300020: Mariner4AntennaRedux2:MagMount1
+    3300022: Mariner4AntennaRedux2:pCube2
+    3300024: Mariner4AntennaRedux2:pCube2 1
+    3300026: Mariner4AntennaRedux2:pCube5
+    3300028: Mariner4AntennaRedux2:pCube5 1
+    4300000: Mariner4AntennaRedux2:Antenna1
+    4300002: Mariner4AntennaRedux2:Antenna2
+    4300004: Mariner4AntennaRedux2:Mag
+    4300006: Mariner4AntennaRedux2:MagMount
+    4300008: Mariner4AntennaRedux2:MagMount1
+    4300010: Mariner4AntennaRedux2:Antenna3
+    4300012: Mariner4AntennaRedux2:BackMount
+    4300014: Mariner4AntennaRedux2:pCube5
+    4300016: Mariner4AntennaRedux2:pCube2
+    4300018: Mariner4AntennaRedux2:GeigerTube
+    4300020: Mariner4AntennaRedux2:GeigerMount
+    4300022: Mariner4AntennaRedux2:GeigerElectronics
+    4300024: Mariner4AntennaRedux2:GeigerWire
+    4300026: Mariner4AntennaRedux2:pCube5
+    4300028: Mariner4AntennaRedux2:pCube2
+    7400000: ExtendAntenna
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ExtendAntenna
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

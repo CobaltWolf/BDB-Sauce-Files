@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-02-25T18:47:06Z</created><keywords></keywords><modified>2016-02-25T18:47:06Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.400000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Diamant_Fin_Collider-lib" name="Diamant_Fin_ColliderMesh">
+      <mesh>
+        <source id="Diamant_Fin_Collider-POSITION">
+          <float_array id="Diamant_Fin_Collider-POSITION-array" count="12">
+-0.040411 -0.218290 0.028685
+0.446053 -0.117627 0.000000
+-0.040411 0.688315 0.000000
+-0.040411 -0.218290 -0.028685
+</float_array>
+          <technique_common>
+            <accessor source="#Diamant_Fin_Collider-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Diamant_Fin_Collider-Normal0">
+          <float_array id="Diamant_Fin_Collider-Normal0-array" count="36">
+0.052321 0.031581 0.998131
+0.052321 0.031581 0.998131
+0.052321 0.031581 0.998131
+0.052321 0.031581 -0.998131
+0.052321 0.031581 -0.998131
+0.052321 0.031581 -0.998131
+0.202636 -0.979254 0.000000
+0.202636 -0.979254 0.000000
+0.202636 -0.979254 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Diamant_Fin_Collider-Normal0-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Diamant_Fin_Collider-UV0">
+          <float_array id="Diamant_Fin_Collider-UV0-array" count="14">
+0.375000 0.000000
+0.750000 0.000000
+0.500000 0.333333
+0.375000 0.750000
+0.625000 0.875000
+0.375000 1.000000
+0.125000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Diamant_Fin_Collider-UV0-array" count="7" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Diamant_Fin_Collider-VERTEX">
+          <input semantic="POSITION" source="#Diamant_Fin_Collider-POSITION"/>
+        </vertices>
+        <triangles count="4" material="lambert1"><input semantic="VERTEX" offset="0" source="#Diamant_Fin_Collider-VERTEX"/><input semantic="NORMAL" offset="1" source="#Diamant_Fin_Collider-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Diamant_Fin_Collider-UV0"/><p> 0 0 0 1 1 1 2 2 2 2 3 2 1 4 4 3 5 3 3 6 3 1 7 4 0 8 5 3 9 6 0 10 0 2 11 2</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Diamant_FinCollider" name="Diamant_FinCollider">
+      <node name="Diamant_Fin_Collider" id="Diamant_Fin_Collider" sid="Diamant_Fin_Collider"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Diamant_Fin_Collider-lib"><bind_material><technique_common><instance_material symbol="lambert1" target="#lambert1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Diamant_FinCollider"></instance_visual_scene>
+  </scene>
+</COLLADA>

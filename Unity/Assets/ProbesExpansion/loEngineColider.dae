@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2015-11-25T03:16:47Z</created><keywords></keywords><modified>2015-11-25T03:16:47Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="file4-image" name="file4"><init_from>file://C:/Users/Matthew/OneDrive/Personal/Kerbal/Unity/Assets/ProbesExpansion/bluedog_loEngine.psd</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="loEngine" name="loEngine">
+      <instance_effect url="#loEngine-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="loEngine-fx" name="loEngine">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file4-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="loEngineCollider-lib" name="loEngineColliderMesh">
+      <mesh>
+        <source id="loEngineCollider-POSITION">
+          <float_array id="loEngineCollider-POSITION-array" count="54">
+-0.304886 -0.043829 0.243915
+-0.243915 -0.043829 0.304886
+-0.304886 0.043829 0.243915
+-0.243915 0.043829 0.304886
+0.304886 -0.043829 0.243915
+0.243915 -0.043829 0.304886
+0.304886 0.043829 0.243915
+0.243915 0.043829 0.304886
+-0.304886 0.043829 -0.243915
+-0.243915 0.043829 -0.304886
+-0.304886 -0.043829 -0.243915
+-0.243915 -0.043829 -0.304886
+0.243915 0.043829 -0.304886
+0.304886 0.043829 -0.243915
+0.304886 -0.043829 -0.243915
+0.243915 -0.043829 -0.304886
+0.000000 0.043829 0.000000
+0.000000 -0.043829 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#loEngineCollider-POSITION-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="loEngineCollider-Normal0">
+          <float_array id="loEngineCollider-Normal0-array" count="288">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+0.707107 0.000000 0.707107
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+-0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#loEngineCollider-Normal0-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="loEngineCollider-UV0">
+          <float_array id="loEngineCollider-UV0-array" count="100">
+0.752777 0.922822
+0.752777 0.974038
+0.467753 0.974038
+0.467753 0.922822
+0.752777 0.922822
+0.752777 0.974038
+0.467753 0.974038
+0.467753 0.922822
+0.247032 0.060385
+0.294209 0.013208
+0.482941 0.249117
+0.671673 0.013208
+0.247032 0.437849
+0.718850 0.060385
+0.294209 0.485027
+0.718850 0.437849
+0.671673 0.485027
+0.247032 0.060385
+0.294209 0.013208
+0.482941 0.249117
+0.671673 0.013208
+0.247032 0.437849
+0.718851 0.060385
+0.294209 0.485027
+0.718851 0.437849
+0.671673 0.485027
+0.752777 0.922822
+0.752777 0.974038
+0.467753 0.974038
+0.467753 0.922822
+0.752777 0.922822
+0.752777 0.974038
+0.467753 0.974038
+0.467753 0.922822
+0.010167 0.764800
+0.229700 0.764800
+0.229700 0.987980
+0.010167 0.987980
+0.229700 0.987980
+0.010167 0.987980
+0.010167 0.764800
+0.229700 0.764800
+0.010167 0.764800
+0.229700 0.764800
+0.229700 0.987980
+0.010167 0.987980
+0.010167 0.764800
+0.229700 0.764800
+0.229700 0.987980
+0.010167 0.987980
+</float_array>
+          <technique_common>
+            <accessor source="#loEngineCollider-UV0-array" count="50" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="loEngineCollider-VERTEX">
+          <input semantic="POSITION" source="#loEngineCollider-POSITION"/>
+        </vertices>
+        <triangles count="32" material="loEngine"><input semantic="VERTEX" offset="0" source="#loEngineCollider-VERTEX"/><input semantic="NORMAL" offset="1" source="#loEngineCollider-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#loEngineCollider-UV0"/><p> 1 0 27 5 1 28 3 2 26 7 3 29 3 4 26 5 5 28 9 6 31 12 7 32 11 8 30 15 9 33 11 10 30 12 11 32 4 12 1 14 13 2 6 14 0 6 15 0 14 16 2 13 17 3 2 18 7 8 19 4 0 20 6 0 21 6 8 22 4 10 23 5 3 24 36 0 25 34 1 26 35 0 27 34 3 28 36 2 29 37 6 30 44 7 31 45 5 32 42 6 33 44 5 34 42 4 35 43 11 36 48 10 37 49 8 38 46 11 39 48 8 40 46 9 41 47 14 42 40 12 43 38 13 44 39 12 45 38 14 46 40 15 47 41 2 48 8 3 49 9 16 50 10 3 51 9 7 52 11 16 53 10 7 54 11 6 55 13 16 56 10 6 57 13 13 58 15 16 59 10 13 60 15 12 61 16 16 62 10 12 63 16 9 64 14 16 65 10 9 66 14 8 67 12 16 68 10 8 69 12 2 70 8 16 71 10 10 72 17 11 73 18 17 74 19 11 75 18 15 76 20 17 77 19 15 78 20 14 79 22 17 80 19 14 81 22 4 82 24 17 83 19 4 84 24 5 85 25 17 86 19 5 87 25 1 88 23 17 89 19 1 90 23 0 91 21 17 92 19 0 93 21 10 94 17 17 95 19</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="loEngineColider" name="loEngineColider">
+      <node name="loEngineCollider" id="loEngineCollider" sid="loEngineCollider"><matrix sid="matrix">0.707107 0.000000 -0.707107 0.000000 0.000000 7.189367 0.000000 -0.294143 0.707107 0.000000 0.707107 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#loEngineCollider-lib"><bind_material><technique_common><instance_material symbol="loEngine" target="#loEngine"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#loEngineColider"></instance_visual_scene>
+  </scene>
+</COLLADA>

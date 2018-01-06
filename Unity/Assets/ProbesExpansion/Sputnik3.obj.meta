@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 1f0d599e33ffd9c43b50d54a5d0a5de7
+timeCreated: 1491706889
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Sputnik6_Sputnik5
+    100004: Sputnik6_Sputnik5_group101_Plates10
+    100006: Sputnik6_Sputnik5_group101_Plates11
+    100008: Sputnik6_Sputnik5_group101_Plates12
+    100010: Sputnik6_Sputnik5_group101_Plates13
+    100012: Sputnik6_Sputnik5_group101_Plates14
+    100014: Sputnik6_Sputnik5_group101_Plates9
+    100016: Sputnik6_Sputnik5_group109_group87_pCylinder162
+    100018: Sputnik6_Sputnik5_group109_group87_pCylinder163
+    100020: Sputnik6_Sputnik5_group87_group110_pCylinder162
+    100022: Sputnik6_Sputnik5_group87_group110_pCylinder163
+    100024: Sputnik6_Sputnik5_group87_pCylinder155_group110
+    100026: Sputnik6_Sputnik5_pCylinder155_group109_group87
+    100028: Sputnik6_Sputnik5_Plates8_group101
+    100030: Sputnik6_Sputnik5_pSphere6_group105_group67_group106_group107_group108_pSphere6_pSphere6_pSphere6
+    400000: //RootNode
+    400002: Sputnik6_Sputnik5
+    400004: Sputnik6_Sputnik5_group101_Plates10
+    400006: Sputnik6_Sputnik5_group101_Plates11
+    400008: Sputnik6_Sputnik5_group101_Plates12
+    400010: Sputnik6_Sputnik5_group101_Plates13
+    400012: Sputnik6_Sputnik5_group101_Plates14
+    400014: Sputnik6_Sputnik5_group101_Plates9
+    400016: Sputnik6_Sputnik5_group109_group87_pCylinder162
+    400018: Sputnik6_Sputnik5_group109_group87_pCylinder163
+    400020: Sputnik6_Sputnik5_group87_group110_pCylinder162
+    400022: Sputnik6_Sputnik5_group87_group110_pCylinder163
+    400024: Sputnik6_Sputnik5_group87_pCylinder155_group110
+    400026: Sputnik6_Sputnik5_pCylinder155_group109_group87
+    400028: Sputnik6_Sputnik5_Plates8_group101
+    400030: Sputnik6_Sputnik5_pSphere6_group105_group67_group106_group107_group108_pSphere6_pSphere6_pSphere6
+    2300000: Sputnik6_Sputnik5
+    2300002: Sputnik6_Sputnik5_group101_Plates10
+    2300004: Sputnik6_Sputnik5_group101_Plates11
+    2300006: Sputnik6_Sputnik5_group101_Plates12
+    2300008: Sputnik6_Sputnik5_group101_Plates13
+    2300010: Sputnik6_Sputnik5_group101_Plates14
+    2300012: Sputnik6_Sputnik5_group101_Plates9
+    2300014: Sputnik6_Sputnik5_group109_group87_pCylinder162
+    2300016: Sputnik6_Sputnik5_group109_group87_pCylinder163
+    2300018: Sputnik6_Sputnik5_group87_group110_pCylinder162
+    2300020: Sputnik6_Sputnik5_group87_group110_pCylinder163
+    2300022: Sputnik6_Sputnik5_group87_pCylinder155_group110
+    2300024: Sputnik6_Sputnik5_pCylinder155_group109_group87
+    2300026: Sputnik6_Sputnik5_Plates8_group101
+    2300028: Sputnik6_Sputnik5_pSphere6_group105_group67_group106_group107_group108_pSphere6_pSphere6_pSphere6
+    3300000: Sputnik6_Sputnik5
+    3300002: Sputnik6_Sputnik5_group101_Plates10
+    3300004: Sputnik6_Sputnik5_group101_Plates11
+    3300006: Sputnik6_Sputnik5_group101_Plates12
+    3300008: Sputnik6_Sputnik5_group101_Plates13
+    3300010: Sputnik6_Sputnik5_group101_Plates14
+    3300012: Sputnik6_Sputnik5_group101_Plates9
+    3300014: Sputnik6_Sputnik5_group109_group87_pCylinder162
+    3300016: Sputnik6_Sputnik5_group109_group87_pCylinder163
+    3300018: Sputnik6_Sputnik5_group87_group110_pCylinder162
+    3300020: Sputnik6_Sputnik5_group87_group110_pCylinder163
+    3300022: Sputnik6_Sputnik5_group87_pCylinder155_group110
+    3300024: Sputnik6_Sputnik5_pCylinder155_group109_group87
+    3300026: Sputnik6_Sputnik5_Plates8_group101
+    3300028: Sputnik6_Sputnik5_pSphere6_group105_group67_group106_group107_group108_pSphere6_pSphere6_pSphere6
+    4300000: Sputnik6_Sputnik5
+    4300002: Sputnik6_Sputnik5_group101_Plates10
+    4300004: Sputnik6_Sputnik5_group101_Plates11
+    4300006: Sputnik6_Sputnik5_group101_Plates12
+    4300008: Sputnik6_Sputnik5_group101_Plates13
+    4300010: Sputnik6_Sputnik5_group101_Plates14
+    4300012: Sputnik6_Sputnik5_group101_Plates9
+    4300014: Sputnik6_Sputnik5_group109_group87_pCylinder162
+    4300016: Sputnik6_Sputnik5_group109_group87_pCylinder163
+    4300018: Sputnik6_Sputnik5_group87_group110_pCylinder162
+    4300020: Sputnik6_Sputnik5_group87_group110_pCylinder163
+    4300022: Sputnik6_Sputnik5_group87_pCylinder155_group110
+    4300024: Sputnik6_Sputnik5_pCylinder155_group109_group87
+    4300026: Sputnik6_Sputnik5_Plates8_group101
+    4300028: Sputnik6_Sputnik5_pSphere6_group105_group67_group106_group107_group108_pSphere6_pSphere6_pSphere6
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

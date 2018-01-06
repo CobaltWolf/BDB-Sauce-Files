@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: e2256c7ed38f76f4091a0e3a631ab07c
+timeCreated: 1504622675
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Gimbal1_Lower
+    100004: Gimbal1_Lower 1
+    100006: Gimbal1_Upper
+    100008: Gimbal1_Upper 1
+    100010: GimbalArm
+    100012: GimbalArm4
+    100014: gimbalTransform
+    100016: group104
+    100018: group133
+    100020: group134
+    100022: joint6
+    100024: joint8
+    100026: JointAim
+    100028: pCube101
+    100030: pCube101 1
+    100032: pCube102
+    100034: pCube102 1
+    100036: pCube77
+    100038: pCube77 1
+    100040: pCube78
+    100042: pCube78 1
+    100044: pCube82
+    100046: pCylinder191
+    100048: pCylinder192
+    100050: pCylinder194
+    100052: pCylinder195
+    100054: pCylinder196
+    100056: pCylinder197
+    100058: pCylinder219
+    100060: pCylinder225
+    100062: pCylinder226
+    100064: pCylinder236
+    100066: pCylinder237
+    100068: pCylinder238
+    100070: pCylinder239
+    100072: pCylinder239 1
+    100074: polySurface29
+    100076: polySurface30
+    100078: pSphere24
+    100080: pSphere25
+    100082: pTorus4
+    100084: pTorus5
+    100086: pTorus6
+    100088: pTorus8
+    100090: pTorus9
+    100092: transform16
+    100094: transform17
+    100096: transform18
+    100098: pCylinder240
+    100100: bluedog_Atlas_LR105:Gimbal1
+    100102: bluedog_Atlas_LR105:Gimbal1_Lower
+    100104: bluedog_Atlas_LR105:Gimbal1_Upper
+    100106: bluedog_Atlas_LR105:Gimbal2
+    100108: bluedog_Atlas_LR105:Gimbal2_Lower
+    100110: bluedog_Atlas_LR105:Gimbal2_Upper
+    100112: bluedog_Atlas_LR105:Gimbal_Lower
+    100114: bluedog_Atlas_LR105:Gimbal_Upper
+    100116: bluedog_Atlas_LR105:GimbalArm1
+    100118: bluedog_Atlas_LR105:GimbalArm2
+    100120: bluedog_Atlas_LR105:gimbalTransform
+    100122: bluedog_Atlas_LR105:gimbalTransform_gimbalTransform
+    100124: bluedog_Atlas_LR105:LongPipe_Lower
+    100126: bluedog_Atlas_LR105:LongPipe_Upper
+    100128: bluedog_Atlas_LR105:LR105_Upper_Merged
+    100130: bluedog_Atlas_LR105:ShortPipe_Lower
+    100132: bluedog_Atlas_LR105:ShortPipe_Upper
+    100134: bluedog_Atlas_LR105:SkinnedMeshes
+    100136: Collider
+    100138: Collider 1
+    100140: Gimbal1
+    100142: Gimbal2
+    100144: Gimbal2_Lower
+    100146: Gimbal2_Upper
+    100148: Gimbal_Lower
+    100150: Gimbal_Upper
+    100152: GimbalArm1
+    100154: GimbalArm2
+    100156: gimbalTransform_gimbalTransform
+    100158: LongPipe_Lower
+    100160: LongPipe_Upper
+    100162: LR105_Upper_Merged
+    100164: ShortPipe_Lower
+    100166: ShortPipe_Upper
+    100168: SkinnedMeshes
+    400000: //RootNode
+    400002: Gimbal1_Lower
+    400004: Gimbal1_Lower 1
+    400006: Gimbal1_Upper
+    400008: Gimbal1_Upper 1
+    400010: GimbalArm
+    400012: GimbalArm4
+    400014: gimbalTransform
+    400016: group104
+    400018: group133
+    400020: group134
+    400022: joint6
+    400024: joint8
+    400026: JointAim
+    400028: pCube101
+    400030: pCube101 1
+    400032: pCube102
+    400034: pCube102 1
+    400036: pCube77
+    400038: pCube77 1
+    400040: pCube78
+    400042: pCube78 1
+    400044: pCube82
+    400046: pCylinder191
+    400048: pCylinder192
+    400050: pCylinder194
+    400052: pCylinder195
+    400054: pCylinder196
+    400056: pCylinder197
+    400058: pCylinder219
+    400060: pCylinder225
+    400062: pCylinder226
+    400064: pCylinder236
+    400066: pCylinder237
+    400068: pCylinder238
+    400070: pCylinder239
+    400072: pCylinder239 1
+    400074: polySurface29
+    400076: polySurface30
+    400078: pSphere24
+    400080: pSphere25
+    400082: pTorus4
+    400084: pTorus5
+    400086: pTorus6
+    400088: pTorus8
+    400090: pTorus9
+    400092: transform16
+    400094: transform17
+    400096: transform18
+    400098: pCylinder240
+    400100: bluedog_Atlas_LR105:Gimbal1
+    400102: bluedog_Atlas_LR105:Gimbal1_Lower
+    400104: bluedog_Atlas_LR105:Gimbal1_Upper
+    400106: bluedog_Atlas_LR105:Gimbal2
+    400108: bluedog_Atlas_LR105:Gimbal2_Lower
+    400110: bluedog_Atlas_LR105:Gimbal2_Upper
+    400112: bluedog_Atlas_LR105:Gimbal_Lower
+    400114: bluedog_Atlas_LR105:Gimbal_Upper
+    400116: bluedog_Atlas_LR105:GimbalArm1
+    400118: bluedog_Atlas_LR105:GimbalArm2
+    400120: bluedog_Atlas_LR105:gimbalTransform
+    400122: bluedog_Atlas_LR105:gimbalTransform_gimbalTransform
+    400124: bluedog_Atlas_LR105:LongPipe_Lower
+    400126: bluedog_Atlas_LR105:LongPipe_Upper
+    400128: bluedog_Atlas_LR105:LR105_Upper_Merged
+    400130: bluedog_Atlas_LR105:ShortPipe_Lower
+    400132: bluedog_Atlas_LR105:ShortPipe_Upper
+    400134: bluedog_Atlas_LR105:SkinnedMeshes
+    400136: Collider
+    400138: Collider 1
+    400140: Gimbal1
+    400142: Gimbal2
+    400144: Gimbal2_Lower
+    400146: Gimbal2_Upper
+    400148: Gimbal_Lower
+    400150: Gimbal_Upper
+    400152: GimbalArm1
+    400154: GimbalArm2
+    400156: gimbalTransform_gimbalTransform
+    400158: LongPipe_Lower
+    400160: LongPipe_Upper
+    400162: LR105_Upper_Merged
+    400164: ShortPipe_Lower
+    400166: ShortPipe_Upper
+    400168: SkinnedMeshes
+    2300000: Gimbal1_Lower
+    2300002: Gimbal1_Lower 1
+    2300004: Gimbal1_Upper
+    2300006: Gimbal1_Upper 1
+    2300008: pCube101
+    2300010: pCube101 1
+    2300012: pCube102
+    2300014: pCube102 1
+    2300016: pCube77
+    2300018: pCube77 1
+    2300020: pCube78
+    2300022: pCube78 1
+    2300024: pCube82
+    2300026: pCylinder191
+    2300028: pCylinder192
+    2300030: pCylinder194
+    2300032: pCylinder195
+    2300034: pCylinder196
+    2300036: pCylinder197
+    2300038: pCylinder225
+    2300040: pCylinder226
+    2300042: pCylinder236
+    2300044: pCylinder237
+    2300046: pCylinder238
+    2300048: pCylinder239
+    2300050: pCylinder239 1
+    2300052: polySurface29
+    2300054: polySurface30
+    2300056: pSphere24
+    2300058: pSphere25
+    2300060: pTorus4
+    2300062: pTorus5
+    2300064: pTorus6
+    2300066: pTorus8
+    2300068: pTorus9
+    2300070: pCylinder240
+    2300072: bluedog_Atlas_LR105:Gimbal1_Lower
+    2300074: bluedog_Atlas_LR105:Gimbal1_Upper
+    2300076: bluedog_Atlas_LR105:Gimbal2_Lower
+    2300078: bluedog_Atlas_LR105:Gimbal2_Upper
+    2300080: bluedog_Atlas_LR105:gimbalTransform_gimbalTransform
+    2300082: bluedog_Atlas_LR105:LR105_Upper_Merged
+    2300084: Collider
+    2300086: Collider 1
+    2300088: Gimbal2_Lower
+    2300090: Gimbal2_Upper
+    2300092: gimbalTransform_gimbalTransform
+    2300094: LR105_Upper_Merged
+    3300000: Gimbal1_Lower
+    3300002: Gimbal1_Lower 1
+    3300004: Gimbal1_Upper
+    3300006: Gimbal1_Upper 1
+    3300008: pCube101
+    3300010: pCube101 1
+    3300012: pCube102
+    3300014: pCube102 1
+    3300016: pCube77
+    3300018: pCube77 1
+    3300020: pCube78
+    3300022: pCube78 1
+    3300024: pCube82
+    3300026: pCylinder191
+    3300028: pCylinder192
+    3300030: pCylinder194
+    3300032: pCylinder195
+    3300034: pCylinder196
+    3300036: pCylinder197
+    3300038: pCylinder225
+    3300040: pCylinder226
+    3300042: pCylinder236
+    3300044: pCylinder237
+    3300046: pCylinder238
+    3300048: pCylinder239
+    3300050: pCylinder239 1
+    3300052: polySurface29
+    3300054: polySurface30
+    3300056: pSphere24
+    3300058: pSphere25
+    3300060: pTorus4
+    3300062: pTorus5
+    3300064: pTorus6
+    3300066: pTorus8
+    3300068: pTorus9
+    3300070: pCylinder240
+    3300072: bluedog_Atlas_LR105:Gimbal1_Lower
+    3300074: bluedog_Atlas_LR105:Gimbal1_Upper
+    3300076: bluedog_Atlas_LR105:Gimbal2_Lower
+    3300078: bluedog_Atlas_LR105:Gimbal2_Upper
+    3300080: bluedog_Atlas_LR105:gimbalTransform_gimbalTransform
+    3300082: bluedog_Atlas_LR105:LR105_Upper_Merged
+    3300084: Collider
+    3300086: Collider 1
+    3300088: Gimbal2_Lower
+    3300090: Gimbal2_Upper
+    3300092: gimbalTransform_gimbalTransform
+    3300094: LR105_Upper_Merged
+    4300000: pCylinder196
+    4300002: pCube78
+    4300004: Gimbal1_Upper
+    4300006: pCylinder191
+    4300008: pCylinder192
+    4300010: pTorus4
+    4300012: pTorus5
+    4300014: pCylinder194
+    4300016: pCylinder195
+    4300018: pTorus6
+    4300020: pCylinder197
+    4300022: pCube82
+    4300024: pSphere24
+    4300026: pCube101
+    4300028: pCube102
+    4300030: pCube77
+    4300032: Gimbal1_Lower
+    4300034: pSphere25
+    4300036: pCube101
+    4300038: pCube102
+    4300040: pCube77
+    4300042: Gimbal1_Lower
+    4300044: polySurface29
+    4300046: polySurface30
+    4300048: pCylinder225
+    4300050: pCylinder226
+    4300052: pTorus9
+    4300054: pTorus8
+    4300056: pCube78
+    4300058: Gimbal1_Upper
+    4300060: pCylinder236
+    4300062: pCylinder238
+    4300064: pCylinder237
+    4300066: pCylinder239
+    4300068: pCylinder239
+    4300070: pCylinder240
+    4300072: bluedog_Atlas_LR105:Gimbal1_Upper
+    4300074: bluedog_Atlas_LR105:Gimbal1_Lower
+    4300076: bluedog_Atlas_LR105:Gimbal2_Lower
+    4300078: bluedog_Atlas_LR105:gimbalTransform_gimbalTransform
+    4300080: bluedog_Atlas_LR105:Gimbal2_Upper
+    4300082: bluedog_Atlas_LR105:LR105_Upper_Merged
+    4300084: bluedog_Atlas_LR105:SkinnedMeshes
+    4300086: Gimbal2_Lower
+    4300088: gimbalTransform_gimbalTransform
+    4300090: Collider
+    4300092: Gimbal2_Upper
+    4300094: LR105_Upper_Merged
+    4300096: SkinnedMeshes
+    4300098: Collider
+    9500000: //RootNode
+    13700000: bluedog_Atlas_LR105:SkinnedMeshes
+    13700002: SkinnedMeshes
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

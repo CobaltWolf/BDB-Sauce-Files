@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 8094f08cfd5e9094b8dfccf6b97dd7a2
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Dial
+    100002: Gauge
+    100004: //RootNode
+    100006: GeigerTube
+    100008: Holder
+    100010: Mount
+    100012: Needle
+    100014: Wire1
+    100016: Wire2
+    400000: Dial
+    400002: Gauge
+    400004: //RootNode
+    400006: GeigerTube
+    400008: Holder
+    400010: Mount
+    400012: Needle
+    400014: Wire1
+    400016: Wire2
+    2300000: Dial
+    2300002: GeigerTube
+    2300004: Holder
+    2300006: Mount
+    2300008: Needle
+    2300010: Wire1
+    2300012: Wire2
+    3300000: Dial
+    3300002: GeigerTube
+    3300004: Holder
+    3300006: Mount
+    3300008: Needle
+    3300010: Wire1
+    3300012: Wire2
+    4300000: Mount
+    4300002: GeigerTube
+    4300004: Dial
+    4300006: Needle
+    4300008: Wire1
+    4300010: Wire2
+    4300012: Holder
+    7400000: needle
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: needle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

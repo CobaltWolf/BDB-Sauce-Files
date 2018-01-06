@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: f41534adc861bcd47b524230222ef123
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Attachment1
+    100002: Attachment2
+    100004: Attachment3
+    100006: Attachment4
+    100008: curve1
+    100010: curve2
+    100012: GreenWire
+    100014: //RootNode
+    100016: nurbsCircle1
+    100018: Plates
+    100020: RedWire
+    100022: Sensor
+    100024: Wire_Connector
+    400000: Attachment1
+    400002: Attachment2
+    400004: Attachment3
+    400006: Attachment4
+    400008: curve1
+    400010: curve2
+    400012: GreenWire
+    400014: //RootNode
+    400016: nurbsCircle1
+    400018: Plates
+    400020: RedWire
+    400022: Sensor
+    400024: Wire_Connector
+    2300000: Attachment1
+    2300002: Attachment2
+    2300004: Attachment3
+    2300006: Attachment4
+    2300008: GreenWire
+    2300010: Plates
+    2300012: RedWire
+    2300014: Sensor
+    2300016: Wire_Connector
+    3300000: Attachment1
+    3300002: Attachment2
+    3300004: Attachment3
+    3300006: Attachment4
+    3300008: GreenWire
+    3300010: Plates
+    3300012: RedWire
+    3300014: Sensor
+    3300016: Wire_Connector
+    4300000: Plates
+    4300002: Sensor
+    4300004: RedWire
+    4300006: GreenWire
+    4300008: Wire_Connector
+    4300010: Attachment1
+    4300012: Attachment2
+    4300014: Attachment3
+    4300016: Attachment4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

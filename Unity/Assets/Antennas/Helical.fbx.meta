@@ -1,0 +1,95 @@
+fileFormatVersion: 2
+guid: 17a74b09776492a41a2f4197f0f53db2
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: HelicalAntennaRedux1:Antenna1
+    100004: HelicalAntennaRedux1:Antenna2
+    100006: HelicalAntennaRedux1:Antenna3
+    100008: HelicalAntennaRedux1:Antenna4
+    400000: //RootNode
+    400002: HelicalAntennaRedux1:Antenna1
+    400004: HelicalAntennaRedux1:Antenna2
+    400006: HelicalAntennaRedux1:Antenna3
+    400008: HelicalAntennaRedux1:Antenna4
+    2300000: //RootNode
+    2300002: HelicalAntennaRedux1:Antenna1
+    2300004: HelicalAntennaRedux1:Antenna2
+    2300006: HelicalAntennaRedux1:Antenna3
+    2300008: HelicalAntennaRedux1:Antenna4
+    3300000: //RootNode
+    3300002: HelicalAntennaRedux1:Antenna1
+    3300004: HelicalAntennaRedux1:Antenna2
+    3300006: HelicalAntennaRedux1:Antenna3
+    3300008: HelicalAntennaRedux1:Antenna4
+    4300000: HelicalAntennaRedux1:HelicalAntenna
+    4300002: HelicalAntennaRedux1:Antenna1
+    4300004: HelicalAntennaRedux1:Antenna2
+    4300006: HelicalAntennaRedux1:Antenna3
+    4300008: HelicalAntennaRedux1:Antenna4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

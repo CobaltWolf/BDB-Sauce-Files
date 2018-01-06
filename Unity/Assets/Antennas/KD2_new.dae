@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-04-07T23:39:31Z</created><keywords></keywords><modified>2016-04-07T23:39:31Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="file7-image" name="file7"><init_from>file://C:/Users/Matthew/OneDrive/Personal/Kerbal/Unity/Assets/Antennas/bluedog_antennas1.psd</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="Antennas1" name="Antennas1">
+      <instance_effect url="#Antennas1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Antennas1-fx" name="Antennas1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file7-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="KD2Antenna_Base-lib" name="KD2Antenna_BaseMesh">
+      <mesh>
+        <source id="KD2Antenna_Base-POSITION">
+          <float_array id="KD2Antenna_Base-POSITION-array" count="36">
+-0.031951 -0.013307 0.067905
+0.031951 -0.013307 0.067905
+-0.031951 0.013307 0.067905
+0.031951 0.013307 0.067905
+-0.031951 0.013307 -0.067905
+0.031951 0.013307 -0.067905
+-0.031951 -0.013307 -0.067905
+0.031951 -0.013307 -0.067905
+-0.027070 0.024138 0.063471
+0.027070 0.024138 0.063471
+0.027070 0.024138 -0.063471
+-0.027070 0.024138 -0.063471
+</float_array>
+          <technique_common>
+            <accessor source="#KD2Antenna_Base-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="KD2Antenna_Base-Normal0">
+          <float_array id="KD2Antenna_Base-Normal0-array" count="180">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 0.378838 0.925463
+0.000000 0.378838 0.925463
+0.000000 0.378838 0.925463
+0.000000 0.378838 0.925463
+0.000000 0.378838 0.925463
+0.000000 0.378838 0.925463
+0.911708 0.410839 0.000000
+0.911708 0.410839 0.000000
+0.911708 0.410839 0.000000
+0.911708 0.410839 0.000000
+0.911708 0.410839 0.000000
+0.911708 0.410839 0.000000
+0.000000 0.378838 -0.925463
+0.000000 0.378838 -0.925463
+0.000000 0.378838 -0.925463
+0.000000 0.378838 -0.925463
+0.000000 0.378838 -0.925463
+0.000000 0.378838 -0.925463
+-0.911708 0.410839 0.000000
+-0.911708 0.410839 0.000000
+-0.911708 0.410839 0.000000
+-0.911708 0.410839 0.000000
+-0.911708 0.410839 0.000000
+-0.911708 0.410839 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#KD2Antenna_Base-Normal0-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="KD2Antenna_Base-UV0">
+          <float_array id="KD2Antenna_Base-UV0-array" count="64">
+0.332947 0.239545
+0.446470 0.239545
+0.446470 0.269802
+0.332947 0.269802
+0.441228 0.282114
+0.338243 0.282114
+0.332947 0.239545
+0.446470 0.239545
+0.446470 0.269802
+0.332947 0.269802
+0.441228 0.282114
+0.338243 0.282114
+0.663043 0.579489
+0.704571 0.579489
+0.704571 0.676860
+0.663043 0.676860
+0.111119 0.066460
+0.165386 0.066460
+0.165386 0.181793
+0.111119 0.181793
+0.332950 0.239545
+0.446466 0.239545
+0.446466 0.269802
+0.332950 0.269802
+0.441120 0.282114
+0.338243 0.282114
+0.446466 0.269802
+0.332950 0.269802
+0.332950 0.239545
+0.446466 0.239545
+0.441120 0.282114
+0.338243 0.282114
+</float_array>
+          <technique_common>
+            <accessor source="#KD2Antenna_Base-UV0-array" count="32" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="KD2Antenna_Base-VERTEX">
+          <input semantic="POSITION" source="#KD2Antenna_Base-POSITION"/>
+        </vertices>
+        <triangles count="20" material="Antennas1"><input semantic="VERTEX" offset="0" source="#KD2Antenna_Base-VERTEX"/><input semantic="NORMAL" offset="1" source="#KD2Antenna_Base-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#KD2Antenna_Base-UV0"/><p> 3 0 22 2 1 23 0 2 20 3 3 22 0 4 20 1 5 21 9 6 13 10 7 14 8 8 12 8 9 12 10 10 14 11 11 15 7 12 28 6 13 29 4 14 26 7 15 28 4 16 26 5 17 27 0 18 19 6 19 16 1 20 18 1 21 18 6 22 16 7 23 17 5 24 2 3 25 3 1 26 0 1 27 0 7 28 1 5 29 2 2 30 8 6 31 6 0 32 7 6 33 6 2 34 8 4 35 9 2 36 23 3 37 22 9 38 24 2 39 23 9 40 24 8 41 25 10 42 4 9 43 5 3 44 3 3 45 3 5 46 2 10 47 4 5 48 27 4 49 26 11 50 30 5 51 27 11 52 30 10 53 31 8 54 10 4 55 9 2 56 8 4 57 9 8 58 10 11 59 11</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Antenna_Nub-lib" name="Antenna_NubMesh">
+      <mesh>
+        <source id="Antenna_Nub-POSITION">
+          <float_array id="Antenna_Nub-POSITION-array" count="75">
+0.014749 -0.036433 -0.014749
+0.000000 -0.036433 -0.020858
+-0.014749 -0.036433 -0.014749
+-0.020858 -0.036433 0.000000
+-0.014749 -0.036433 0.014749
+0.000000 -0.036433 0.020858
+0.014749 -0.036433 0.014749
+0.020858 -0.036433 0.000000
+0.014749 0.046032 -0.014749
+0.000000 0.046032 -0.020858
+-0.014749 0.046032 -0.014749
+-0.020858 0.046032 0.000000
+-0.014749 0.046032 0.014749
+0.000000 0.046032 0.020858
+0.014749 0.046032 0.014749
+0.020858 0.046032 0.000000
+0.011883 0.053592 -0.011883
+0.000000 0.053592 -0.016805
+0.000000 0.055275 0.000000
+-0.011883 0.053592 -0.011883
+-0.016805 0.053592 0.000000
+-0.011883 0.053592 0.011883
+0.000000 0.053592 0.016805
+0.011883 0.053592 0.011883
+0.016805 0.053592 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Antenna_Nub-POSITION-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Antenna_Nub-Normal0">
+          <float_array id="Antenna_Nub-Normal0-array" count="75">
+0.707107 0.000000 -0.707107
+0.000000 0.000000 -1.000000
+-0.707107 0.000000 -0.707107
+-1.000000 0.000000 0.000000
+-0.707107 0.000000 0.707107
+-0.000000 0.000000 1.000000
+0.707107 0.000000 0.707107
+1.000000 0.000000 -0.000000
+0.706635 0.036542 -0.706635
+-0.000000 0.036542 -0.999332
+-0.706635 0.036542 -0.706634
+-0.999332 0.036542 0.000000
+-0.706635 0.036542 0.706634
+-0.000000 0.036542 0.999332
+0.706634 0.036542 0.706635
+0.999332 0.036542 -0.000000
+0.468956 0.748438 -0.468956
+0.000000 0.748438 -0.663204
+0.000000 1.000000 0.000000
+-0.468956 0.748438 -0.468956
+-0.663204 0.748438 0.000000
+-0.468956 0.748438 0.468956
+0.000000 0.748438 0.663204
+0.468956 0.748438 0.468956
+0.663204 0.748438 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Antenna_Nub-Normal0-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Antenna_Nub-UV0">
+          <float_array id="Antenna_Nub-UV0-array" count="90">
+0.205209 0.681007
+0.189005 0.681007
+0.189005 0.757938
+0.205209 0.757938
+0.172802 0.681007
+0.172802 0.757938
+0.189005 0.766736
+0.202060 0.766736
+0.175951 0.766736
+0.205209 0.681007
+0.189005 0.681007
+0.189005 0.757938
+0.205209 0.757938
+0.172802 0.681007
+0.172802 0.757938
+0.189005 0.766736
+0.202060 0.766736
+0.175951 0.766736
+0.330913 0.668408
+0.306470 0.678533
+0.306470 0.643966
+0.282028 0.668408
+0.341037 0.643966
+0.271903 0.643966
+0.330913 0.619523
+0.282028 0.619523
+0.306470 0.609399
+0.172802 0.681007
+0.189005 0.681007
+0.189005 0.757938
+0.172802 0.757938
+0.205209 0.681007
+0.205209 0.757938
+0.189005 0.766736
+0.175951 0.766736
+0.202060 0.766736
+0.172802 0.681007
+0.189006 0.681007
+0.189006 0.757938
+0.172802 0.757938
+0.205209 0.681007
+0.205209 0.757938
+0.189006 0.766736
+0.175951 0.766736
+0.202060 0.766736
+</float_array>
+          <technique_common>
+            <accessor source="#Antenna_Nub-UV0-array" count="45" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Antenna_Nub-VERTEX">
+          <input semantic="POSITION" source="#Antenna_Nub-POSITION"/>
+          <input semantic="NORMAL" source="#Antenna_Nub-Normal0"/>
+        </vertices>
+        <triangles count="40" material="Antennas1"><input semantic="VERTEX" offset="0" source="#Antenna_Nub-VERTEX"/><input semantic="TEXCOORD" offset="1" set="0" source="#Antenna_Nub-UV0"/><p> 1 28 9 29 0 27 0 27 9 29 8 30 10 32 1 28 2 31 1 28 10 32 9 29 11 2 2 0 3 1 2 0 11 2 10 3 12 5 3 1 4 4 3 1 12 5 11 2 12 39 4 36 13 38 13 38 4 36 5 37 13 38 5 37 14 41 14 41 5 37 6 40 7 10 15 11 6 9 14 12 6 9 15 11 0 13 8 14 7 10 15 11 7 10 8 14 16 18 17 19 18 20 17 19 19 21 18 20 19 21 20 23 18 20 20 23 21 25 18 20 21 25 22 26 18 20 22 26 23 24 18 20 23 24 24 22 18 20 24 22 16 18 18 20 9 29 16 34 8 30 16 34 9 29 17 33 10 32 19 35 9 29 9 29 19 35 17 33 11 2 19 7 10 3 19 7 11 2 20 6 21 8 11 2 12 5 11 2 21 8 20 6 21 43 13 38 22 42 13 38 21 43 12 39 23 44 22 42 13 38 13 38 14 41 23 44 23 16 15 11 24 15 15 11 23 16 14 12 24 15 15 11 16 17 15 11 8 14 16 17</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Antenna_Holder-lib" name="Antenna_HolderMesh">
+      <mesh>
+        <source id="Antenna_Holder-POSITION">
+          <float_array id="Antenna_Holder-POSITION-array" count="75">
+0.014722 -0.036433 -0.014722
+0.000000 -0.036433 -0.020820
+-0.014722 -0.036433 -0.014722
+-0.020820 -0.036433 0.000000
+-0.014722 -0.036433 0.014722
+0.000000 -0.036433 0.020820
+0.014722 -0.036433 0.014722
+0.020820 -0.036433 0.000000
+0.014722 0.047682 -0.014722
+0.000000 0.047682 -0.020820
+-0.014722 0.047682 -0.014722
+-0.020820 0.047682 0.000000
+-0.014722 0.047682 0.014722
+0.000000 0.047682 0.020820
+0.014722 0.047682 0.014722
+0.020820 0.047682 0.000000
+0.011455 0.057157 -0.011455
+0.000000 0.057157 -0.016200
+0.000000 0.057157 0.000000
+-0.011455 0.057157 -0.011455
+-0.016200 0.057157 0.000000
+-0.011455 0.057157 0.011455
+0.000000 0.057157 0.016200
+0.011455 0.057157 0.011455
+0.016200 0.057157 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Antenna_Holder-POSITION-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Antenna_Holder-Normal0">
+          <float_array id="Antenna_Holder-Normal0-array" count="360">
+0.000000 0.000000 -1.000000
+-0.000000 0.039984 -0.999200
+0.707107 0.000000 -0.707107
+0.707107 0.000000 -0.707107
+-0.000000 0.039984 -0.999200
+0.706541 0.039984 -0.706541
+-0.707107 0.000000 -0.707107
+-0.706541 0.039984 -0.706541
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.706541 0.039984 -0.706541
+-0.000000 0.039984 -0.999200
+-0.999200 0.039984 -0.000000
+-0.707107 0.000000 -0.707107
+-1.000000 0.000000 -0.000000
+-0.707107 0.000000 -0.707107
+-0.999200 0.039984 -0.000000
+-0.706541 0.039984 -0.706541
+-0.706541 0.039984 0.706541
+-1.000000 0.000000 -0.000000
+-0.707107 0.000000 0.707107
+-1.000000 0.000000 -0.000000
+-0.706541 0.039984 0.706541
+-0.999200 0.039984 -0.000000
+-0.706541 0.039984 0.706541
+-0.707107 0.000000 0.707107
+0.000000 0.039984 0.999200
+0.000000 0.039984 0.999200
+-0.707107 0.000000 0.707107
+0.000000 0.000000 1.000000
+0.000000 0.039984 0.999200
+0.000000 0.000000 1.000000
+0.706541 0.039984 0.706541
+0.706541 0.039984 0.706541
+0.000000 0.000000 1.000000
+0.707107 0.000000 0.707107
+1.000000 0.000000 -0.000000
+0.999200 0.039984 -0.000000
+0.707107 0.000000 0.707107
+0.706541 0.039984 0.706541
+0.707107 0.000000 0.707107
+0.999200 0.039984 -0.000000
+0.707107 0.000000 -0.707107
+0.706541 0.039984 -0.706541
+1.000000 0.000000 -0.000000
+0.999200 0.039984 -0.000000
+1.000000 0.000000 -0.000000
+0.706541 0.039984 -0.706541
+0.000000 1.000000 -0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 0.000000
+-0.000000 0.039984 -0.999200
+0.635567 0.438303 -0.635567
+0.706541 0.039984 -0.706541
+0.635567 0.438303 -0.635567
+-0.000000 0.039984 -0.999200
+-0.000000 0.438303 -0.898827
+-0.706541 0.039984 -0.706541
+-0.635567 0.438303 -0.635567
+-0.000000 0.039984 -0.999200
+-0.000000 0.039984 -0.999200
+-0.635567 0.438303 -0.635567
+-0.000000 0.438303 -0.898827
+-0.999200 0.039984 -0.000000
+-0.635567 0.438303 -0.635567
+-0.706541 0.039984 -0.706541
+-0.635567 0.438303 -0.635567
+-0.999200 0.039984 -0.000000
+-0.898827 0.438303 0.000000
+-0.635567 0.438303 0.635567
+-0.999200 0.039984 -0.000000
+-0.706541 0.039984 0.706541
+-0.999200 0.039984 -0.000000
+-0.635567 0.438303 0.635567
+-0.898827 0.438303 0.000000
+-0.635567 0.438303 0.635567
+0.000000 0.039984 0.999200
+0.000000 0.438303 0.898827
+0.000000 0.039984 0.999200
+-0.635567 0.438303 0.635567
+-0.706541 0.039984 0.706541
+0.635567 0.438303 0.635567
+0.000000 0.438303 0.898827
+0.000000 0.039984 0.999200
+0.000000 0.039984 0.999200
+0.706541 0.039984 0.706541
+0.635567 0.438303 0.635567
+0.635567 0.438303 0.635567
+0.999200 0.039984 -0.000000
+0.898827 0.438303 -0.000000
+0.999200 0.039984 -0.000000
+0.635567 0.438303 0.635567
+0.706541 0.039984 0.706541
+0.898827 0.438303 -0.000000
+0.999200 0.039984 -0.000000
+0.635567 0.438303 -0.635567
+0.999200 0.039984 -0.000000
+0.706541 0.039984 -0.706541
+0.635567 0.438303 -0.635567
+</float_array>
+          <technique_common>
+            <accessor source="#Antenna_Holder-Normal0-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Antenna_Holder-UV0">
+          <float_array id="Antenna_Holder-UV0-array" count="90">
+0.205209 0.681007
+0.189005 0.681007
+0.189005 0.757938
+0.205209 0.757938
+0.172802 0.681007
+0.172802 0.757938
+0.189005 0.766736
+0.202060 0.766736
+0.175951 0.766736
+0.205209 0.681007
+0.189005 0.681007
+0.189005 0.757938
+0.205209 0.757938
+0.172802 0.681007
+0.172802 0.757938
+0.189005 0.766736
+0.202060 0.766736
+0.175951 0.766736
+0.147789 0.685122
+0.131712 0.691781
+0.131712 0.669045
+0.115636 0.685122
+0.154448 0.669045
+0.108977 0.669045
+0.147789 0.652969
+0.115636 0.652969
+0.131712 0.646310
+0.172802 0.681007
+0.189005 0.681007
+0.189005 0.757938
+0.172802 0.757938
+0.205209 0.681007
+0.205209 0.757938
+0.189005 0.766736
+0.175951 0.766736
+0.202060 0.766736
+0.172802 0.681007
+0.189006 0.681007
+0.189006 0.757938
+0.172802 0.757938
+0.205209 0.681007
+0.205209 0.757938
+0.189006 0.766736
+0.175951 0.766736
+0.202060 0.766736
+</float_array>
+          <technique_common>
+            <accessor source="#Antenna_Holder-UV0-array" count="45" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Antenna_Holder-VERTEX">
+          <input semantic="POSITION" source="#Antenna_Holder-POSITION"/>
+        </vertices>
+        <triangles count="40" material="Antennas1"><input semantic="VERTEX" offset="0" source="#Antenna_Holder-VERTEX"/><input semantic="NORMAL" offset="1" source="#Antenna_Holder-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Antenna_Holder-UV0"/><p> 1 0 28 9 1 29 0 2 27 0 3 27 9 4 29 8 5 30 2 6 31 10 7 32 1 8 28 1 9 28 10 10 32 9 11 29 11 12 2 2 13 0 3 14 1 2 15 0 11 16 2 10 17 3 12 18 5 3 19 1 4 20 4 3 21 1 12 22 5 11 23 2 12 24 39 4 25 36 13 26 38 13 27 38 4 28 36 5 29 37 13 30 38 5 31 37 14 32 41 14 33 41 5 34 37 6 35 40 7 36 10 15 37 11 6 38 9 14 39 12 6 40 9 15 41 11 0 42 13 8 43 14 7 44 10 15 45 11 7 46 10 8 47 14 16 48 18 17 49 19 18 50 20 17 51 19 19 52 21 18 53 20 19 54 21 20 55 23 18 56 20 20 57 23 21 58 25 18 59 20 21 60 25 22 61 26 18 62 20 22 63 26 23 64 24 18 65 20 23 66 24 24 67 22 18 68 20 24 69 22 16 70 18 18 71 20 9 72 29 16 73 34 8 74 30 16 75 34 9 76 29 17 77 33 10 78 32 19 79 35 9 80 29 9 81 29 19 82 35 17 83 33 11 84 2 19 85 7 10 86 3 19 87 7 11 88 2 20 89 6 21 90 8 11 91 2 12 92 5 11 93 2 21 94 8 20 95 6 21 96 43 13 97 38 22 98 42 13 99 38 21 100 43 12 101 39 23 102 44 22 103 42 13 104 38 13 105 38 14 106 41 23 107 44 23 108 16 15 109 11 24 110 15 15 111 11 23 112 16 14 113 12 24 114 15 15 115 11 16 116 17 15 117 11 8 118 14 16 119 17</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Antenna_Whip-lib" name="Antenna_WhipMesh">
+      <mesh>
+        <source id="Antenna_Whip-POSITION">
+          <float_array id="Antenna_Whip-POSITION-array" count="39">
+0.004947 -0.004579 -0.008568
+-0.004947 -0.004579 -0.008568
+-0.009893 -0.004579 -0.000000
+-0.004947 -0.004579 0.008568
+0.004947 -0.004579 0.008568
+0.009893 -0.004579 -0.000000
+0.004947 1.339036 -0.008568
+-0.004947 1.339036 -0.008568
+-0.009893 1.339036 -0.000000
+-0.004947 1.339036 0.008568
+0.004947 1.339036 0.008568
+0.009893 1.339036 -0.000000
+0.000000 1.358935 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Antenna_Whip-POSITION-array" count="13" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Antenna_Whip-Normal0">
+          <float_array id="Antenna_Whip-Normal0-array" count="162">
+-0.500001 0.000000 -0.866025
+-0.500001 0.000000 -0.866025
+0.500001 0.000000 -0.866025
+0.500001 0.000000 -0.866025
+-0.500001 0.000000 -0.866025
+0.500001 0.000000 -0.866025
+-1.000000 0.000000 0.000000
+-0.500001 0.000000 -0.866025
+-1.000000 0.000000 0.000000
+-0.500001 0.000000 -0.866025
+-1.000000 0.000000 0.000000
+-0.500001 0.000000 -0.866025
+-0.500001 0.000000 0.866025
+-1.000000 0.000000 0.000000
+-0.500001 0.000000 0.866025
+-1.000000 0.000000 0.000000
+-0.500001 0.000000 0.866025
+-1.000000 0.000000 0.000000
+-0.500001 0.000000 0.866025
+-0.500001 0.000000 0.866025
+0.500001 0.000000 0.866025
+0.500001 0.000000 0.866025
+-0.500001 0.000000 0.866025
+0.500001 0.000000 0.866025
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.500001 0.000000 0.866025
+0.500001 0.000000 0.866025
+0.500001 0.000000 0.866025
+1.000000 0.000000 0.000000
+0.500001 0.000000 -0.866025
+0.500001 0.000000 -0.866025
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.500001 0.000000 -0.866025
+0.447716 0.445191 -0.775471
+-0.447718 0.445192 -0.775469
+-0.000000 1.000000 -0.000000
+-0.447718 0.445192 -0.775469
+-0.895435 0.445192 0.000001
+-0.000000 1.000000 -0.000000
+-0.895435 0.445192 0.000001
+-0.447716 0.445191 0.775471
+-0.000000 1.000000 -0.000000
+-0.447716 0.445191 0.775471
+0.447718 0.445192 0.775469
+-0.000000 1.000000 -0.000000
+0.447718 0.445192 0.775469
+0.895435 0.445192 -0.000001
+-0.000000 1.000000 -0.000000
+0.895435 0.445192 -0.000001
+0.447716 0.445191 -0.775471
+-0.000000 1.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Antenna_Whip-Normal0-array" count="54" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Antenna_Whip-UV0">
+          <float_array id="Antenna_Whip-UV0-array" count="60">
+0.303481 0.881689
+0.303481 0.871193
+0.801298 0.871193
+0.801298 0.881689
+0.303481 0.881689
+0.801298 0.881689
+0.808671 0.876777
+0.303481 0.871193
+0.303481 0.881689
+0.801298 0.881689
+0.801298 0.871193
+0.303481 0.871193
+0.801298 0.871193
+0.808671 0.876777
+0.303481 0.871193
+0.303481 0.881689
+0.801298 0.881689
+0.801298 0.871193
+0.808671 0.876777
+0.303481 0.881689
+0.303481 0.871193
+0.801298 0.871193
+0.801298 0.881689
+0.808671 0.876777
+0.801298 0.881689
+0.808671 0.876777
+0.808671 0.876777
+0.801298 0.871193
+0.303481 0.881689
+0.303481 0.871193
+</float_array>
+          <technique_common>
+            <accessor source="#Antenna_Whip-UV0-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Antenna_Whip-VERTEX">
+          <input semantic="POSITION" source="#Antenna_Whip-POSITION"/>
+        </vertices>
+        <triangles count="18" material="Antennas1"><input semantic="VERTEX" offset="0" source="#Antenna_Whip-VERTEX"/><input semantic="NORMAL" offset="1" source="#Antenna_Whip-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Antenna_Whip-UV0"/><p> 1 0 15 7 1 16 0 2 14 0 3 14 7 4 16 6 5 17 8 6 27 1 7 0 2 8 1 1 9 0 8 10 27 7 11 3 9 12 5 2 13 29 3 14 4 2 15 29 9 16 5 8 17 2 9 18 22 3 19 19 10 20 21 10 21 21 3 22 19 4 23 20 5 24 8 11 25 24 4 26 7 10 27 10 4 28 7 11 29 24 0 30 11 6 31 12 5 32 28 11 33 9 5 34 28 6 35 12 6 36 17 7 37 16 12 38 18 7 39 3 8 40 27 12 41 25 8 42 2 9 43 5 12 44 6 9 45 22 10 46 21 12 47 23 10 48 10 11 49 24 12 50 13 11 51 9 6 52 12 12 53 26</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_animations>
+    <animation id="Antenna_Whip-anim" name="Antenna_Whip"><animation><source id="Antenna_Whip-Matrix-animation-input"><float_array id="Antenna_Whip-Matrix-animation-input-array" count="30">
+
+0.041667 0.083333 0.125000 0.166667 0.208333 0.250000 0.291667 0.333333 0.375000 0.416667 0.458333 0.500000 0.541667 0.583333 0.625000 0.666667
+0.708333 0.750000 0.791667 0.833333 0.875000 0.916667 0.958333 1.000000 1.041667 1.083333 1.125000 1.166667 1.208333 1.250000</float_array><technique_common><accessor source="#Antenna_Whip-Matrix-animation-input-array" count="30"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Antenna_Whip-Matrix-animation-output-transform"><float_array id="Antenna_Whip-Matrix-animation-output-transform-array" count="480">
+
+1.000000 0.000000 0.000000 0.000000 0.000000 0.020738 0.000000 0.032244 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.024151 0.000000 0.032211 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.034069 0.000000 0.032116 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.050009 0.000000 0.031964 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.071490 0.000000 0.031759 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.098031 0.000000 0.031505 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.129148 0.000000 0.031207 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.164361 0.000000 0.030871 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.203188 0.000000 0.030500 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.245147 0.000000 0.030098 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.289755 0.000000 0.029672 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.336532 0.000000 0.029225 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.384995 0.000000 0.028761 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.434663 0.000000 0.028287 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.485054 0.000000 0.027805 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.535685 0.000000 0.027321 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.586075 0.000000 0.026839 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.635743 0.000000 0.026364 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.684206 0.000000 0.025901 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.730983 0.000000 0.025454 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.775592 0.000000 0.025027 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.817550 0.000000 0.024626 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.856377 0.000000 0.024255 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.891590 0.000000 0.023918 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.922708 0.000000 0.023621 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.949248 0.000000 0.023367 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.970729 0.000000 0.023162 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.986670 0.000000 0.023009 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 0.996587 0.000000 0.022914 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.022882 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Antenna_Whip-Matrix-animation-output-transform-array" count="30" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Antenna_Whip-Interpolations"><Name_array id="Antenna_Whip-Interpolations-array" count="30">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Antenna_Whip-Interpolations-array" count="30"><param type="name"/></accessor></technique_common></source><sampler id="Antenna_Whip-Matrix-animation-transform"><input semantic="INPUT" source="#Antenna_Whip-Matrix-animation-input"/><input semantic="OUTPUT" source="#Antenna_Whip-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Antenna_Whip-Interpolations"/></sampler><channel source="#Antenna_Whip-Matrix-animation-transform" target="Antenna_Whip/matrix"/></animation><animation><source id="Antenna_Whip-visibility-animation-input"><float_array id="Antenna_Whip-visibility-animation-input-array" count="2">
+
+0.041667 1.250000</float_array><technique_common><accessor source="#Antenna_Whip-visibility-animation-input-array" count="2"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Antenna_Whip-visibility-animation-output"><float_array id="Antenna_Whip-visibility-animation-output-array" count="2">
+
+1.000000 1.000000</float_array><technique_common><accessor source="#Antenna_Whip-visibility-animation-output-array" count="2"><param type="float"/></accessor></technique_common></source><source id="Antenna_Whip-visibility-animation-intan"><float_array id="Antenna_Whip-visibility-animation-intan-array" count="2">
+
+0.000000 0.000000</float_array><technique_common><accessor source="#Antenna_Whip-visibility-animation-intan-array" count="2"><param type="float"/></accessor></technique_common></source><source id="Antenna_Whip-visibility-animation-outtan"><float_array id="Antenna_Whip-visibility-animation-outtan-array" count="2">
+
+0.000000 0.000000</float_array><technique_common><accessor source="#Antenna_Whip-visibility-animation-outtan-array" count="2"><param type="float"/></accessor></technique_common></source><source id="Antenna_Whip-visibility-animation-interpolation"><Name_array id="Antenna_Whip-visibility-animation-interpolation-array" count="2">
+ STEP STEP</Name_array><technique_common><accessor source="#Antenna_Whip-visibility-animation-interpolation-array" count="2"><param type="name"/></accessor></technique_common></source><sampler id="Antenna_Whip-visibility-animation"><input semantic="INPUT" source="#Antenna_Whip-visibility-animation-input"/><input semantic="OUTPUT" source="#Antenna_Whip-visibility-animation-output"/><input semantic="IN_TANGENT" source="#Antenna_Whip-visibility-animation-intan"/><input semantic="OUT_TANGENT" source="#Antenna_Whip-visibility-animation-outtan"/><input semantic="INTERPOLATION" source="#Antenna_Whip-visibility-animation-interpolation"/></sampler><channel source="#Antenna_Whip-visibility-animation" target="Antenna_Whip/visibility"/></animation></animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="KD2_new" name="KD2_new">
+      <node name="KD2Antenna_Base" id="KD2Antenna_Base" sid="KD2Antenna_Base"><matrix sid="matrix">0.650000 0.000000 0.000000 0.000000 0.000000 0.650000 0.000000 0.000000 0.000000 0.000000 0.650000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#KD2Antenna_Base-lib"><bind_material><technique_common><instance_material symbol="Antennas1" target="#Antennas1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Antenna_Nub" id="Antenna_Nub" sid="Antenna_Nub"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.054058 0.000000 0.000000 1.000000 -0.026168 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Antenna_Nub-lib"><bind_material><technique_common><instance_material symbol="Antennas1" target="#Antennas1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node><node name="Antenna_Holder" id="Antenna_Holder" sid="Antenna_Holder"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.054058 0.000000 0.000000 1.000000 0.030860 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Antenna_Holder-lib"><bind_material><technique_common><instance_material symbol="Antennas1" target="#Antennas1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Antenna_Whip" id="Antenna_Whip" sid="Antenna_Whip"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.020738 0.000000 0.032244 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#Antenna_Whip-lib"><bind_material><technique_common><instance_material symbol="Antennas1" target="#Antennas1"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>-0.416667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#KD2_new"></instance_visual_scene>
+  </scene>
+</COLLADA>

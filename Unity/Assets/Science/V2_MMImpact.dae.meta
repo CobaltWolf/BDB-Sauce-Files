@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 2ecaf9540e216094fa82d0915f725044
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Attachment1
+    100002: Attachment2
+    100004: Attachment3
+    100006: Attachment4
+    100008: curve1
+    100010: curve2
+    100012: Debris
+    100014: GreenLight
+    100016: GreenLightBulb
+    100018: GreenLightGlow
+    100020: GreenWire
+    100022: Mounts
+    100024: nurbsCircle1
+    100026: Plates
+    100028: RedLight
+    100030: RedLightBulb
+    100032: RedLightGlow
+    100034: RedWire
+    100036: Sensor
+    100038: //RootNode
+    100040: Wire_Connector
+    400000: Attachment1
+    400002: Attachment2
+    400004: Attachment3
+    400006: Attachment4
+    400008: curve1
+    400010: curve2
+    400012: Debris
+    400014: GreenLight
+    400016: GreenLightBulb
+    400018: GreenLightGlow
+    400020: GreenWire
+    400022: Mounts
+    400024: nurbsCircle1
+    400026: Plates
+    400028: RedLight
+    400030: RedLightBulb
+    400032: RedLightGlow
+    400034: RedWire
+    400036: Sensor
+    400038: //RootNode
+    400040: Wire_Connector
+    2300000: Attachment1
+    2300002: Attachment2
+    2300004: Attachment3
+    2300006: Attachment4
+    2300008: Debris
+    2300010: GreenLight
+    2300012: GreenLightBulb
+    2300014: GreenLightGlow
+    2300016: GreenWire
+    2300018: Plates
+    2300020: RedLight
+    2300022: RedLightBulb
+    2300024: RedLightGlow
+    2300026: RedWire
+    2300028: Sensor
+    2300030: Wire_Connector
+    3300000: Attachment1
+    3300002: Attachment2
+    3300004: Attachment3
+    3300006: Attachment4
+    3300008: Debris
+    3300010: GreenLight
+    3300012: GreenLightBulb
+    3300014: GreenLightGlow
+    3300016: GreenWire
+    3300018: Plates
+    3300020: RedLight
+    3300022: RedLightBulb
+    3300024: RedLightGlow
+    3300026: RedWire
+    3300028: Sensor
+    3300030: Wire_Connector
+    4300000: Plates
+    4300002: Sensor
+    4300004: RedWire
+    4300006: GreenWire
+    4300008: Wire_Connector
+    4300010: GreenLight
+    4300012: RedLight
+    4300014: RedLightGlow
+    4300016: GreenLightGlow
+    4300018: RedLightBulb
+    4300020: GreenLightBulb
+    4300022: Attachment4
+    4300024: Attachment3
+    4300026: Attachment2
+    4300028: Attachment1
+    4300030: Debris
+    7400000: impact
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: impact
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

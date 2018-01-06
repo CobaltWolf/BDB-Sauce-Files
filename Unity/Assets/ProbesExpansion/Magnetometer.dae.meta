@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 064faf2a9fc3f744686e20a4fa82fe64
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm1
+    100002: Arm2
+    100004: Bracket1
+    100006: Bracket2
+    100008: Hinge
+    100010: Hinge2
+    100012: Mag
+    100014: Mag1
+    100016: MagMount
+    100018: MagMount1
+    100020: //RootNode
+    100022: pCylinder47
+    100024: pCylinder47_ncl1_1
+    100026: pCylinder48
+    100028: pCylinder49
+    400000: Arm1
+    400002: Arm2
+    400004: Bracket1
+    400006: Bracket2
+    400008: Hinge
+    400010: Hinge2
+    400012: Mag
+    400014: Mag1
+    400016: MagMount
+    400018: MagMount1
+    400020: //RootNode
+    400022: pCylinder47
+    400024: pCylinder47_ncl1_1
+    400026: pCylinder48
+    400028: pCylinder49
+    2300000: Arm1
+    2300002: Arm2
+    2300004: Bracket1
+    2300006: Bracket2
+    2300008: Hinge
+    2300010: Hinge2
+    2300012: Mag
+    2300014: Mag1
+    2300016: MagMount
+    2300018: MagMount1
+    2300020: //RootNode
+    2300022: pCylinder47
+    2300024: pCylinder47_ncl1_1
+    2300026: pCylinder48
+    2300028: pCylinder49
+    3300000: Arm1
+    3300002: Arm2
+    3300004: Bracket1
+    3300006: Bracket2
+    3300008: Hinge
+    3300010: Hinge2
+    3300012: Mag
+    3300014: Mag1
+    3300016: MagMount
+    3300018: MagMount1
+    3300020: //RootNode
+    3300022: pCylinder47
+    3300024: pCylinder47_ncl1_1
+    3300026: pCylinder48
+    3300028: pCylinder49
+    4300000: Magnetometer
+    4300002: Hinge
+    4300004: Arm1
+    4300006: Hinge2
+    4300008: Arm2
+    4300010: MagMount
+    4300012: Mag
+    4300014: pCylinder47
+    4300016: pCylinder48
+    4300018: Mag1
+    4300020: pCylinder47_ncl1_1
+    4300022: pCylinder49
+    4300024: MagMount1
+    4300026: Bracket1
+    4300028: Bracket2
+    7400000: foldingMag
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: foldingMag
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

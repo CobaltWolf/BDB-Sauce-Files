@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: bfad13910f4c1ee43b9c29d595f445ca
+timeCreated: 1506736927
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ERCS_3way
+    100004: pCube129
+    100006: pCube129 1
+    100008: pCube129 2
+    100010: pCylinder143
+    100012: pCylinder143 1
+    100014: pCylinder143 2
+    100016: pCylinder216
+    100018: pCylinder216 1
+    100020: pCylinder216 2
+    100022: pCylinder217
+    100024: pCylinder217 1
+    100026: pCylinder217 2
+    100028: RCS6
+    100030: RCS7
+    100032: RCS8
+    100034: ECRS
+    100036: ERCS_3way1
+    100038: ERCS_3way1 1
+    100040: transform173
+    100042: transform174
+    100044: transform175
+    100046: transform176
+    100048: transform177
+    100050: transform178
+    100052: transform179
+    100054: transform180
+    100056: transform181
+    100058: transform182
+    100060: transform183
+    100062: transform184
+    100064: transform185
+    100066: Collider
+    100068: ERCS_3Way_Merged
+    100070: rcsTransform
+    100072: rcsTransform1
+    100074: rcsTransform2
+    100076: polySurface2
+    100078: polySurface3
+    100080: polySurface4
+    100082: polySurface5
+    100084: polySurface10
+    100086: polySurface11
+    100088: polySurface12
+    100090: polySurface9
+    100092: polySurface16
+    100094: polySurface17
+    100096: polySurface18
+    100098: polySurface19
+    100100: ERCS_2Way_Merged
+    100102: polySurface20
+    100104: polySurface23
+    100106: polySurface25
+    100108: rcsTransform3
+    400000: //RootNode
+    400002: ERCS_3way
+    400004: pCube129
+    400006: pCube129 1
+    400008: pCube129 2
+    400010: pCylinder143
+    400012: pCylinder143 1
+    400014: pCylinder143 2
+    400016: pCylinder216
+    400018: pCylinder216 1
+    400020: pCylinder216 2
+    400022: pCylinder217
+    400024: pCylinder217 1
+    400026: pCylinder217 2
+    400028: RCS6
+    400030: RCS7
+    400032: RCS8
+    400034: ECRS
+    400036: ERCS_3way1
+    400038: ERCS_3way1 1
+    400040: transform173
+    400042: transform174
+    400044: transform175
+    400046: transform176
+    400048: transform177
+    400050: transform178
+    400052: transform179
+    400054: transform180
+    400056: transform181
+    400058: transform182
+    400060: transform183
+    400062: transform184
+    400064: transform185
+    400066: Collider
+    400068: ERCS_3Way_Merged
+    400070: rcsTransform
+    400072: rcsTransform1
+    400074: rcsTransform2
+    400076: polySurface2
+    400078: polySurface3
+    400080: polySurface4
+    400082: polySurface5
+    400084: polySurface10
+    400086: polySurface11
+    400088: polySurface12
+    400090: polySurface9
+    400092: polySurface16
+    400094: polySurface17
+    400096: polySurface18
+    400098: polySurface19
+    400100: ERCS_2Way_Merged
+    400102: polySurface20
+    400104: polySurface23
+    400106: polySurface25
+    400108: rcsTransform3
+    2300000: ERCS_3way
+    2300002: pCube129
+    2300004: pCube129 1
+    2300006: pCube129 2
+    2300008: pCylinder143
+    2300010: pCylinder143 1
+    2300012: pCylinder143 2
+    2300014: pCylinder216
+    2300016: pCylinder216 1
+    2300018: pCylinder216 2
+    2300020: pCylinder217
+    2300022: pCylinder217 1
+    2300024: pCylinder217 2
+    2300026: ERCS_3way1
+    2300028: Collider
+    2300030: polySurface2
+    2300032: polySurface3
+    2300034: polySurface4
+    2300036: polySurface5
+    2300038: polySurface10
+    2300040: polySurface11
+    2300042: polySurface12
+    2300044: polySurface9
+    2300046: polySurface16
+    2300048: polySurface17
+    2300050: polySurface18
+    2300052: polySurface19
+    2300054: polySurface20
+    2300056: polySurface23
+    2300058: polySurface25
+    3300000: ERCS_3way
+    3300002: pCube129
+    3300004: pCube129 1
+    3300006: pCube129 2
+    3300008: pCylinder143
+    3300010: pCylinder143 1
+    3300012: pCylinder143 2
+    3300014: pCylinder216
+    3300016: pCylinder216 1
+    3300018: pCylinder216 2
+    3300020: pCylinder217
+    3300022: pCylinder217 1
+    3300024: pCylinder217 2
+    3300026: ERCS_3way1
+    3300028: Collider
+    3300030: polySurface2
+    3300032: polySurface3
+    3300034: polySurface4
+    3300036: polySurface5
+    3300038: polySurface10
+    3300040: polySurface11
+    3300042: polySurface12
+    3300044: polySurface9
+    3300046: polySurface16
+    3300048: polySurface17
+    3300050: polySurface18
+    3300052: polySurface19
+    3300054: polySurface20
+    3300056: polySurface23
+    3300058: polySurface25
+    4300000: ERCS_3way
+    4300002: pCylinder143
+    4300004: pCylinder216
+    4300006: pCylinder217
+    4300008: pCube129
+    4300010: pCylinder143
+    4300012: pCylinder216
+    4300014: pCylinder217
+    4300016: pCube129
+    4300018: pCylinder143
+    4300020: pCylinder216
+    4300022: pCylinder217
+    4300024: pCube129
+    4300026: ERCS_3way1
+    4300028: Collider
+    4300030: polySurface5
+    4300032: polySurface4
+    4300034: polySurface2
+    4300036: polySurface3
+    4300038: polySurface10
+    4300040: polySurface11
+    4300042: polySurface12
+    4300044: polySurface9
+    4300046: polySurface17
+    4300048: polySurface18
+    4300050: polySurface19
+    4300052: polySurface16
+    4300054: polySurface25
+    4300056: polySurface23
+    4300058: polySurface20
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

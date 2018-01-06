@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: e4f21f9d2b9b5d4499e5d976cbba9a7a
+timeCreated: 1504665471
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Atlas_LongTank_Mesh
+    100002: //RootNode
+    100004: pCube76
+    100006: pCube91
+    100008: pCube91 1
+    100010: pCube92
+    100012: pCube92 1
+    100014: pCube93
+    100016: pCube93 1
+    100018: pCube94
+    100020: pCube94 1
+    100022: pCube95
+    100024: pCube95 1
+    100026: pCube98
+    100028: pCylinder222
+    100030: pCylinder242
+    100032: polySurface28
+    100034: Atlas_Adapter_09375m
+    100036: Atlas_Adapter_125m
+    100038: pCylinder256
+    100040: pCylinder257
+    400000: Atlas_LongTank_Mesh
+    400002: //RootNode
+    400004: pCube76
+    400006: pCube91
+    400008: pCube91 1
+    400010: pCube92
+    400012: pCube92 1
+    400014: pCube93
+    400016: pCube93 1
+    400018: pCube94
+    400020: pCube94 1
+    400022: pCube95
+    400024: pCube95 1
+    400026: pCube98
+    400028: pCylinder222
+    400030: pCylinder242
+    400032: polySurface28
+    400034: Atlas_Adapter_09375m
+    400036: Atlas_Adapter_125m
+    400038: pCylinder256
+    400040: pCylinder257
+    2300000: pCube76
+    2300002: pCube91
+    2300004: pCube91 1
+    2300006: pCube92
+    2300008: pCube92 1
+    2300010: pCube93
+    2300012: pCube93 1
+    2300014: pCube94
+    2300016: pCube94 1
+    2300018: pCube95
+    2300020: pCube95 1
+    2300022: pCube98
+    2300024: pCylinder222
+    2300026: pCylinder242
+    2300028: polySurface28
+    2300030: Atlas_Adapter_125m
+    2300032: pCylinder256
+    2300034: pCylinder257
+    3300000: pCube76
+    3300002: pCube91
+    3300004: pCube91 1
+    3300006: pCube92
+    3300008: pCube92 1
+    3300010: pCube93
+    3300012: pCube93 1
+    3300014: pCube94
+    3300016: pCube94 1
+    3300018: pCube95
+    3300020: pCube95 1
+    3300022: pCube98
+    3300024: pCylinder222
+    3300026: pCylinder242
+    3300028: polySurface28
+    3300030: Atlas_Adapter_125m
+    3300032: pCylinder256
+    3300034: pCylinder257
+    4300000: polySurface28
+    4300002: pCylinder222
+    4300004: pCube76
+    4300006: pCube91
+    4300008: pCube92
+    4300010: pCube93
+    4300012: pCube94
+    4300014: pCube95
+    4300016: pCube98
+    4300018: pCube91
+    4300020: pCube92
+    4300022: pCube93
+    4300024: pCube94
+    4300026: pCube95
+    4300028: pCylinder242
+    4300030: Atlas_Adapter_125m
+    4300032: pCylinder257
+    4300034: pCylinder256
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
